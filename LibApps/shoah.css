@@ -1,0 +1,103 @@
+/*branding*/
+#logoclicker {
+    left: 0.8em;
+    top: 0.5em;
+}
+.header-wrapper {
+    background-image: url("https://s3.amazonaws.com/libapps/customers/220/images/brandingshoah5.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    height: 5.1428em;
+    margin: 0 auto;
+    max-width: 1400px;
+    width: auto;
+}
+.tablet .header-wrapper {
+    background-position: 0 0;
+}
+
+#s-lg-public-skiplink {
+    border-bottom: none;
+    border-bottom-right-radius: 0;
+    border-right: none;
+}
+.alert-info {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+h1 {
+    color: #444;
+    font-size: 23.4px;
+    font-style: oblique;
+    font-weight: bold;
+    letter-spacing: 0.025em;
+    margin: 0.07em 0 0 10em;
+}
+.tablet #pageheader h1 {
+	width: 300px; 
+	overflow: 	hidden; 
+	height: 1.75em;
+}
+h1#s-lg-guide-name a {
+	font-size: 20px; 
+	font-style:normal;
+	margin-bottom: .67em;	
+        color: #b33300;
+       font-family: Verdana,Helvetica,Arial,sans-serif;
+        font-weight: normal;
+         margin: 0.8em 0 0.5em;
+}
+.phone #headerbg {
+      height: 8em;
+}
+.phone div.phonetitleholder {
+    background-color: #031b51;
+    display: block;
+    padding: 0.5em 0.33em 2em 0;
+}
+/*end branding*/
+.likepara {
+margin-bottom: 1em;
+}
+.inchanneldivider {
+height: .5em;
+border-top: solid  1px #ccc; 
+border-bottom: solid  1px #ccc; 
+border-left: solid  1px #fff;  
+border-right: solid  1px #fff;
+margin:  0 -.75em 0 -.8em;  
+}
+.almostbold {
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+.notquitebold {
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+.heavylink {
+    text-shadow: 0 0 1px rgba(7, 130, 193, 0.5);
+}
+.heavylink:hover {
+    text-shadow: 0 0 1px rgba(8, 142, 210, 0.5);
+}
+.subtabs #s-lg-col-1.col-md-3, .subtabs #s-lg-col-2.col-md-9 {
+	width: 100%;
+}
+
+.tablet .unwantedp.holdinnertabs {
+    display: block;
+	
+}
+.phone .unwantedp.holdinnertabs a {
+    display: block;
+	width: 100%;
+}
+#s-lg-box-9513955.s-lib-box {border:solid 1px #ccc;}
+.tablet #s-lg-col-2.col2hassubtabs, .phone #s-lg-col-2.col2hassubtabs {
+    margin-top: 3em;
+    width: 100%;
+}
+.expgrp dt {display:block;margin-top: 10px;}
+.expgrp dt .grpname {font-style: oblique;text-shadow: 0 0 1px rgba(0,0,0,0.5)}
+.expgrp dd {margin-left: 0;}

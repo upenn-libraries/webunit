@@ -1,0 +1,126 @@
+#s-lg-link-list-56982287,
+#s-lg-link-list-56982303,
+#s-lg-link-list-56982308,
+#s-lg-rss-32230720,
+#s-lg-link-list-56982323,
+#s-lg-rss-20630157,
+#s-lg-rss-20630155,
+#s-lg-rss-54336769,
+#s-lg-link-list-56982405,
+#s-lg-rss-54336848,
+#s-lg-rss-54439122,
+#s-lg-rss-32230722,
+#s-lg-link-list-56982553,
+
+#s-lg-rss-54337099,
+#s-lg-link-list-56982655,
+#s-lg-link-list-56982709,
+#s-lg-rss-54337151,
+#s-lg-rss-54337153,
+#s-lg-link-list-56982802,
+#s-lg-rss-54337243,
+#s-lg-rss-54337245,
+#s-lg-rss-54337500,
+#s-lg-rss-54337502,
+#s-lg-link-list-56983063,
+#s-lg-rss-54337507,
+#s-lg-link-list-56983166,
+#s-lg-rss-55879850,
+#s-lg-rss-54337812,
+#s-lg-link-list-56983372,
+#s-lg-rss-54337926,
+#s-lg-link-list-56983484,
+#s-lg-link-list-56983550,
+#s-lg-link-list-56983560
+ {
+  padding-left: 2rem !important;
+}
+/*ol*/
+#s-lg-content-54337101,
+#s-lg-content-54337499 {
+  padding-left: 1rem;
+}
+#s-lg-content-54458951 > p > span > a > span,
+#s-lg-content-54458951 > p > span > a > span span,
+#s-lg-content-54458742 > p > a > span,
+#s-lg-content-54458742 > p > a > span > span
+ {
+  font-size: 15px !important;
+}
+/*numbers*/
+#s-lg-link-list-56982553,
+#s-lg-rss-54337099 ul.s-lg-rss-list,
+#s-lg-link-list-56982655,
+#s-lg-link-list-56982709,
+#s-lg-rss-54337151 ul.s-lg-rss-list,
+#s-lg-rss-54337153 ul.s-lg-rss-list,
+#s-lg-link-list-56982802,
+#s-lg-rss-54337243 ul.s-lg-rss-list,
+#s-lg-rss-54337245 ul.s-lg-rss-list,
+#s-lg-rss-54337500 ul.s-lg-rss-list,
+#s-lg-rss-54337502 ul.s-lg-rss-list,
+#s-lg-link-list-56983063,
+#s-lg-rss-54337507 ul.s-lg-rss-list,
+#s-lg-link-list-56983166,
+#s-lg-rss-55879850 ul.s-lg-rss-list,
+#s-lg-rss-54337812 ul.s-lg-rss-list,
+#s-lg-link-list-56982323,
+#s-lg-rss-20630157 ul.s-lg-rss-list,
+#s-lg-rss-20630155 ul.s-lg-rss-list,
+#s-lg-rss-54336769 ul.s-lg-rss-list,
+#s-lg-link-list-56982405,
+#s-lg-rss-54336848 ul.s-lg-rss-list,
+#s-lg-rss-54439122 ul.s-lg-rss-list,
+#s-lg-rss-32230722 ul.s-lg-rss-list,
+#s-lg-link-list-56983372,
+#s-lg-rss-54337926  ul.s-lg-rss-list,
+#s-lg-link-list-56983484,
+#s-lg-link-list-56983550,
+#s-lg-link-list-56983560,
+
+
+/*old*/
+ul#s-lg-link-list-43549729, 
+ul#s-lg-link-list-43827531, 
+ul#s-lg-link-list-43727091,
+ul#s-lg-link-list-43776365,
+ul#s-lg-link-list-44155864,
+ul#s-lg-link-list-44047645,
+ul#s-lg-link-list-44174264,
+ul#s-lg-link-list-43924682,
+ul#s-lg-link-list-44047006,
+ul#s-lg-link-list-43676415,
+ul#s-lg-link-list-25891509  {
+ list-style-image:none;
+  list-style-type:decimal;
+}
+
+/*THIS IS HOW TO BLEND SEPARATE LISTS*/
+ul#s-lg-link-list-43922785,
+ul#s-lg-link-list-43680734  {
+  list-style-image:none;
+  list-style-type:decimal;
+  list-style: none;
+  
+  }
+ul#s-lg-link-list-43922785 {
+  counter-increment: start 58;
+  }
+ul#s-lg-link-list-43680734 {
+  counter-increment: start 75;
+  }
+ul#s-lg-link-list-43922785 li:before,
+ul#s-lg-link-list-43680734 li:before {
+  content: counter(start, decimal) ". ";
+  counter-increment: start;
+  }
+ ul#s-lg-link-list-43922785 div,
+ ul#s-lg-link-list-43680734 div {
+  display:inline;
+ }
+ul#s-lg-link-list-43922785.s-lg-link-list.s-lg-link-list-2,
+ul#s-lg-link-list-43680734.s-lg-link-list.s-lg-link-list-2 {
+  padding-left: 0 !important;
+  margin-left: -8px!important;
+  margin-top: -13px !important;
+ }

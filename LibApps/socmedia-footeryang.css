@@ -1,0 +1,88 @@
+#block-socmediafooter {	
+	background-color: #ccc;
+	/*margin: -1rem 0.6rem;*/
+	padding: .4rem 1.9rem .3rem;
+}
+
+#block-socmediafooter p {
+	/*width: 16.1rem;*/
+	text-align:right;
+}
+
+#zonefooter-nav p:last-child, #zonefooter-nav p:last-of-type {
+    margin-bottom: 0;
+}
+#zonefooter-nav p:first-child, #zonefooter-nav p:first-of-type {
+    margin-top: 0;
+}
+
+#block-socmediafooter a {
+	text-align: right;
+	padding-left: 1.3rem;
+}
+
+#zonefooter-nav img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#zonefooter-nav img {
+	width: 2.4rem;
+	height: 2.4rem;
+	background-repeat: no-repeat; 
+	background-size: 24px 24px;
+}
+#block-socmediafooter {
+	margin-top: -1rem;
+}
+#block-socmediafooter img.socmedia-footer-facebook {
+	background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/facebk-in-box-blk.png);
+}
+#block-socmediafooter img.socmedia-footer-twitter {
+	background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/twitter-in-box-blk.png);
+}
+#block-socmediafooter img.socmedia-footer-instagram {
+	background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/instagram-in-box-blk.png);
+}
+#block-socmediafooter img.socmedia-footer-linked-in {
+	background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/linkedin-in-box-blk.png);
+}
+
+#block-socmediafooter img.socmedia-footer-facebook:hover {
+	background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/facebk-in-box-gold.png); 
+}
+#block-socmediafooter img.socmedia-footer-twitter:hover {
+	background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/twitter-in-box-gold.png);
+}
+#block-socmediafooter img.socmedia-footer-instagram:hover {
+	background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/instagram-in-box-gold.png);
+}
+#block-socmediafooter img.socmedia-footer-linked-in:hover {
+	background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/linkedin-in-box-gold.png);
+}
+
+/*#zonefooter-nav .inline-block {
+    display: inline-block;
+    vertical-align: top;
+    
+    zoom: 1;
+    *display: block;
+}*/
+
+/*.visually-hidden {
+    border: 0 none !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px !important;
+    overflow: hidden;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+}*/
+
+
+
+#zonefooter-nav {
+    margin-bottom: -.6rem;
+}
+

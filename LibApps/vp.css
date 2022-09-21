@@ -1,0 +1,46 @@
+#content section.section-padding.bg-color.bg-light-blue {
+
+}
+
+#content section.section-padding.bg-color.bg-light-blue {
+  padding-top: 4rem;
+  margin-top: -50px;
+}
+@media (min-width: 1024px)
+	.bg-color + .bg-color {
+	  margin-top: -50px;
+	}
+	.section-padding,
+	#content section.section-padding.bg-color.bg-light-blue {
+	  padding-top: 1rem;
+	  margin-top: -50px;
+	}
+}
+@media (min-width: 1300px) {
+	#content section.section-padding.bg-color.bg-light-blue {
+	  padding: 4rem 3rem 3rem;
+	}
+}
+
+
+#content section.section-padding.bg-color.bg-light-blue div.contain div.card-listing.card-listing--2.section-padding div.contain article.card.card--align-left div.card__content div.wysiwyg ul.no-bullets li.field__item,
+#content section.section-padding.bg-color.bg-light-blue div.contain div.card-listing.card-listing--2.section-padding div.contain article.card.card--align-left div.card__content div.wysiwyg ul.no-bullets li,
+.wysiwyg ul.no-bullets li {
+  padding-left: 0;
+}
+#content section.section-padding.bg-color.bg-light-blue div.contain div.card-listing.card-listing--2.section-padding div.contain article.card.card--align-left div.card__content div.wysiwyg ul.no-bullets {
+  margin-bottom: 3rem;
+}
+#content section.content-aside.section-margin div.contain.content-aside__flex div.content-aside__aside article.contextual-region.card.card__with-image.event div.card__content h2.card__title {
+	font-size:  2.4rem;
+}
+#content section.content-aside.section-margin div.contain.content-aside__flex div.content-aside__aside article.contextual-region.card.card__with-image.event div.card__content {
+	padding-bottom:  2rem;
+}
+#content section.content-aside.section-margin div.contain.content-aside__flex div.content-aside__aside article.contextual-region.card.card__with-image.event div.card__content div.wysiwyg div.OutlineElement h3 {
+	margin:  2rem 0 3.5rem;
+}
+
+#content section div.contain.contain--wide div.image-slider.slick-initialized.slick-slider div.slick-list.draggable div.slick-track div.slick-slide.slick-current.slick-active div article.image-slider-card div.image-slider-card__content {
+	text-align:  center;
+}

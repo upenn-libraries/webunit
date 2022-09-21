@@ -1,0 +1,39 @@
+
+.blue-button.schedular-widget {
+	width:18rem;
+	margin: 0;
+}
+.blue-button.schedular-widget:focus {
+	color: #fff;
+}
+@media (min-width: 700px) {
+	.blue-button.schedular-widget {
+		position: relative; 
+		top: -40rem;
+		left: -30rem;
+	}
+}
+@media (min-width: 870px) {
+	.blue-button.schedular-widget {
+		top: -35rem;
+		left: -33rem;
+	}
+}
+@media (min-width: 960px) {
+	.blue-button.schedular-widget {
+		top: -30rem;
+	}
+}
+@media (min-width: 1170px) {
+	.blue-button.schedular-widget {
+		top: -25.5rem;
+		
+	}
+}
+@media (min-width: 1350px) {
+	.blue-button.schedular-widget {
+		top: -25.5rem;
+	}
+}
+
+

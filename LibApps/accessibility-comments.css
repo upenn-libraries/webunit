@@ -1,0 +1,22 @@
+
+
+#s-lg-admin-datatable-row-801-0.odd .col-md-10 small,
+#s-lg-admin-datatable-row-801-0.even .col-md-10 small,
+
+#comment-25744.row .first-post div.col-md-11 small, 
+#comment-25746.row .first-post div.col-md-11 small {display:none !important;}
+
+
+
+#s-lg-admin-datatable-row-801-0.odd  .col-md-1 img,
+
+#s-lg-admin-datatable-row-801-0.even  .col-md-1 img,
+#comment-25746.row .first-post div.col-md-1 img,
+#comment-25744.row .first-post div.col-md-1 img {display:none;}
+
+#s-lg-admin-datatable-row-801-0.odd td div.row div.col-md-1 small,
+#s-lg-admin-datatable-row-801-0.even td div.row div.col-md-1 small {display:none;}
+
+
+#comment-25746.row .first-post div.col-md-1 small,
+#comment-25744.row .first-post div.col-md-1 small {display:none;}

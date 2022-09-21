@@ -1,0 +1,419 @@
+#pageheader nav.nav-container {
+    display:none !important;
+}
+#headerbg {
+   height: 300px;
+   background-color: #999
+}
+.header-wrapper {
+    background-image: url("//libapps.s3.amazonaws.com/customers/220/images/leonardo-blog-header.jpg");    
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 284px;
+    margin: 0 auto;
+    max-width: 1400px;
+    width: auto;
+  background-position: 0 0;
+}
+#navandidbar {display:none}
+.header-wrapper h1 {position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+#searchholder {display:none;}
+#blogtitle {
+    background-color: rgba(55, 41, 43, 0.50);
+    background-image: url("//libapps.s3.amazonaws.com/customers/220/images/newsfrombiomedtitlefull.png");
+    background-position: 2.7em 1.5em;
+    background-repeat: no-repeat;
+  background-size: 650px auto;
+    height: 71px;
+    margin: 0 auto;
+    max-width: 1400px;
+    position: relative;
+    top: -71px;
+}
+
+#mainlinks {
+  text-align:right;
+  margin-left:0;
+  width: 100%;
+  height: 71px;
+    left: 0;
+    position: relative;
+    z-index: 1;
+
+    background-image: url("//s3.amazonaws.com/libapps/customers/220/images/blogslogodental-classic.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    
+    margin-left: 0;
+    text-align: right;
+    width: 100%;
+}
+#mainlinks li {display:none;}
+#s-lg-guide-header {
+  clear:both;
+  position:relative; 
+  top: .1em;
+}
+#s-lib-bc-site, #s-lib-bc-guide, #s-lib-bc-page, #s-lib-bc-customer {display:none;}
+.breadcrumb > li + li::before {
+    content: "";
+    padding: 0 0;
+}
+h3.s-lg-blog-header {
+    font-family: Palatino, Georgia,"Times New Roman",serif;
+    font-size: 25px;
+    font-weight: normal !important;
+    letter-spacing: 0.04em !important;
+    margin-bottom: 0.5em !important;
+}
+.col-md-3 h4 {
+  color: #777; 
+  letter-spacing: .01em; 
+  font-weight: normal !important; 
+  font-size: 18px!important; 
+  font-family: Georgia, serif;
+  }
+h1#s-lg-guide-name {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+#s-lg-guide-tabs ul.nav.nav-tabs,
+#s-lg-guide-tabs,
+#s-lg-side-nav-content #s-lg-guide-tabs > .nav-pills, 
+#s-lg-tabs-container.container #s-lg-guide-tabs > .nav-tabs.nav-stacked, 
+#s-lg-tabs-container2.container #s-lg-guide-tabs > .nav-tabs.nav-stacked {
+  border-top:none;
+  border-bottom:none;
+}
+#s-lib-bc {
+background-color: #f0f0f0; 
+height: auto; 
+padding: 0.3em 0px .3em 1em; 
+margin: 0px -3em;
+}
+ol#s-lib-bc-list {
+margin: 0 !important;
+}
+.breadcrumb > li + li::before {
+padding:0;
+}
+/*tablet*/
+.tablet #menubar {
+    background-image: url("//libapps.s3.amazonaws.com/customers/220/images/newsfrombiomedtitlefull.png");
+    background-position: 1em 1.5em;
+    background-size: 380px auto;
+    height: 71px;
+    top: -71px;
+}
+.tablet .header-wrapper {
+    background-position: 0 0 !important;
+    background-size: auto 100%;
+    height: 200px;
+}
+.tablet #headerbg {
+    height: 200px;
+}
+.tablet .btn-group.dropdown.threeLinesMenu {display:none !important;}
+.tablet #mainlinks {
+    display: block;
+
+    background-size: 90px auto;
+}
+.tablet #guidepagesbutton {display:none;}
+.tablet .s-lib-main {
+    padding: 0;
+}
+.tablet #s-lg-tabs-container {margin-top: 0}
+/*phone*/
+.phone h1#s-lg-guide-name,
+.tablet h1#s-lg-guide-name {
+  position: relative !important;
+  clip: none; /* IE6, IE7 */
+  padding:0 !important;
+  border:0 !important;
+  height: auto !important;
+  width: auto !important;
+  overflow: visible;
+}
+.phone h1.phoneonly {
+    display: none;
+}
+.tablet h1#s-lg-guide-name {
+  font-size: 1.65em;
+}
+.tablet.phone h1#s-lg-guide-name,
+.phone h1#s-lg-guide-name {
+  font-size: 1.35em;
+}
+.phone #headerbg {
+    background-color: #999;
+    height: 150px;
+}
+
+
+.phone .header-wrapper {
+    background-image: url("//libapps.s3.amazonaws.com/customers/220/images/leonardo-blog-header.jpg");
+    background-position: center -20px !important;
+    background-repeat: repeat-x;
+    background-size: 310% auto;
+    height: 150px !important;
+}
+.phone .phonetitleholder {
+    display:none !important;
+  background-color: rgba(0, 0, 0, 0.35) !important;
+    background-image: url("//libapps.s3.amazonaws.com/customers/220/images/newsfrombiomedtitlefull.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 250px auto;
+    height: 3.5em;
+    position: relative;
+    top: -3.5em;
+    z-index: 10000;
+}
+.tablet #blogtitle,
+.tablet.phone  #blogtitle,
+.phone  #blogtitle {
+  display:none;
+}
+.phone #s-lg-guide-header {
+    padding: 0;
+}
+.phone #s-lib-bc  {
+    background-image: url("//s3.amazonaws.com/libapps/customers/220/images/blogslogodental-b2.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 80px auto;
+    height: 2.5em;
+    margin: 0 -1.5em 0.5em -1.5em;
+    padding: 0 85px 0 0.5em;
+}
+
+.phone #s-lg-guide-header-info {margin-left: -1em}
+.phone #guidepagesbutton {display:none;}
+.tablet .phoneonly, #s-lib-bc-phone-library.phoneonly  {display:none;}
+.tablet.phone #s-lib-bc-phone-library.phoneonly  {display:inline;}
+/* Hide comments link from blog home page */
+#s-lg-blog-content a[href$="comments"] {
+    display: none;
+}
+/* Hide comments from blog post page */
+.post-reply, #comments {
+    display: none;
+}
+#pageheader nav.nav-container {
+    display:none !important;
+}
+#headerbg {
+   height: 300px;
+   background-color: #999
+}
+.header-wrapper {
+    background-image: url("//libapps.s3.amazonaws.com/customers/220/images/leonardo-blog-header.jpg");    
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 284px;
+    margin: 0 auto;
+    max-width: 1400px;
+    width: auto;
+  background-position: 0 0;
+}
+#navandidbar {display:none}
+.header-wrapper h1 {position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+#searchholder {display:none;}
+#blogtitle {
+    background-color: rgba(55, 41, 43, 0.50);
+    background-image: url("//libapps.s3.amazonaws.com/customers/220/images/newsfrombiomedtitlefull.png");
+    background-position: 2.7em 1.5em;
+    background-repeat: no-repeat;
+  background-size: 650px auto;
+    height: 71px;
+    margin: 0 auto;
+    max-width: 1400px;
+    position: relative;
+    top: -71px;
+}
+
+#mainlinks {
+  text-align:right;
+  margin-left:0;
+  width: 100%;
+  height: 71px;
+    left: 0;
+    position: relative;
+    z-index: 1;
+
+    background-image: url("//s3.amazonaws.com/libapps/customers/220/images/blogslogodental-classic.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    
+    margin-left: 0;
+    text-align: right;
+    width: 100%;
+}
+#mainlinks li {display:none;}
+#s-lg-guide-header {
+  clear:both;
+  position:relative; 
+  top: .1em;
+}
+#s-lib-bc-site, #s-lib-bc-guide, #s-lib-bc-page, #s-lib-bc-customer {display:none;}
+.breadcrumb > li + li::before {
+    content: "";
+    padding: 0 0;
+}
+h3.s-lg-blog-header {
+    font-family: Palatino, Georgia,"Times New Roman",serif;
+    font-size: 25px;
+    font-weight: normal !important;
+    letter-spacing: 0.04em !important;
+    margin-bottom: 0.5em !important;
+}
+.col-md-3 h4 {
+  color: #777; 
+  letter-spacing: .01em; 
+  font-weight: normal !important; 
+  font-size: 18px!important; 
+  font-family: Georgia, serif;
+  }
+h1#s-lg-guide-name {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+#s-lg-guide-tabs ul.nav.nav-tabs,
+#s-lg-guide-tabs,
+#s-lg-side-nav-content #s-lg-guide-tabs > .nav-pills, 
+#s-lg-tabs-container.container #s-lg-guide-tabs > .nav-tabs.nav-stacked, 
+#s-lg-tabs-container2.container #s-lg-guide-tabs > .nav-tabs.nav-stacked {
+  border-top:none;
+  border-bottom:none;
+}
+#s-lib-bc {
+background-color: #f0f0f0; 
+height: auto; 
+padding: 0.3em 0px .3em 1em; 
+margin: 0px -3em;
+}
+ol#s-lib-bc-list {
+margin: 0 !important;
+}
+.breadcrumb > li + li::before {
+padding:0;
+}
+/*tablet*/
+.tablet #menubar {
+    background-image: url("//libapps.s3.amazonaws.com/customers/220/images/newsfrombiomedtitlefull.png");
+    background-position: 1em 1.5em;
+    background-size: 380px auto;
+    height: 71px;
+    top: -71px;
+}
+.tablet .header-wrapper {
+    background-position: 0 0 !important;
+    background-size: auto 100%;
+    height: 200px;
+}
+.tablet #headerbg {
+    height: 200px;
+}
+.tablet .btn-group.dropdown.threeLinesMenu {display:none !important;}
+.tablet #mainlinks {
+    display: block;
+
+    background-size: 90px auto;
+}
+.tablet #guidepagesbutton {display:none;}
+.tablet .s-lib-main {
+    padding: 0;
+}
+.tablet #s-lg-tabs-container {margin-top: 0}
+/*phone*/
+.phone h1#s-lg-guide-name {
+  position: relative !important;
+  clip: none; /* IE6, IE7 */
+  padding:0 !important;
+  border:0 !important;
+  height: auto !important;
+  width: auto !important;
+  overflow: visible;
+}
+.phone h1.phoneonly {
+    display: none;
+}
+.phone #headerbg {
+    background-color: #999;
+    height: 150px;
+}
+
+
+.phone .header-wrapper {
+    background-image: url("//libapps.s3.amazonaws.com/customers/220/images/leonardo-blog-header.jpg");
+    background-position: center -20px !important;
+    background-repeat: repeat-x;
+    background-size: 310% auto;
+    height: 150px !important;
+}
+.phone .phonetitleholder {
+    display:none !important;
+  background-color: rgba(0, 0, 0, 0.35) !important;
+    background-image: url("//libapps.s3.amazonaws.com/customers/220/images/newsfrombiomedtitlefull.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 250px auto;
+    height: 3.5em;
+    position: relative;
+    top: -3.5em;
+    z-index: 10000;
+}
+.phone #s-lg-guide-header {
+    padding: 0;
+}
+.phone #s-lib-bc  {
+    background-image: url("//s3.amazonaws.com/libapps/customers/220/images/blogslogodental-b2.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 80px auto;
+    height: 2.5em;
+    margin: 0 -1.5em 0.5em -1.5em;
+    padding: 0 85px 0 0.5em;
+}
+
+.phone #s-lg-guide-header-info {margin-left: -1em}
+.phone #guidepagesbutton {display:none;}
+.tablet .phoneonly, #s-lib-bc-phone-library.phoneonly  {display:none;}
+.tablet.phone #s-lib-bc-phone-library.phoneonly  {display:inline;}
+/* Hide comments link from blog home page */
+#s-lg-blog-content a[href$="comments"] {
+    display: none;
+}
+/* Hide comments from blog post page */
+.post-reply, #comments {
+    display: none;
+}

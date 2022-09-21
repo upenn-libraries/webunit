@@ -1,0 +1,41 @@
+.btn--flex-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+}
+.btn--flex-child {
+  padding: 0.5rem;
+}
+.btn {
+  color: #072057;
+  border: 1px solid #072057;
+  border-radius: 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "proxima-nova", "ITC Stone Sans", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1.8px;
+  line-height: 1.3;
+  font-weight: 700;
+  padding: 25px;
+  margin: 0 20px 20px 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  width: 20rem;
+}
+@media (min-width: 768px) {
+  .btn {
+    font-size: 1.2rem;
+  }
+}
+.btn:hover,
+.btn:focus {
+  background: #072057;
+  color: #fff;
+}
+img.btn-icon {
+  height: 2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}

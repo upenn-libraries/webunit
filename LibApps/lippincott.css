@@ -1,0 +1,95 @@
+.lippincott-floorplan {
+	margin: 0 auto 8rem auto;
+	max-width:  120rem;
+}
+.lippincott-floorplan .image-slider-card__caption  {
+		margin-top:  -6rem;
+	}
+@media (min-width: 1350px) {
+	.lippincott-floorplan .image-slider-card__caption  {
+		margin-top:  -10rem;
+	}
+}
+#content section.content-aside.section-margin {
+	margin-bottom: 4rem;
+}
+#content section.grid {
+	margin-top:  4rem;
+}
+
+/*footer*/
+
+
+
+#content section div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix nav.quick-links.quick-links--wide.section-margin-bottom.in-container.quick-links__item:last-child {
+  border-bottom: 1px solid rgba(151, 151, 151, 0.4);
+}
+#content section div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix nav.quick-links.quick-links--wide.section-margin-bottom.in-container ul.no-bullets li.quick-links__item a.quick-links__link {
+	text-align:  left;
+}
+@media (min-width: 900px) {
+	#content section div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix nav.quick-links.quick-links--wide.section-margin-bottom.in-container .no-bullets {
+		display:inline-block; 
+		vertical-align: top; 
+		width: 30%;
+	} 
+	#content section div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix nav.quick-links.quick-links--wide.section-margin-bottom.in-container .no-bullets.left,
+	#content section div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix nav.quick-links.quick-links--wide.section-margin-bottom.in-container .no-bullets.center {
+		margin-right:  2%;
+	}
+}
+#content section div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix nav.quick-links.quick-links--wide.section-margin-bottom.in-container  ul li a {
+	text-decoration: none;
+}
+#content section div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix nav.quick-links.quick-links--wide.section-margin-bottom.in-container ul {
+	margin: 0
+}
+#content section div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix nav.quick-links.quick-links--wide.section-margin-bottom.in-container ul.no-bullets li {
+	padding-left: 0;
+}	
+
+#content section div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix nav.quick-links.quick-links--wide.section-margin-bottom.in-container ul.no-bullets.left li.quick-links__item.wharton-logo {
+	padding-top: 70px;
+	padding-left:  0;
+	height: 124px;
+	border-bottom:  none;
+	background-image: url(https://live-upenn-libraries.pantheonsite.io/sites/default/files/styles/listing_card_3x2/public/2022-08/wharton-logo.png); 
+	background-repeat:no-repeat; 
+	background-position: top left; 
+	background-size: 200px auto;
+} 
+@media (min-width: 1300px) {
+	#content section div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix nav.quick-links.quick-links--wide.section-margin-bottom.in-container ul.no-bullets.left li.quick-links__item.wharton-logo {
+		background-size: 250px auto;
+	} 
+}
+
+/*widget*/
+#content section.section-padding.bg-color.bg-gradient {
+	padding-bottom:  0;
+}
+#businessfaqtitle,
+#content section.section-padding.bg-color.bg-gradient div.contain div.js-wikit-tabbed.lib-search section#tabpanel-18828.wikit-tab article form#catsearch.searchform.hasselect label#franklinquery-ariaLabel h4.ejsearch,
+#content section.section-padding.bg-color.bg-gradient div.contain div.js-wikit-tabbed.lib-search section#tabpanel-18828.wikit-tab article form#mtsearch.searchform.hasnoselect label#msquery-ariaLabel h4.ejsearch {
+	display: none;
+}#content section.section-padding.bg-color.bg-gradient div.contain div.js-wikit-tabbed.lib-search section#tabpanel-18823.wikit-tab article div#businessfaq.businessfaq div#s-la-widget-3075 {
+	background:  transparent;
+}
+
+/*floor plan*/
+.contain--wide.contain .image-slider .slick-slide img {
+  height: auto;
+  width: 114rem;
+  -o-object-fit: contain;
+  object-fit: contain;
+  margin:  0 auto;
+ }
+ @media (min-width: 1250px) {
+	#content section div.contain.contain--wide div.image-slider.slick-initialized.slick-slider div.slick-list.draggable div.slick-track div.slick-slide.slick-current.slick-active div article.image-slider-card div.image-slider-card__content span.image-slider-card__caption,
+	#content section div.contain.contain--wide div.image-slider.slick-initialized.slick-slider div.slick-list.draggable div.slick-track div.slick-slide.slick-current.slick-active div article.image-slider-card div.image-slider-card__content div.wysiwyg {
+		display:block;position: relative; top: -8rem;
+	}
+	#content section div.contain.contain--wide div.image-slider.slick-initialized.slick-slider div.slick-list.draggable div.slick-track div.slick-slide.slick-current.slick-active div article.image-slider-card div.image-slider-card__image-contain div.image-slider-card__controls div.image-slider-card__buttons {
+		position: relative; z-index: 10000;left: 50px;
+	}
+}

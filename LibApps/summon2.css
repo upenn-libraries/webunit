@@ -1,0 +1,13 @@
+#topLinks.customAuthBanner a:hover,
+#topLinks.customAuthBanner a:active,
+#topLinks.customAuthBanner .btn-link:hover,
+#topLinks.customAuthBanner .btn-link:active {
+color: #f2c100 !important;
+}
+#lcs_slide_out-20997.lcs_slide_out.lcs_slide_out-r header a#lcs_slide_out_button-20997,
+.lcs_slide_out.lcs_slide_out-r header a,
+.lcs_slide_out header a {
+    position: static !important;
+    width: 100px;
+    margin-top: 220px;
+}

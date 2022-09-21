@@ -1,0 +1,15 @@
+h1 {    background-color: transparent;}
+h2 {margin-top:.5em;margin-bottom: 26px; padding-bottom:0;}
+.collapsed, .expanded {cursor:pointer}
+#updating {display:none}
+.dthead {background-color: #eee; background-repeat:no-repeat;background-position:5px 5px;cursor:pointer;margin-bottom: 3px;padding: 8px 5px 8px 30px;background-position: 5px 10px;
+}
+
+.dthead.closed {background-image:url(https://libapps.s3.amazonaws.com/customers/220/images/arrowopen-demo.gif); margin-bottom: 3px;
+}
+.dthead {background-image:url(https://libapps.s3.amazonaws.com/customers/220/images/arrowclosed-demo.gif); margin-bottom: 3px;
+}
+dd {margin-top:.6em;}
+.vivolist li {margin-top:.5em;}
+ul.vivolist {margin-bottom: 12px;}
+#header-nav.vivolist li {    background-image: none;}

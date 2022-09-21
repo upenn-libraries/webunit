@@ -1,0 +1,112 @@
+#content section.page-header-hero.library-info.section-margin div.contain div.page-header-hero__content div.page-header-hero__content__contain div.paragraph.paragraph--type--detail-type-library.paragraph--view-mode--default.page-header {
+	display: none;
+}
+@media (min-width: 1024px) { 
+  .page-header-hero + .layout.layout--50-50.section-margin {
+    position: relative;
+    top: -616px;
+    left: 1.8rem;
+    width:  45%;
+  }
+  .page-header-hero + .layout.layout--50-50.section-margin div.contain.layout__flex.layout__flex--align-items-center div.layout__column {
+    width:  100%;
+  }
+
+  .page-header-hero + .layout--50-50 .layout__column {
+    width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+  }
+  .page-header-hero + .layout.layout--50-50.section-margin::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+  .page-header-hero + .layout.layout--50-50.section-margin .contact-list__label,
+  .page-header-hero + .layout.layout--50-50.section-margin .contact-list__content {
+      color: #072057;
+    font-size: 1.8rem;
+    
+    margin-right: 1em;
+  }
+  .page-header-hero + .layout.layout--50-50.section-margin .contact-list__label {
+  	font-weight:  700;
+  }
+  .page-header-hero + .layout.layout--50-50.section-margin .wysiwyg p {
+  	margin-bottom:  1rem;
+  }
+  /*pull up the next section*/
+
+  #content section.section-padding.bg-color.bg-gradient {
+  	margin-top: -33.5rem;
+  }
+
+}
+.layout.layout--28-28-28.section-margin {
+	margin-top:  0;
+}
+#content div.layout.layout--28-28-28.section-margin div.contain.layout__flex.layout__flex--justify-between {
+	background: #e2ecf4;
+	padding:  3rem 3rem 0;
+}
+.wysiwyg .margin-top-110 {
+	margin-top:  11rem;
+}
+#content div.layout.layout--28-28-28.section-margin div.contain.layout__flex.layout__flex--justify-between div.layout__column section.bg-color.bg-light-blue div.clearfix.wysiwyg-container.contain div.wysiwyg.contain ul.no-bullets li,
+.wysiwyg ul.no-bullets li {
+	padding-left:  0;
+}
+
+.listing-card p.browser-icons-holder,
+.listing-card p.fres-image-holder {
+    text-align:  center;
+}
+
+/*access off campus*/
+
+.listing-card p.browser-icons-holder img,
+.listing-card p.fres-image-holder img {
+    
+    margin:  0 auto;
+    margin-top:  2rem;
+}
+.listing-card p.browser-icons-holder img {
+  width:  30rem;
+}
+.listing-card p.fres-image-holder img {
+  width:  50rem;
+}
+
+@media (min-width: 900px) {
+  .listing-card p.browser-icons-holder {
+    float:  right;
+    margin-left:  3rem;
+    width:  30rem;
+  }
+  .listing-card p.browser-icons-holder img {
+      margin-top:  0;
+  }
+}
+/*scholcomm*/
+#content div.layout.layout--50-50.section-margin {
+	margin-top:  2rem;
+}
+
+#content div.layout.layout--50-50.section-margin div.contain.layout__flex.layout__flex--align-items-center div.layout__column section .wysiwyg-container.contain .wysiwyg h2.center:after {
+  display: none;
+}
+
+#content div.layout.layout--50-50.section-margin div.contain.layout__flex.layout__flex--align-items-center div.layout__column section .wysiwyg-container.contain .wysiwyg .fact.fact--link {
+  padding: 0px 10px;
+}
+#content div.layout.layout--50-50.section-margin div.contain.layout__flex.layout__flex--align-items-center div.layout__column section .wysiwyg-container.contain .wysiwyg  .fact--link .fact__figure {
+  margin-bottom: 10px;
+}
+#content div.layout.layout--50-50.section-margin div.contain.layout__flex.layout__flex--align-items-center div.layout__column section .wysiwyg-container.contain .wysiwyg figure.align-center div img {
+  margin-top: 30px;
+}
+#content div.layout.layout--50-50.section-margin div.contain.layout__flex.layout__flex--align-items-center div.layout__column section .wysiwyg-container.contain .wysiwyg figure.align-center figcaption {
+  max-width: 470px;margin: 0 auto;
+}
+#content div.layout.layout--50-50.section-margin div.contain.layout__flex.layout__flex--align-items-center div.layout__column section div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix div.align-center img {border:  solid 1px #bbb;}

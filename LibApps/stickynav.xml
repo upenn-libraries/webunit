@@ -1,0 +1,14 @@
+<script>
+$(document).ready(function(){
+  $(".s-lg-page-section").each(function(){$(this).find("h4").prependTo($(this).next())});
+});
+</script>
+<style>
+::-webkit-scrollbar { width: 20px; } ::-webkit-scrollbar-track { background: #f1f1f1; } ::-webkit-scrollbar-thumb { background: #888; } ::-webkit-scrollbar-thumb:hover { background: #555; }
+ul.nav-tabs > li {display:none;}
+.s-lg-tabs-side, h4.pull-left {position:sticky;top:0;z-index:1000;}
+h4.pull-left {background-color:#fff;padding:2rem;width:100%;border-bottom:1px solid #ccc;}
+.s-lg-link-list {list-style: none;}
+.s-lib-box .s-lib-box-title {background-color:#F2F2F2;}
+.s-lg-page-section {border-bottom:none;}
+</style>

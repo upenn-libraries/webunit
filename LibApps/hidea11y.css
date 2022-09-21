@@ -1,0 +1,9 @@
+body.lippincott-seminar .s-lc-section-description > p:nth-child(6) {
+	display:none;
+}
+body.btc-collaborative .s-lc-section-description > p:nth-child(7) {
+	display:none;
+}
+body.btc-collaborative .img-thumbnail {
+    width: 37.6rem;
+}

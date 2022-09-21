@@ -1,0 +1,326 @@
+.nav-container .site-header__logo {
+    width: 18.5rem;
+    z-index: 300;
+    position: absolute;
+    top: 0.8rem;
+    left: 1.9rem;
+
+} @media (min-width: 60em) {
+    /*@include breakpoint($breakpoint-med-small-width)*/
+    .nav-container .site-header__logo {
+        width: 25rem;
+    }
+} @media (min-width: 73.75em) {
+    /*@include breakpoint($breakpoint-medium-width)*/
+    .nav-container .site-header__logo {
+        left: 4.5rem;
+    }
+} 
+/*hamburger break*/
+@media (min-width: 65em) {
+    /*@include breakpoint($breakpoint-navigation)*/
+    .nav-container .site-header__logo {
+        position: relative;
+        float: left;
+        top: 2.5rem;
+        left: 0;
+        width: 30rem;
+    }
+} @media (min-width: 66.25em) {
+    /*@include breakpoint($breakpoint-large1060-width)*/
+    .nav-container .site-header__logo {
+        width: 30rem;
+    }
+} @media (min-width: 71.25em) {
+    /*@include breakpoint($breakpoint-large1140-width)*/
+    .nav-container .site-header__logo {
+        width: 31rem;
+    }
+} @media (min-width: 73.75em) {
+    /*@include breakpoint($breakpoint-largeaverageplus-width)*/
+    .nav-container .site-header__logo {
+        width: 34rem;
+    }
+} @media (min-width: 75.6875em) {
+    /*@include breakpoint($breakpoint-largeeventsslider-width)*/
+    .nav-container .site-header__logo { 
+        width: 36rem;
+    }
+} @media (min-width: 77em) {
+    /*@include breakpoint($breakpoint-largeeventsslider-width)*/
+    .nav-container .site-header__logo { 
+        width: 36rem;
+    }
+} @media (min-width: 78.125em) {
+    /*@include breakpoint($breakpoint-large1250-width)*/
+    .nav-container .site-header__logo { 
+        width: 37rem;
+    }
+} @media (min-width: 81.25em) {
+    /*@include breakpoint($breakpoint-large1300-width)*/
+    .nav-container .site-header__logo { 
+        width: 39rem;
+    }
+} @media (min-width: 84.375em) {
+    /*@include breakpoint($breakpoint-largelargeplus-width)*/
+    .nav-container .site-header__logo { 
+        width: 41rem;
+    }
+} @media (min-width: 87.5em) {
+    /*@include breakpoint($breakpoint-max1400-width)*/
+    .nav-container .site-header__logo { 
+        width: 41.5rem;
+    }
+} 
+
+
+.nav-container .site-header__logo a {
+    display: block;
+    /*@include imgRetina('/sites/default/files/images/logos/lib-logo-oneline', 'png') 
+        background: url($image + '.' + $extension) $repeat $position*/
+    background: url("https://www.library.upenn.edu/sites/default/files/images/logos/svg/logo-2020-whitetite.svg") no-repeat center;
+    /*background-size: 100% auto;*/
+    /*@media
+    screen and (-webkit-min-device-pixel-ratio: 2),
+    screen and (   min--moz-device-pixel-ratio: 2),
+    screen and (   -moz-min-device-pixel-ratio: 2),
+    screen and (     -o-min-device-pixel-ratio: 2/1),
+    screen and (        min-device-pixel-ratio: 2),
+    screen and (             min-resolution: 192dpi),
+    screen and (             min-resolution: 2dppx) {
+    background: url($image + '@2x' + '.' + $extension) $repeat $position;
+    background-size: 100% auto;
+  }*/
+    margin: 0 0;
+    width: 100%;
+    height: 4.5rem;
+/*} @media
+    screen and (-webkit-min-device-pixel-ratio: 2)    and (max-width: 65em),
+    screen and (   min--moz-device-pixel-ratio: 2)    and (max-width: 65em),
+    screen and (   -moz-min-device-pixel-ratio: 2)    and (max-width: 65em),
+    screen and (     -o-min-device-pixel-ratio: 2/1)  and (max-width: 65em),
+    screen and (        min-device-pixel-ratio: 2)    and (max-width: 65em),
+    screen and (             min-resolution: 192dpi)  and (max-width: 65em),
+    screen and (             min-resolution: 2dppx)   and (max-width: 65em){
+        .nav-container .site-header__logo a {
+            background: url("https://www.library.upenn.edu/sites/default/files/images/logos/svg/logo-2020-navytite.svg") no-repeat center;
+            background-size: 100% auto;
+        }*/
+
+} 
+@media (min-width: 65em) {
+    /*@include breakpoint($breakpoint-navigation)*/
+    .nav-container .site-header__logo a {
+        /*@include imgRetina('/sites/default/files/images/logos/lib-logo-innav-white', 'png')*/
+        /*background: url("https://www.library.upenn.edu/sites/default/files/images/logos/svg/logo-2020-whitetite.svg") no-repeat center;*/
+        width: 25rem;
+        height: 61px;
+        margin: 0 2rem 0 auto;
+    }
+}
+@media (min-width: 73.75em) {
+    .nav-container .site-header__logo a {
+    /*@include breakpoint($breakpoint-largeaverageplus-width) */
+      margin: 0 3.8rem 0 auto;
+    }
+
+} @media (min-width: 75.6875em) {
+    .nav-container .site-header__logo a {
+        /*@include breakpoint($breakpoint-largeeventsslider1211-width) {*/
+        width: 26rem;
+    }
+
+} @media (min-width: 87.5em) {
+    .nav-container .site-header__logo a {
+        /*@include breakpoint($breakpoint-max1400-width) {*/
+        margin: 0 4.5rem 0 auto;
+    }
+
+} 
+/* @media
+    screen and (-webkit-min-device-pixel-ratio: 2)    and (min-width: 65em),
+    screen and (   min--moz-device-pixel-ratio: 2)    and (min-width: 65em),
+    screen and (   -moz-min-device-pixel-ratio: 2)    and (min-width: 65em),
+    screen and (     -o-min-device-pixel-ratio: 2/1)  and (min-width: 65em),
+    screen and (        min-device-pixel-ratio: 2)    and (min-width: 65em),
+    screen and (             min-resolution: 192dpi)  and (min-width: 65em),
+    screen and (             min-resolution: 2dppx)   and (min-width: 65em){
+        .nav-container .site-header__logo a {
+            background: url("https://www.library.upenn.edu/sites/default/files/images/logos/svg/logo-2020-whitetite.svg") no-repeat center;
+            background-size: 100% auto;
+        }*/
+/*}*/
+
+@media (min-width: 65em) {
+    .nav-expanded .nav-container .site-header__logo a {
+        -webkit-transition: background-image 0.3s;
+        -moz-transition: background-image 0.3s;
+        -o-transition: background-image 0.3s;
+        transition: background-image 0.3s;
+        background: url("https://www.library.upenn.edu/sites/default/files/images/logos/svg/logo-2020-navytite.svg") no-repeat center;
+        background-size: 100% auto;
+    }
+    /*.nav-expanded.nav-keyboard .nav-container .site-header__logo a {
+        background: url("https://www.library.upenn.edu/sites/default/files/images/logos/svg/logo-2020-whitetite.svg") no-repeat center;
+        background-size: 100% auto;
+    }*/
+/*} @media
+    screen and (-webkit-min-device-pixel-ratio: 2)   and (min-width: 65em),
+    screen and (   min--moz-device-pixel-ratio: 2)   and (min-width: 65em),
+    screen and (   -moz-min-device-pixel-ratio: 2)   and (min-width: 65em),
+    screen and (     -o-min-device-pixel-ratio: 2/1) and (min-width: 65em),
+    screen and (        min-device-pixel-ratio: 2)   and (min-width: 65em),
+    screen and (             min-reso       lution: 192dpi) and (min-width: 65em),
+    screen and (             min-resolution: 2dppx)  and (min-width: 65em){
+        .nav-expanded .nav-container .site-header__logo a {
+            background: url("https://www.library.upenn.edu/sites/default/files/images/logos/svg/logo-2020-navytite.svg") no-repeat center;
+            background-size: 100% auto;
+        }
+        .nav-expanded.nav-keyboard .nav-container .site-header__logo a {
+            background: url("https://www.library.upenn.edu/sites/default/files/images/logos/svg/logo-2020-whitetite.svg") no-repeat center;
+            background-size: 100% auto;
+        }*/
+}
+
+
+.site-header {
+    height: auto;
+    background-color: #011f5b;
+    /*padding-left: 5rem;*/
+} @media (min-width: 65em) {
+    .site-header {
+        height: 4.5rem;
+    }
+}
+
+/* revised from _navigation.scss line 248 */
+/* library home page style */
+/*@media (min-width: 1082px) {
+    .nav-container .main-nav>.parent>.main-nav__sub {
+        padding-left: 7rem;
+    }
+} @media (min-width: 1180px) {
+    .nav-container .main-nav>.parent>.main-nav__sub {
+        padding-left: 10rem;
+    }
+} @media (min-width: 1260px) {
+    .nav-container .main-nav>.parent>.main-nav__sub {
+        padding-left: 18rem;
+    }
+}*/
+
+/*@media (min-width: 81.25em) {*/
+    /*@include breakpoint($breakpoint-large1300-width)*/
+    /*header .wrapper--nav .nav-container div#logo-menubarline ul.main-nav {
+        width: 82rem;
+    }
+} 
+@media (min-width: 87.5em) {*/
+    /*@include breakpoint($breakpoint-max1400-width)*/
+    /*header .wrapper--nav .nav-container div#logo-menubarline ul.main-nav {
+        width: 88rem;
+    }
+}*/
+
+header .wrapper--nav .nav-container div#logo-menubarline ul.main-nav {
+    /*@include breakpoint($breakpoint-large1300-width)*/
+    @media (min-width: 81.25em) {
+        #main-nav-help-with {
+            width: 15rem;
+        }
+    } @media (min-width: 87.5em) {
+        /*@include breakpoint($breakpoint-max1400-width)*/
+        #main-nav-help-with {
+            width: 16rem;
+        }
+    }
+    @media (min-width: 81.25em) {
+        #main-nav-libraries {
+            width: 13rem;
+        }
+    } @media (min-width: 87.5em) {
+        /*@include breakpoint($breakpoint-max1400-width)*/
+        #main-nav-libraries {
+            width: 14rem;
+        }
+    }
+    @media (min-width: 81.25em) {
+        #main-nav-collections {
+            width: 14rem;
+        }
+    } @media (min-width: 87.5em) {
+        /*@include breakpoint($breakpoint-max1400-width)*/
+        #main-nav-collections {
+            width: 15rem;
+        }
+    }
+    @media (min-width: 81.25em) {
+        #main-nav-news-events {
+            width: 18rem;
+        }
+    } @media (min-width: 87.5em) {
+        /*@include breakpoint($breakpoint-max1400-width)*/
+        #main-nav-news-events {
+            width: 19rem;
+        }
+    }
+    @media (min-width: 81.25em) {
+        #main-nav-about {
+            width: 9.5rem;
+        }
+    } @media (min-width: 87.5em) {
+        /*@include breakpoint($breakpoint-max1400-width)*/
+        #main-nav-about {
+            width: 10.5rem;
+        }
+    }
+    @media (min-width: 81.25em) {
+        #main-nav-giving {
+            width: 10.5rem;
+        }
+    } @media (min-width: 87.5em) {
+        /*@include breakpoint($breakpoint-max1400-width)*/
+        #main-nav-giving {
+            width: 11.5rem;
+        }
+    }
+    
+    @media (min-width: 81.25em) {
+        > li.main-nav__item > ul.main-nav__sub {
+            left: -32rem;
+            width: 128rem;
+        }
+    } 
+    @media (min-width: 84.375em) {
+        > li.main-nav__item > ul.main-nav__sub {
+            /*@include breakpoint($breakpoint-largelargeplus1350-width)*/
+            left: -34rem;
+            width: 133rem;
+        }
+    } 
+    @media (min-width: 87.5em) {
+        > li.main-nav__item > ul.main-nav__sub {
+            /*@include breakpoint($breakpoint-max1400-width)*/
+            width: 138rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

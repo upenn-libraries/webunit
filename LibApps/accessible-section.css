@@ -1,0 +1,35 @@
+@media (min-width: 640px) {
+.listing-card.listing-card--large.listing-card--with-link {
+display:block;
+}
+.listing-card--large .listing-card__figure, 
+.listing-card--large .listing-card__picture,
+.listing-card__detail {
+flex: none !important;
+width: 100%;
+}
+.listing-card__detail {
+max-width: 100%;
+}
+.listing-card--large .listing-card__figure, 
+.listing-card--large .listing-card__picture {
+max-width: 450px;
+}
+}
+@media (min-width: 900px) {
+.listing-card.listing-card--large.listing-card--with-link {
+display:flex;
+align-items: flex-start;
+}
+.listing-card--large .listing-card__figure, 
+.listing-card--large .listing-card__picture,
+.listing-card__detail {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 50%!important;
+  flex: 0 1 50%!important;
+  max-width: 50%!important;
+}
+}
+.all-caps {
+    text-transform:  uppercase;
+  }

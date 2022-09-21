@@ -1,0 +1,231 @@
+#wrap {
+    background-color: #fff;
+    margin: 0 auto;
+    width:  1200px;
+    max-width: 100%;
+    min-width: auto;
+    position: relative;
+}
+#header {
+	height:  240px;
+	max-width:  100%;
+	background: transparent;
+	border: none;
+	margin: 0;
+	padding: 0 0 30px 0;
+}
+#header.with-search {
+	padding-bottom: 30px;
+}
+@media (min-width: 700px) {
+	#header {
+		height:  220px;
+		padding: 0 0 15px 0;
+	}
+}
+@media (min-width: 820px) {
+	#header {
+		height:  175px;
+		padding: 0 0 25px 0;
+	}
+}
+#navytop {
+	background-color: #011f5b;
+	background-image: none;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	height:  180px;
+}
+@media (min-width: 700px) {
+	#navytop {
+		height:  150px;
+	}
+}
+@media (min-width: 820px) {
+	#navytop {
+		height:  100px;
+	}
+}
+#headerlinks {
+    padding-top: 8px;
+}
+#headerlinks a {
+	display: block;
+	color:  #fff;
+	padding: 0 15px;
+}
+@media (min-width: 820px) {
+	#headerlinks {
+		float: right;
+    	padding-right: 20px;
+	}
+
+	#headerlinks a {
+		display: inline;
+	}
+}
+#header #title-name {
+    position: relative;
+    top: 17px;
+    left: 20px;
+    background-image: url(https://www.library.upenn.edu/sites/default/files/images/logos/svg/aeon-logo-phone.svg);
+	background-repeat: no-repeat;
+	width:  100%;
+	height:  105px;
+	font: inherit;
+	letter-spacing: 0;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	border: none;
+}/*remove all in main.css*/
+#header #title-name a {
+	color:  #fff;
+}
+#header #title-name img {
+	margin-top: 0;
+	width:  300px;
+	max-width: 100%;
+	height: 70px;
+	
+}
+@media (min-width: 700px) {
+	#header #title-name {
+	    background-image: url(https://www.library.upenn.edu/sites/default/files/images/logos/svg/aeon-logo-white.svg);
+	    background-size:  500px auto;
+	    top:  17px;
+	    height: 70px;
+	}
+	#header #title-name img {
+		width: 240px;
+	}
+}
+@media (min-width: 820px) {
+	#header #title-name {
+	    top:  30px;
+	}
+	#header #title-name img {
+		width: 240px;
+	}
+}
+
+
+#header .hold-page-title {
+	height: 45px; 
+	padding: 20px 0 0;
+}
+@media (min-width: 700px) {
+	#header .hold-page-title {
+		height: 45px; 
+		padding: 20px 0 0;
+	}
+}
+@media (min-width: 820px) {
+	#header .hold-page-title {
+		height: 45px; 
+		padding: 32px 0 0;
+	}
+}
+.hold-page-title img {
+    background-size: auto 100%;
+    background-position:  center;
+}
+
+
+
+#header .hold-page-title img {
+	width: 865px;
+	max-width: 90%;
+	margin: 0 auto;
+	display:block;
+	background-image: url(https://www.library.upenn.edu/sites/default/files/images/logos/svg/aeon-part-title-navy.svg);
+	background-repeat: no-repeat;
+	height: 50px;
+	background-size: 100% auto;
+	
+}
+@media (min-width: 700px) {
+	#header .hold-page-title img {
+		background-image: url(https://www.library.upenn.edu/sites/default/files/images/logos/svg/aeon-full-title-navy.svg);
+	}
+}
+
+html body#type-a div#wrap div {}
+/*
+
+
+/*in style*/
+		
+		div.buttonBox span.nowrap {
+		    white-space: nowrap;
+		}
+		.loginorcreate {
+			padding: 10px;
+			font-size: 13px;
+		}
+/*end in style*/
+.we-encourage,
+.to-log,
+.lib-list,
+.center {
+	width: 1012px;
+	max-width: 90%;
+	margin: 0 auto;
+	padding-top:  25px;
+}
+.center {
+	padding-bottom:  25px;
+}
+.for-assistance {
+	padding-top:  25px;
+}
+
+div.buttonBox {
+	background-color: transparent;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 20px;
+	position: relative;
+	top: 0;
+	text-align:center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin:  0 0 20px 0;
+	width: 100%;
+	height:  220px;
+}
+.loginorcreate {
+	padding:  10px;
+}
+@media (min-width: 700px) {
+	div.buttonBox {
+		-webkit-border-radius: 25px;
+		-moz-border-radius: 25px;
+		border-radius: 25px;
+		height: 188px;
+		margin: 20px;
+		width: 45%;
+		margin:  0 2.5%;
+			
+	}
+}
+#search {
+	max-width: 100%;
+	float: none;
+	width: 1098px;
+	margin: 30px auto 0;
+}
+#search form {
+	float:right;
+	width: 300px;
+	margin-right: 0;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+

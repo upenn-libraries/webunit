@@ -1,0 +1,113 @@
+#hero {
+  background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/in-stacks.jpg);
+  background-repeat: no-repeat;
+  margin: 0 -2.3rem;
+  background-size: auto 100%;/*to588*/
+  height: 15rem;
+}
+@media (min-width: 580px) {
+  #hero {
+    background-size: 100% auto;
+    height: 18rem;
+  }
+}
+@media (min-width: 960px) {
+  #hero {
+    height: 25rem;
+  }
+}
+@media (min-width: 1100px) {
+  #hero {
+    height: 30rem;
+  }
+}
+@media (min-width: 1300px) {
+  #hero {
+    height: 34.1rem;
+  }
+}
+h1#s-lg-guide-name {
+  font-size: 2.1rem;
+  color: #000;
+}
+@media (min-width: 637px) {
+  h1#s-lg-guide-name {
+    font-size: 3.3rem;
+  }
+}
+@media (min-width: 992px) {
+  #s-lg-col-126 {
+    margin-top: -2.7rem;
+  }
+}
+#block-sitewidesearchbar {
+  display:none;
+}
+.resource-link {    
+    text-align: center;
+    border: 5px solid #ebebeb;
+    font-weight: bold;    
+    width: 100%;
+    padding: 4rem 2.5rem;
+}
+@media (min-width: 992px) {
+  .resource-link {
+    max-width: 29.9rem;
+  }
+  .col-md-4#s-lg-col-2 {
+    position: relative;
+    top: -5rem;
+  }
+}
+@media (min-width: 1009px) {
+  .col-md-4#s-lg-col-2 {
+    top: -2.5rem;
+  }
+}
+@media (min-width: 1255px) {
+  .col-md-4#s-lg-col-2 {
+    top: 0;
+  }
+}
+.policy-page.resource-link {
+  margin: 0 0 2rem 0;
+  width: auto;
+}
+@media (min-width: 700px) {
+  .policy-page.resource-link {
+    float: right !important;
+    margin: 0 0 0 2.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .policy-page.resource-link {
+    width: 29.9rem;
+  }
+}
+.resource-link .explore-this {
+    margin-bottom: .2rem;
+    color: #999;
+    font-family: "Open Sans","Helvetica Neue","Arial Unicode MS",Helvetica,Arial,sans-serif;
+    font-size: 1.9rem;
+    font-weight: 300;
+    text-align: center;
+}
+.resource-link .link-text {
+  font-size: 1.9rem;
+}
+.resource-link {
+    text-align: center;
+    font-weight: bold;
+}
+@media (min-width: 1300px) {
+  .col-md-8.intro,
+  .col-md-8#s-lg-col-1 { 
+    width: 75%;
+
+  }
+  .col-md-4.callout,
+  .col-md-4#s-lg-col-2 {
+    width: 25%;
+  }
+
+}

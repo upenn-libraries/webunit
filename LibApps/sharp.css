@@ -1,0 +1,31 @@
+h1#s-lg-guide-name,
+.breadcrumb li#s-lib-bc-site,
+#updating  {
+	display:none;
+}
+.desktop  .s-lg-tabs-side {
+	margin-top: 8.5em;
+}
+#menubar, #searchholder, #navlinks {
+	display:none;
+}
+.header-wrapper {
+	height: 6.8em;
+}
+/*new*/
+#block-sitewidesearchbar {
+    background: transparent;
+    height: 5.5rem;
+    
+}
+
+h1 {
+    margin: 1.5rem 0 0 0;
+    color: #000;
+    font-style: oblique;
+    font-weight: 600;
+    text-align: center;
+}
+#block-sitewidesearchbar #searchholder {
+    display: none;
+}

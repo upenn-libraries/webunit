@@ -1,0 +1,33 @@
+/*accessibility section as on dental hp*/
+
+.listing-card p.fres-image-holder {
+    text-align:  center;
+}
+
+
+
+.listing-card p.fres-image-holder img {
+    
+    margin:  0 auto;
+    margin-top:  2rem;
+}
+
+.listing-card p.fres-image-holder img {
+  width:  50rem;
+}
+
+
+@media (min-width: 1200px) {
+  .listing-card p.fres-image-holder {
+    float:  right;
+    margin-left:  3rem;
+    width:  50rem;
+  }
+  .listing-card p.fres-image-holder img {
+     margin-top:  0;
+  }
+}
+.image-slider-card__caption {
+  text-align:  center;
+}
+

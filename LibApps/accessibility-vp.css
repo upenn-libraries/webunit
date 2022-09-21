@@ -1,0 +1,8 @@
+#content section.content-aside.section-margin div.contain.content-aside__flex div.content-aside__aside {
+	margin-top: 14rem;
+}
+#content > section:nth-child(8) > div:nth-child(1) {
+	border: solid 2px #bbb; 
+	padding: 3rem;
+	margin: 0 auto 5rem auto;
+}

@@ -1,0 +1,11 @@
+#s-lg-content-62010023 {
+   margin-left: 4rem;
+}
+@media (min-width: 977px) {
+	#s-lg-content-62010023 h2 {
+		margin-top: 0
+	}
+}
+ul.s-lg-subtab-ul:nth-child(2) {
+    display:none;
+}

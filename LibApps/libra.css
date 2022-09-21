@@ -1,0 +1,19 @@
+.hold-sign {text-align: center;}
+.sign {text-align: center; margin: 0 auto 3rem auto;}
+@media (min-width: 600px) {
+.sign {float: left; margin: 0 3rem 3rem 0;}
+}
+
+.libra-floorplan {
+	margin: 0 auto 8rem auto;
+	max-width:  120rem;
+}
+.libra-floorplan .image-slider-card__caption  {
+		margin-top:  -6rem;
+	}
+@media (min-width: 1350px) {
+	.libra-floorplan .image-slider-card__caption  {
+		margin-top:  -10rem;
+	}
+}
+

@@ -1,0 +1,418 @@
+
+
+	
+
+.nowrapsearchwidgettabStrip {	
+	padding: 0 3px;
+	
+	}
+.tabsearchwidgetContainer {/*holds the widget*/
+	font-family: "Arial Unicode MS","Lucida Grande",sans-serif;
+    line-height: 150%;
+	margin-bottom: 3px;
+	}
+.tabsearchwidgetContainer_tablist {/*holds the line of tabs*/
+    height: 22px;
+    left: .25em;/*temp*/
+    position: relative;
+    top: 0;
+	z-index:5;
+}
+.tablet.phone .tabsearchwidgetContainer_tablist  {
+	height: auto;
+}
+.tabsearchwidgetContainer_tabpane {
+	height: 149px;
+    left: 0;/*temp*/
+    position: relative;
+    top: 1px;
+    width: 100%;
+	background-color: #fff;
+	border: solid 1px #ccc;
+	z-index: 4;
+	/* Added for initial configuration */
+	display:none;
+}
+.tablet.phone .guideswidget .tabsearchwidgetContainer_tabpane {
+	border:none;
+}
+.tablet.phone .guideswidget #tab4.tabsearchwidgetContainer_tabpane {
+    height: 15em;
+}
+
+/*added for form positioning*/
+.tabsearchwidgetContainer_tabpane.first {
+	display:block;
+	}
+
+.tabsearchwidgetContainer_tabpane .pubmedsrch {
+	margin: 30px 0px 0px 85px;
+	}
+a.searchwidgettab {
+	margin: 0 1px -1px 0;
+	top:0;
+	border: solid 1px #ccc;
+	background-color: #e2e2e2;
+	 background-image: url("/images/common/tabEnableddk.png");
+	background-repeat: repeat-x;
+	padding: 2px 0 2px 7px;
+	white-space: nowrap;
+	font-family: "Arial Unicode MS","Lucida Grande",sans-serif;
+    line-height: 150%;
+	font-size: 12px;
+	display: inline-block;
+	cursor:pointer;
+	
+	/*added for the a link*/
+	color:#000;
+	text-decoration:none;
+	
+	/*added for initial status*/
+
+}
+.ie6 a.searchwidgettab, .ie7 a.searchwidgettab {
+	 zoom: 1;
+	*display:inline;
+	width:75px;
+}
+.ie7 a.searchwidgettab {
+	width: 85px;
+}
+.ie7 a.searchwidgettab img {
+	display: none;
+}
+.searchwidgettab:hover { 
+	/*border: solid 1px #c60;*//*#92a0b3;*/
+	background-image: url("http://guides.library.upenn.edu/js/dojo-161/dijit/themes/tundra/images/tabHover.gif");
+	outline:none;
+	}
+.searchwidgettab.active, .searchwidgettab.active:hover {	
+	position:relative;	
+	background-image: url("http://guides.library.upenn.edu/js/dojo-161/dijit/themes/tundra/images/tabEnabled.png");
+	background-color: #fff;
+	background-image: none;
+	border: solid 1px #ccc;
+	border-bottom: solid 2px #fff;
+	cursor:default;
+	outline:none;
+	/*added for initial status*/
+
+}
+
+.ie6 .tabsearchwidgetContainer_tablist .active, .ie6 .tabsearchwidgetContainer_tablist .active:hover {	
+	position:relative;	
+	background-image: url("http://guides.library.upenn.edu/js/dojo-161/dijit/themes/tundra/images/tabEnabled.png");
+	background-color: #fff;
+	background-image: none;
+	border: solid 1px #ccc;
+	border-bottom: solid 1px #fff;
+	cursor:default;
+	
+	/*added for initial status*/
+
+}
+.searchwidgettab img {    
+	 width: 8px; 
+	 height: 22px; 
+	 float:right;
+	vertical-align: middle;
+	margin-top:-3px;
+	background-image:url(/images/common/tabrightbordercto9.png);
+	background-repeat:repeat-y;
+	background-position:right top;
+}
+.searchwidgettabLabel {
+	
+}	
+
+
+
+
+
+
+
+td {
+	vertical-align: top;
+	}
+#mainsrch {
+	line-height: 130%;
+	font-family: "Lucida Grande","Lucida Sans Unicode","Arial Unicode MS",Helvetica,sans-serif;
+	}
+.holdmainq {
+		padding: 0 8px 0 9px;
+	}
+.mainq {
+	background-image: url("http://dla.library.upenn.edu/dla/franklin/images/common/searchboxicon.png");
+	background-position: 4px 50%;
+	background-repeat: no-repeat;
+	padding: 4px 5px 5px 20px ;
+	width: 367px;
+}
+.holdsearchfields select {
+	height: 27px;
+	margin-right: 8px;
+	padding-top: 3px;
+	width: 169px;
+	}
+input.mainq, .holdsearchfields select {
+	border: solid 1px #999;    
+	}
+
+input.mainq, .holdsearchfields select option {
+	line-height: 150%;
+	}
+.holddlasearchbutton {
+	width: 100%;
+	}
+.holddlasearchbutton input {   
+	background-image: url("http://dla.library.upenn.edu/dla/franklin/images/franklin/dlasearchgo.gif");
+	background-position: top left;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	height: 27px;
+	width: 38px;
+	letter-spacing: 0.02em;
+	padding-bottom: 3px;
+	border: none;
+	
+	}
+table.holdsearchfields	{
+	margin: 7px 0 0 9px;
+	}
+.holdlabel	{
+	padding-top: 5px;
+}
+.holdlabel label {font-weight: bold; font-style:oblique;letter-spacing: .02em;}
+
+#top {
+	background-image: url(http://www.library.upenn.edu/images/biomed/2012/vitruvian.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	height:73px;
+	padding: 49px 0 0 314px; 
+	margin-bottom: 10px;
+	}
+ 
+#top h1 {
+	margin: 0 0 0 0;
+	color: #625f68;
+	font-size: 24px;
+	font-weight: bold;
+	font-style:oblique;
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
+	/*color: #222;*/
+text-shadow: 0px 1px 1px #fff;
+	}
+
+.pubmedsearch {margin: .25em 0 0 20px;}
+.tablet.phone .pubmedsearch {
+	margin: 2em 0 0 .5em;
+}
+
+.holdpubmedimageheader {
+	background-image: url(http://www.library.upenn.edu/images/libguides//pubmed_icon.gif); 
+	background-repeat: no-repeat;
+	padding: 15px 0 7px 120px; 
+	height:2.7em;
+	margin: 1.7rm 0 3px 20px;}
+.tablet.phone .holdpubmedimageheader {
+	margin-left: 0;
+	padding: 35px 0 7px 0.5em;
+	height:4.3em;
+}
+.holdpubmedimageheader img {width: 100px; height: 12px;}
+.tablet.phone .holdpubmedimageheader img {display:none;}
+.headerinstr {font-style:oblique;}
+.pubmedsearchinput {width:27em; height: 2.7em;}
+.tablet.phone .pubmedsearchinput {width:auto;}
+#pubmedsearch-ariaLabel {
+	font-size: .92em;
+}
+form label {
+    font-size: 1em;
+}
+h3.ejsearch label,
+.franklinset h4 label {
+	margin: 0 0 2px 0;
+	font-size: 12px; 
+	font-style:oblique;
+	letter-spacing: .03em; 
+	font-weight: normal;
+}
+.tablet.phone h3.ejsearch {
+	margin-top: 1em;
+}
+.franklinset h4 label {
+	letter-spacing: .03em;
+}
+.guideswidget .morelinks .holdradio {
+    border: 1px solid #ccc;
+    border-radius: 0.42em;
+    display: inline-block;
+    margin: 0 0.42em 0 0;
+    padding: 0.5em;
+    letter-spacing: 0.02em;
+}
+.guideswidget .morelinks {
+    margin: 1em 0 0.5em 0.5em
+}
+.phone .guideswidget .morelinks {
+	display:block;
+}
+
+.floatleft {float:left;}
+/*mistake was here*/
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.tabform {
+	margin: 2.2em 0 0 .5em; 
+	width: 415px;
+}
+.franklinset .tabform {
+	margin: .7em 0 0 .5em; 
+}
+.tablet.phone .tabform {
+	margin-top: 0;
+}
+input[type="text"], select {border: solid 1px #999;}
+.tabsearchinput {
+	width:220px;
+	height: 2.7em;
+	}
+.tabsearchselect {
+	width:150px;
+	margin-left:5px;
+	height: 2.7em;
+	}
+.tablet.phone .tabsearchselect {
+	margin-left:0;
+	}
+.tablet.phone .floatleft.input.first {
+	margin-bottom: .25em;
+	float:none;
+	}
+input.pennwidgetbutton, 
+input.pennwidgetbuttonsm {
+	border-top: solid 1px #aaa;
+	border-right: solid 1px #888;
+	border-bottom: solid 1px #888;;
+	border-left: solid 1px #aaa;
+	letter-spacing: 0.01em;
+	font-size: 11px;
+	font-weight: bold;
+	cursor:pointer;
+	line-height: 150%;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fafafa+0,e4e6e8+50,d5d8db+96,e2e3e5+100 */
+background: #fafafa; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZhZmFmYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2U0ZTZlOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk2JSIgc3RvcC1jb2xvcj0iI2Q1ZDhkYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMmUzZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #fafafa 0%, #e4e6e8 50%, #d5d8db 96%, #e2e3e5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fafafa 0%,#e4e6e8 50%,#d5d8db 96%,#e2e3e5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fafafa 0%,#e4e6e8 50%,#d5d8db 96%,#e2e3e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#e2e3e5',GradientType=0 ); /* IE6-8 */
+
+	
+}
+input.pennwidgetbutton:hover, 
+input.pennwidgetbuttonsm:hover {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2e3e5+0,d5d8db+4,e4e6e8+50,fafafa+100 */
+background: #e2e3e5; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UyZTNlNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQlIiBzdG9wLWNvbG9yPSIjZDVkOGRiIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZTRlNmU4IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZhZmFmYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(top,  #e2e3e5 0%, #d5d8db 4%, #e4e6e8 50%, #fafafa 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #e2e3e5 0%,#d5d8db 4%,#e4e6e8 50%,#fafafa 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #e2e3e5 0%,#d5d8db 4%,#e4e6e8 50%,#fafafa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e3e5', endColorstr='#fafafa',GradientType=0 ); /* IE6-8 */
+
+}
+input.pennwidgetbuttonsm {
+	padding: .6em .75em;
+	margin-left: 0;
+	height:3em;
+
+}
+
+
+
+
+.tabsearchwidgetContainer {height: 172px;}
+.leftcol.behinditch {padding-top:41px;}
+
+.colboxbody.penntext {font-weight: bold;padding-bottom: 8px; padding-left: 12px;}
+.moretools {border-top: dotted 1px #999;}
+.renewbooks {height: 17px; padding: 1px 0 1px 0;}
+
+#footer {clear:both; font-size: 11px; width: 970px; margin: 1em auto .5em auto;padding-top:.72em;}
+.footerleft {width: 36.18em;height: 10.91em;float:left;padding-top:.55em;}
+.holdmobile {width: 140px; margin-left: auto;}
+.socmed {text-align: left;}
+.socmed a img {
+	background-image: url("http://www.library.upenn.edu/images/common/socmedia/socmediasprite.gif");
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 26px;
+	vertical-align: text-top;
+	}
+.finditinfo {height: 2.72em;}
+.browseguides {text-align:right; padding: .83em .33em 0 0;}
+.toolsacross {width: 37.5em;clear:left;padding-top:.42em;}
+
+
+		
+#user_gmap{ width:398px;height:120px; margin:20px20px 0px; border:solid 1px #aaa; }
+
+.guideswidget .searchwidgettab.active::after {
+    border-color: transparent transparent transparent;
+    border-style: none;
+    border-width: 0;
+    content: "";
+    display: block;
+    height: 0;
+    left: 0;
+    margin-left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.guideswidget .searchwidgettab.active, 
+.guideswidget .searchwidgettab.active:hover {
+    color: #000;
+    background-color: #fff !important;
+    background-image: none;
+    border: solid 1px #bbb;
+  border-bottom: solid 1px #fff;
+box-shadow:none;
+  
+}
+.guideswidget a.searchwidgettab {
+    color: #000;
+    cursor: pointer;
+    font-family: "Arial Unicode MS","Lucida Grande",sans-serif;
+    font-size: 12px;
+    line-height: 150%;
+    white-space: nowrap;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-shadow: none;
+  font-weight:normal;
+} 
+.tablet.phone .guideswidget a.searchwidgettab {
+	width: 98%;
+	height: 3.3em;
+}
+.tabsearchwidgetContainer.guideswidget {
+	margin: 0 -10px;
+}
+.tablet.phone .tabsearchwidgetContainer.guideswidget {
+	height: auto !important;
+}
+.tablet #s-lg-guide-main {padding: 0;}
+
+.tablet.phone .page-contents.container {height: auto !important;}

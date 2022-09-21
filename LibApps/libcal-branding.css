@@ -1,0 +1,83 @@
+
+#pageheader {
+    background-color: #011f5b;
+    background-repeat: no-repeat;
+    background-position: 2rem center;
+    background-size: auto 8.5rem;
+    height: 17rem;
+}
+#pageheader.libcal-all {
+    background-image: url(https://libapps.s3.amazonaws.com/sites/231/include/libcal-logo-reservations-events-phone8.svg);
+}
+#pageheader.libcal-appts {
+    background-image: url(https://www.library.upenn.edu/sites/default/files/images/logos/svg/libcal-logo-appts-phone2.svg);
+}
+#pageheader.libcal-calendar {
+    background-image: url(https://www.library.upenn.edu/sites/default/files/images/logos/svg/libcal-logo-wkshops-events-phone7.svg);
+}
+#pageheader.reserve {
+    background-image: url(https://www.library.upenn.edu/sites/default/files/images/logos/svg/libcal-logo-reserve-phone4.svg);
+}
+@media (min-width: 350px) {
+    #pageheader {
+        background-size: auto 11rem;
+    }
+}
+@media (min-width: 400px) {
+    #pageheader {
+        background-size: auto 13rem;
+    }
+}
+@media (min-width: 700px) {
+    #pageheader {
+        background-size: 95% auto;
+        height: 13rem;
+    }
+    #pageheader.libcal-all {
+        background-image: url(https://www.library.upenn.edu/sites/default/files/images/logos/svg/libcal-logo-reservations-events3.svg);
+    }
+    #pageheader.libcal-appts {
+        background-image: url(https://www.library.upenn.edu/sites/default/files/images/logos/svg/libcal-logo-appts3.svg);
+    }
+    #pageheader.libcal-calendar {
+        background-image: url(https://www.library.upenn.edu/sites/default/files/images/logos/svg/libcal-logo-wkshops-events4.svg);
+    }
+    #pageheader.reserve {
+        background-image: url(https://www.library.upenn.edu/sites/default/files/images/logos/svg/libcal-logo-reserve7.svg);
+    }
+}
+@media (min-width: 850px) {
+    #pageheader {
+        background-size:auto 7rem;
+    }
+}
+ 
+#logo {
+    display: block;
+    position: relative;
+    z-index: 3;
+    top: 7px;
+    left: 2rem;
+    width: 254px;
+    max-width:  100%;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+#logo img {
+    height: 10rem; 
+    width: 274rem;
+    max-width:  100%;
+}
+#upenn-footer {
+    background-color: #011f5b;
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+}
+#upenn-footer a {
+    color:  #fff;
+}
+#upenn-footer .phone-row, 
+#upenn-footer .library-row {
+    padding:  .7rem;
+}

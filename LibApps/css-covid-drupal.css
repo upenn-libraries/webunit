@@ -1,0 +1,284 @@
+
+
+.path-about-covid-19 {}
+.path-about-covid-19 main#content {
+	padding-bottom: 0;
+}
+.site-main, .breadcrumbs-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+}
+@media (min-width: 507px) {
+	.site-main, .breadcrumbs-wrapper {
+	    padding-left: 1.9rem;
+	    padding-right: 1.9rem;
+	}
+}
+/*.wrapper--breadcrumb,*/
+.wrapper.wrapper--breadcrumb,
+#block-pennlib-page-title h1.title.page-title {
+	display:none;
+}
+#content-column-block-564,
+#block-coviddrupalhero {
+	max-width: 1400px;
+	margin: 0 auto;
+	background-color: #587492;
+    background-image: url(https://www.library.upenn.edu/sites/default/files/images/covid/blog-girl-2048-2.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    height: 343px;
+    background-size: 1400px 343px;
+    margin: 0 -1.9rem!important;
+    position: relative;
+    top: -1rem;
+    padding: 0 2rem;
+}
+#content-column-block-564 .covid-hero h1.covid-hero-text span,
+#block-coviddrupalhero  .covid-hero h1.covid-hero-text span {
+	color: #fff;
+	display:block;
+	max-width: 95%;
+	text-align: center;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.45;
+}
+
+.block-region-zone2-across .statement {
+	margin: -1rem auto 4.3rem;
+	max-width: 80rem;
+	font-size: 2rem;
+	text-align: center;
+	line-height: 1.9;
+	padding: 0 1.9rem;
+}
+@media (min-width: 507px) {
+	.block-region-zone2-across .statement {
+		padding: 0;
+	}
+}
+#content-column-block-564,
+#block-coviddrupalhero { 
+	padding-top: 0;
+}
+@media (min-width: 450px) {
+	#content-column-block-564,
+	#block-coviddrupalhero { 
+		padding-top: 3rem;
+	}
+}
+@media (min-width: 508px) {
+	#content-column-block-564,
+	#block-coviddrupalhero { 
+		padding-top: 6rem;
+	}
+}
+@media (min-width: 600px) {
+	#content-column-block-564,
+	#block-coviddrupalhero { 
+		padding-top: 5.2rem;
+	}
+}
+#content-column-block-564 .covid-hero h1.covid-hero-text span.header,
+#block-coviddrupalhero .covid-hero h1.covid-hero-text span.header {
+	font-size: 5rem;
+	text-transform: uppercase;
+}
+#content-column-block-564 .covid-hero h1.covid-hero-text span.subheader, 
+#block-coviddrupalhero .covid-hero h1.covid-hero-text span.subheader {
+	font-size: 3.5rem;
+}
+@media (min-width: 700px) {
+	#content-column-block-564 .covid-hero h1.covid-hero-text span.header
+	#block-coviddrupalhero .covid-hero h1.covid-hero-text span.header {
+	    font-size: 6rem;
+	}
+	#content-column-block-564  .covid-hero h1.covid-hero-text span.subheader,
+	#block-coviddrupalhero .covid-hero h1.covid-hero-text span.subheader {
+		font-size: 3.5rem;
+	}
+}
+@media (min-width: 800px) {
+	#content-column-block-564 .covid-hero h1.covid-hero-text span.header,
+	#block-coviddrupalhero .covid-hero h1.covid-hero-text span.header {
+	    font-size: 6rem;
+	}
+	#content-column-block-564  .covid-hero h1.covid-hero-text span.subheader,
+	#block-coviddrupalhero .covid-hero h1.covid-hero-text span.subheader {
+		font-size: 4rem;
+	}
+}
+@media (min-width: 960px) {
+	#content-column-block-564 .covid-hero h1.covid-hero-text span.header,
+	#block-coviddrupalhero .covid-hero h1.covid-hero-text span.header {
+	    font-size: 6.5rem;
+	}
+	#content-column-block-564 .covid-hero h1.covid-hero-text span.subheader,
+	#block-coviddrupalhero .covid-hero h1.covid-hero-text span.subheader {
+		font-size: 4.5rem;
+	}
+}
+@media (min-width: 1016px) {
+	#content-column-block-564 .covid-hero h1.covid-hero-text span.header,
+	#block-coviddrupalhero .covid-hero h1.covid-hero-text span.header {
+	    font-size: 8.9rem;
+	    text-transform: uppercase;
+	}
+	#content-column-block-564 .covid-hero h1.covid-hero-text span.subheader,
+	#block-coviddrupalhero .covid-hero h1.covid-hero-text span.subheader {
+		font-size: 5rem;
+	}
+}
+#zone3,
+#zone4 {
+	max-width: 100rem;
+	margin: 0 auto;
+}
+#zone4 {
+	margin-top: 5.5rem;
+}
+.panel-display.trl_landing .zone3_left,
+.panel-display.trl_landing .zone4_left {
+	padding-right: 1.8rem;
+}
+.panel-display.trl_landing .zone3_right,
+.panel-display.trl_landing .zone4_right {
+	padding-left: 1.8rem;
+	margin-top: 5.5rem;
+}
+
+@media (min-width: 800px) {
+	.panel-display.trl_landing .zone3_right,
+	.panel-display.trl_landing .zone4_right {
+		margin-top: 0;
+	}
+}
+.card-blurb-top {
+	
+	background: #5d758f;
+	background: -moz-linear-gradient(top,  #5d758f 0%, #7799bd 100%);
+	background: -webkit-linear-gradient(top,  #5d758f 0%,#7799bd 100%);
+	background: linear-gradient(to bottom,  #5d758f 0%,#7799bd 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5d758f', endColorstr='#7799bd',GradientType=0 );
+}
+.card-blurb-inner {
+	height: 18.2rem;
+	background-repeat:no-repeat;
+	background-size: 103px 90px;
+	background-position: 32px 43px;
+	padding: 3.8rem 1.5rem 0 15rem;
+}
+
+.card-blurb-inner h3 {
+	font-size: 2.6rem; 
+	color: #fff; 
+	font-family: 'Gentium Basic', serif; 
+	font-weight: bold;	
+	margin: 0; 
+	text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.55);
+	line-height: 1.28;
+}
+@media (min-width: 315px) {
+	.card-blurb-inner h3 {
+		font-size: 3rem; 
+	}
+}
+
+@media (min-width: 507px) {
+	.card-blurb-inner {
+		padding-left: 17rem;
+	}
+	.card-blurb-inner h3 {
+		font-size: 4.2rem;
+		
+	}
+	.card-blurb-inner.ebooks {
+		padding-top: 3.8rem;
+	}
+	/*.card-blurb-inner.ebooks {
+		padding-top: 1.5rem;
+	}*/
+}
+@media (min-width: 800px) {
+	.card-blurb-inner {
+		padding-top: 4.2rem;
+	}
+	.card-blurb-inner.ebooks {
+		padding-top: 2.8rem;
+	}
+	.card-blurb-inner h3 {
+		font-size: 3.5rem;
+	}
+}
+@media (min-width: 875px) {
+	.card-blurb-inner.ebooks {
+		padding-top: 4.2rem;
+	}
+}
+@media (min-width: 960px) {
+	.card-blurb-inner {
+		padding-top: 3.8rem;
+	}
+	.card-blurb-inner.ebooks {
+		padding-top: 3.8rem;
+	}
+	.card-blurb-inner h3 {
+		font-size: 4.2rem;
+	}
+}
+
+.card-blurb-inner.talk {
+	background-image: url(https://www.library.upenn.edu/sites/default/files/images/covid/talk.png);
+}
+.card-blurb-inner.ebooks {
+	background-image: url(https://www.library.upenn.edu/sites/default/files/images/covid/ebooks.png);
+}
+.card-blurb-inner.teach {
+	background-image: url(https://www.library.upenn.edu/sites/default/files/images/covid/teach.png);
+}
+.card-blurb-inner.tech {
+	background-image: url(https://www.library.upenn.edu/sites/default/files/images/covid/tech.png);
+}
+.card-blurb-text {
+	background: #eee; 
+	padding: 1.6rem 2.5rem 3rem 2.5rem;
+}
+.covidlist {
+	padding-left: 0;
+	list-style-image: none;
+	list-style-type: none;
+	margin: 0;
+}
+.covidlist li {
+	padding-left: 3rem; 
+	background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/navydot9.png); 
+	background-repeat: no-repeat;
+	background-position: left 10px;
+	margin-top: 1.5rem;
+}
+@media (min-width: 800px) {
+	p.like-li.ebooks {
+		
+	}
+	.like-line.teach {
+		margin-top: 2.4rem;
+	}
+}
+@media (min-width: 877px) {
+	p.like-li.ebooks {
+		height: 2.4rem;
+		overflow: hidden;
+	}
+}
+@media (min-width: 951px) {
+	p.like-li.ebooks {
+		height: auto;
+		margin: 1.5rem 0 1rem;
+	}
+}
+@media (min-width: 960px) {
+	div.like-line.teach {
+		margin-top: 0;
+	}
+}

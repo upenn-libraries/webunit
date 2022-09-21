@@ -1,0 +1,4 @@
+jQuery(function($){
+$("#equip_.s-lc-public #time_grid_cont").before('<p style="background: #f9f1c6; padding: 1rem;"><strong>COVID-19 update:</strong> The Penn Libraries is now hosting both virtual and in-person workshops and events. Please refer to individual event pages for details. In accordance with <a href="https://coronavirus.upenn.edu/content/public-health-guidance">Penn’s COVID-19 Guidelines</a>, outside visitors attending events on campus are required to wear a mask, attest to having been vaccinated, and register their contact information with the organizers in case follow-up from contact tracers is needed.</div>'
+)
+})

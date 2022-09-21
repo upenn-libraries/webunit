@@ -1,0 +1,41 @@
+
+.production #s-lg-guide-header-info, #s-lib-bc-list {
+position:absolute!important;
+height: 1px; width: 1px;padding:0;margin:0;overflow:hidden;clip:rect(1px 1px 1px 1px);clip:rect(1px, 1px, 1px, 1px);
+}
+#s-lg-guide-tabs {border:none;}
+.tablet .ref-inline-block {
+width: 45%;
+}
+ .or-inline-block {
+padding-top: 5em;
+}
+.tablet .or-inline-block {
+width: 9%;
+}
+.phone .or-inline-block {
+padding: 1em 0;
+}
+.phone.tablet .ref-inline-block, .phone.tablet .or-inline-block {
+width: 100%;
+display:block
+}
+.ref-inline-block, .or-inline-block {
+display:inline-block;
+vertical-align:top;
+*vertical-align:top;
+*zoom:1;
+text-align: center; 
+}
+
+.desktop .ref-inline-block {
+width: 47%;
+}
+.desktop .or-inline-block {
+width: 5%;
+}
+.refw-box {
+-webkit-box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
+box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.4);
+}

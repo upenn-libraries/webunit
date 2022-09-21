@@ -1,0 +1,541 @@
+body {
+    padding-left:0;
+    padding-right:0;
+    background-color: #f2f2f2;
+}
+.container {
+    width: 1400px;
+    max-width: 99%;
+    background-color: #fff;
+    padding: 0 1em;
+}
+.visually-hidden {
+    border: 0 none !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px !important;
+    overflow: hidden;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+}
+td {
+    vertical-align: top;
+}
+#headerbg {
+    max-width: 1400px;margin: 0 auto;
+}
+#navandidbar {
+    height: 33px;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding-right: 3em;
+}
+.phone #navandidbar {
+    padding:3px 0 0 5px;
+    height: 40px;
+}
+#navlinks {
+    position: relative;
+    text-align: right;
+    width: auto;
+    z-index: auto;
+}
+ul.topnav {
+    float: right;
+    font-size: 1em;
+    list-style: none outside none;
+    margin: 5px 1em 0 0;
+    padding-left: 1.67em;
+}
+.phone ul.topnav {
+    padding-left: 0;
+    margin: 5px 0 0 0;
+}
+ul.topnav li.holdloginout,
+ul.topnav li.holdtophelp {
+    margin-top: -0.25em;
+}
+ul.topnav li.holdtophelp {
+    width: 11em;
+}
+ul.topnav li.holdloginout {
+    width: 6.5em;
+}
+ul.topnav li {
+    float: left;
+    margin: 0;
+    padding: 0 0.81em 0 1.67em;
+    position: relative;
+}
+.phone ul.topnav li {
+    padding: 0 0 0 0;
+}
+#navlinks .idbarbutton {
+    vertical-align: top;
+}
+#navlinks .idbarbutton {
+    vertical-align: top;
+}
+#navlinks .idbarbutton {
+    vertical-align: top;
+}
+#clickhelpdropdown {
+    width: 8.5em;
+}
+#clickacctdropdown {
+    width: 6em;
+}
+.idbarbutton {
+    background: linear-gradient(to bottom, #fefefe 0%, #fcfcfc 24%, #f6f6f6 36%, #eeefef 50%, #e0e0e0 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #000;
+    cursor: pointer;
+    font-family: "Source Sans Pro","Arial Unicode MS",Helvetica,sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    letter-spacing: 0.03em;
+    padding: 0.25em 0.67em 0.17em 0.75em;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+.idbarbutton img {
+    background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/arrowdownminus.gif);
+    background-position: right top;
+    background-repeat: no-repeat;
+    height: 5px;
+    width: 7px;
+}
+.idbarbutton.active img {
+    background-position: right bottom;
+}
+ul#helpDropdown {
+    background-color: #fff;
+    border-color: #ccc #ccc -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    box-shadow: 0 0.17em 0.17em rgba(0, 0, 0, 0.75);
+    color: #000;
+    display: none;
+    left: -1.67em;
+    top: 2.33em;
+    width: 11.67em;
+    z-index: 51;
+}
+ul#helpDropdown li {
+    border-bottom: 1px solid #ccc;
+    font-family: "Source Sans Pro","Arial Unicode MS",Helvetica,sans-serif;
+    line-height: 1.33;
+    list-style-type: none;
+    width: 10.67em;
+}
+ul.topnav li ul.subnav {
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: left;
+}
+ul.topnav li ul.subnav li {
+    border-bottom: 1px solid #ccc;
+    clear: both;
+    margin: 0;
+    padding: 0 0 0 1.67em;
+    width: 93%;
+}
+ul#helpDropdown li {
+    border-bottom: 1px solid #ccc;
+    font-family: "Source Sans Pro","Arial Unicode MS",Helvetica,sans-serif;
+    line-height: 1.33;
+    list-style-type: none;
+    width: 10.67em;
+}
+ul#helpDropdown li,
+ul#acctDropdown li {
+    padding: 0.25em 0 0 1em;
+}
+ul#acctDropdown {
+    background-color: #fff;
+    border-color: #ccc #ccc -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    box-shadow: 0 0.17em 0.17em rgba(0, 0, 0, 0.75);
+    color: #000;
+    display: none;
+    height: 4em;
+    left: -9.7em;
+    width: 17.25em;
+    z-index: 51;
+}
+ul#acctDropdown.subnav {
+    top: 2.33em;
+}
+.subnav li {
+    padding: 0.42em;
+}
+ul#helpDropdown li.chatdropdown {
+    padding: 0.25em 0 0 0.5em;
+}
+ul#helpDropdown a,
+ul#helpDropdown a:visited {
+    padding: 0.18em 0 0.18em 0.83em;
+    text-decoration: none;
+}
+#navlinks a,
+#navlinks a:visited,
+a#logout,
+a#logout:visited,
+.helloname,
+.loginname,
+.helloname:visited,
+.loginname:visited,
+.nameandacctlink a,
+.nameandacctlink a:visited {
+    color: #000;
+}
+.nameandacctlink .helloname,
+.nameandacctlink .hellocolon {
+    display: none;
+}
+#navandidbar.loggedin #acctDropdown {
+    display: none !important;
+}
+.loggedin #loginlink,
+.loggedin #acctDropdown,
+.loggedin #clickacctdropdown,
+#logout {
+    display: none;
+}
+.loggedin #logout {
+    display: inline-block;
+}
+#navlinks .buttonarrowdown,
+#navlinks .buttonarrowminus,
+.buttonarrowdown,
+#navlinks .buttonhelpdown,
+#navlinks .buttonhelpminus,
+.buttonhelpdown {
+    vertical-align: top;
+}
+.loggedin .nameandacctlink .helloname,
+.loggedin .nameandacctlink,
+.loggedin .nameandacctlink .hellocolon {
+    display: inline;
+}
+.tablet li.holdtophelp, .tablet li#homepagelink, .tablet li.nameandacctlink {
+    display:none;
+}
+
+.holdloginout {
+    display:none;
+}
+/*theirs*/
+#s-la-bc > .col-md-12 {
+    padding: 0;
+}
+#s-la-page-title-bar {
+    margin: 0 -1em;
+}
+
+.s-la-content-iconitem-icon .fa-envelope {
+    font-size: 20px;
+}
+
+
+.s-la-content-iconitem-icon .fa {
+    font-size: 24px;
+    text-align: left;
+    width: 22px;
+}
+.s-la-content-iconitem-icon .fa.fa-envelope {
+    font-size: 20px;
+}
+.s-la-content-iconitem-icon .fa.fa-mobile {
+    font-size: 30px;
+}
+
+
+#sitename {
+    font-size: 30px;
+    font-weight: normal;
+    height: auto;
+    letter-spacing: 0.03em;
+    width: auto;
+    font-style: oblique;
+    min-height: 40px;
+    margin-left: 216px;
+    padding-top:7px;
+}
+h1.phoneonly {
+    background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/shieldmobileguides.png);
+    background-repeat: no-repeat;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    height: 2em;
+    margin: 3px 0 0 3px;
+    padding: .33em 0 0 2em;
+}
+.phone h1.phoneonly {display:block;}
+#sitename, #sitename a, #sitename a:visited {
+    color: #fff;
+}
+
+
+#logo {
+    background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/lib-logo-innav-white@2x.png);
+    background-repeat: no-repeat;
+    float:left;
+    background-size: 108px 40px;
+  
+}
+#logo, #logo img {
+    height: 40px;
+    width: 108px;
+}
+#logo, #logout, #login {
+    cursor: pointer;
+}
+.phone #logo, .phone #sitename {
+    display:none;
+}
+
+
+#franklintabs {
+    margin: 12px 0 0 13%;
+
+}
+.phone #franklintabs {
+    margin: 4px 0 0 0;
+}
+
+a.searchwidgettab { 
+    background-repeat:repeat;
+    background: none repeat scroll 0 0 rgba(133, 144, 180, 0.7);
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: .06em;
+    
+    top:0;
+    height: auto;
+    border-color: #999 #999 #ddd #fff;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,1), -1px 0 0 rgba(0,0,0,.5);
+    cursor: pointer;
+    display: inline-block;
+    vertical-align:top;
+    /*IE Hack*/
+    zoom: 1;
+    *display: inline;
+    font-family: "Source Sans Pro","Arial Unicode MS",Helvetica,sans-serif;
+    line-height: auto;
+    margin: 0;
+    text-decoration: none;
+    position:relative;
+    padding: .5em 2.08333em;  
+}
+.phone a.searchwidgettab {
+    padding: .42em .75em;  
+}
+
+.ie7 a.searchwidgettab, .ie8 a.searchwidgettab {    
+    background-color: #8a92ab;  
+    background: url(https://libapps.s3.amazonaws.com/customers/220/images/8590b4x7.png);
+    background-repeat:repeat;   
+}
+.searchwidgettab:hover {
+    background: none repeat scroll 0 0 rgba(82, 93, 133, 0.85);
+    text-decoration: none;
+    }
+.ie7 .searchwidgettab:hover, .ie8 .searchwidgettab:hover {
+    background-image: none;
+    background-color: #586286;
+    }
+.searchwidgettab.active:after { 
+    content:'';
+    display:block;
+    position:absolute;
+    top:100%; /*should be set to 100% */
+    left: 50%;
+    margin-left: -.5em;
+    width:0;
+    height:0;
+    border-color: #620606 transparent transparent transparent; /*border color should be same as div div background color*/
+    border-style: solid;
+    border-width: .5em;
+}
+.searchwidgettab.active, .searchwidgettab.active:hover {    
+    font-family: "Source Sans Pro","Arial Unicode MS",Helvetica,sans-serif;
+    font-size: 1em;
+    letter-spacing:.03em;
+    color: #ffffff;
+    background: -moz-linear-gradient(  top,  
+        #d13737 0%,  
+        #cd2f2f 10%,  
+        #932222 50%,  
+        #620606 50%,  
+        #620606);
+    background: -webkit-gradient(  linear, left top, left bottom,  
+        from(#d13737),  
+        color-stop(0.10, #cd2f2f),  
+        color-stop(0.50, #932222),  
+        color-stop(0.50, #620606),  
+        to(#620606));
+    background: -webkit-linear-gradient(top, #d13737 0%, #cd2f2f  10%, #932222  50%, #620606  50%, #620606 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #d13737 0%, #cd2f2f 10%, #932222 50%, #620606 50%, #620606 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #d13737 0%, #cd2f2f 10%, #932222 50%, #620606 50%, #620606 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #d13737 0%, #cd2f2f 10%, #932222 50%, #620606 50%, #620606 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d13737', endColorstr='#620606', GradientType=0 ); /* IE6-9 */
+ 
+ 
+ 
+    -moz-border-radius: .25em;
+    -webkit-border-radius: .25em;
+    border-radius: .25em;
+    border: 1px solid #601616;
+    border-top:1px solid #cc3333;
+    -moz-box-shadow:
+ 0px 0px 1px rgba(168,39,39,1),  inset 0px 1px 0px 1px rgba(199,46,46,1);
+    -webkit-box-shadow:
+ 0px 0px 1px rgba(168,39,39,1),  inset 0px 1px 0px 1px rgba(199,46,46,1);
+    box-shadow:
+ 0px 0px 1px rgba(168,39,39,1),  inset 0px 1px 0px 1px rgba(199,46,46,1);
+    text-shadow:
+ 0px 0px 1px rgba(000,000,000,0.1),  0px 1px 0px rgba(255,255,255, 0.4);
+    font-weight: normal;
+    margin-top:-1px;
+}
+
+.searchwidgettab.active h3, .searchwidgettab.active:hover h3, .searchwidgettab h3, .searchwidgettab:hover h3 {
+    color: #fff;
+    font-family: "Source Sans Pro","Arial Unicode MS",Helvetica,sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display:inline;
+}
+.ie9 a.searchwidgettab.active, .ie9 a.searchwidgettab.active:hover {
+    background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/searchwidget-activetab-bg.png);
+    background-repeat:repeat-x;
+}
+#catalogstab.searchwidgettab.active {
+    border-left: 1px solid #000;
+}
+#searchholder {
+    width: auto;
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 28px;
+    padding: 0.83em 0 0.53em;
+    background-color: #dfdfdf;
+}
+form.searchform {
+    margin-left: 13.5%;
+    width: 625px;
+}
+.tablet form.searchform {
+    margin-left: 1em;
+    width: auto;
+}
+form label {
+    font-size: 12px;
+}
+
+.holdmainq {
+    padding: 0 8px 0 0;
+}
+
+.holdmainq input, .holdselectq select {
+    border: 1px solid #999;
+    font-size: 12px;
+}
+
+.mainq {
+    background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/searchboxicon.png);
+    background-position: 4px 50%;
+    background-repeat: no-repeat;
+    padding: 4px 5px 5px 20px;
+    width: 367px;
+}
+.tablet .mainq {  
+    width: auto;
+}
+.searchfieldleft, .searchfieldleft1 {
+    float: left;
+}
+#searchholder select {
+    height: 32px;
+    margin-right: 8px;
+    padding-top: 6px;
+    width: 169px;
+
+}
+.holddlasearchbutton {
+    width: auto;
+}
+.holddlasearchbutton input {
+    padding: 1px 4px 1px 6px;
+    background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/dlasearchgo.gif);
+    background-size: 37px 100%;
+    background-repeat: no-repeat;
+    border: 0 none;
+    font-family: Verdana,"Source Sans Pro","Arial Unicode MS",Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.02em; 
+    padding: 6px 8px 5px;
+}
+#s-lib-bc .breadcrumb, #s-lib-admin-bc .breadcrumb {
+    font-size: 12px;
+    margin: 7px 0 8px 8px;
+}
+
+#s-lib-public-header {
+    padding-bottom: 10px;
+}
+#s-lib-public-header.s-lib-header {
+    height: 49px;
+}
+#s-lib-public-header.s-lib-header{
+/*This is the negative curve under the breadcrumbs. use only on content pages. not on the index page*//*
+background: -moz-linear-gradient(top,  #999999 0%, #ffffff 1%, #ffffff 69%, #999999 70%, #dedede 70%, #ffffff 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#999999), color-stop(1%,#ffffff), color-stop(69%,#ffffff), color-stop(70%,#999999), color-stop(70%,#dedede), color-stop(100%,#ffffff)); 
+background: -webkit-linear-gradient(top,  #999999 0%,#ffffff 1%,#ffffff 69%,#999999 70%,#dedede 70%,#ffffff 100%); 
+background: -o-linear-gradient(top,  #999999 0%,#ffffff 1%,#ffffff 69%,#999999 70%,#dedede 70%,#ffffff 100%);
+background: -ms-linear-gradient(top,  #999999 0%,#ffffff 1%,#ffffff 69%,#999999 70%,#dedede 70%,#ffffff 100%); 
+background: linear-gradient(to bottom,  #999999 0%,#ffffff 1%,#ffffff 69%,#999999 70%,#dedede 70%,#ffffff 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999999', endColorstr='#ffffff',GradientType=0 ); 
+*/
+background: -moz-linear-gradient(top,  #999999 0%, #ffffff 1%, #ffffff 69%, #999999 70%, #fff 70%, #ffffff 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#999999), color-stop(1%,#ffffff), color-stop(69%,#ffffff), color-stop(70%,#999999), color-stop(70%,#ffffff), color-stop(100%,#ffffff)); 
+background: -webkit-linear-gradient(top,  #999999 0%,#ffffff 1%,#ffffff 69%,#999999 70%,#ffffff 70%,#ffffff 100%); 
+background: -o-linear-gradient(top,  #999999 0%,#ffffff 1%,#ffffff 69%,#999999 70%,#ffffff 70%,#ffffff 100%);
+background: -ms-linear-gradient(top,  #999999 0%,#ffffff 1%,#ffffff 69%,#999999 70%,#ffffff 70%,#ffffff 100%); 
+background: linear-gradient(to bottom,  #999999 0%,#ffffff 1%,#ffffff 69%,#999999 70%,#ffffff 70%,#ffffff 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+/*js needed: give a class to the div that contains breadcrumbs*/
+.phoneonly {display:none;}
+.visually-hidden {
+    border: 0 none !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px !important;
+    overflow: hidden;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+}
+.visually-hidden:focus { 
+  position: static !important;
+  clip: auto;
+  height: auto;
+  width: auto;
+  overflow: auto;
+}

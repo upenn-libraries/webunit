@@ -1,0 +1,8 @@
+#content div div.contain header.section-header.section-header--centered,
+#content > div:nth-child(5) > div:nth-child(1) > header:nth-child(1) {
+	display: none;
+}
+#content section.content-aside.section-margin div.contain.content-aside__flex div.content-aside__aside article.card.card__with-image.card--align-center figure.card__figure {
+	border:  2px solid #e3e4e6;
+	border-bottom:  none;
+}

@@ -1,0 +1,109 @@
+   .high-anchor {
+    top: -19rem;
+   }
+    body {
+     margin-top:0 !important;
+     padding-top:0 !important;
+     padding:  30px;
+     /*min-width:800px !important;*/
+   }
+   h1.pagetitle2 {
+      margin: 1em 0;
+      font-style: oblique; 
+      letter-spacing: .01em;
+   }
+   .jumpbox img {
+      display: inline;
+   }
+   .librariestable td.desc,
+   .librariestable td.photo {
+       border-top: solid 1px #bbb;
+   }
+   
+   .librariestable td.photo {
+       width:  18rem;
+   }
+   
+
+.librariestable td {
+     vertical-align: top;
+   }
+.librariestable td.photo {
+   padding: 1.8em 0 0 0;
+   }
+.librariestable td.desc {
+   padding: 1.5em 0 2rem 1.81em;
+   }
+.librariestable td.photo1 {
+   padding: 0 0 0 0;
+   }
+.librariestable td.desc1 {
+   padding: 0 0 0 1.81em;
+   }
+h3 {
+     font-weight: bold;
+   margin: 0 0 .5em 0;
+   font-size: 1.09em;
+   }
+.indexpara {line-height: 135%;}
+
+
+
+
+.jumpbox a, .jumpbox a:visited {color: #000;}
+.jumpbox a:hover, .jumpbox a:visited:hover {color: #c60;}
+.jumpbox {background-color: #f2f2f2; margin-top: 0; padding: .33em;}
+.linkline {margin-top: .83em; background-color: #f0f0f0;}
+.noun-icon-holder {
+   vertical-align: top; 
+   display:inline-block;
+   margin: 25px 0px 15px 0; 
+   padding: 0 15px;}
+.noun-icon {
+   display:block; 
+   background-size: auto 100%; 
+   width: 100%; 
+   height: 65px;
+}
+
+
+@media (min-width: 844px) { 
+   .noun-icon-holder {
+      width:  150px;
+      margin: 25px 20px 15px 0;
+   }
+   .noun-icon.about {background-size: 128px auto;}
+   .noun-icon.more {background-size: 123px auto;}
+   .noun-icon.visit {background-size: 133px auto;}
+
+   
+   
+}
+
+@media (min-width: 980px) { 
+   .noun-icon-holder {
+      width:  200px;
+      margin: 25px 20px 15px 0;}
+   
+   .noun-icon {height: 125px;}
+   
+}
+@media (min-width: 1022px) { 
+   .noun-icon-holder {margin: 25px 35px 15px 0;}
+
+   
+}
+
+
+.noun-icon {
+   background-repeat: no-repeat;
+}
+
+
+.noun-icon.about {background-image: url(https://www.library.upenn.edu/sites/default/files/images/paarp/pacscl-about-repo-noun.png)!important;}
+.noun-icon.more  {background-image: url(https://www.library.upenn.edu/sites/default/files/images/paarp/pacscl-more-paarp-noun.png)!important;}
+.noun-icon.visit {background-image: url(https://www.library.upenn.edu/sites/default/files/images/paarp/pacscl-visit-catalog-noun.png)!important;}
+.noun-icon-caption {display:block; line-height: 1.5; margin-top:8px;}
+
+
+.temp-hide {display:none;}

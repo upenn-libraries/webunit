@@ -1,0 +1,45 @@
+#s-lg-box-9474394-container,
+/*right col*/
+.tablet #s-lg-box-9681698-container,
+.tablet #s-lg-box-9681698-container, 
+.tablet #s-lg-box-9474642-container,
+.tablet #s-lg-box-9473154-container {
+	margin: 0 -10px
+}
+.tablet #s-lg-box-9474394-container {
+	margin: 0 -20px
+}
+/*.production #s-lg-tabs-container,*/
+.homepage #s-lg-tabs-container {display:none}
+.production #s-lg-tabs-container2 {display:none;}
+
+.desktop #s-lg-content-19265828 #s-lg-guide-tabs .nav-tabs > li,
+.desktop #s-lg-content-19267631 #s-lg-guide-tabs .nav-tabs > li,
+.desktop #s-lg-content-19267560 #s-lg-guide-tabs .nav-tabs > li {
+    margin-bottom: -1px;
+}
+
+#s-lg-content-19265828 #s-lg-tabs-container2.container #s-lg-guide-tabs,
+#s-lg-content-19267631 #s-lg-tabs-container2.container #s-lg-guide-tabs,
+#s-lg-content-19267560 #s-lg-tabs-container2.container #s-lg-guide-tabs {
+    padding-bottom:0
+}
+
+
+#s-lg-box-9474394-container,
+.tablet #s-lg-box-9681698-container,
+.tablet #s-lg-box-9681698-container,  
+.tablet #s-lg-box-9474642-container, 
+.tablet #s-lg-box-9473154-container {
+    margin: 0 -10px;
+}
+.tablet #guidepagesbutton {display:none}  
+
+.desktop.production #s-lg-tabs-container {width: 75%;margin: 0;}
+.desktop.production #s-lg-col-2 {margin-top: -3.6rem;}
+#s-lg-guide-main {padding-top:0;}
+#s-lg-general-accordion,
+#s-lg-general-accordion.margin-bottom-sm {height: 1rem; margin: 0 !important;}
+#s-lg-tabs-container.container .nav-tabs.split-button-nav a.active::before {
+	z-index: 100;
+}

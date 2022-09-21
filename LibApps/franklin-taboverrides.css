@@ -1,0 +1,1000 @@
+/* This file is an abbreviated version of our full Guides CSS:
+ * http://s3.amazonaws.com/libapps/sites/231/include/lg2.css
+ * It has been trimmed to only include CSS relevant to guide navigation (tabs/sidebars).
+ */
+
+/*
+sidebar mobile not selected
+    #s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul
+sidebar desktop not selected
+    #s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.dropdown-menu
+sidebar desktop selected
+    #s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.nav-pills.nav-stacked
+sidebar mobile selected
+    #s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul.nav-pills.nav-stacked
+
+tabs mobile selected
+    #s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul
+tabs mobile notselected
+    #s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul
+tabs desktop selected
+    #s-lg-tabs-container.container .nav-tabs .s-lg-subtab-ul.dropdown-menu
+tabs desktop notselected
+    #s-lg-tabs-container.container .nav-tabs .s-lg-subtab-ul.dropdown-menu
+
+
+tabs mobile notselected not sub
+        #s-lg-tabs-container.container .nav-tabs.nav-stacked > li > a
+*/
+
+/*line up sections of sidebar mobile*/
+.tablet #s-lg-side-nav-content #s-lg-guide-main, 
+.tabletsearchresults #s-lg-side-nav-content #s-lg-guide-main, 
+.tablet #s-lg-side-nav-content #s-lg-guide-main, 
+.tabletsearchresults #s-lg-side-nav-content #s-lg-guide-main {
+    padding-left: 0;
+    padding-right: 0;
+}
+.tablet #s-lg-guide-main, 
+.tablet #s-lg-guide-main [class^="col-md-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+#guidepagesbutton {
+    display:none;
+}
+.tablet #guidepagesbutton {
+    display:block;
+}
+
+#s-lg-guide-tabs, .tabletsearchresults.desktop #s-lg-guide-tabs {
+    border-bottom: 1px solid #999;
+    margin: 0 1.5em;
+}
+#s-lg-tabs-container2 #s-lg-guide-tabs,
+.tabletsearchresults.desktop #s-lg-tabs-container2 #s-lg-guide-tabs {
+     margin: 0;
+}
+.alltabscollapse{
+    display: none;
+}
+.tabletsearchresults.tablet #s-lg-guide-tabs,
+.tablet #s-lg-guide-tabs {
+    border-bottom: none;
+}
+
+/**sidebar*/
+#s-lg-side-nav-content .s-lg-tabs-side #s-lg-tabs-container #s-lg-guide-tabs, 
+#s-lg-side-nav-content .s-lg-tabs-side #s-lg-tabs-container2 #s-lg-guide-tabs {
+    border-bottom: none;
+    margin: 0 0.5em 0 0;
+}
+/*sidebar*/
+.tablet #s-lg-side-nav-content .s-lg-tabs-side #s-lg-tabs-container #s-lg-guide-tabs,
+.tablet #s-lg-side-nav-content .s-lg-tabs-side #s-lg-tabs-container2 #s-lg-guide-tabs,
+.tablet.phone #s-lg-side-nav-content .s-lg-tabs-side #s-lg-tabs-container #s-lg-guide-tabs,
+.tablet.phone #s-lg-side-nav-content .s-lg-tabs-side #s-lg-tabs-container2 #s-lg-guide-tabs {    
+    margin: 0 1.5em;
+}
+
+@media (min-width: 900px) {
+    #s-lg-guide-tabs {
+        display: block!important;
+        height: auto!important;
+        padding-bottom: 0;
+        overflow: visible!important;
+    }
+    #s-lg-tabs-container.container #s-lg-guide-tabs,
+    #s-lg-tabs-container2.container #s-lg-guide-tabs {
+        padding-bottom: 2px;
+    }
+}
+
+@media (min-width: 900px) {
+    #s-lg-guide-tabs.collapse {
+        display: none!important;
+    }
+}
+
+@media (min-width: 900px) {
+    #s-lg-guide-tabs.collapse.in {
+        display: block!important;
+    }
+}
+
+#s-lg-tabs-container.container,
+#s-lg-tabs-container2.container {
+    padding: 0;
+    border-bottom: none;
+}
+.hl-toc-button  {
+    display: none;
+}
+.tablet #s-lg-guide-tabs .dropdown ul {
+    display: none;
+}
+
+body > div.page-contents.container > div.hl-toc-button.hidden-md.hidden-lg > button {
+    margin-top: 20px;
+}
+
+#s-lg-guide-tabs-title-bar {
+    border-top:none;
+}
+#s-lg-tabs-container.container ul,
+#s-lg-tabs-container2.container ul {
+    margin: 0;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NAVTABS AND NAVPILLS
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxend insertion*/
+/*sidebar desktop and mobile sub*/
+
+li.issub, .nav-tabs.nav-stacked  li {
+    padding: 0;
+}
+#s-lg-tabs-container.container .nav-tabs > li > a,
+#s-lg-tabs-container2.container .nav-tabs > li > a, 
+#s-lg-tabs-container2.container .nav > li > a,
+#s-lg-tabs-container .nav-pills > li > a,
+#s-lg-tabs-container2 .nav-pills > li > a,
+#s-lg-guide-tabs .helplink {   
+    border: 1px solid #bbb;
+    border-bottom:1px solid #ddd;
+    padding: 6px 15px 5px;
+    color: #000;
+    letter-spacing: .02em;  
+    background: #f2f2f2;
+    text-shadow:  0 -1px 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.4);  
+    font-weight: normal;
+     
+}
+#s-lg-tabs-container.container .nav-tabs.split-button-nav.nav-stacked li a.s-lg-tab-top-link {
+    border: 1px solid #bbb;
+    border-bottom:1px solid #ddd;
+}
+
+#s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link{
+    font-weight: normal;
+}
+/*tabs desktop selected or not selected, new split button, left piece*/
+#s-lg-tabs-container.container .nav-tabs.split-button-nav > li > a.s-lg-tab-top-link {
+    padding: 6px 3px 5px 15px;
+}/*see 1473 for sidebar padding*/
+
+
+/*tabs desktop selected or not selected, new split button, arrow piece*/
+#s-lg-tabs-container.container .nav-tabs.split-button-nav > li > a.s-lg-tab-drop.dropdown-toggle {
+    padding: 5px 13px 0 10px;
+}
+
+
+/*tabs desktop sub anti bootstrap padding for */
+
+/*,
+#s-lg-tabs-container.container .nav-tabs .s-lg-subtab-ul .dropdown-menu > li > a,
+#s-lg-tabs-container2.container .nav-tabs .s-lg-subtab-ul .dropdown-menu > li > a,
+#s-lg-tabs-container.container .nav-tabs .s-lg-subtab-ul .dropdown-menu > li > a:hover,
+#s-lg-tabs-container2.container .nav-tabs .s-lg-subtab-ul .dropdown-menu > li > a:hover*/ 
+.dropdown-menu > li > a {
+    padding: 0.65em 15px 0.65em 27px;
+    border-top:none !important;
+}
+
+.s-srch-range .dropdown-menu > li > a {
+    padding: 0 !important;
+}
+
+/*LESS PADDING FOR DESKTOP SIDEBAR
+/*sidebar desktop overwritten by sub, below, which needs 27 on left*/   
+.desktop #s-lg-side-nav-content .nav-pills  li a,
+#s-lg-tabs-container .nav-pills.split-button-nav > li a.s-lg-tab-top-link,
+#s-lg-side-nav-content.container #s-lg-guide-tabs .nav.nav-pills.split-button-nav > li  a.s-lg-tab-drop.dropdown-toggle,
+#s-lg-guide-tabs .helplink {
+    padding: .65em 15px;
+}
+
+
+/*PADDING FOR DESKTOP SIDEBAR SUB selected*/
+
+/*sidebar desktop not selected*/    
+.desktop #s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.dropdown-menu li a,
+/*sidebar desktop selected*/
+.desktop #s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.nav-pills.nav-stacked li a {
+    padding: .65em 15px .65em 27px;
+}
+
+/*but apparently tab mobile sub li does not need it*/            
+#s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a  {
+    
+    margin-right: 0;
+}
+/*MORE PADDING  overwritten by sub, below, which needs 27 on left*/
+/*sidebar mobile*/
+#s-lg-side-nav-content .nav-pills.nav-stacked  li a,
+#s-lg-side-nav-content .nav-pills.nav-stacked  li a:hover,
+/*tabs mobile*/
+#s-lg-tabs-container.container .nav-tabs.nav-stacked  li a,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked  li a,
+#s-lg-tabs-container.container .nav-tabs.nav-stacked  li a:hover,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked  li a:hover,
+/*mobile tabs split button  */
+#s-lg-tabs-container.container .nav-tabs.split-button-nav.nav-stacked > li > a.s-lg-tab-top-link,
+#s-lg-side-nav-content.container .nav-pills.split-button-nav.nav-stacked > li > a.s-lg-tab-top-link,
+#s-lg-guide-tabs .helplink {
+     padding: .9em 15px;
+}
+/*mobile tabs split button  */
+#s-lg-tabs-container.container .nav-tabs.split-button-nav.nav-stacked > li > a.s-lg-tab-top-link {
+    width: 100%;
+}
+/*PADDING FOR MOBILE SUB*/
+/*sidebar mobile not selected sub*/
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul li a,
+/*sidebar mobile selected sub*/
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul.nav-pills.nav-stacked a,
+/*tabs mobile selected sub*/
+#s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a,
+/*tabs mobile notselected sub*/
+#s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a  {
+    padding: .9em 15px .9em 27px !important;
+}
+
+/*sidebar. prevent the brick wall in the sidebar*/
+#s-lg-side-nav-content .nav-pills li,
+#s-lg-side-nav-content .nav-pills > li {
+    float:none;
+    padding: 0;
+} 
+.s-lg-subtab-ul .list-group-item {
+    padding: 0;
+    border:none;
+}
+
+/*sidebar and tabs*/
+#s-lg-side-nav-content         .nav-pills             .s-lg-subtab-ul,
+#s-lg-tabs-container.container                        .s-lg-subtab-ul,
+#s-lg-tabs-container2.container                        .s-lg-subtab-ul {
+    padding-left: 0 !important;
+}
+/*tabs mobile*/
+#s-lg-tabs-container.container .nav-tabs.nav-stacked  .s-lg-subtab-ul,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked  .s-lg-subtab-ul {
+    margin: 0 2px 0 0 ; 
+}
+/*tabs mobile split button*/
+#s-lg-tabs-container.container .nav-tabs.split-button-nav.nav-stacked  .s-lg-subtab-ul,
+#s-lg-side-nav-content.container .nav-pills.split-button-nav  ul.s-lg-subtab-ul {
+    clear:both;
+}
+/*keep text from crowding arrow*/
+#s-lg-side-nav-content.container .nav-pills.split-button-nav > li a.s-lg-tab-top-link span {
+    display:block; padding-right: .75em;
+}
+/*sidebar mobile*/
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul.nav.nav-pills.nav-stacked {
+    margin: 0 0 0 0 ;
+}
+#s-lg-guide-tabs .nav-tabs > li {
+    margin-bottom: -1px;
+    margin-top: 0;
+}
+/*but in the sidebar the negative margin kills bottom border*/
+#s-lg-guide-tabs .nav-tabs.nav-stacked > li,
+.nav-tabs.nav-stacked .list-group-item,
+.nav-pills.nav-stacked li {
+    margin-bottom: 0;
+    }
+/*subtab section protrudes right with new split button*/
+#s-lg-tabs-container.container .nav-tabs.nav-stacked.split-button-nav  li.ligranny {
+    margin-right: .15em
+}
+/*desktop tabs: pack rows tight*/
+.desktop #s-lg-guide-tabs .nav-tabs > li {   
+   /*margin-bottom: -2px;  */ 
+    margin-top: 0;
+    
+}
+.desktop #s-lg-tabs-container.container .nav-tabs > li,
+.desktop #s-lg-tabs-container2.container .nav-tabs > li {   
+    padding: 0 !important;   
+    margin-top: 0;
+    
+}
+/*sidebar mobile selected sub*/
+#s-lg-side-nav-content #s-lg-guide-tabs .nav-pills.nav-stacked li .nav-pills.nav-stacked li {   
+    margin-right: 1px
+}
+
+/*no side borders on li's that hold subs when they're blue. no sideborders for li's in subs*/
+li.ligranny:hover,
+li.ligranny:focus,
+li.ligranny.active,
+/*sidebar mobile not selected*/
+#s-lg-side-nav-content .nav-pills.nav-stacked li .s-lg-subtab-ul li,
+/*sidebar desktop not selected*/
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.dropdown-menu li a,
+/*sidebar desktop selected*/
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.nav-pills.nav-stacked li,
+/*sidebar mobile selected*/,
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul.nav-pills.nav-stacked li,
+/*tabs mobile selected*/
+#s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li,
+/*tabs mobile notselected*/
+#s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li,
+/*tabs desktop selected*/
+#s-lg-tabs-container.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu li,
+#s-lg-tabs-container2.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu li,
+/*tabs desktop notselected*/
+#s-lg-tabs-container.container .nav-tabs                .s-lg-subtab-ul dropdown-menu li,
+#s-lg-tabs-container2.container .nav-tabs                .s-lg-subtab-ul dropdown-menu li {
+    border-right:none;
+    border-left:none;
+}
+/*ALL sidebar SUBmenu a's, tabs mobile submenu a's*/
+/*sidebar mobile not selected*/
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul li a,
+/*sidebar desktop not selected*/    
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.dropdown-menu li a,
+/*sidebar desktop selected*/
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.nav-pills.nav-stacked li a,
+/*sidebar mobile selected*/
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul.nav-pills.nav-stacked a,
+/*tabs mobile selected*/
+#s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a,
+/*tabs mobile notselected*/
+#s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a  {
+    border-right:solid 1px #bbb;
+    border-left:solid 1px #bbb; 
+}
+/*desktop sidebar selected submenu
+.desktop  #s-lg-side-nav-content .s-lg-subtab-ul.nav-pills.nav-stacked li.issub > a {
+    background: #fff;
+}*/
+/*ALL sidebar a's and all sub a's border-bottom*/
+/*sidebar mobile not selected, sidebar mobile selected*/
+#s-lg-side-nav-content .nav-pills.nav-stacked  a,
+#s-lg-side-nav-content .nav-pills.nav-stacked  a:hover,
+/*sidebar desktop not selected, sidebar desktop selected*/  
+#s-lg-side-nav-content .nav-pills              a,
+s-lg-side-nav-content .nav-pills              a:hover,
+/*tabs mobile selected, tabs mobile notselected*/
+#s-lg-tabs-container.container .nav-tabs.nav-stacked     a,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked     a,
+#s-lg-tabs-container.container .nav-tabs.nav-stacked     a:hover,
+/*tabs desktop selected/notselected*/
+#s-lg-tabs-container.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu a,
+#s-lg-tabs-container2.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu a,
+#s-lg-tabs-container.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu a:hover,
+#s-lg-tabs-container2.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu a:hover {
+    border-bottom: solid 1px #ccc !important ;
+    border-top: none !important ;
+}
+/*sidebar mobile not selected, sidebar mobile selected*/
+#s-lg-side-nav-content .nav-pills.nav-stacked  a,
+#s-lg-side-nav-content .nav-pills.nav-stacked  a:hover,
+/*sidebar desktop not selected, sidebar desktop selected*/  
+#s-lg-side-nav-content .nav-pills              a,
+s-lg-side-nav-content .nav-pills              a:hover,
+/*tabs mobile selected, tabs mobile notselected*/
+#s-lg-tabs-container.container .nav-tabs.nav-stacked     a,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked     a,
+#s-lg-tabs-container.container .nav-tabs.nav-stacked     a:hover,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked     a:hover {
+    -webkit-border-radius: 0 !important;;    
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+#s-lg-guide-tabs > .nav-tabs.nav-stacked > li:first-child a,
+#s-lg-guide-tabs > .nav-pills.nav-stacked > li:first-child a {
+    border-top:solid 1px #bbb;
+}
+/*anti bootstrap*/
+.nav-stacked > li + li {
+    margin-top: 0;
+}
+/*ALL SUBMENU a's BG #FFF*/
+/*sidebar mobile not selected*/
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul li a,
+/*sidebar desktop not selected*/    
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.dropdown-menu li a,
+/*sidebar desktop selected*/
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.nav-pills.nav-stacked li a,
+/*sidebar mobile selected*/
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul.nav-pills.nav-stacked a,
+/*tabs mobile selected*/
+#s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a,
+/*tabs mobile notselected*/
+#s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a,
+/*tabs desktop selected*/
+#s-lg-tabs-container.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu a,
+#s-lg-tabs-container2.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu a,
+
+/*tabs desktop notselected*/
+#s-lg-tabs-container.container .nav-tabs                .s-lg-subtab-ul dropdown-menu a,
+#s-lg-tabs-container2.container .nav-tabs                .s-lg-subtab-ul dropdown-menu a {
+    background: #fff;
+    text-shadow:none;
+    /*border-bottom: solid 1px #ccc; SEE ABOVE*/
+    display:block;
+    font-weight: normal;
+    color: #000;    
+}
+#s-lg-side-nav-content a,
+#s-lg-tabs-container.container a,
+#s-lg-tabs-container2.container a {
+    color: #000;
+    font-weight:normal;
+    }
+#s-lg-side-nav-content .s-lib-box-content a,
+#s-lg-tabs-container.container .s-lib-box-content a,
+#s-lg-tabs-container2.container .s-lib-box-content a {
+    color: #0782c1;
+    }
+/*BLUE NOT HOVER. here be monsters*/
+/*all sidebar*/
+#s-lg-side-nav-content   .nav-pills                a.active,
+#s-lg-side-nav-content   .nav-pills   li.active   >a,
+#s-lg-side-nav-content   .nav-pills   li.hovered  >a,
+/*all tabs*/
+#s-lg-tabs-container.container   .nav-tabs                a.active,
+#s-lg-tabs-container2.container   .nav-tabs               a.active,
+#s-lg-tabs-container.container   .nav-tabs   li.active >  a,
+#s-lg-tabs-container2.container   .nav-tabs  li.active >  a,
+#s-lg-tabs-container.container   .nav-tabs   li.hovered > a,
+#s-lg-tabs-container2.container   .nav-tabs  li.hovered > a,
+#s-lg-guide-tabs .helplink:hover   {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d7d7d7+0,d5d5d5+2,e2e3e3+50,ffffff+100 */
+    background: #6facd5; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzZmYWNkNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1MzkzYzUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #6facd5 0%, #5393c5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6facd5), color-stop(100%,#5393c5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #6facd5 0%,#5393c5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #6facd5 0%,#5393c5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #6facd5 0%,#5393c5 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #6facd5 0%,#5393c5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6facd5', endColorstr='#5393c5',GradientType=0 ); /* IE6-8 */
+    border: 1px solid #2373a5;
+    border-bottom:none; 
+    color: #fff;
+    font-weight:normal; 
+    text-decoration: none;
+    text-shadow: 0 1px 1px #3373a5; 
+}
+/*split button arrow should be blue if parent is li.hovered*/
+#s-lg-tabs-container.container   .nav-tabs.split-button-nav   li.hovered > a.s-lg-tab-drop.dropdown-toggle {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d7d7d7+0,d5d5d5+2,e2e3e3+50,ffffff+100 */
+    background: #6facd5; /* Old browsers */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzZmYWNkNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1MzkzYzUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #6facd5 0%, #5393c5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6facd5), color-stop(100%,#5393c5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #6facd5 0%,#5393c5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #6facd5 0%,#5393c5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #6facd5 0%,#5393c5 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #6facd5 0%,#5393c5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6facd5', endColorstr='#5393c5',GradientType=0 ); /* IE6-8 */
+    border-top: 1px solid #2373a5;
+    border-right: 1px solid #2373a5;
+    border-bottom:none; 
+    color: #fff;
+    font-weight:normal; 
+    text-decoration: none;
+    text-shadow: 0 1px 1px #3373a5; 
+}
+#s-lg-tabs-container.container .nav-tabs.split-button-nav.nav-stacked > li > a.s-lg-tab-drop.dropdown-toggle {
+    background: transparent; 
+    border: none !important;  
+    padding: 0 1em;
+    margin-top:-2.5em;
+}
+#s-lg-side-nav-content.container .nav-pills.split-button-nav li a.s-lg-tab-drop.dropdown-toggle {
+    background: transparent; 
+    border: none !important; 
+}
+/*new split button left*/
+#s-lg-tabs-container.container   .nav-tabs.split-button-nav                a.s-lg-tab-top-link.active,
+#s-lg-tabs-container.container   .nav-tabs.split-button-nav   li >  a.s-lg-tab-top-link,
+#s-lg-tabs-container.container   .nav-tabs.split-button-nav   li > a.s-lg-tab-top-link {
+    border-right: none;
+}
+/*new split button arrow*/
+#s-lg-tabs-container.container   .nav-tabs.split-button-nav                a.s-lg-tab-drop.dropdown-toggle.active,
+#s-lg-tabs-container.container   .nav-tabs.split-button-nav   li >  a.s-lg-tab-drop.dropdown-toggle,
+#s-lg-tabs-container.container   .nav-tabs.split-button-nav   li > a.s-lg-tab-drop.dropdown-toggle {
+    border-bottom: medium none;
+    border-left: medium none;
+}
+/*arrow on active tabs*/
+#s-lg-tabs-container.container    .nav-tabs.split-button-nav   a.active::before {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #5696c7 transparent transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 0.5em;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin-left: -0.5em;
+    position: absolute;
+    top: 32px;
+    width: 0;
+}
+#s-lg-tabs-container.container    .nav-tabs.split-button-nav.nav-stacked  li.hovered > a.active::before {
+    border:none;   
+}
+/*no arrow on active subtabs*/
+#s-lg-tabs-container.container   .nav-tabs    li.active.dropdown li.active.issub  > a::before{
+    border:solid 0 #fff;
+}
+#s-lg-tabs-container.container .nav-tabs.nav-stacked .s-lg-subtab-ul li.list-group-item.active,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked .s-lg-subtab-ul li.list-group-item.active,
+#s-lg-tabs-container.container .nav-tabs.nav-stacked .s-lg-subtab-ul li.list-group-item.active:focus,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked .s-lg-subtab-ul li.list-group-item.active:focus, 
+#s-lg-tabs-container.container .nav-tabs.nav-stacked .s-lg-subtab-ul li.list-group-item.active:hover,
+#s-lg-tabs-container.container .nav-tabs.nav-stacked .s-lg-subtab-ul li.list-group-item.active:hover {
+    background-color: #fff;
+}
+/*BLUE HOVER */
+
+/*all sidebar*/                  
+                     #s-lg-side-nav-content #s-lg-guide-tabs > .nav-pills > li > a:hover,
+/*sidebar mobile*/
+                     #s-lg-side-nav-content #s-lg-guide-tabs > .nav-pills.nav-stacked > li:hover > a,
+/*all tabs*/
+                     #s-lg-tabs-container.container .nav-tabs > li > a:hover,
+                     #s-lg-tabs-container2.container .nav-tabs > li > a:hover,  
+/*all tabs*/
+                    #s-lg-tabs-container.container .nav-tabs > .active > a:hover,
+                    #s-lg-tabs-container2.container .nav-tabs > .active > a:hover,
+/*tabs mobile*/
+                     #s-lg-tabs-container.container .nav-tabs.nav-stacked > .active > a:hover,
+                     #s-lg-tabs-container2.container .nav-tabs.nav-stacked > .active > a:hover,
+                     #s-lg-guide-tabs .helplink:hover
+ {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5393c5+0,6facd5+100 */
+    background: #5393c5; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUzOTNjNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2ZmFjZDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #5393c5 0%, #6facd5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5393c5), color-stop(100%,#6facd5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #5393c5 0%,#6facd5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #5393c5 0%,#6facd5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #5393c5 0%,#6facd5 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #5393c5 0%,#6facd5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5393c5', endColorstr='#6facd5',GradientType=0 ); /* IE6-8 */
+    border: 1px solid #2373a5;  
+    font-weight: normal;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #3373a5;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Source Sans Pro","Arial Unicode MS",Helvetica,sans-serif;
+    font-size: 1em;    
+    letter-spacing: 0.03em;
+                     }
+                     
+
+/*ALL SUBMENU a's EXCEPT DESKTOP TABS*/
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul li a,
+/*sidebar desktop not selected*/    
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.dropdown-menu li a,
+/*sidebar desktop selected*/
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.nav-pills.nav-stacked li a,
+/*sidebar mobile selected*/
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul.nav-pills.nav-stacked a,
+/*tabs mobile selected*/
+#s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a,
+/*tabs mobile notselected*/
+#s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a {
+    margin-left: .56em;
+}
+/*all SUB active/focus/hover*/
+
+/*sidebar desktop not selected*/    
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.dropdown-menu li a:hover,
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.dropdown-menu li a:focus,
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.dropdown-menu li a.active,
+/*sidebar desktop selected*/
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.nav-pills.nav-stacked li a:hover,
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.nav-pills.nav-stacked li a:focus,
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.nav-pills.nav-stacked li a.active,
+/*sidebar mobile not selected*/
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul li a:hover,
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul li a:focus,
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul li a.active,
+/*sidebar mobile selected*/
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul.nav-pills.nav-stacked a:hover,
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul.nav-pills.nav-stacked a:focus,
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul.nav-pills.nav-stacked a.active,
+/*tabs mobile selected or not selected*/
+#s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a:hover,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a:hover,
+#s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a:focus,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a:focus,
+#s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a.active,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a.active,
+/*tabs desktop selected or not selected*/
+#s-lg-tabs-container.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu a:hover,
+#s-lg-tabs-container2.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu a:hover,
+#s-lg-tabs-container.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu a:focus,
+#s-lg-tabs-container2.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu a:focus,
+#s-lg-tabs-container.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu a.active,
+#s-lg-tabs-container2.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu a.active {
+    font-weight:bold;
+    color: #333;
+    background-image: url("//s3.amazonaws.com/libapps/customers/220/images/arrow16ccc.png");
+    background-repeat: no-repeat;
+    text-decoration:none;
+}
+#s-lg-tabs-container.container .nav-tabs                   .s-lg-subtab-ul.dropdown-menu a,
+#s-lg-tabs-container.container .nav-tabs.split-button-nav  .s-lg-subtab-ul.dropdown-menu li.issub a {
+    padding: 0.65em 0.67em 0.65em 1.75em !important;
+}
+/*sidebar desktop not selected*/    
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.dropdown-menu li a:hover,
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.dropdown-menu li a:focus,
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.dropdown-menu li a.active,
+/*sidebar desktop selected*/
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.nav-pills.nav-stacked li a:hover,
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.nav-pills.nav-stacked li a:focus,
+#s-lg-side-nav-content .nav-pills             .s-lg-subtab-ul.nav-pills.nav-stacked li a.active,
+/*sidebar mobile not selected*/
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul li a:hover,
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul li a:focus,
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul li a.active,
+/*sidebar mobile selected*/
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul.nav-pills.nav-stacked a:hover,
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul.nav-pills.nav-stacked a:focus,
+#s-lg-side-nav-content .nav-pills.nav-stacked .s-lg-subtab-ul.nav-pills.nav-stacked a.active,
+/*tabs mobile selected or not selected*/
+#s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a:hover,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a:hover,
+#s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a:focus,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a:focus,
+#s-lg-tabs-container.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a.active,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked    .s-lg-subtab-ul li a.active {
+    background-position: 0 5px;
+}
+/*tabs desktop selected or not selected*/
+#s-lg-tabs-container.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu a:hover,
+#s-lg-tabs-container2.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu a:hover,
+#s-lg-tabs-container.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu a:focus,
+#s-lg-tabs-container2.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu a:focus,
+#s-lg-tabs-container.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu a.active,
+#s-lg-tabs-container2.container .nav-tabs                .s-lg-subtab-ul.dropdown-menu a.active {
+    background-position: 0 4px;
+    background-size: auto 25px;
+}
+/*tabs desktop selected or not selected. get rid of buck teeth*/
+#s-lg-side-nav-content .dropdown-menu,
+.tablet .dropdown-menu {    
+    border: none;
+    -webkit-border-radius: 0;  
+    -moz-border-radius: 0;
+    border-radius: 0;
+    box-shadow: none;
+    float: none;
+    height: auto;
+    left: 0 !important;
+    margin: 0;
+    min-width: auto;
+    padding: 0;
+    position: relative;
+    top: 0 !important;
+    z-index: 0;
+}
+/*editing dropdowns*/
+.adminpage #s-lg-side-nav-content .dropdown-menu.s-lg-add-content-drop, 
+.adminpage.tablet                 .dropdown-menu.s-lg-add-content-drop {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+    float: left;
+    font-size: 14px;
+    left: 0;
+    list-style: outside none none;
+    margin: 2px 0 0;
+    min-width: 160px;
+    padding: 5px 0;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    z-index: 1000;
+}
+
+.adminpage #s-lg-side-nav-content .dropdown-menu.s-lg-add-content-drop > li > a, 
+.adminpage.tablet                 .dropdown-menu.s-lg-add-content-drop > li > a {
+    padding: 3px 20px;
+}
+.adminpage #s-lg-side-nav-content .dropdown-menu.s-lg-add-content-drop li, 
+.adminpage.tablet                 .dropdown-menu.s-lg-add-content-drop li {
+    line-height: 1.75;
+    padding: 0;
+}
+/*end editing dropdowns*/
+#s-lg-side-nav-content .s-lg-subtab-ul {
+    margin: 0;
+ }  
+.dropdown-menu > .active > a {
+    margin-left: 0 !important;
+}
+.desktop #s-lg-tabs-container.container .nav-tabs > li > a,
+.desktop #s-lg-tabs-container2.container .nav-tabs > li > a { 
+    height: 33px !important; 
+    -webkit-box-sizing: border-box;    
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+.desktop #s-lg-tabs-container.container .nav-tabs.split-button-nav a.s-lg-tab-drop.dropdown-toggle {
+    height: 32px !important;
+}
+.desktop #s-lg-tabs-container.container .nav-tabs.split-button-nav li.active a.s-lg-tab-drop.dropdown-toggle {
+    height: 33px !important;
+}
+/*tabs desktop start line of sub*/
+.desktop #s-lg-tabs-container.container .dropdown-menu,
+.desktop #s-lg-tabs-container2.container .dropdown-menu {
+    top: 32px;/*for submenu of tab view, top is 1px less that tab height. Prevents mouseover problem*/
+}
+
+.list-group-item:last-child {
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+  
+}
+#s-lg-tabs-container.container .nav-tabs > .active > a,
+#s-lg-tabs-container2.container .nav-tabs > .active > a,
+#s-lg-tabs-container.container .nav-pills > .active > a,
+#s-lg-tabs-container2.container .nav-pills > .active > a,
+#s-lg-tabs-container.container .nav-tabs > .active > a:hover,
+#s-lg-tabs-container2.container .nav-tabs > .active > a:hover,
+#s-lg-tabs-container.container .nav-pills > .active > a:hover,
+#s-lg-tabs-container2.container .nav-pills > .active > a:hover  {       
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;    
+}
+/*split button left*/
+#s-lg-tabs-container.container .nav-tabs.split-button-nav > .active > a.s-lg-tab-top-link,
+#s-lg-tabs-container.container .nav-tabs.split-button-nav > .active > a.s-lg-tab-top-link:hover  {       
+    -webkit-border-top-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+    border-top-right-radius: 0;  
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;  
+}
+/*split button arrow*/
+#s-lg-tabs-container.container .nav-tabs.split-button-nav > .active > a.s-lg-tab-drop.dropdown-toggle,
+#s-lg-tabs-container.container .nav-tabs.split-button-nav > .active > a.s-lg-tab-drop.dropdown-toggle:hover  {       
+    -webkit-border-top-left-radius:0;
+    -moz-border-top-left-radius:0;
+    border-top-left-radius:0;
+    -webkit-border-bottom-left-radius:0;
+    -moz-border-bottom-left-radius:0;
+    border-bottom-left-radius:0;     
+}
+#s-lg-tabs-container.container .nav-tabs.nav-stacked > .active > a,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked > .active > a,
+#s-lg-tabs-container.container .nav-tabs.nav-stacked > .active > a:hover,
+#s-lg-tabs-container2.container .nav-tabs.nav-stacked > .active > a:hover  {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+
+.list-group-item:first-child {
+    -webkit-border-top-left-radius: 0;
+    -moz-border-top-left-radiuss: 0;
+    border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+}
+#s-lg-tabs-container.container .nav-tabs > .active > a:hover,
+#s-lg-tabs-container2.container .nav-tabs > .active > a:hover,
+#s-lg-tabs-container.container .nav-pills > .active > a:hover,
+#s-lg-tabs-container2.container .nav-pills > .active > a:hover {
+    cursor:default;
+}
+
+/*carets both sidebar and tabs*/
+#s-lg-tabs-container .nav .dropdown-toggle .caret,
+#s-lg-tabs-container2 .nav .dropdown-toggle .caret {
+    border-top-color: #000;
+}
+#s-lg-side-nav-content .nav-pills                     li:hover > a .caret,
+/*#s-lg-side-nav-content .nav-pills                     li.active > a .caret,*/
+#s-lg-side-nav-content .nav-pills                     li.hovered > a .caret,
+#s-lg-side-nav-content .nav-pills                     li          a:hover .caret,
+#s-lg-side-nav-content .nav-pills                     li          a.active .caret,
+
+
+/*#s-lg-tabs-container.container .nav-tabs.nav-stacked  li.active > a .caret,*/
+/*#s-lg-tabs-container2.container .nav-tabs.nav-stacked li.active > a .caret,*/
+#s-lg-tabs-container.container .nav-tabs              li.hovered > a .caret,
+#s-lg-tabs-container2.container .nav-tabs              li.hovered > a .caret,
+#s-lg-tabs-container.container .nav-tabs              li:hover > a .caret,
+#s-lg-tabs-container2.container .nav-tabs              li:hover > a .caret,
+#s-lg-tabs-container.container .nav-tabs              li          a:hover .caret,
+#s-lg-tabs-container2.container .nav-tabs              li          a:hover .caret,
+#s-lg-tabs-container.container .nav-tabs              li          a.active .caret,
+#s-lg-tabs-container2.container .nav-tabs              li          a.active .caret {
+    border-top-color: #fff;
+}
+/*all conditions: no arrow if tab is active*/
+#s-lg-tabs-container.container .nav-tabs.split-button-nav li.active a.s-lg-tab-drop.dropdown-toggle,
+#s-lg-tabs-container.container .nav-tabs.split-button-nav li.active a.s-lg-tab-drop.dropdown-toggle:hover .caret,
+#s-lg-tabs-container.container .nav-tabs.split-button-nav li.active a.s-lg-tab-drop.dropdown-toggle.active .caret,
+#s-lg-tabs-container.container .nav                       li.active .dropdown-toggle .caret,
+#s-lg-side-nav-content .nav-pills                         li.active > a .caret {
+    border:transparent;
+    border:none;
+    padding: 0 2px;
+}
+/*nest 2 rules: make arrow more conspicuous on tablet page*/
+.tablet .nav-tabs.split-button-nav.nav-stacked .caret,
+.tablet .nav-pills.split-button-nav.nav-stacked .caret  {
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
+/*overrides 1753*/
+.tablet #s-lg-tabs-container.container .nav-tabs.split-button-nav.nav-stacked > li > a.s-lg-tab-drop.dropdown-toggle,
+.tablet #s-lg-side-nav-content         .nav-pills.nav-stacked > li > a.s-lg-tab-drop.dropdown-toggle {
+    padding-right: 2em;
+}
+
+/*Patty's colors*/
+#s-lg-guide-tabs.tabs .bluetype {color: #2554c7;}
+#s-lg-guide-tabs.tabs .pennredtype {color: #900;}
+#s-lg-guide-tabs.tabs .greentype {color: #387b29;}
+
+#s-lg-tabs-container.container #s-lg-guide-tabs > .nav-tabs.nav-stacked > li:hover > a .colortype,
+#s-lg-tabs-container2.container #s-lg-guide-tabs > .nav-tabs.nav-stacked > li:hover > a .colortype {
+    color: #fff;
+}
+#s-lg-guide-tabs.tabs a.active .colortype, 
+#s-lg-guide-tabs.tabs a:hover .colortype,
+#s-lg-guide-tabs.tabs a:focus .colortype {
+    color: #fff;
+    }
+h1#s-lg-guide-name span.colortype {
+    color: #b33300;
+}
+/*colortypes should stay white while mousing over subtabs. see line 1667*/
+#s-lg-side-nav-content   .nav-pills                a.active .colortype,
+#s-lg-side-nav-content   .nav-pills   li.active   >a .colortype,
+#s-lg-side-nav-content   .nav-pills   li.hovered  >a .colortype,
+/*all tabs*/
+#s-lg-tabs-container.container   .nav-tabs                a.active .colortype,
+#s-lg-tabs-container2.container   .nav-tabs               a.active .colortype,
+#s-lg-tabs-container.container   .nav-tabs   li.active >  a .colortype,
+#s-lg-tabs-container2.container   .nav-tabs  li.active >  a .colortype,
+#s-lg-tabs-container.container   .nav-tabs   li.hovered > a .colortype,
+#s-lg-tabs-container2.container   .nav-tabs  li.hovered > a .colortype {
+    color: #fff;
+    text-shadow: 0 1px 1px #3373a5;
+    } 
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+END NAVTABS AND NAVPILLS
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxend insertion*/
+
+
+
+/*aligning edges for sidebar pages with tablet and smaller*/
+#s-lg-side-nav-content div.col-md-3.s-lg-tabs-side.pad-bottom-med {
+    padding-left: 0;
+    padding-right: 0;
+}
+.tabletsearchresults #s-lg-side-nav-content.container.s-lib-side-borders.pad-top-med, 
+             .tablet #s-lg-side-nav-content.container.s-lib-side-borders.pad-top-med,
+.tabletsearchresults .container #s-lg-side-nav-content.container,
+             .tablet .container #s-lg-side-nav-content.container,
+.tabletsearchresults #s-lg-col-1,  
+             .tablet #s-lg-col-1  {
+    padding: 0 10px;
+}
+.tabletsearchresults #s-lg-tabs-container2.container,
+             .tablet #s-lg-tabs-container2.container {
+    padding: 0;
+     margin: 0 -10px;
+}
+
+        .tabletsearchresults #s-lg-side-nav-content div.col-md-3.s-lg-tabs-side.pad-bottom-med,
+                     .tablet #s-lg-side-nav-content div.col-md-3.s-lg-tabs-side.pad-bottom-med,
+.desktop.tabletsearchresults #s-lg-side-nav-content div.col-md-3.s-lg-tabs-side.pad-bottom-med {
+    padding-left: 0;
+}
+/*line up sections of tabs mobile*/
+.tabletsearchresults #s-lg-side-nav-content.container.s-lib-side-borders .row .col-md-9,
+             .tablet #s-lg-side-nav-content.container.s-lib-side-borders .row .col-md-9 {
+    padding: 0 0; 
+}
+.tabletsearchresults  #s-lg-side-nav-content .row,
+              .tablet #s-lg-side-nav-content .row,
+.tabletsearchresults  #s-lg-guide-tabs,
+              .tablet #s-lg-guide-tabs {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.desktop #s-lg-side-nav-content div.col-md-3.s-lg-tabs-side.pad-bottom-med {
+    padding-left: 15px;
+}
+.tabletsearchresults #s-lg-side-nav-content.container #s-lg-guide-main.tab-pane.active,
+             .tablet #s-lg-side-nav-content.container #s-lg-guide-main.tab-pane.active,
+.tabletsearchresults #s-lg-side-nav-content.container #s-lg-guide-main.tab-pane.active #s-lg-col-1.col-md-12 
+             .tablet #s-lg-side-nav-content.container #s-lg-guide-main.tab-pane.active #s-lg-col-1.col-md-12 {
+    padding: 0;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+END NAVTABS AND NAVPILLS
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/******** Start Box Nav ********/
+/* The "box nav" appears when the guide owner selects "Show box-level navigation for selected page" */
+/* These styles have been tested with sidebar nav, but not with tabs. */
+.s-lg-boxnav {
+    margin-top: 0 !important;
+}
+.s-lg-boxnav li {
+    margin: 0 !important;
+    border: none;
+}
+.s-lg-boxnav li a {
+    display: block;
+    padding: .65em 15px .65em 27px !important;
+    border-top: none;
+    border-right: solid 1px #bbb;
+    border-left: solid 1px #bbb;
+    border-bottom: solid 1px #bbb;
+}
+.s-lg-boxnav li a:hover,
+.s-lg-boxnav li a:focus,
+.s-lg-boxnav li a.active {
+    font-weight: bold !important;
+    color: #333;
+    background-image: url("//s3.amazonaws.com/libapps/customers/220/images/arrow16ccc.png");
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+/******** End Box Nav ********/
+
+/******** Franklin Help Nav Overrides ********/
+.s-lg-tabs-side .nav {
+    margin: 0;
+}
+#s-lg-guide-tabs > ul,
+#s-lg-guide-tabs .helplink {
+    margin-bottom: 15px;
+}
+#s-lg-guide-tabs .helplink {
+    display: block;
+    border: 1px solid #bbb;
+}
+/******** END Franklin Help Nav Overrides ********/

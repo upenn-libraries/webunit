@@ -1,0 +1,112 @@
+
+#content div.layout.layout--50-50.section-margin div.contain.layout__flex.layout__flex--justify-between div.layout__column section .wysiwyg-container.contain .wysiwyg h2.center:after {
+  display: none;
+}
+
+#content div.layout.layout--50-50.section-margin div.contain.layout__flex.layout__flex--justify-between div.layout__column section .wysiwyg-container.contain .wysiwyg .fact.fact--link {
+  padding: 0px 10px;
+}
+#content div.layout.layout--50-50.section-margin div.contain.layout__flex.layout__flex--justify-between div.layout__column section .wysiwyg-container.contain .wysiwyg  .fact--link .fact__figure {
+  margin-bottom: 10px;
+}
+#content div.layout.layout--50-50.section-margin div.contain.layout__flex.layout__flex--justify-between div.layout__column section .wysiwyg-container.contain .wysiwyg figure.align-center div img {
+  margin-top: 30px;
+}
+#content div.layout.layout--50-50.section-margin div.contain.layout__flex.layout__flex--justify-between div.layout__column section .wysiwyg-container.contain .wysiwyg figure.align-center figcaption {
+  max-width: 470px;margin: 0 auto;
+}
+/*top card with 2 lines*/
+.wysiwyg p.likeh3.top-margin-5.bottom-margin-0.first, 
+.card-listing .card .card__content .wysiwyg p.likeh3.top-margin-5.bottom-margin-0.first {
+  line-height: 1;
+  margin-top: 2.8rem;
+}
+.margin-top-pt3
+.wysiwyg p.margin-top-pt3 {
+  margin-top:  .3rem;
+
+}
+
+/*off campus*/
+.listing-card p.browser-icons-holder,
+.listing-card p.fres-image-holder {
+    text-align:  center;
+}
+/*footer*/
+/*footer*/
+
+#content section div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix nav.quick-links.quick-links--wide.section-margin-bottom.in-container.quick-links__item:last-child {
+  border-bottom: 1px solid rgba(151, 151, 151, 0.4);
+}
+#content section div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix nav.quick-links.quick-links--wide.section-margin-bottom.in-container ul.no-bullets li.quick-links__item a.quick-links__link {
+  text-align:  left;
+}
+@media (min-width: 900px) {
+  #content section div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix nav.quick-links.quick-links--wide.section-margin-bottom.in-container .no-bullets {
+    display:inline-block; 
+    vertical-align: top; 
+    width: 48%;
+  } 
+  #content section div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix nav.quick-links.quick-links--wide.section-margin-bottom.in-container .no-bullets.left {
+    margin-right:  2%;
+  }
+}
+#content section div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix nav.quick-links.quick-links--wide.section-margin-bottom.in-container  ul li a {
+  text-decoration: none;
+}
+#content section div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix nav.quick-links.quick-links--wide.section-margin-bottom.in-container ul {
+  margin: 0
+}
+#content section div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix nav.quick-links.quick-links--wide.section-margin-bottom.in-container ul.no-bullets li {
+  padding-left: 0;
+} 
+
+
+/*end footer*/
+
+.listing-card p.browser-icons-holder img,
+.listing-card p.fres-image-holder img {
+    
+    margin:  0 auto;
+    margin-top:  2rem;
+}
+.listing-card p.browser-icons-holder img {
+  width:  30rem;
+}
+.listing-card p.fres-image-holder img {
+  width:  50rem;
+}
+
+@media (min-width: 900px) {
+  .listing-card p.browser-icons-holder {
+    float:  right;
+    margin-left:  3rem;
+    width:  30rem;
+  }
+  .listing-card p.browser-icons-holder img {
+      margin-top:  0;
+  }
+}
+/*end off campus*/
+
+#content section.section-padding.bg-color.bg-gradient {
+  margin-top:  3rem;
+}
+#content section.card-slider.section-padding.bg-color.bg-gradient {
+  margin-top:  0;
+}
+#content div.layout.layout--50-50.section-margin {
+  background:  #e2ecf4;
+  padding: 5rem 0 8rem;
+}
+/*fact*/
+#content div.layout.layout--50-50.section-margin div.contain.layout__flex.layout__flex--justify-between div.layout__column section div.clearfix.wysiwyg-container.contain div.wysiwyg.clearfix div.fact.fact--link {
+  width: 400px;
+  margin: 0 auto;
+  border: solid 1px #bbb;
+  padding-top:  2rem;
+}
+#content div.layout.layout--50-50.section-margin div.contain.layout__flex.layout__flex--justify-between div.layout__column section div.clearfix.wysiwyg-container.contain div.wysiwyg.clearfix p img {
+  height:  40rem;
+  width:  auto;
+}

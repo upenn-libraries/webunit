@@ -1,0 +1,40 @@
+/* These styles are for buttons added by computing-custom-nav.js */
+
+#s-lg-guide-tabs a.helplink {
+    display: block;
+    font-size: 15px !important;
+    font-weight: normal;
+    letter-spacing: .02em;
+    border: 4px solid #fff; 
+    outline: 1px solid #5696c7;
+    padding: .65em 15px;
+    margin-bottom: 15px;
+    color: #000;
+    background: #f2f2f2;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+#s-lg-guide-tabs .helplink:hover {
+    background: #6facd5;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #6facd5 0%, #5393c5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6facd5), color-stop(100%,#5393c5));
+    background: -webkit-linear-gradient(top, #6facd5 0%,#5393c5 100%);
+    background: -o-linear-gradient(top, #6facd5 0%,#5393c5 100%);
+    background: -ms-linear-gradient(top, #6facd5 0%,#5393c5 100%);
+    background: linear-gradient(to bottom, #6facd5 0%,#5393c5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6facd5', endColorstr='#5393c5',GradientType=0 );
+    /*border: 1px solid #2373a5;
+    border-bottom: none;*/
+    color: #fff;
+    font-weight: normal;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #3373a5;
+    cursor: pointer;
+    font-family: "Source Sans Pro","Arial Unicode MS",Helvetica,sans-serif;
+}
+
+.s-lg-tabs-side .nav {
+    margin-bottom: 5px !important;
+    border-bottom: none !important;
+}

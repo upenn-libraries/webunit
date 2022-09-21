@@ -1,0 +1,51 @@
+
+.wysiwyg ul.no-bullets.no-padding li {
+  padding-left: 0;
+}
+#content section.bg-color.bg-light-blue div.contain.contain--wide div.card-listing.card-listing--2.section-padding div.contain article.card.card--align-left div.card__content div.wysiwyg h2.card__title.padding-top-3rem.milder {
+	font-size: 4.4rem;
+	font-weight: 400;
+	line-height: 1.291666667;
+	margin-top: 13px;
+	padding-top:  3rem;
+}
+#content section.bg-color.bg-light-blue div.contain.contain--wide div.card-listing.card-listing--2.section-padding div.contain article.card.card--align-left div.card__content div.wysiwyg h2.card__title.padding-top-3rem.milder:after {
+	
+}
+
+/*accessibility section*/
+
+.listing-card p.fres-image-holder {
+    text-align:  center;
+}
+
+
+
+.listing-card p.fres-image-holder img {
+    
+    margin:  0 auto;
+    margin-top:  2rem;
+}
+
+.listing-card p.fres-image-holder img {
+  width:  50rem;
+}
+
+
+@media (min-width: 1200px) {
+  .listing-card p.fres-image-holder {
+    float:  right;
+    margin-left:  3rem;
+    width:  50rem;
+  }
+  .listing-card p.fres-image-holder img {
+     margin-top:  0;
+  }
+}
+.image-slider-card__caption {
+  text-align:  center;
+}
+
+.section-header + .card-listing {
+  padding-top: 80px;
+}

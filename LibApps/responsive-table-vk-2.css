@@ -1,0 +1,251 @@
+@media  screen   {
+
+	table.ct_border, table.ct_border th, table.ct_border td, table.ct_border tr { 
+		display: block; 
+	}
+	table.ct_border {
+		position:  relative;
+		top:  -16rem;
+		margin-bottom:  -12rem;
+	}
+	table.ct_border thead tr { 
+		position: relative;
+		top: -9999px;
+		left: -9999px;
+	}
+	table.ct_border tr { 
+		border: 1px solid #ccc; 
+	}
+	table.ct_border td, table.ct_border th { 
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding: .5rem 1rem .2rem 19rem; 
+		vertical-align: top;
+	}
+	table.ct_border td:first-child { 
+		font-weight:  bold;
+		background-color: #ffdab9;
+	}
+	table.ct_border td:before { 
+		position: absolute;
+		bottom: 0;
+		left: 6px;
+		width: 45%; 
+		padding: .2rem; 
+		white-space: nowrap;
+	}
+	
+	table.ct_border td:nth-of-type(1):before {
+	 content: "Dimensions"; 
+	}
+	table.ct_border td:nth-of-type(2):before { 
+		content: "Size in Square Inches"; 
+	}
+	table.ct_border td:nth-of-type(3):before {
+	 content: "Paper (no tax)"; 
+	}
+	table.ct_border td:nth-of-type(4):before { 
+		content: "Paper + tax"; 
+	}
+	table.ct_border td:nth-of-type(5):before { 
+		content: "Fabric (no tax)"; 
+	}
+	table.ct_border td:nth-of-type(6):before { 
+		content: "Fabric + tax";
+	}
+	.extras {
+		position:  relative;
+		top:  -10rem;
+		font-size:  1.6rem;
+		margin-bottom:  -10rem;
+	}
+	.extras h4 {
+		font-size:  1.6rem;
+	}
+ 	@media (min-width: 700px) {
+		table.ct_border td:nth-of-type(1):before,
+		table.ct_border td:nth-of-type(2):before,
+		table.ct_border td:nth-of-type(3):before,
+		table.ct_border td:nth-of-type(4):before,
+		table.ct_border td:nth-of-type(5):before,
+		table.ct_border td:nth-of-type(6):before {
+		  display: none;
+		}
+		table.ct_border {
+			top:  0;
+			width:  100%;
+			margin-bottom:  0;
+		}
+		table.ct_border thead tr { 
+			top: 0;
+			left: 0;
+		}
+		table.ct_border { 
+	    	display: table; 
+	    	width:  100%;
+		}
+		table.ct_border tr { 
+		    display: table-row; 
+		}
+		table.ct_border th, table.ct_border td { 
+		    display: table-cell;
+		    padding: .5rem .5rem .2rem .5rem; 
+		    width:  16.6%;
+		    border-right: 1px solid #eee;
+		}
+		table.ct_border td:first-child { 
+			font-weight:  normal;
+			background-color: transparent;
+		}
+		.extras {
+			position:  relative;
+			top:  2rem;
+			margin-bottom:  0;
+		}
+		
+		
+	}
+
+}
+
+/* Cost and Turnaround Time Comparison table */
+.extras-vk, .extras-vk h4 {
+	font-size: 12px;
+}
+
+table.vk_border {
+    border: 1px solid #eee;
+    border-collapse: collapse;
+    border-spacing: 0;
+    top: 0;
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+table.vk_border thead tr {
+    top: 0;
+    left: 0;
+}
+
+table.vk_border thead tr {
+    background-color: #ffa07a;
+}
+
+table.vk_border tbody tr:nth-child(even) {
+    background-color: #ffdab9;
+}
+
+table.vk_border th,
+table.vk_border td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: .5rem .5rem .2rem .5rem;
+    width: 33.3%;
+}
+
+table.vk_border td:first-child {
+    font-weight: normal;
+    background-color: transparent;
+}
+
+/* OLD VERSION OF COST AND TURNAROUND TIME */
+
+/* @media  screen   {
+
+	table.vk_border, table.vk_border th, table.vk_border td, table.vk_border tr { 
+		display: block; 
+	}
+	table.vk_border {
+		position:  relative;
+		top:  -25rem;
+		margin-bottom:  -12rem;
+	}
+	table.vk_border thead tr { 
+		position: relative;
+		top: -9999px;
+		left: -9999px;
+	}
+	table.vk_border tr { 
+		border: 1px solid #ccc; 
+	}
+	table.vk_border td, table.vk_border th { 
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding: .5rem 1rem .2rem 19rem; 
+		vertical-align: top;
+	}
+	table.vk_border td:first-child { 
+		font-weight:  bold;
+		background-color: #ffdab9;
+	}
+	table.vk_border td:before { 
+		position: absolute;
+		bottom: 0;
+		left: 6px;
+		width: 45%; 
+		padding: .2rem; 
+		white-space: nowrap;
+	}
+	
+	table.vk_border td:nth-of-type(1):before {
+	    content: "Service"; 
+	}
+	table.vk_border td:nth-of-type(2):before { 
+		content: "Cost"; 
+	}
+	table.vk_border td:nth-of-type(3):before {
+	    content: "Guaranteed turnaround-time"; 
+	}
+	
+ 	@media (min-width: 700px) {
+		table.vk_border td:nth-of-type(1):before,
+		table.vk_border td:nth-of-type(2):before,
+		table.vk_border td:nth-of-type(3):before {
+		  display: none;
+		}
+		table.vk_border {
+			top:  0;
+			width:  100%;
+			margin-bottom:  0;
+		}
+		table.vk_border thead tr { 
+			top: 0;
+			left: 0;
+		}
+
+		table.vk_border thead tr:nth-child(1) {
+			background-color: #ffa07a;
+		}
+		table.vk_border thead tr th h4,
+		table.vk_border thead tr th h5 {
+			font-size:  1em;
+			font-weight:  bold;
+		}
+		
+		table.vk_border { 
+	    	display: table; 
+	    	width:  100%;
+		}
+		table.vk_border tr { 
+		    display: table-row; 
+		}
+		
+		table.vk_border tbody tr:nth-child(even) {
+		  background-color: #ffdab9;
+		}
+		table.vk_border th, table.vk_border td { 
+		    display: table-cell;
+		    padding: .5rem .5rem .2rem .5rem; 
+		    width:  33.3%;
+		    border-right: 1px solid #eee;
+		}
+		table.vk_border td:first-child { 
+			font-weight:  normal;
+			background-color: transparent;
+		}
+	}
+} */
+
+

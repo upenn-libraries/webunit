@@ -1,0 +1,8 @@
+.new.inline-block.left,
+.new.inline-block.right {width: 48.5%;
+min-height: 10em;}
+.new.inline-block.left {padding-right: 1%;}
+.new.inline-block.right {padding-left: 1%;}
+.new.inline-block img {width: 130px;}
+.holdpubinfo {display:block; height: 220px}
+.holdpubimage {width: 145px;  padding-right: 1.42em; float:left; }

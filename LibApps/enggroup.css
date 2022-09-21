@@ -1,0 +1,5 @@
+
+.desktop #form-group-s-lg-guide-order {width: 270px !important;}
+.desktop #form-group-s-lg-guide-order label.control-label.col-md-3 {width: 100px; padding-right: 0}
+.desktop #form-group-s-lg-guide-order .col-md-9 {width: 120px; margin-bottom: .5em;}
+i.fa.fa-info-circle.s-lib-popover.pad-left-sm {display:none;}

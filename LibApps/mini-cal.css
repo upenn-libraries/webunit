@@ -1,0 +1,115 @@
+
+        .calevent-mini {
+          max-height: 265px;
+        }
+
+        #mini-calendar a {
+          text-decoration: none;
+        }
+
+        /* This CSS controls: */
+        /* Public and Admin System Calendar */
+        /* Public Full and Mini Calendar Widget */
+        /*Embeddable mini-calendar - from Widgets/API section */
+        #mini-calendar {
+          border: 3px solid #066A9E;
+          padding: 2px;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+        }
+
+        .cal-mini {
+          width: 100%;
+          font-family: Arial, Verdana, sans-serif;
+        }
+
+        .cal-mini td {
+          border-right: 1px solid #f2f2f2;
+        }
+
+        .cal-mini-day-head,
+        .cal-mini-title-row td {
+          border: 0px !important;
+          background-color: #f2f2f2;
+        }
+
+        .cal-mini-title {
+          text-align: center;
+          color: #362E2C;
+          font: bold 14px Arial, Verdana, sans-serif;
+        }
+
+        .cal-mini-day-head {
+          color: #7F7F7F;
+          text-align: center;
+          font-size: 12px;
+          font-weight: bold;
+        }
+
+        .cal-mini-arrow {
+          text-align: center !important;
+          font-size: 16px;
+        }
+
+        .cal-mini-day-num,
+        .cal-mini-day-pad {
+          text-align: center;
+          color: #362E2C;
+          margin: 1px;
+        }
+
+        .cal-mini-hasevent a {
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          border-radius: 3px;
+          background-color: #4479b9;
+          border: 1px solid #fff;
+          display: block;
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .cal-mini-hasevent a:hover {
+          background-color: #fff;
+          color: #4479b9;
+          text-decoration: none;
+          border: 1px solid #4479b9;
+        }
+
+        #calevent-mini-list-h {
+          padding: 3px 0px 3px 5px;
+          color: #362E2C;
+          border-top: 1px solid #f2f2f2;
+          border-bottom: 1px solid #066A9E;
+          background-color: #f2f2f2;
+          font: bold 12px Arial, Verdana, sans-serif;
+        }
+
+        .calevent-mini {
+          list-style-type: none;
+          padding: 0px;
+          margin: 0px;
+          overflow: auto;
+        }
+
+        .calevent-mini-time {
+          padding: 0px;
+          margin: 0px;
+          color: #4A4A4A;
+          font-size: 11px;
+        }
+
+        .calevent-mini li a {
+          font-weight: bold;
+        }
+
+        .calevent-mini li {
+          padding: 0px 5px;
+          margin: 0px;
+          border-bottom: 1px solid #f2f2f2;
+        }
+
+        .calevent-mini li:hover {
+          background-color: #f2f2f2;
+        }

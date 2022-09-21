@@ -1,0 +1,4 @@
+.site-header.inactive,
+.site-header {
+    display: block !important;
+}

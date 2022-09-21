@@ -1,0 +1,26 @@
+.software-image {
+	width: 30rem;
+	margin: 0 .5rem;
+	float: left;
+	text-align: center;
+	padding: .5rem 0 1rem;
+}
+body .software-image img {
+	display:inline !important;
+}
+
+.software-image-smaller {
+	width: 25rem;
+	margin: 0 .5rem;
+	float: left;
+}
+@media (min-width: 700px) {
+	.software-text {
+		margin-left: 31rem;
+	}
+}
+@media (min-width: 1350px) {
+	.margin-full-text {
+		margin-left: 31rem;
+	}
+}

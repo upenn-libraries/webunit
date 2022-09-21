@@ -1,0 +1,1927 @@
+
+#block-sitewidesearchbar {
+  display: none;
+}
+.book-menu-tabs {
+  display: none;
+}
+.book-menu-tabs.in-symposium {
+  display: block;
+}
+.title-group > h1 {
+  display: none;
+}
+
+.title-group {
+  display: none;
+}
+#content-column-block-770  h1.pagetitle {
+  font-size: 4rem;
+  font-family: 'Gentium Bassic', serif;
+  text-align: center;
+  margin:  2rem 0 1rem;
+}
+.exh-event-home.type-exhibit-or-event #view-exhibit-or-event .title-group .subtitle1  {
+    font-size:  3.5rem;
+    line-height:  1.4;
+}
+@media (min-width: 700px) {
+  .exh-event-home.type-exhibit-or-event #view-exhibit-or-event .title-group .subtitle1  {
+    font-size:  4.9rem;
+    line-height:  1.6;
+  }
+}
+
+
+
+#breadcrumb,
+#block-socmediafooter {
+  background: #f6f3eb;
+}
+.exh-event-home.type-exhibit-or-event #view-exhibit-or-event .title-group h1.pagetitle  {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+  background: #fff;
+    background-color: rgb(255, 255, 255);
+  color: #000;
+}
+
+
+/*xxxxxxxxxxxxxxxx warhol cards xxxxxxxxxxxxxxxx*/
+.warhol-hold-cards {
+  
+  background-color:  #f6f1e6;
+  background-image: url(https://www.library.upenn.edu/sites/default/files/images/warhol/ebe7de.gif);
+  background-size:  35%;
+  background-repeat:  repeat-y;
+  
+  height:  auto;
+  background-position:  62% 0;
+  padding: 4.5rem 4% 4.3rem;
+  margin: 0 -1.9rem 3rem -1.9rem;
+}
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .warhol-hold-cards .two-cards .card.one .card-text h3,
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .warhol-hold-cards .two-cards .card.two .card-text h3,
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .card.three .card-text h3 {
+  font-size:  2.3rem;
+}
+/*.two-cards .card.one .card-text h3*/
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .warhol-hold-cards .two-cards .card.one .card-text h3 {
+  margin-top:  -6rem;
+}
+@media (min-width: 450px) {
+  .type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .warhol-hold-cards .two-cards .card.one .card-text h3 {
+      margin-top:  -4rem;
+   }
+}
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .warhol-hold-cards .two-cards .card.two .card-text h3 {
+  margin-top:  1.8rem;
+}
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .card.three .card-text h3 {
+  text-align:  left;
+  padding-left:  0;
+  margin-top:  -.5rem;
+}
+.two-cards,
+.card.three {
+  line-height:  normal;
+  vertical-align:  middle;
+  width:  100%;
+}
+.two-cards {
+  margin-right: 0%;
+}
+.card.three {
+  margin: 0;
+}
+.card {
+  background-color:  #fff;
+}
+.card .card-image {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card.one .card-image {
+  background-image:  url(https://www.library.upenn.edu/sites/default/files/images/warhol/out-of-sight.png);
+  height: 18rem;
+  background-size: 90% auto;
+  background-position: center 20px;
+  background-color: #fff;
+}
+
+.card.two .card-image {
+  background-image:  url(https://www.library.upenn.edu/sites/default/files/images/warhol/MM.png);
+  background-color: #ee232d;
+  height: 14rem;
+  background-size: auto 92%;
+}
+.card.three .card-image {
+  background-image:  url(https://www.library.upenn.edu/sites/default/files/images/warhol/warhol-campbell.png);
+  background-color: #fff;
+  height:  40rem;
+  background-size:  13.5rem auto;
+}
+.card-text {
+  padding: .5rem 2.5rem 2 2.5rem;
+  line-height:  1.7;
+}
+
+card.one .card-text {
+  padding-top:  .5rem;
+}
+
+
+.card-text h3 {
+  color: #900;
+  font-style: oblique;
+  letter-spacing: .04rem;
+  font-size: 2rem;
+  font-family: 'Gentium Basic', serif;
+  font-weight: 500;
+}
+card.one .card-text  h3 {
+  margin-top:  0;
+}
+.type-exhibit-or-event #view-exhibit-or-event--3 .card.two .card-text h3:first-of-type {
+  margin-top:  1.5rem;
+}
+.card-text .description {
+  color:  #000;
+}
+
+.card-text .where {
+  padding-top: 1.1rem;
+  border-top: solid 1px #900;
+  margin-top: 2.5rem;
+  font-weight: bold;
+}
+/*working on exhib*/
+.type-exhibit-or-event #view-exhibit-or-event--9 div.views-row:nth-child(1) {
+  margin:  0 -1.9rem;
+}
+
+#view-exhibit-or-event--9 .warhol-hold-cards .card-text {
+  padding: 0 1.5rem 2rem;
+}
+.card.one,
+.card.two {
+  margin-bottom:  3rem;
+}
+
+@media (min-width: 500px) {
+  
+  .type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .warhol-hold-cards .two-cards .card.one .card-text h3 {
+      margin-top:  -2.5rem;
+   }
+
+  .card.one .card-image {
+    height: 18rem;
+  }
+  
+  .card.two .card-image {
+    height: 17rem;
+  }
+  
+  .card.three .card-image {
+    display: none;
+  }
+  
+  #view-exhibit-or-event--9 .warhol-hold-cards .card.three .card-text {
+    background-image: url(https://www.library.upenn.edu/sites/default/files/images/warhol/warhol-campbell.png);
+    padding:  3rem 1.5rem 2rem 13rem;
+    background-size: 8.5rem auto;
+    background-repeat: no-repeat;
+    background-position: 2rem 3rem;
+    
+  }
+}
+@media (min-width: 550px) {
+  .type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .warhol-hold-cards .two-cards .card.one .card-text h3 {
+      margin-top:  -1.5rem;
+   }
+  .card.three .card-text {
+    background-image: url(https://www.library.upenn.edu/sites/default/files/images/warhol/warhol-campbell.png);
+    padding-left: 220px;
+    background-size: 120px auto;
+    background-repeat: no-repeat;
+    background-position: 3rem 1rem;
+
+
+  }
+}
+@media (min-width: 600px) {
+  .type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .warhol-hold-cards .two-cards .card.one .card-text h3 {
+      margin-top:  0;
+   }
+  .card.two .card-text h3 {
+    margin-top:  1rem;
+  }
+}
+@media (min-width: 700px) {
+   .card.one .card-image {
+      height: 20rem;
+   }
+}
+@media (min-width: 750px) {
+  
+  .card.one .card-image {
+    height: 21rem;
+  }
+  .card.two .card-image {
+    height: 17rem;
+  }
+  .card-text {
+    padding: .5rem 4rem 2rem 4rem;
+  }
+}
+@media (min-width: 800px) {
+  
+   .card.one .card-image {
+      height: 23rem;
+   }
+}
+@media (min-width: 900px) {
+  .card.one .card-image {
+    height: 25rem;
+  }
+  .card.two .card-image {
+    height: 17.7rem;
+  }
+}
+@media (min-width: 960px) {
+  .warhol-hold-cards {
+    background-color:  #f6f1e6;
+    background-image: url(https://www.library.upenn.edu/sites/default/files/images/warhol/ebe7de.gif);
+    background-size:  14%;
+  }
+  
+  .two-cards {
+    width: 66%;
+    margin-right: 4.2%;
+
+  }
+  .card.three {
+    width:  25%;
+    margin-left: 4.2%;
+  }
+  .two-cards, 
+  .card.three {
+    display: inline-block;
+    *zoom: 1;
+  }
+
+  .two-cards {
+    width: 62%;
+    margin-right: 2.2%;
+
+  }
+  .card.three {
+    width:  33%;
+    margin-left: 2.2%;
+  }
+  .card.one .card-image {
+    height: 15rem;
+    background-size: 73.2% auto;
+  }
+  .card.one .card-text h3,
+  .card.two .card-text h3 {
+    margin-top:  0;
+  }
+  .card.two {
+    margin:  4.3rem 0 0 18.2%;
+  }
+  .card.two .card-image {
+    height: 17.9rem;
+  }
+  
+  .card.three .card-image {
+    display: block;
+    /*height: 42rem;
+    background-size: 17.5rem auto;*/
+    height: 35rem;
+    background-size: 14.5rem auto;
+  }
+
+  #view-exhibit-or-event--9 .warhol-hold-cards .card.three .card-text {
+    background-image: none;
+    padding-left:  2rem;
+    /*height:  22rem;*/
+    height:  83rem;
+  }
+}
+@media (min-width: 1020px) {       
+  #view-exhibit-or-event--9 .warhol-hold-cards .card.three .card-text {
+    height:  80rem;
+  }
+}
+@media (min-width: 1030px) {       
+  .card.one .card-image {
+      height: 16.5rem;
+   }
+}
+@media (min-width: 1080px) {       
+  #view-exhibit-or-event--9 .warhol-hold-cards .card.three .card-text {
+    height:  78rem;
+  }
+}
+@media (min-width: 1120px) {       
+  #view-exhibit-or-event--9 .warhol-hold-cards .card.three .card-text {
+    height:  73rem;
+  }
+}
+@media (min-width: 1200px) {       
+  .card.one .card-image {
+      height: 18rem;
+   }
+   #view-exhibit-or-event--9 .warhol-hold-cards .card.three .card-text {
+    height:  70rem;
+  }
+}
+@media (min-width: 1240px) {       
+  #view-exhibit-or-event--9 .warhol-hold-cards .card.three .card-text {
+    height:  67.5rem;
+  }
+}
+@media (min-width: 1300px) {       
+  .card.one .card-image {
+      height: 18.5rem;
+   }
+   #view-exhibit-or-event--9 .warhol-hold-cards .card.three .card-text {
+    height:  65rem;
+  }
+}
+
+/*xxxxxxxxxxxxxxxx end cards xxxxxxxxxxxxxxxx*/
+
+
+
+/*xxxxxxxxxxx BOXES xxxxxxxxx*//*xxxxxxxxxxx BOXES xxxxxxxxx*//*xxxxxxxxxxx BOXES xxxxxxxxx*/
+#content-column-block-759 {
+  margin-bottom:  4rem;
+  margin-top:  -5rem;
+}
+
+.boxed-list {
+    list-style-image: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.boxed-list li {
+    display: inline-block;
+    vertical-align: middle;
+    *zoom: 1;
+    width: 100%;
+    height: 4.6rem;
+    margin: 1rem 0 0;
+    text-align: center;
+    
+}
+.boxed-list li br {
+    display:none;
+}
+
+
+
+
+.boxed-list li a {
+    display: block;
+    height: 100%;
+    text-align: left;
+    color: #d2232a;
+    -moz-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -moz-transition-property: background,color;
+    -o-transition-property: background,color;
+    -webkit-transition-property: background,color;
+    transition-property: background,color;
+    background: transparent;
+    border: 1px solid #d2232a;
+    font-size: 1.4rem;
+    font-weight: normal;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    text-transform:  uppercase;
+    line-height: 1.4;
+    padding: 1.2rem 2rem .8rem;
+    
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    -moz-border-radius: 2.3rem;
+    -webkit-border-radius: 2.3rem;
+    border-radius: 2.3rem;
+
+}
+
+.boxed-list li.symposium-button a.thispage,
+.boxed-list a:hover,
+.exh-event-home .boxed-list li.home-button a,
+.tabfour .boxed-list li.exhibits-button a,
+.tabone .boxed-list li.symposium-button a,
+.tabtwo .boxed-list li.weds-button a,
+.tabfive .boxed-list li.multi-button a,
+.tabsix .boxed-list li.about-button a,
+.tabseven .boxed-list li.gallery a,
+.tabthree .boxed-list li.symposium-button a,
+.tabeight .boxed-list li.symposium-button a {
+    background: #d2232a;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #d2232a;
+    cursor:  pointer;
+}
+.boxed-list a span::after {
+  content: '';
+}
+@media (min-width: 660px) {
+  .hold-boxed-list {
+    width: 64rem;
+    max-width:  100%;
+    margin: 0 auto;
+  }
+  .boxed-list li {
+    width:  auto;
+    margin: 2rem .7rem 0;
+  }
+  .boxed-list li.multi-button {
+    margin-left:  20rem;
+  }
+  .boxed-list li br {
+    display:inline;
+  }
+ 
+}
+@media (min-width: 1030px) {
+  .hold-boxed-list {
+    width:  87rem;
+    max-width:  100%;
+  }
+  .boxed-list li.multi-button {
+    margin-left:  .7rem;
+  }
+  .boxed-list li a {
+    
+    
+  }
+  
+  
+}
+
+
+
+/*xxxxxxxxxxxxxxxx end boxed list xxxxxxxxxxxxxxxx*/
+
+/*xxxxxxxxxxxxxxxx SEE ALSO xxxxxxxxxxxxxxxx*/
+
+#view-exhibit-or-event--4 {
+  margin-top:  4rem;
+}
+@media (min-width: 830px) {
+  .type-exhibit-or-event #view-exhibit-or-event--4 .see-also {
+    padding:  .5rem 0;
+  }
+  #view-exhibit-or-event--4 {
+    text-align:  center;
+  }
+  #view-exhibit-or-event--4 h3,
+  #view-exhibit-or-event--4 a,
+  #view-exhibit-or-event--4 ul,
+  #view-exhibit-or-event--4 li {
+    display:  inline;
+  }
+  #view-exhibit-or-event--4 h3 {
+    padding-left:  0;
+  }
+  .type-exhibit-or-event #view-exhibit-or-event--4 h3:first-of-type {
+    margin: 0 0 1.7rem;
+  }
+  .type-exhibit-or-event #view-exhibit-or-event--4 h3 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #000;
+    border: none;
+    background:  transparent;
+  }
+  .type-exhibit-or-event #view-exhibit-or-event--4 h3:after {
+    content:  ':';
+  }
+  #view-exhibit-or-event--4 li {
+      margin-right:  0rem;
+  }
+  #view-exhibit-or-event--4 ul {
+      margin-left: 0rem;
+  }
+}
+@media (min-width: 870px) {
+  #view-exhibit-or-event--4 li {
+      margin-right:  1rem;
+  }
+  #view-exhibit-or-event--4 ul {
+      margin-left: 1rem;
+      padding:  0;
+  }
+}
+@media (min-width: 960px) {
+  #view-exhibit-or-event--4 li {
+      margin-right:  2rem;
+  }
+  #view-exhibit-or-event--4 ul {
+      margin-left: 2rem;
+      padding:  0;
+  }
+}
+@media (min-width: 1080px) {
+  #view-exhibit-or-event--4 li {
+      margin-right:  4rem;
+  }
+  #view-exhibit-or-event--4 ul {
+      margin-left: 4rem;
+  }
+}
+/*headers*/
+.type-exhibit-or-event  #view-exhibit-or-event--11 h3,/*acc*/
+#view-exhibit-or-event--11 h3,/*acc*/
+#schedule-header .almosth3,
+.type-exhibit-or-event #view-exhibit-or-event--7 .views-field-field-title-for-photo-gallary h3,/*gallery*/
+.type-exhibit-or-event #view-exhibit-or-event--8 #schedule-header h3,
+.type-exhibit-or-event #view-exhibit-or-event--9 .almosth3,/*exh*/
+.type-exhibit-or-event #view-exhibit-or-event--9 #additional-header h3.ck-header-carat,/*multi*/
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription h3,/*about*/
+.type-exhibit-or-event #view-exhibit-or-event--10 #abstracts-header h3,
+.type-exhibit-or-event #view-exhibit-or-event--11 h3  {
+  height: auto;
+  
+  font-style: normal;
+  font-family:  'Open Sans', sans-serif;
+  border-bottom: none;
+  position: relative;
+  font-weight: 500;
+  font-size: 3rem;
+  
+  text-align:  center;
+  color:  #000;
+  padding: 0 .5rem .8rem 1rem;
+  margin: 3rem auto 1.5rem auto;
+}
+.type-exhibit-or-event #view-exhibit-or-event--9 .almosth3 {/*exh*/
+  padding: 0 .5rem .3rem 1rem;
+  margin: 3rem auto 1.5rem auto;
+  margin-top:  2.5rem;
+}
+.type-exhibit-or-event.tabfour #view-exhibit-or-event--9 #additional-header h3.ck-header-carat,
+.type-exhibit-or-event #view-exhibit-or-event--9 .views-row:nth-child(1) #additional-header h3.ck-header-carat  {/*exh*/
+  display: none;
+}
+
+.type-exhibit-or-event #view-exhibit-or-event--8 .views-row:nth-child(1)  #schedule-header h3.ck-header-carat {/*symp*/
+  padding: 0 .5rem 0 1rem;
+  margin: 3rem auto 1.5rem auto;
+}
+
+.type-exhibit-or-event #view-exhibit-or-event--8 .views-row:nth-child(2) #schedule-header h3 {/*weds*/
+  padding: 0 .5rem .5rem 1rem;
+  margin: 3rem auto 1.5rem auto;
+}
+.type-exhibit-or-event #view-exhibit-or-event--9 #additional-header {
+  padding-bottom: 0;
+}
+
+.type-exhibit-or-event #view-exhibit-or-event--9 #additional-header h3.ck-header-carat {/*multi*/
+  padding: 0 .5rem .8rem 1rem;
+  margin: 3rem auto 0 auto;
+}
+
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription h3.history-header {/*about*/
+  margin: 3rem auto 0 auto;
+  padding: 0 .5rem .6rem 1rem;
+}
+.type-exhibit-or-event #view-exhibit-or-event--7 .views-field-field-title-for-photo-gallary h3 {/*gallery*/
+  padding: 0 .5rem .4rem 1rem;
+  margin: 3rem auto 1.5rem auto;
+}
+.type-exhibit-or-event  #view-exhibit-or-event--11 h3 {/*acc*/
+  padding: 0 .5rem .4rem 1rem;
+  margin: 3rem auto 1.5rem auto;
+}
+/*GET RID OF CK-CARAT*/
+#view-exhibit-or-event--7 .views-field-field-title-for-photo-gallary h3,
+#view-exhibit-or-event--9 #additional-header h3.ck-header-carat {
+  border-bottom:  none;
+}
+#view-exhibit-or-event--7 .views-field-field-title-for-photo-gallary h3::before,
+#view-exhibit-or-event--9 #additional-header h3.ck-header-carat::before,
+#view-exhibit-or-event--10 h3.ck-header-carat::before,
+#view-exhibit-or-event--8 h3.ck-header-carat::before  {
+  
+  border-color: transparent transparent transparent;
+  border-style: none;
+  border-width: 0;
+  
+}
+#view-exhibit-or-event--7 .views-field-field-title-for-photo-gallary h3::after,
+#view-exhibit-or-event--9 #additional-header h3.ck-header-carat::after,
+#view-exhibit-or-event--10 h3.ck-header-carat::after,
+#view-exhibit-or-event--8 h3.ck-header-carat::after {
+  content: "";
+  border-color: transparent transparent transparent;
+  border-style: none;
+  border-width: 0;
+}
+
+
+
+
+/*XXXXXXX HOME #view-exhibit-or-event--3 XXXXXXXXXXXX */
+.type-exhibit-or-event #view-exhibit-or-event--3 {
+  width:  100rem;
+  max-width:  100%;
+  margin:  3rem auto 0;
+}
+.intro-intro {
+  font-size: 1.7rem;
+  font-style: oblique;
+  color: #900;
+}
+
+
+/*XXXXXXXXXX SYMPOSIUM view-exhibit-or-event--8 row1 XXXXXXXXXX*/
+
+.type-exhibit-or-event #view-exhibit-or-event--8 div.views-row:nth-child(1) {
+  padding-bottom:  3rem;
+  margin-bottom:  3rem;
+  border-bottom:  solid 1px #ccc;
+}
+
+#view-exhibit-or-event--8 .book-menu-tabs.in-symposium {
+  margin-top:  2.5rem;
+}
+/* XXXXXXXXXX GALLERY #view-exhibit-or-event--7 XXXXXXXXXX */
+#view-exhibit-or-event--7 {
+  margin-bottom:  3rem;
+}
+.type-exhibit-or-event #view-exhibit-or-event--7 .views-field-field-title-for-photo-gallary h3 {
+  margin-top:  0;
+}
+.type-exhibit-or-event #view-exhibit-or-event--7 .text-blurb {
+  width:  120rem;
+  margin:  0 auto;
+}
+
+/* XXXXXXXXXX WEDNESDAYS #view-exhibit-or-event--8 ROW2 XXXXXXXXXX */
+/*compare:  symp hide; wenesdays show*/
+#view-exhibit-or-event--8 .content div div.contextual-region  div.views-row:nth-child(3)  div#schedule-header h3.ck-header-carat.width400 {
+  margin-bottom:  1rem;
+}
+.type-exhibit-or-event #view-exhibit-or-event--8 .views-field-field-introductory-information, 
+.type-exhibit-or-event #view-exhibit-or-event--8 .views-field-field-program-day,
+#view-exhibit-or-event--8 {
+  width:  80rem;
+  max-width:  100%;
+  margin:  0 auto;
+}
+#view-exhibit-or-event--8 .views-field-field-program-day ul {
+  padding-left:  0;
+}
+.type-exhibit-or-event #view-exhibit-or-event--8 #schedule-header {
+  padding-bottom: 0;
+}
+#view-exhibit-or-event--8 #schedule-header h3.ck-header-carat {
+  display: block;
+}
+.type-exhibit-or-event #view-exhibit-or-event--8 .views-field-field-program-day .paragraph--type--program-day h3, 
+.type-exhibit-or-event #view-exhibit-or-event--8 .views-field-field-program-day .paragraph--type--program-day .see-also-header {
+  background-color: #eee;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  font-size: 1.7rem;
+  font-weight: 500;
+  letter-spacing: .04rem;
+  margin: 0;
+  padding: .9rem 1rem .4rem 1.8rem;
+}
+#view-exhibit-or-event--8.block-views-blockexhibit-or-event-block-7 .views-field-field-program-day ul li div.paragraph--type--program-day .field.field--name-field-one-day-schedule h3.ww {
+  background-color: transparent;
+  border-bottom: none;
+  padding: 2rem 1rem 1.3rem 0;
+}
+
+/*XXXXXXXXXX EXHIBITION view-exhibit-or-event--9 row1 XXXXXXXXXX*/
+.type-exhibit-or-event  #view-exhibit-or-event--9 .views-row:nth-child(2)  #additional-header .almosth3 {
+  padding-bottom:  0;
+  margin-bottom:  0;
+}
+
+
+
+
+/*XXXXXXXXXX MULTIMEDIA view-exhibit-or-event--9  XXXXXXXXXX*/
+
+#view-exhibit-or-event--9 .multi-media-content {
+  width: 70rem;
+  max-width:  100%;
+  margin: 0 auto 3rem;
+  padding-bottom: 3rem;
+  border-bottom: solid 1px #CCC;
+}
+#view-exhibit-or-event--9 div.additional-text-content div.discription .multi-media-content h4.no-captions-header {
+  margin: 2rem 0 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: oblique;
+  letter-spacing: .03rem;
+}
+#view-exhibit-or-event--9  .multi-media-content .disclaimer {
+  text-align: center;
+  font-style: oblique;
+  letter-spacing: .03rem;
+  width: 70rem;
+  margin: 2rem auto;
+}
+/* XXXXXXXX #view-exhibit-or-event--9 ABOUT XXXXXXX */
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .about {
+  width:  100rem;
+  max-width:  100%;
+  margin:  0 auto;
+}
+
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .history-section {
+  padding-bottom:  3rem;
+  border-bottom:  solid 1px #ccc;
+}
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription h3.team-header {
+  margin-bottom: .9rem;
+}
+
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .sponsors {
+  margin:  4.5rem 0 3rem;
+}
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .sponsors h3.ack-header {
+  margin: 0;
+  padding-bottom:  .2rem;
+  font-size:  2.7rem;
+}
+.team {
+  width:  100rem;
+  max-width:  100%;
+  margin:  0 auto;
+}
+
+#view-exhibit-or-event--9 .about .team ul {
+  margin:  0;
+  text-align:  left;
+}
+#view-exhibit-or-event--9 .about .team ul li {
+  margin-left:  2rem;
+  text-indent:  -2rem;
+}
+ .type-exhibit-or-event #view-exhibit-or-event--9 p.more-credits {
+    margin:  0;
+  }
+
+@media (min-width: 960px) {
+  .type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription h3.team-header,
+  .more-credits {
+    padding-right:18%;
+  }
+  #view-exhibit-or-event--9 .about .team ul {
+    float:  left;
+  }
+  #view-exhibit-or-event--9 .about .team .one {
+    width:  40%;
+    padding-right:  1.5rem;
+  }
+  #view-exhibit-or-event--9 .about .team .two {
+    width:  58%;
+    padding-left:  1.5rem;
+  }
+  .type-exhibit-or-event #view-exhibit-or-event--9 p.more-credits {
+    text-align:  center;
+    margin:  0;
+    padding-top:  .5rem;
+    clear:  both;
+    font-style:  oblique;
+    letter-spacing:  .03rem;
+  }
+}
+/*SPEAKERS view-exhibit-or-event--10*/
+#view-exhibit-or-event--10 {
+  width:  80rem;
+  max-width:  100%;
+  margin:  0 auto;
+}
+.type-exhibit-or-event #view-exhibit-or-event--10 #abstracts-header {
+  padding-bottom:  0;
+}
+.type-exhibit-or-event #view-exhibit-or-event--10 #abstracts-header h3 {
+  border-bottom: none;
+  margin:  2.9rem auto 1.8rem;
+}
+.type-exhibit-or-event #view-exhibit-or-event--10 .views-field-field-abstract .field-content {
+  max-width: 100%;
+  margin: 0 auto;
+}
+/*CHANGE max-width in the default css*/
+.views-field-field-abstract > div:nth-child(1) > hr:nth-child(2) {
+  display: none;
+} 
+/*XXXXXXXXXX ACCOMMODATIONS #view-exhibit-or-event--11 XXXXXXXXXXX*/
+
+#view-exhibit-or-event--11 {
+  width:  80rem;
+  max-width:  100%;
+  margin:  0 auto;
+}
+.type-exhibit-or-event #view-exhibit-or-event--11 h3 {
+  margin: 3rem auto 0;
+  padding-bottom: .5rem;
+}
+/*subtabs*/
+
+
+#view-exhibit-or-event--11 .book-menu-tabs.in-symposium.accomm-page {
+  display: none;
+}
+#view-exhibit-or-event--11 .views-row:nth-child(2) .book-menu-tabs.in-symposium.ac
+#block-sitewidesearchbar {
+  display: none;
+}
+.book-menu-tabs {
+  display: none;
+}
+.book-menu-tabs.in-symposium {
+  display: block;
+}
+.title-group > h1 {
+  display: none;
+}
+
+.title-group {
+  display: none;
+}
+#content-column-block-770  h1.pagetitle {
+  font-size: 4rem;
+  font-family: 'Gentium Bassic', serif;
+  text-align: center;
+  margin:  2rem 0 1rem;
+}
+.exh-event-home.type-exhibit-or-event #view-exhibit-or-event .title-group .subtitle1  {
+    font-size:  3.5rem;
+    line-height:  1.4;
+}
+@media (min-width: 700px) {
+  .exh-event-home.type-exhibit-or-event #view-exhibit-or-event .title-group .subtitle1  {
+    font-size:  4.9rem;
+    line-height:  1.6;
+  }
+}
+
+
+
+#breadcrumb,
+#block-socmediafooter {
+  background: #f6f3eb;
+}
+.exh-event-home.type-exhibit-or-event #view-exhibit-or-event .title-group h1.pagetitle  {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+  background: #fff;
+    background-color: rgb(255, 255, 255);
+  color: #000;
+}
+
+
+/*xxxxxxxxxxxxxxxx warhol cards xxxxxxxxxxxxxxxx*/
+.warhol-hold-cards {
+  
+  background-color:  #f6f1e6;
+  background-image: url(https://www.library.upenn.edu/sites/default/files/images/warhol/ebe7de.gif);
+  background-size:  35%;
+  background-repeat:  repeat-y;
+  
+  height:  auto;
+  background-position:  62% 0;
+  padding: 4.5rem 4% 4.3rem;
+  margin: 0 -1.9rem 3rem -1.9rem;
+}
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .warhol-hold-cards .two-cards .card.one .card-text h3,
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .warhol-hold-cards .two-cards .card.two .card-text h3,
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .card.three .card-text h3 {
+  font-size:  2.3rem;
+}
+/*.two-cards .card.one .card-text h3*/
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .warhol-hold-cards .two-cards .card.one .card-text h3 {
+  margin-top:  -6rem;
+}
+@media (min-width: 450px) {
+  .type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .warhol-hold-cards .two-cards .card.one .card-text h3 {
+      margin-top:  -4rem;
+   }
+}
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .warhol-hold-cards .two-cards .card.two .card-text h3 {
+  margin-top:  1.8rem;
+}
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .card.three .card-text h3 {
+  text-align:  left;
+  padding-left:  0;
+  margin-top:  -.5rem;
+}
+.two-cards,
+.card.three {
+  line-height:  normal;
+  vertical-align:  middle;
+  width:  100%;
+}
+.two-cards {
+  margin-right: 0%;
+}
+.card.three {
+  margin: 0;
+}
+.card {
+  background-color:  #fff;
+}
+.card .card-image {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card.one .card-image {
+  background-image:  url(https://www.library.upenn.edu/sites/default/files/images/warhol/out-of-sight.png);
+  height: 18rem;
+  background-size: 90% auto;
+  background-position: center 20px;
+  background-color: #fff;
+}
+
+.card.two .card-image {
+  background-image:  url(https://www.library.upenn.edu/sites/default/files/images/warhol/MM.png);
+  background-color: #ee232d;
+  height: 14rem;
+  background-size: auto 92%;
+}
+.card.three .card-image {
+  background-image:  url(https://www.library.upenn.edu/sites/default/files/images/warhol/warhol-campbell.png);
+  background-color: #fff;
+  height:  40rem;
+  background-size:  13.5rem auto;
+}
+.card-text {
+  padding: .5rem 2.5rem 2 2.5rem;
+  line-height:  1.7;
+}
+
+card.one .card-text {
+  padding-top:  .5rem;
+}
+
+
+.card-text h3 {
+  color: #900;
+  font-style: oblique;
+  letter-spacing: .04rem;
+  font-size: 2rem;
+  font-family: 'Gentium Basic', serif;
+  font-weight: 500;
+}
+card.one .card-text  h3 {
+  margin-top:  0;
+}
+.type-exhibit-or-event #view-exhibit-or-event--3 .card.two .card-text h3:first-of-type {
+  margin-top:  1.5rem;
+}
+.card-text .description {
+  color:  #000;
+}
+
+.card-text .where {
+  padding-top: 1.1rem;
+  border-top: solid 1px #900;
+  margin-top: 2.5rem;
+  font-weight: bold;
+}
+/*working on exhib*/
+.type-exhibit-or-event #view-exhibit-or-event--9 div.views-row:nth-child(1) {
+  margin:  0 -1.9rem;
+}
+
+#view-exhibit-or-event--9 .warhol-hold-cards .card-text {
+  padding: 0 1.5rem 2rem;
+}
+.card.one,
+.card.two {
+  margin-bottom:  3rem;
+}
+
+@media (min-width: 500px) {
+  
+  .type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .warhol-hold-cards .two-cards .card.one .card-text h3 {
+      margin-top:  -2.5rem;
+   }
+
+  .card.one .card-image {
+    height: 18rem;
+  }
+  
+  .card.two .card-image {
+    height: 17rem;
+  }
+  
+  .card.three .card-image {
+    display: none;
+  }
+  
+  #view-exhibit-or-event--9 .warhol-hold-cards .card.three .card-text {
+    background-image: url(https://www.library.upenn.edu/sites/default/files/images/warhol/warhol-campbell.png);
+    padding:  3rem 1.5rem 2rem 13rem;
+    background-size: 8.5rem auto;
+    background-repeat: no-repeat;
+    background-position: 2rem 3rem;
+    
+  }
+}
+@media (min-width: 550px) {
+  .type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .warhol-hold-cards .two-cards .card.one .card-text h3 {
+      margin-top:  -1.5rem;
+   }
+  .card.three .card-text {
+    background-image: url(https://www.library.upenn.edu/sites/default/files/images/warhol/warhol-campbell.png);
+    padding-left: 220px;
+    background-size: 120px auto;
+    background-repeat: no-repeat;
+    background-position: 3rem 1rem;
+
+
+  }
+}
+@media (min-width: 600px) {
+  .type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .warhol-hold-cards .two-cards .card.one .card-text h3 {
+      margin-top:  0;
+   }
+  .card.two .card-text h3 {
+    margin-top:  1rem;
+  }
+}
+@media (min-width: 700px) {
+   .card.one .card-image {
+      height: 20rem;
+   }
+}
+@media (min-width: 750px) {
+  
+  .card.one .card-image {
+    height: 21rem;
+  }
+  .card.two .card-image {
+    height: 17rem;
+  }
+  .card-text {
+    padding: .5rem 4rem 2rem 4rem;
+  }
+}
+@media (min-width: 800px) {
+  
+   .card.one .card-image {
+      height: 23rem;
+   }
+}
+@media (min-width: 900px) {
+  .card.one .card-image {
+    height: 25rem;
+  }
+  .card.two .card-image {
+    height: 17.7rem;
+  }
+}
+@media (min-width: 960px) {
+  .warhol-hold-cards {
+    background-color:  #f6f1e6;
+    background-image: url(https://www.library.upenn.edu/sites/default/files/images/warhol/ebe7de.gif);
+    background-size:  14%;
+  }
+  
+  .two-cards {
+    width: 66%;
+    margin-right: 4.2%;
+
+  }
+  .card.three {
+    width:  25%;
+    margin-left: 4.2%;
+  }
+  .two-cards, 
+  .card.three {
+    display: inline-block;
+    *zoom: 1;
+  }
+
+  .two-cards {
+    width: 62%;
+    margin-right: 2.2%;
+
+  }
+  .card.three {
+    width:  33%;
+    margin-left: 2.2%;
+  }
+  .card.one .card-image {
+    height: 15rem;
+    background-size: 73.2% auto;
+  }
+  .card.one .card-text h3,
+  .card.two .card-text h3 {
+    margin-top:  0;
+  }
+  .card.two {
+    margin:  4.3rem 0 0 18.2%;
+  }
+  .card.two .card-image {
+    height: 17.9rem;
+  }
+  
+  .card.three .card-image {
+    display: block;
+    /*height: 42rem;
+    background-size: 17.5rem auto;*/
+    height: 35rem;
+    background-size: 14.5rem auto;
+  }
+
+  #view-exhibit-or-event--9 .warhol-hold-cards .card.three .card-text {
+    background-image: none;
+    padding-left:  2rem;
+   
+  }
+}
+@media (min-width: 1030px) {       
+  .card.one .card-image {
+      height: 16.5rem;
+   }
+   
+  
+}
+@media (min-width: 1200px) {       
+  .card.one .card-image {
+      height: 18rem;
+   }
+}
+@media (min-width: 1300px) {       
+  .card.one .card-image {
+      height: 18.5rem;
+   }
+}
+
+/*xxxxxxxxxxxxxxxx end cards xxxxxxxxxxxxxxxx*/
+
+
+
+/*xxxxxxxxxxx BOXES xxxxxxxxx*//*xxxxxxxxxxx BOXES xxxxxxxxx*//*xxxxxxxxxxx BOXES xxxxxxxxx*/
+#content-column-block-759 {
+  margin-bottom:  4rem;
+  margin-top:  -5rem;
+}
+
+.boxed-list {
+    list-style-image: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.boxed-list li {
+    display: inline-block;
+    vertical-align: middle;
+    *zoom: 1;
+    width: 100%;
+    height: 4.6rem;
+    margin: 1rem 0 0;
+    text-align: center;
+    
+}
+.boxed-list li br {
+    display:none;
+}
+
+
+
+
+.boxed-list li a {
+    display: block;
+    height: 100%;
+    text-align: left;
+    color: #d2232a;
+    -moz-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -moz-transition-property: background,color;
+    -o-transition-property: background,color;
+    -webkit-transition-property: background,color;
+    transition-property: background,color;
+    background: transparent;
+    border: 1px solid #d2232a;
+    font-size: 1.4rem;
+    font-weight: normal;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    text-transform:  uppercase;
+    line-height: 1.4;
+    padding: 1.2rem 2rem .8rem;
+    
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    -moz-border-radius: 2.3rem;
+    -webkit-border-radius: 2.3rem;
+    border-radius: 2.3rem;
+
+}
+
+.boxed-list li.symposium-button a.thispage,
+.boxed-list a:hover,
+.exh-event-home .boxed-list li.home-button a,
+.tabfour .boxed-list li.exhibits-button a,
+.tabone .boxed-list li.symposium-button a,
+.tabtwo .boxed-list li.weds-button a,
+.tabfive .boxed-list li.multi-button a,
+.tabsix .boxed-list li.about-button a,
+.tabseven .boxed-list li.gallery a,
+.tabthree .boxed-list li.symposium-button a,
+.tabeight .boxed-list li.symposium-button a {
+    background: #d2232a;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #d2232a;
+    cursor:  pointer;
+}
+.boxed-list a span::after {
+  content: '';
+}
+@media (min-width: 660px) {
+  .hold-boxed-list {
+    width: 64rem;
+    max-width:  100%;
+    margin: 0 auto;
+  }
+  .boxed-list li {
+    width:  auto;
+    margin: 2rem .7rem 0;
+  }
+  .boxed-list li.multi-button {
+    margin-left:  20rem;
+  }
+  .boxed-list li br {
+    display:inline;
+  }
+ 
+}
+@media (min-width: 1030px) {
+  .hold-boxed-list {
+    width:  87rem;
+    max-width:  100%;
+  }
+  .boxed-list li.multi-button {
+    margin-left:  .7rem;
+  }
+  .boxed-list li a {
+    
+    
+  }
+  
+  
+}
+
+
+
+/*xxxxxxxxxxxxxxxx end boxed list xxxxxxxxxxxxxxxx*/
+
+/*xxxxxxxxxxxxxxxx SEE ALSO xxxxxxxxxxxxxxxx*/
+
+#view-exhibit-or-event--4 {
+  margin-top:  4rem;
+}
+@media (min-width: 830px) {
+  .type-exhibit-or-event #view-exhibit-or-event--4 .see-also {
+    padding:  .5rem 0;
+  }
+  #view-exhibit-or-event--4 {
+    text-align:  center;
+  }
+  #view-exhibit-or-event--4 h3,
+  #view-exhibit-or-event--4 a,
+  #view-exhibit-or-event--4 ul,
+  #view-exhibit-or-event--4 li {
+    display:  inline;
+  }
+  #view-exhibit-or-event--4 h3 {
+    padding-left:  0;
+  }
+  .type-exhibit-or-event #view-exhibit-or-event--4 h3:first-of-type {
+    margin: 0 0 1.7rem;
+  }
+  .type-exhibit-or-event #view-exhibit-or-event--4 h3 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #000;
+    border: none;
+    background:  transparent;
+  }
+  .type-exhibit-or-event #view-exhibit-or-event--4 h3:after {
+    content:  ':';
+  }
+  #view-exhibit-or-event--4 li {
+      margin-right:  0rem;
+  }
+  #view-exhibit-or-event--4 ul {
+      margin-left: 0rem;
+  }
+}
+@media (min-width: 870px) {
+  #view-exhibit-or-event--4 li {
+      margin-right:  1rem;
+  }
+  #view-exhibit-or-event--4 ul {
+      margin-left: 1rem;
+      padding:  0;
+  }
+}
+@media (min-width: 960px) {
+  #view-exhibit-or-event--4 li {
+      margin-right:  2rem;
+  }
+  #view-exhibit-or-event--4 ul {
+      margin-left: 2rem;
+      padding:  0;
+  }
+}
+@media (min-width: 1080px) {
+  #view-exhibit-or-event--4 li {
+      margin-right:  4rem;
+  }
+  #view-exhibit-or-event--4 ul {
+      margin-left: 4rem;
+  }
+}
+/*headers*/
+.type-exhibit-or-event  #view-exhibit-or-event--11 h3,/*acc*/
+#view-exhibit-or-event--11 h3,/*acc*/
+#schedule-header .almosth3,
+.type-exhibit-or-event #view-exhibit-or-event--7 .views-field-field-title-for-photo-gallary h3,/*gallery*/
+.type-exhibit-or-event #view-exhibit-or-event--8 #schedule-header h3,
+.type-exhibit-or-event #view-exhibit-or-event--9 .almosth3,/*exh*/
+.type-exhibit-or-event #view-exhibit-or-event--9 #additional-header h3.ck-header-carat,/*multi*/
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription h3,/*about*/
+.type-exhibit-or-event #view-exhibit-or-event--10 #abstracts-header h3,
+.type-exhibit-or-event #view-exhibit-or-event--11 h3  {
+  height: auto;
+  
+  font-style: normal;
+  font-family:  'Open Sans', sans-serif;
+  border-bottom: none;
+  position: relative;
+  font-weight: 500;
+  font-size: 3rem;
+  
+  text-align:  center;
+  color:  #000;
+  padding: 0 .5rem .8rem 1rem;
+  margin: 3rem auto 1.5rem auto;
+}
+.type-exhibit-or-event #view-exhibit-or-event--9 .almosth3 {/*exh*/
+  padding: 0 .5rem .3rem 1rem;
+  margin: 3rem auto 1.5rem auto;
+  margin-top:  2.5rem;
+}
+.type-exhibit-or-event.tabfour #view-exhibit-or-event--9 #additional-header h3.ck-header-carat,
+.type-exhibit-or-event #view-exhibit-or-event--9 .views-row:nth-child(1) #additional-header h3.ck-header-carat  {/*exh*/
+  display: none;
+}
+
+.type-exhibit-or-event #view-exhibit-or-event--8 .views-row:nth-child(1)  #schedule-header h3.ck-header-carat {/*symp*/
+  padding: 0 .5rem 0 1rem;
+  margin: 3rem auto 1.5rem auto;
+}
+
+.type-exhibit-or-event #view-exhibit-or-event--8 .views-row:nth-child(2) #schedule-header h3 {/*weds*/
+  padding: 0 .5rem .5rem 1rem;
+  margin: 3rem auto 1.5rem auto;
+}
+.type-exhibit-or-event #view-exhibit-or-event--9 #additional-header {
+  padding-bottom: 0;
+}
+
+.type-exhibit-or-event #view-exhibit-or-event--9 #additional-header h3.ck-header-carat {/*multi*/
+  padding: 0 .5rem .8rem 1rem;
+  margin: 3rem auto 0 auto;
+}
+
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription h3.history-header {/*about*/
+  margin: 3rem auto 0 auto;
+  padding: 0 .5rem .6rem 1rem;
+}
+.type-exhibit-or-event #view-exhibit-or-event--7 .views-field-field-title-for-photo-gallary h3 {/*gallery*/
+  padding: 0 .5rem .4rem 1rem;
+  margin: 3rem auto 1.5rem auto;
+}
+.type-exhibit-or-event  #view-exhibit-or-event--11 h3 {/*acc*/
+  padding: 0 .5rem .4rem 1rem;
+  margin: 3rem auto 1.5rem auto;
+}
+/*GET RID OF CK-CARAT*/
+#view-exhibit-or-event--7 .views-field-field-title-for-photo-gallary h3,
+#view-exhibit-or-event--9 #additional-header h3.ck-header-carat {
+  border-bottom:  none;
+}
+#view-exhibit-or-event--7 .views-field-field-title-for-photo-gallary h3::before,
+#view-exhibit-or-event--9 #additional-header h3.ck-header-carat::before,
+#view-exhibit-or-event--10 h3.ck-header-carat::before,
+#view-exhibit-or-event--8 h3.ck-header-carat::before  {
+  
+  border-color: transparent transparent transparent;
+  border-style: none;
+  border-width: 0;
+  
+}
+#view-exhibit-or-event--7 .views-field-field-title-for-photo-gallary h3::after,
+#view-exhibit-or-event--9 #additional-header h3.ck-header-carat::after,
+#view-exhibit-or-event--10 h3.ck-header-carat::after,
+#view-exhibit-or-event--8 h3.ck-header-carat::after {
+  content: "";
+  border-color: transparent transparent transparent;
+  border-style: none;
+  border-width: 0;
+}
+
+
+
+
+/*XXXXXXX HOME #view-exhibit-or-event--3 XXXXXXXXXXXX */
+.type-exhibit-or-event #view-exhibit-or-event--3 {
+  width:  100rem;
+  max-width:  100%;
+  margin:  3rem auto 0;
+}
+.intro-intro {
+  font-size: 1.7rem;
+  font-style: oblique;
+  color: #900;
+}
+
+
+/*XXXXXXXXXX SYMPOSIUM view-exhibit-or-event--8 row1 XXXXXXXXXX*/
+
+.type-exhibit-or-event #view-exhibit-or-event--8 div.views-row:nth-child(1) {
+  padding-bottom:  3rem;
+  margin-bottom:  3rem;
+  border-bottom:  solid 1px #ccc;
+}
+
+#view-exhibit-or-event--8 .book-menu-tabs.in-symposium {
+  margin-top:  2.5rem;
+}
+/* XXXXXXXXXX GALLERY #view-exhibit-or-event--7 XXXXXXXXXX */
+#view-exhibit-or-event--7 {
+  margin-bottom:  3rem;
+}
+.type-exhibit-or-event #view-exhibit-or-event--7 .views-field-field-title-for-photo-gallary h3 {
+  margin-top:  0;
+}
+.type-exhibit-or-event #view-exhibit-or-event--7 .text-blurb {
+  width:  120rem;
+  margin:  0 auto;
+}
+
+/* XXXXXXXXXX WEDNESDAYS #view-exhibit-or-event--8 ROW2 XXXXXXXXXX */
+/*compare:  symp hide; wenesdays show*/
+#view-exhibit-or-event--8 .content div div.contextual-region  div.views-row:nth-child(3)  div#schedule-header h3.ck-header-carat.width400 {
+  margin-bottom:  1rem;
+}
+.type-exhibit-or-event #view-exhibit-or-event--8 .views-field-field-introductory-information, 
+.type-exhibit-or-event #view-exhibit-or-event--8 .views-field-field-program-day,
+#view-exhibit-or-event--8 {
+  width:  80rem;
+  max-width:  100%;
+  margin:  0 auto;
+}
+#view-exhibit-or-event--8 .views-field-field-program-day ul {
+  padding-left:  0;
+}
+.type-exhibit-or-event #view-exhibit-or-event--8 #schedule-header {
+  padding-bottom: 0;
+}
+#view-exhibit-or-event--8 #schedule-header h3.ck-header-carat {
+  display: block;
+}
+.type-exhibit-or-event #view-exhibit-or-event--8 .views-field-field-program-day .paragraph--type--program-day h3, 
+.type-exhibit-or-event #view-exhibit-or-event--8 .views-field-field-program-day .paragraph--type--program-day .see-also-header {
+  background-color: #eee;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  font-size: 1.7rem;
+  font-weight: 500;
+  letter-spacing: .04rem;
+  margin: 0;
+  padding: .9rem 1rem .4rem 1.8rem;
+}
+#view-exhibit-or-event--8.block-views-blockexhibit-or-event-block-7 .views-field-field-program-day ul li div.paragraph--type--program-day .field.field--name-field-one-day-schedule h3.ww {
+  background-color: transparent;
+  border-bottom: none;
+  padding: 2rem 1rem 1.3rem 0;
+}
+
+/*XXXXXXXXXX EXHIBITION view-exhibit-or-event--9 row1 XXXXXXXXXX*/
+.type-exhibit-or-event  #view-exhibit-or-event--9 .views-row:nth-child(2)  #additional-header .almosth3 {
+  padding-bottom:  0;
+  margin-bottom:  0;
+}
+
+
+
+
+/*XXXXXXXXXX MULTIMEDIA view-exhibit-or-event--9  XXXXXXXXXX*/
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription h3.multi {
+  font-size: 1.6rem;
+  text-align: left;
+  margin: 3rem 0 0;
+  padding-left: 0;
+  font-weight:  bold;
+  text-transform:  uppercase;
+  font-style:  oblique;
+  letter-spacing:  .03rem;
+
+}
+.multi-media-content li {
+  text-indent:  -2rem;
+  margin-left:  2rem;
+}
+.type-exhibit-or-event #view-exhibit-or-event--9 p.designates {
+  margin-top:  4rem;
+}
+#view-exhibit-or-event--9 .multi-media-content {
+  width: 70rem;
+  max-width:  100%;
+  margin: 0 auto 3rem;
+  padding-bottom: 3rem;
+  border-bottom: solid 1px #CCC;
+}
+#view-exhibit-or-event--9 div.additional-text-content div.discription .multi-media-content h4.no-captions-header {
+  margin: 2rem 0 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: oblique;
+  letter-spacing: .03rem;
+}
+#view-exhibit-or-event--9  .multi-media-content .disclaimer {
+  text-align: center;
+  font-style: oblique;
+  letter-spacing: .03rem;
+  width: 70rem;
+  margin: 2rem auto;
+}
+/* XXXXXXXX #view-exhibit-or-event--9 ABOUT XXXXXXX */
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .about {
+  width:  100rem;
+  max-width:  100%;
+  margin:  0 auto;
+}
+
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .history-section {
+  padding-bottom:  3rem;
+  border-bottom:  solid 1px #ccc;
+}
+
+
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .sponsors {
+  margin:  4.5rem 0 3rem;
+}
+.type-exhibit-or-event #view-exhibit-or-event--9 .additional-text-content .discription .sponsors h3.ack-header {
+  margin: 0;
+  padding-bottom:  .2rem;
+  font-size:  2.7rem;
+}
+
+/*SPEAKERS view-exhibit-or-event--10*/
+#view-exhibit-or-event--10 {
+  width:  80rem;
+  max-width:  100%;
+  margin:  0 auto;
+}
+.type-exhibit-or-event #view-exhibit-or-event--10 #abstracts-header {
+  padding-bottom:  0;
+}
+.type-exhibit-or-event #view-exhibit-or-event--10 #abstracts-header h3 {
+  border-bottom: none;
+  margin:  2.9rem auto 1.8rem;
+}
+.type-exhibit-or-event #view-exhibit-or-event--10 .views-field-field-abstract .field-content {
+  max-width: 100%;
+  margin: 0 auto;
+}
+/*CHANGE max-width in the default css*/
+.views-field-field-abstract > div:nth-child(1) > hr:nth-child(2) {
+  display: none;
+} 
+/*XXXXXXXXXX ACCOMMODATIONS #view-exhibit-or-event--11 XXXXXXXXXXX*/
+
+#view-exhibit-or-event--11 {
+  width:  80rem;
+  max-width:  100%;
+  margin:  0 auto;
+}
+.type-exhibit-or-event #view-exhibit-or-event--11 h3 {
+  margin: 3rem auto 0;
+  padding-bottom: .5rem;
+}
+/*subtabs*/
+
+
+#view-exhibit-or-event--11 .book-menu-tabs.in-symposium.accomm-page {
+  display: none;
+}
+#view-exhibit-or-event--11 .views-row:nth-child(2) .book-menu-tabs.in-symposium.accomm-page {
+  display: block;
+}
+#view-exhibit-or-event--11 .book-menu-tabs.in-symposium.accomm-page {
+  margin-top:  1.9rem;
+}
+/*not two*/
+
+.path-node.path-about-exhibits-events-warhol-at-penn-again.type-exhibit-or-event #view-exhibit-or-event--11 .views-row:nth-child(2) .book-menu-tabs.in-symposium.accomm-page {
+  display: block;
+}
+
+
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXX LOCAL FOOTER XXXXXXXXXXXXXXX */
+/*CATALOG*/
+#content-column-block-772,
+#content-column-block-761,
+#content-column-block-773 {
+  background: #f2f2f2;
+}
+.tabeight #content-column-block-772,
+.tabeight #content-column-block-761,
+.tabeight #content-column-block-773 {
+    display: none;
+}
+#content-column-block-772,
+#content-column-block-773 {
+  background: #f2f2f2; 
+  padding:3rem 2rem;
+}
+#content-column-block-761 {
+  padding:  0 2rem;
+}
+#content-column-block-772 {
+  text-align:  center;
+}
+#content-column-block-772 img {
+  margin:  0 auto;
+  width:  19rem;
+  margin-bottom:  1rem;
+}
+#content-column-block-772 a {
+  text-transform:  none;
+  font-size:  1.3rem;
+}
+@media (min-width: 700px) {
+  #content-column-block-772,
+  #content-column-block-761 {
+     display: inline-block;
+     vertical-align:  top;
+    *vertical-align:  top;
+    *zoom:  1;
+    padding:  0 1rem;
+    background: transparent;
+  }
+  #content-column-block-772 {
+    width:  30%;
+  }
+  #content-column-block-761 {
+    width:  65%;
+  }
+  #content-column-block-773 {
+    margin-top:  3rem;
+  }
+
+}
+@media (min-width: 800px) {
+  #content-column-block-772,
+  #content-column-block-761,
+  #content-column-block-773 {
+     display: inline-block;
+     vertical-align:  top;
+    *vertical-align:  top;
+    *zoom:  1;
+    padding:  0 1rem;
+    background: transparent;
+  }
+  #content-column-block-772 {
+    width:  25%;
+  }
+  #content-column-block-761 {
+    width:  55%;
+  }
+  #content-column-block-773 {
+    width:  18.5%;
+    padding-right:  0;
+    margin-top:  0;
+  }
+  #content-column-block-772 {
+    text-align:  left;
+  }
+  #content-column-block-772 img {
+    margin:  0;
+  }
+
+}
+/*end CATALOG*/
+
+
+/*GOLDSTEIN-KAMIN*/
+
+#content-column-block-761 .gallery-names{
+  text-transform:  uppercase;
+}
+#content-column-block-761 .gallery-locations,
+#content-column-block-761 .gallery-hours,
+#content-column-block-761 .gallery-rules,
+#content-column-block-773 ul.contacts {
+  margin-top:  .9rem;
+}
+/*CONTACT*/
+
+#content-column-block-773 h3.contact-header {
+  margin:  0;
+  text-transform:  uppercase;
+  font-weight:  normal;
+}
+ul.contacts
+
+
+/*stuck with css title*/
+
+
+#content-column-block-771 {display:none}   
+
+  .block.block-block-content.block-broken {display:none!important;}
+comm-page {
+  display: block;
+}
+#view-exhibit-or-event--11 .book-menu-tabs.in-symposium.accomm-page {
+  margin-top:  1.9rem;
+}
+/*not two*/
+
+.path-node.path-about-exhibits-events-warhol-at-penn-again.type-exhibit-or-event #view-exhibit-or-event--11 .views-row:nth-child(2) .book-menu-tabs.in-symposium.accomm-page {
+  display: block;
+}
+
+
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXX LOCAL FOOTER XXXXXXXXXXXXXXX */
+/*CATALOG*/
+#content-column-block-772,
+#content-column-block-761,
+#content-column-block-773 {
+  background: #f2f2f2;
+}
+.tabeight #content-column-block-772,
+.tabeight #content-column-block-761,
+.tabeight #content-column-block-773,
+.tabthree #content-column-block-772,
+.tabthree #content-column-block-761,
+.tabthree #content-column-block-773 {
+  
+}
+#content-column-block-772,
+#content-column-block-773 {
+  background: #f2f2f2; 
+  padding:3rem 2rem;
+}
+#content-column-block-761 {
+  padding:  0 2rem;
+}
+#content-column-block-772 {
+  text-align:  center;
+}
+#content-column-block-772 img {
+  margin:  0 auto;
+  width:  19rem;
+  margin-bottom:  1rem;
+}
+#content-column-block-772 a {
+  text-transform:  none;
+  font-size:  1.3rem;
+}
+@media (min-width: 700px) {
+  #content-column-block-772,
+  #content-column-block-761 {
+     display: inline-block;
+     vertical-align:  top;
+    *vertical-align:  top;
+    *zoom:  1;
+    padding:  0 1rem;
+    background: transparent;
+  }
+  #content-column-block-772 {
+    width:  30%;
+  }
+  #content-column-block-761 {
+    width:  65%;
+  }
+  #content-column-block-773 {
+    margin-top:  3rem;
+  }
+
+}
+@media (min-width: 800px) {
+  #content-column-block-772,
+  #content-column-block-761,
+  #content-column-block-773 {
+     display: inline-block;
+     vertical-align:  top;
+    *vertical-align:  top;
+    *zoom:  1;
+    padding:  0 1rem;
+    background: transparent;
+  }
+  #content-column-block-772 {
+    width:  25%;
+  }
+  #content-column-block-761 {
+    width:  55%;
+  }
+  #content-column-block-773 {
+    width:  18.5%;
+    padding-right:  0;
+    margin-top:  0;
+  }
+  #content-column-block-772 {
+    text-align:  left;
+  }
+  #content-column-block-772 img {
+    margin:  0;
+  }
+
+}
+/*end CATALOG*/
+
+
+/*GOLDSTEIN-KAMIN*/
+
+#content-column-block-761 .gallery-names{
+  text-transform:  uppercase;
+}
+#content-column-block-761 .gallery-locations,
+#content-column-block-761 .gallery-hours,
+#content-column-block-761 .gallery-rules,
+#content-column-block-773 ul.contacts {
+  margin-top:  .9rem;
+}
+/*CONTACT*/
+
+#content-column-block-773 h3.contact-header {
+  margin:  0;
+  text-transform:  uppercase;
+  font-weight:  normal;
+}
+ul.contacts
+
+
+/*stuck with css title*/
+
+
+#content-column-block-771 {display:none}   
+
+.block.block-block-content.block-broken {
+  display:none!important;
+}
+.bombastic {
+  margin: 0 0 1.7rem;
+  font-family: Palatino Linotype,Book Antiqua,Palatino,serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #900;
+  line-height: 1.3;
+}
+
+.inline {display:  inline;}

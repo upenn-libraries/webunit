@@ -1,0 +1,222 @@
+.center {
+  text-align:  center;
+}
+.left {
+  text-align:  left;
+}
+.right {
+  text-align:  right;
+}
+.medium,
+.fontsize-17,
+.wysiwyg p.fontsize-17,
+.wysiwyg p.medium {
+  font-size: 1.7rem;
+}
+.card-listing .card .card__content .wysiwyg p.fontsize-15,
+.fontsize-15,
+.small,
+.wysiwyg p.fontsize-15,
+.wysiwyg p.small {
+  font-size: 1.5rem;
+}
+.wysiwyg .line-height-18,
+.wysiwyg p.line-height-18,
+.wysiwyg ul.line-height-18 {
+  line-height: 1.8;
+}
+.line-height-20,
+.wysiwyg p.line-height-20,
+.wysiwyg ul.line-height-20 {
+  line-height: 2;
+}
+
+.all-caps,
+.wysiwyg p.all-caps {
+  text-transform:  uppercase;
+}
+.likeh3,
+.wysiwyg p.likeh3,
+.card-listing .card .card__content .wysiwyg p.likeh3 {
+
+  font-size: 2.8rem;
+  line-height: 1.25;
+  font-family: "EB Garamond", serif;
+}
+.wysiwyg ul.no-bullets.no-padding li {
+  padding-left: 0;
+}
+/*lists*/
+ul.no-bullets,
+.wysiwyg ul.no-bullets {
+  ist-style-image: none; 
+  list-style-type: none; 
+  margin: 0; 
+  padding-left: 0;
+} 
+ul.no-indent,
+.wysiwyg ul.no-indent {
+  padding-left:  0;
+  margin-left:  0;
+}
+ul.spaced li,
+.wysiwyg ul.spaced li {
+  margin-top:  .5rem;
+}
+/*padding*/
+#content div.layout.section-margin div.contain.layout__flex.layout__flex--justify-between div.layout__column section.bg-color.bg-light-blue div.clearfix.wysiwyg-container.contain div.wysiwyg.contain.clearfix ul.no-bullets li,
+.wysiwyg ul.no-bullets li {
+  padding-left:  0;
+}
+.padding-top-3rem {
+  padding-top:  3rem;
+}
+@media (min-width: 1024px) {
+  .card--large h2.card__title.padding-top-3rem, 
+  .card-listing--2 .card h2.card__title.padding-top-3rem {
+    padding-top: 60px;
+  }
+}
+/*margins*/
+.margin-top-neg4rem {
+  margin-top:  -4rem;
+}
+.margin-top-pt3,
+.wysiwyg p.margin-top-pt3,
+.wysiwyg h2.margin-top-pt3,
+.margin-top-pt3,
+p.likeh3.top-margin-pt3,
+.wysiwyg p.likeh3.top-margin-pt3 {
+  margin-top:  0.3rem;
+}
+
+.margin-top-0,
+.wysiwyg p.margin-top-0,
+.wysiwyg h2.margin-top-0,
+.top-margin-0,
+p.likeh3.top-margin-0,
+.wysiwyg p.likeh3.top-margin-0 {
+  margin-top:  0;
+}
+.margin-top-4 {
+  margin-top:  4rem;
+}
+.top-margin-5,
+p.likeh3.top-margin-5 {
+  margin-top:  5rem;
+}
+.margin-bottom-0,
+.wysiwyg p.margin-bottom-0,
+.bg-blue .card-listing .card__content .wysiwyg p.margin-bottom-0, 
+.bg-red .card-listing .card__content .wysiwyg p.margin-bottom-0, 
+.bg-blue .card-slider .card__content .wysiwyg p.margin-bottom-0, 
+.bg-red .card-slider .card__content .wysiwyg p.margin-bottom-0, 
+.card-listing .card__content .wysiwyg p.margin-bottom-0, 
+.card-slider .card__content .wysiwyg p.margin-bottom-0 {
+  margin-bottom:  0!important;
+}
+
+
+.bottom-margin-0,
+p.bottom-margin-0,
+.wysiwyg p.bottom-margin-0,
+.wysiwyg ul.bottom-margin-0, 
+.wysiwyg ol.bottom-margin-0 {
+  margin-bottom:  0;
+}
+.bg-blue .card-listing .card__content .wysiwyg p.margin-bottom-1,
+.bg-red .card-listing .card__content .wysiwyg p.margin-bottom-1,
+.bg-blue .card-slider .card__content .wysiwyg p.margin-bottom-1,
+.bg-red .card-slider .card__content .wysiwyg p.margin-bottom-1,
+.card-listing .card__content .wysiwyg p.margin-bottom-1,
+.card-slider .card__content .wysiwyg p.margin-bottom-1,
+.margin-bottom-1,
+.wysiwyg ul.margin-bottom-1, 
+.wysiwyg ol.margin-bottom-1 {
+  margin-bottom: 1rem;
+}
+.wysiwyg ul.no-bullets.no-padding.margin-bottom-2,
+.margin-bottom-2,
+.wysiwyg ul.margin-bottom-2, 
+.wysiwyg ol.margin-bottom-2 {
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .wysiwyg p.likeh3 {
+    font-size: 2.8rem;
+  }
+  .wysiwyg p.likeh3.top-margin-0 {
+    margin-top:  0;
+  }
+}
+#content section.accordion-columns {
+  max-width: 1315px;
+  margin: 0 auto;
+}
+#content section.section-padding.bg-color.bg-blue div.contain header.section-header.section-header--centered p a,
+#content section.section-padding.bg-color.bg-blue div.contain header.section-header.section-header--centered p a:visited,
+#content section.section-padding.bg-color.bg-blue div.contain header.section-header.section-header--centered p a:focus {
+  color:  #fff;
+}
+.quick-links--wide .quick-links__item {
+  margin-bottom: 2rem !important;
+}
+/*floor plans*/
+#content section 
+div.contain.contain--wide 
+div.image-slider.slick-initialized.slick-slider div.slick-list.draggable div.slick-track 
+div.slick-slide.slick-current.slick-active div article.image-slider-card div.image-slider-card__image-contain 
+img.image-slider-card__image,
+#content section 
+div.contain 
+div.image-slider.slick-initialized.slick-slider div.slick-list.draggable div.slick-track 
+div.slick-slide.slick-current.slick-active div article.image-slider-card div.image-slider-card__image-contain 
+img.image-slider-card__image,
+#content section div.contain.contain--sm div.image-slider.slick-initialized.slick-slider div.slick-list.draggable div.slick-track div.slick-slide.slick-current.slick-active div article.image-slider-card div.image-slider-card__image-contain img.image-slider-card__image {
+  height: auto !important;
+  width: auto;
+  max-width: 100% !important;
+  -o-object-fit: contain;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*staff-images*/
+
+#content div.contain div.faculty-grid.contain article.contextual-region.faculty-card a.faculty-card__link img.card__image,
+.faculty-grid.contain article.contextual-region.faculty-card a.faculty-card__link img.card__image {
+  max-width:  28rem;
+  margin:  0 auto;
+}
+.listing.section-margin-top div.contain header.section-header.section-header--w-link div.section-header__link {
+  margin-bottom:  3rem;
+}
+@media (min-width: 640px) {
+  .faculty-grid.contain article.contextual-region.faculty-card a.faculty-card__link img.card__image {
+    width: 100%;
+    max-width:  100%;
+   
+  }
+  .listing.section-margin-top div.contain header.section-header.section-header--w-link div.section-header__link {
+    margin-bottom: 0;
+  }
+}
+/*blue on blue*/
+#content section.content-aside.section-margin div.contain.content-aside__flex div.content-aside__aside article.card.card__with-image.card--align-center div.card__content div.wysiwyg p a.btn {
+  color:  #fff;
+}
+/*this is supposed to be fixed so we won't need this rule*/
+#content div.field.field--name-hide-.field--type-boolean.field--label-above.field__items {
+      position: absolute !important;
+     white-space: nowrap;
+     clip: rect(0 0 0 0);
+     clip-path: inset(50%);
+     padding: 0 !important;
+     border: none !important;
+     height: 1px !important;
+     width: 1px !important;
+     overflow: hidden;;
+}
+

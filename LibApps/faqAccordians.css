@@ -1,0 +1,106 @@
+#wrapper-content a {
+     cursor: pointer;
+}
+ #wrapper-content section dl.accordion dt .dthead {
+     background-image: url(https://libapps.s3.amazonaws.com/sites/231/include/arrow_close.svg);
+     background-color:#011f5a;
+     background-repeat: no-repeat;
+     background-position: 5px 20px;
+     padding: 10px 3px 7px 30px;
+     cursor: pointer;
+     margin-bottom: 2px;
+     font-size: 18px;
+     line-height: 180%;
+     font-family: "EB Garamond", serif;
+     font-weight: 400;
+     color: #fff;
+}
+ #wrapper-content section dl.accordion dt .dthead.closed {
+     background-image: url(https://libapps.s3.amazonaws.com/sites/231/include/arrow_open.svg);
+     background-color: #fff;
+     color: #011F5B;
+     margin-bottom:0;
+}
+ #wrapper-content section dl.accordion dt .dthead.closed:after {
+     content: "";
+     border-bottom: solid 1px #cfd0d2;
+     display: block;
+}
+ .folded {
+     display: none;
+}
+ dd {
+ 	padding-left: 30px;
+    padding-bottom: 16px;
+    font-family Roboto, Helvetica, Arial, sans-serif;
+	font-size 14px;
+}
+ dd em {
+     letter-spacing: .03rem;
+}
+ dd:after {
+     content: "";
+     border-bottom: solid 1px #cfd0d2;
+     display: block;
+     width:90%;
+}
+ dt:active {
+     transform: translateY(4px);
+}
+dl {
+clear:both;
+}
+
+ a.toggle {
+     border-radius: 12px;
+     border: 1px solid #333;
+     font-size: 12px;
+     padding:5px 15px;
+     display: inline-block;
+     margin-left:5px;
+     position:relative;
+     left:-20px;
+}
+ a.toggle:active {
+     transform: translateY(2px);
+}
+ a.toggle:hover {
+     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+ a.expand {
+     background-color:#fff;
+}
+ a.collapse {
+     background-color:#011F5B;
+     color:#fff;
+}
+ .togglearrow {
+     margin-left: 8px;
+     display:inline;
+}
+ .hold-expander {
+    width:250px;
+    float:right;
+    margin-bottom:5px;
+
+}
+ .section.expand {
+     width:90%;
+}
+.dthead::after {
+     content: "";
+     clear: both;
+     display: table;
+}
+ .closed .Last-updated {
+     color:#555;
+}
+ .Last-updated {
+     font-size: 1.3rem;
+     padding-left: 3.7rem;
+     float:right;
+     color:#fff;
+}
+ .updated-timestamp {
+     display:none;
+}

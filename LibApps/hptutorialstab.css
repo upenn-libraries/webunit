@@ -1,0 +1,27 @@
+.catboxcol {width: 33%;min-width: 279px;}
+.catboxcol.left {padding-right: 1%;}
+.catboxcol.middle {padding-right: 1%;padding-left: 1%;}
+.catboxcol.right {padding-left: 1%;margin-right: -1%;}
+.tablet .catboxcol.left {padding-right: 0;}
+.tablet .catboxcol.middle {padding-right: 0;padding-left: 0;}
+.tablet .catboxcol.right {padding-left: 0;margin-right:0;}
+.tablet .catboxcol {width: 100%;}
+/*oldstuff*/
+.catbox h4 {font-size: 1.03em; font-weight: bold; font-style:oblique; letter-spacing: .03em; text-align:left;}
+.catbox h3 {font-size: 1.3em;}
+.catbox {
+  border: solid 1px #ccc;
+  margin-bottom: 1.5em;
+}
+.catbox p {margin: 0 .7em 10px}
+.catbox h4.first {margin: 1em 0 .7em .55em}
+.catbox h4 {margin: 1.3em 0 .7em .55em}
+  #s-lg-box-collapse-10387706 .s-lib-box-content,
+  #s-lg-box-collapse-10389387  .s-lib-box-content,
+ #s-lg-box-collapse-10389401  .s-lib-box-content{padding: 0;border: none}
+ .catbox  h3 {margin-top:0;
+    padding: .3em;
+    background-color: #eee;
+  }
+
+.formatnote {font-size: .92em;}

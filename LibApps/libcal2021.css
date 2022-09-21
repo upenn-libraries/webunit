@@ -1,0 +1,226 @@
+
+#time_grid_cont .alert.alert-warning {
+display:none;
+}
+#index_php {
+font-size: 14px;
+line-height: 150%;
+}
+#index_php.s-lc-public .s-lc-box-content h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+#index_php.s-lc-public .s-lc-box-content h4 {
+    font-size: 15px;
+    font-weight: bold;
+font-style:oblique;
+letter-spacing: .03em;
+margin-top: 1.8em;
+margin-bottom: .4em;
+}
+
+
+#s-lc-public-skiplink {
+       top: -400px;
+}
+.container {
+    width: auto;
+}
+
+#s-lc-public-bc nav {
+    padding: 0 15px 1rem;
+    margin: -.8rem -1.5rem 0;
+    background: #f0f0f0;
+}
+#s-lc-public-bc .breadcrumb {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius:0;
+    height: 29px;
+    background-image: none;
+    font-size: 1.5rem;margin-top: 
+    padding:  .3rem 0;
+}
+/*new*/
+.lc_rm_b, .lc_rm_a, .lc_rm_t, .lc_rm_u {
+    height: 25px;
+}
+.s-lc-rm-rn {
+    height: 26px;
+    line-height: 25px;
+}
+.s-lc-rm-rntd {
+    height: 20px;
+}
+div#s-lc-rm-time-grid div#s-lc-rm-tg-cont.s-lc-rm-box table#s-lc-rm-tg-tb tbody tr td div#s-lc-rm-tg-scroll {
+	margin-left: .33em;}
+tr.s-lc-rm-cap-l-1 td div.s-lc-rm-ttip{
+	padding:0 .17em;font-size: 1.25em;margin-top:-3px;opacity:.8;
+}
+.lc_rm_t /*gold*/ {
+    background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/checktentativeborder.png); 
+}
+.lc_rm_u, .lc_rm_b {
+     background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/xbookedborder.png);   
+}
+.lc_rm_t,.lc_rm_u, .lc_rm_b {
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+
+
+#time_grid_cont #eq-time-grid:before {
+     content:  "";
+     white-space: pre; 
+     color: #f00;
+     text-transform: uppercase;
+     font-weight: bold;
+}
+#time_grid_cont .fc-resource-timeline:before {
+   content:  "Set a start time using the table below. \00000a A dropdown of hours will appear under the table. Use it to set an end time.";
+  white-space: pre; 
+  color: #f00;
+}
+body .fc-content,
+body .fc-title {
+    background: transparent !important;
+ }
+
+.nav-tabs a.active, 
+.nav-tabs li.active > a, 
+.nav-tabs li:hover > a, 
+.nav-tabs li.active:hover > a, 
+.nav-tabs li > a:hover {
+    background: #6facd5;
+    
+    background: -moz-linear-gradient(top, #6facd5 0%, #5393c5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6facd5), color-stop(100%,#5393c5));
+    background: -webkit-linear-gradient(top, #6facd5 0%,#5393c5 100%);
+    background: -o-linear-gradient(top, #6facd5 0%,#5393c5 100%);
+    background: -ms-linear-gradient(top, #6facd5 0%,#5393c5 100%);
+    background: linear-gradient(to bottom, #6facd5 0%,#5393c5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6facd5', endColorstr='#5393c5',GradientType=0 );
+    border: 1px solid #2373a5;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(35, 115, 165);
+    color: #fff;
+    font-weight: normal;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #3373a5;
+}
+.nav-tabs > li > a, 
+.nav-tabs > li > a {
+    border: 1px solid #bbb;
+    border-bottom: 1px solid #ddd;
+    padding: 6px 15px 5px;
+    color: #000;
+    letter-spacing: .02em;
+    background: #f2f2f2;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.4);
+    font-weight: normal;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    border-bottom-color: transparent;
+    cursor: pointer;
+}
+.s-lc-box-title {
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-bottom-style: solid;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+.s-lc-color-bars-border {
+    border-color: #ccc;
+}
+.s-lc-color-bars {
+    background-image: none;
+    background-color: #e1e1e1;
+}
+.s-lc-box-title h2 {
+    font-size: 14px;
+    margin: 0;
+    line-height: normal;
+    color: #000!important;
+    font-weight: bold !important;
+}
+.s-lc-content-text ul{
+    margin-left:7px; 
+    padding-left: 8px
+}
+a, a:visited {
+    color: #0782c1;
+}
+.btn-primary:visited {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+.btn-info:visited {
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+
+#s-lc-box-2350-container {
+  display: block;
+}
+
+#s-lc-box-2352-container {
+  display: block;
+}
+
+#s-lc-box-28929-container {
+  display: none;
+}
+
+#s-lc-box-28930-container {
+  display: none;
+}
+
+#s-lc-box-2351-container {
+  display: none;
+}
+a#btn-new[href^="/reserve/dental"], a#btn-new[href^="/reserve/spaces/dental"] {
+    display:none;
+}
+.s-lc-event-dl {
+background-color: transparent;
+border: none;
+}
+#equip_.s-lc-public.s-lc-public-page-5.modal-open div#dialog.modal.fade.in div.modal-dialog div.modal-content.s-lc-public-modal-content div.modal-body div.row div.col-md-4 {width: 100%;}
+#eid_89127 td img.img-rounded.hidden-xs {
+   width: 800px;
+   max-width: 100%;
+}
+#eid_88943 td img.img-rounded.hidden-xs,
+#eid_104757 td img.img-rounded.hidden-xs {
+   width: 450px;
+   max-width: 100%;
+}
+.s-lc-section-description p:last-child,
+#s-lc-accessible_container, #s-lc-powered_container,
+.fa-wheelchair-alt, .fa-plug,
+#s-lc-eq-navform {
+   display:none
+}
+.visually-hidden {
+    border: 0 none !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px !important;
+    overflow: hidden;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+}
+.visually-hidden:focus { 
+  position: static !important;
+  clip: auto;
+  height: auto;
+  width: auto;
+  overflow: auto;
+}

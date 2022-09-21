@@ -1,0 +1,93 @@
+
+.tablet h1 {
+    margin: -0.07em 0 0;
+}
+#s-lg-side-nav-content #s-lg-guide-tabs > .nav-pills, 
+#s-lg-tabs-container.container #s-lg-guide-tabs > .nav-tabs.nav-stacked, 
+#s-lg-tabs-container2.container #s-lg-guide-tabs > .nav-tabs.nav-stacked {
+    border:none!important;
+}
+
+.tablet #guidepagesbutton {
+    display: none;
+}/*this is a bug in the js*/
+#s-lg-box-collapse-11756249 .s-lib-box-content {
+	padding: 0;
+	}
+.col-md-6.exdigschol, .col-md-6.people-digschol {
+	padding-left: 2em;
+}
+.col-md-6.portraits img {
+	display:block;	
+	width: 150px;
+	height: 150px;
+}
+h1  {
+	text-align: center;
+	font-family:trebuchet ms,helvetica,sans-serif;
+	font-size:48px;
+}
+.tablet.phone #s-lg-guide-main h1 {
+    display: block;
+    font-size: 32px;
+}
+#pageheader h1 {
+	display:none;
+}
+#pageheader div.phonetitleholder h1.phoneonly {
+	display:block;
+}
+h2.normal {
+	font-size: 1.2em !important;
+}
+
+h2.s-lib-box-title {
+	font-size: 1.4em !important;
+}
+h2 {
+	font-size: 1.7em !important;
+}
+h2.big  {
+	font-size: 2em !important;
+} 
+h2.bigger {
+	font-size: 2.4em !important;
+}
+
+h2.verybig {
+	font-size: 3.42857em !important;
+	font-family:trebuchet ms,helvetica,sans-serif;
+}
+
+h3.verybig {
+	font-size: 1.7em;
+	font-family:trebuchet ms,helvetica,sans-serif;
+}
+.subheader {
+	text-align: center;
+	font-family:trebuchet ms,helvetica,sans-serif;
+	font-size:22px;
+}
+p {
+	font-family:Arial, Helvetica;
+	font-size: 1.04761857em;
+}
+p.indentwithinlist {
+	margin-left: 40px;
+	margin-top:1em;
+	font-size:12px;
+}
+.phone p.indentwithinlist {
+	font-size:14px;
+	margin-left: 0;
+}
+#s-lg-col-127,
+#s-lg-content-24674938 {
+	border-top: 1px solid #ccc;	
+}
+#s-lg-box-wrapper-13926596 {
+	border-top: 1px solid #eee;	
+}
+#s-lg-box-wrapper-13864295 {
+	margin-bottom: 2em;
+}

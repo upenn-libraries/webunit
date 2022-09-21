@@ -1,0 +1,24 @@
+#content section.accordion-columns.section-margin {
+	max-width: 1315px;
+	margin: 0 auto;
+}
+.music-floorplan {
+	margin: 0 auto 8rem auto;
+	max-width:  120rem;
+}
+.music-floorplan .image-slider-card__caption  {
+		margin-top:  -6rem;
+	}
+@media (min-width: 1350px) {
+	.music-floorplan .image-slider-card__caption  {
+		margin-top:  -10rem;
+	}
+}
+#content section.section-padding.bg-color.bg-blue {
+	padding-bottom:  0;
+}
+@media (min-width: 1024px) {
+	#content section.section-padding.bg-color.bg-blue {
+	  padding-bottom: 0;
+	}
+}

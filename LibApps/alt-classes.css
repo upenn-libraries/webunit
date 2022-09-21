@@ -1,0 +1,37 @@
+h1.extra-title {
+	margin-top:  0;
+	font-size:  2rem;
+	color:  #900;
+}
+h3.first {
+	margin-top: 0;
+}
+[id*="s-lg-box-wrapper"] {
+	margin-bottom: 3rem;
+}
+.s-lib-box .s-lib-box-title {
+    background-color: #f1f1f1;
+    font-family: 'Open Sans';
+    font-weight: 500;
+}
+.italic-quote {
+	font-style: oblique;
+	letter-spacing: .03rem;
+}
+.guides-extra {
+	margin: 3rem 0 1rem; 
+	background:#f3f3f3; 
+	padding: 1rem;
+}
+.like-para {
+	margin-bottom: 1rem; 
+}
+.guides-extra h3 {
+	margin-top: 1rem;
+	text-transform: uppercase; 
+	font-weight: normal; 
+	font-size: 1.4rem;
+}
+.code {
+	margin:  0 3.5rem;
+}

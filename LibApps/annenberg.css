@@ -1,0 +1,22 @@
+/*ANNENBERG HACK ON LAYOUT - CARD SLIDER*/
+
+
+
+#content section.section-padding.bg-color.bg-gradient div.contain.contain--wide div.card-listing.card-listing--2.section-padding div.contain article.card.card--align-center div.card__content h2.card__title,
+#content section.section-padding.bg-color.bg-gradient div.contain.contain--wide div.card-listing.card-listing--2.section-padding div.contain article.card.card--align-center div.card__content div.wysiwyg {
+  text-align:  left;
+}
+#content section.section-padding.bg-color.bg-gradient div.contain.contain--wide header.section-header.section-header--centered {
+  display: none;
+}
+#content section.section-padding.bg-color.bg-gradient div.contain.contain--wide div.card-listing.card-listing--2.section-padding {
+  padding-top: 0;
+}
+/*AND IN CONTAINER*/
+.right {text-align: right;}
+.quick-links--wide.annenberg-logo::after {
+  display: none;
+}
+#content section.section-padding.bg-color.bg-gradient div.contain.contain--wide div.card-listing.card-listing--2.section-padding div.contain article.card.card--align-center div.card__content div.wysiwyg ul.no-bullets.left li  {
+  padding-left:  0;
+}

@@ -1,0 +1,37 @@
+#wrapper-content a.expand {
+    cursor: pointer;
+}
+
+#wrapper-content a.collapse {
+	cursor: pointer;
+	display: inline;
+}
+
+#wrapper-content section dl.accordion dt .dthead {
+	background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/arrowclosed-demo.gif);
+	background-color: #eee;
+    background-repeat: no-repeat;
+    background-position: 5px 14px;
+    padding: 7px 3px 7px 30px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    color: #595b5b;
+    font-size: 15px;
+    line-height: 180%;
+}
+
+#wrapper-content section dl.accordion dt .dthead.closed {
+    background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/arrowopen-demo.gif);
+}
+
+.folded {
+	display: none;
+}
+
+dd {
+	padding-bottom: 16px;
+}
+
+dd em {
+	letter-spacing: .03rem;
+}

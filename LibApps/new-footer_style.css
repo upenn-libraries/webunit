@@ -1,0 +1,241 @@
+
+.wrapper.wrapper--nav-footer,
+.wrapper.wrapper--footer  {
+  background-color: #001f5b;
+  position: relative;
+  max-width: 93.33333em;
+  margin: 0 auto;
+  /*margin: -2.1rem auto 0 auto;*/
+}
+
+/*.wrapper.wrapper--footer .site-footer::before {
+  background-color: #000f3a;
+  position: relative;
+  z-index: 4999;
+  max-width: 93.33333em;
+  margin: -2.1rem auto 0 auto
+}*/
+
+.site-footer:before, .site-footer:after {
+  content: '';
+  display: table;
+}
+
+/*@include breakpoint($breakpoint-small-header-content-width)*/
+/*600px*/
+@media(min-width: 37.5em) {
+  .front-page .wrapper.wrapper--nav-footer #zonefooter-nav #block-brieffooter ul {
+    width: 64rem; 
+    padding: 0; }
+}
+
+.front-page .wrapper.wrapper--nav-footer #zonefooter-nav #block-brieffooter ul li:first-child {
+  display:none;
+}
+
+.front-page .wrapper.wrapper--nav-footer #zonefooter-nav #block-brieffooter ul li:last-child {
+  display: block; }
+  /*@include breakpoint($breakpoint-med-small750-width)*/
+  @media(min-width: 46.875em) {
+  .front-page .wrapper.wrapper--nav-footer #zonefooter-nav #block-brieffooter ul li:last-child {
+    /*@include inline-block*/
+    display: inline-block;
+    vertical-align: top;
+    *vertical-align: top;
+    *zoom: 1; }
+  }
+
+.wrapper.wrapper--nav-footer {
+    padding-top: 1rem;
+}
+
+
+.wrapper.wrapper--nav-footer #zonefooter-nav #block-brieffooter ul{
+    max-width: 100%;
+    padding: 3rem 0; 
+    margin: 0 auto;}
+    @media(min-width: 37.5em) {
+      .wrapper.wrapper--nav-footer #zonefooter-nav #block-brieffooter ul {
+        padding: 0; }
+    }
+    @media(min-width: 50em) {
+      .wrapper.wrapper--nav-footer #zonefooter-nav #block-brieffooter ul {
+        width: 74rem; }
+    }
+   
+        
+.wrapper.wrapper--nav-footer #zonefooter-nav #block-brieffooter ul li {
+    height: auto;
+    padding: 2.5rem 1.5rem 0;}
+    /*@include breakpoint($breakpoint-med-small750-width)*/
+    @media(min-width: 46.875em) {
+      .wrapper.wrapper--nav-footer #zonefooter-nav #block-brieffooter ul li {
+        /*@include inline-block*/
+        display: inline-block;
+        vertical-align: top;
+        *vertical-align: top;
+        *zoom: 1; }
+    }
+
+.wrapper.wrapper--nav-footer #zonefooter-nav #block-brieffooter ul li:last-child {
+    display:none;
+}
+    
+      
+
+.wrapper.wrapper--nav-footer #zonefooter-nav #block-brieffooter ul li a {
+    padding: 1rem 0;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-family: "Gentium Basic","Times New Roman",serif;
+    font-weight: 300;
+    letter-spacing: .05rem;
+    line-height: 120%;
+    font-size: 2.4rem;
+    color: #fff; }
+    @media(min-width: 46.875em) {
+      .wrapper.wrapper--nav-footer #zonefooter-nav #block-brieffooter ul li a {
+        font-size: 2.2rem; }
+    }
+    @media(min-width: 50em) {
+      .wrapper.wrapper--nav-footer #zonefooter-nav #block-brieffooter ul li a {
+        font-size: 2.4rem; }
+    }
+
+.wrapper.wrapper--nav-footer #zonefooter-nav #block-brieffooter ul li a:hover {
+    color: #d2bd18;
+}
+
+
+.wrapper.wrapper--footer .site-footer {
+    padding: 0;
+  }
+  
+.wrapper.wrapper--footer #zonefooter-nav #block-brieffooter {
+    background-color: #001f5b;
+    padding-bottom: 3rem;
+}
+
+.wrapper.wrapper--footer .site-footer #block-sitewidefooter {
+    background-color: #001f5b;
+    padding-bottom: 3rem;
+
+    font-family: "Arial Unicode MS","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.6;
+}
+
+.wrapper.wrapper--footer .site-footer #block-sitewidefooter .footer-chat-row {
+    width: 29rem;
+    margin: 2.1rem auto 1.6rem;
+    height: 4.5rem;
+}
+
+.wrapper.wrapper--footer .site-footer #block-sitewidefooter .footer-chat-row a.questions-comments {
+    /*@include inline-block;*/
+    display: inline-block;
+    vertical-align: top;
+    *vertical-align: top;
+    *zoom: 1;
+
+    text-transform: uppercase;
+    width: 20rem;
+    font-size: 1.2rem;
+    margin-top: .5rem;
+    color: #fff;
+}
+
+.wrapper.wrapper--footer .site-footer #block-sitewidefooter .footer-chat-row a.questions-comments:hover {
+    color: #d2bd18;
+}
+
+.wrapper.wrapper--footer .site-footer #block-sitewidefooter .footer-chat-row .chatinfooter {
+    /*@include inline-block;*/
+    display: inline-block;
+    vertical-align: top;
+    *vertical-align: top;
+    *zoom: 1;
+
+    margin-top: -1rem;
+    color: #fff;
+}
+
+.wrapper.wrapper--footer .site-footer #block-sitewidefooter .footer-chat-row .chatinfooter:hover {
+    color: #d2bd18;
+    text-decoration: none !important;
+}
+.wrapper.wrapper--footer .site-footer #block-sitewidefooter .accessibility-row {
+    text-align: center;
+    font-size: 1.3rem;
+}
+.wrapper.wrapper--footer .site-footer #block-sitewidefooter .accessibility-row a {
+    color: #fff;
+}
+.wrapper.wrapper--footer .site-footer #block-sitewidefooter .accessibility-row a:hover {
+    color: #d2bd18;
+    text-decoration: none !important;
+}
+.wrapper.wrapper--footer .site-footer #block-sitewidefooter .location-row {
+    color: #57a1c7;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 1.2rem;
+}
+      
+.wrapper.wrapper--footer .site-footer #block-sitewidefooter .phone-row {
+    text-align: center;
+    margin-top: 1.2rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.wrapper.wrapper--footer .site-footer #block-sitewidefooter .phone-row a {
+    color: #fff;
+}
+
+.wrapper.wrapper--footer .site-footer #block-sitewidefooter .phone-row a:hover {
+    color: #d2bd18;
+    text-decoration: none !important;
+}
+
+.wrapper.wrapper--footer .site-footer #block-sitewidefooter .phone-row .map:before {
+    content: "\0020\00a0|\00a0\0020"!important;
+}
+
+.wrapper.wrapper--footer .site-footer #upennfull {
+    float:none;
+    text-align:center;
+    margin-top: 1rem;
+}
+
+.wrapper.wrapper--footer .site-footer #upennfull {
+    display: none;
+} @media(min-width: 60em) {
+  .wrapper.wrapper--footer .site-footer #upennfull {
+    display: block;
+  }
+}
+
+.wrapper.wrapper--footer .site-footer #upennfull a:hover {
+    color: #d2bd18;
+    text-decoration: none !important;
+}
+
+.footerupenn {
+    font-family: "Gentium Basic","Times New Roman",Times,serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+}
+.footerupenn a {
+    color: #dfc500;
+}
+
+.wrapper.wrapper--footer .site-footer .copyright {
+    text-align: center; 
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #57a1c7;
+}
+

@@ -1,0 +1,19 @@
+
+h3.pagetitle2 {
+    margin-top: 0;
+}
+.access {
+    margin-left: .6rem;
+    padding-left: .8rem;
+list-style-image: url('//s3.amazonaws.com/libapps/customers/220/images/dotaaa7-2up.png');
+}
+.access li {
+    padding-left: .6rem;
+}
+.subhead {
+	margin: -.8rem 0 3rem;
+	font-style: oblique;
+	font-weight: bold;
+	letter-spacing: .03rem;
+
+}

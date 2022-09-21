@@ -1,0 +1,20 @@
+/*
+* CSS script for the facbooks
+*/
+
+.facpubtable {width: 499px; margin-left:14px;}
+.bookcell {float:left; width: 150px; height: 262px; padding: 10px 14px 10px 0;}
+.holdbookcover {text-align: center;}
+.holdcaption {margin-top: .75em;font-size: 11px;}
+.gb {color: #999;}
+.holdcaption b {color: #444;}
+
+.allpubleft {padding-right: 1.5em;}
+.allpubright {padding-left: 1.5em;}
+.pubimage {float: left;padding-bottom: 1.5em; }
+.unit  {clear:both;}
+.pubimage img {width: 5em;}
+.pubblurb {margin-left: 6em;padding-bottom: 1.5em;}
+.pubdate {margin-top: 2px}
+.whereelse {}
+.author b {color: #444;}

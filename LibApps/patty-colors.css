@@ -1,0 +1,113 @@
+/*Patty's colors*/
+#s-lg-guide-tabs.tabs .bluetype {color: #2554c7;}
+#s-lg-guide-tabs.tabs .pennredtype {color: #900;}
+#s-lg-guide-tabs.tabs .greentype {color: #387b29;}
+
+#s-lg-tabs-container.container #s-lg-guide-tabs > .nav-tabs.nav-stacked > li:hover > a .colortype,
+#s-lg-tabs-container2.container #s-lg-guide-tabs > .nav-tabs.nav-stacked > li:hover > a .colortype {
+    color: #fff;
+}
+#s-lg-guide-tabs.tabs a.active .colortype, 
+#s-lg-guide-tabs.tabs a:hover .colortype,
+#s-lg-guide-tabs.tabs a:focus .colortype {
+    color: #fff;
+    }
+h1#s-lg-guide-name span.colortype {
+    color: #b33300;
+}
+
+
+/*colortypes should stay white while mousing over subtabs. see line 1667*/
+.nav > li:nth-child(2) > a:nth-child(1),
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(2) > a:nth-child(1),
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(2) > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(3) > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(4) > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(5) > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(6) > a {color: #2554c7;}/*blue*/
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(1) > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(7) > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(8) > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(9) > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(10) > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(11) > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(12) > a {color: #000;}/*black*/
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(13) > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(14) > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(15) > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(16) > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(17) > a {color: #900;}/*red*/
+
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(2):hover > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(3):hover > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(4):hover > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(5):hover > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(6):hover > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(1):hover > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(7):hover > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(8):hover > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(9):hover > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(10):hover > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(11):hover > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(12):hover > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(13):hover > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(14):hover > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(15):hover > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(16):hover > a,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(17):hover > a {color: #fff;}
+
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(2) > a:hover,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(3) > a:hover,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(4) > a:hover,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(5) > a:hover,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(6) > a:hover,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(1) > a:hover,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(7) > a:hover,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(8) > a:hover,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(9) > a:hover,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(10) > a:hover,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(11) > a:hover,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(12) > a:hover,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(13) > a:hover,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(14) > a:hover,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(15) > a:hover,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(16) > a:hover,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(17) > a:hover {color: #fff;}
+
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(2) > a:focus,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(3) > a:focus,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(4) > a:focus,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(5) > a:focus,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(6) > a:focus,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(1) > a:focus,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(7) > a:hover,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(8) > a:focus,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(9) > a:focus,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(10) > a:focus,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(11) > a:focus,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(12) > a:focus,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(13) > a:focus,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(14) > a:focus,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(15) > a:focus,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(16) > a:focus,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(17) > a:focus {color: #fff;}
+
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(2) > a.active,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(3) > a.active,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(4) > a.active,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(5) > a.active,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(6) > a.active,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(1) > a.active,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(7) > a.active,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(8) > a.active,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(9) > a.active,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(10) > a.active,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(11) > a.active,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(12) > a.active,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(13) > a.active,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(14) > a.active,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(15) > a.active,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(16) > a.active,
+#s-lg-tabs-container.container .nav.nav-tabs > li:nth-child(17) > a.active {color: #fff;}
+
+

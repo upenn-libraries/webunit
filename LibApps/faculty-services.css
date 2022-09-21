@@ -1,0 +1,36 @@
+.service-unit {
+   text-align: center;
+   width: 49.5%;
+   padding: 0 .8rem 5rem .8rem;
+}
+.uppercase {
+   text-transform: uppercase;
+   display: block;
+   line-height: 1.45;
+   margin-top: .5rem;
+}
+@media (min-width: 710px) {
+	.service-unit {
+      width: 24.5%;
+    }
+   .uppercase {
+       line-height: 1.60;
+       font-size: 13px;
+   }
+}
+@media (min-width: 820px) {
+   .uppercase {
+       line-height: 1.50;
+       font-size: 14px;
+   }
+}
+@media (min-width: 1300px) {
+   .uppercase {
+       line-height: 1.45;
+       font-size: 15px;
+   }
+}
+
+
+.service-unit a,
+.service-unit img {display:block;}

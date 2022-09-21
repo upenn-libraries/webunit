@@ -1,0 +1,21 @@
+#content section.content-aside.section-margin div.contain.content-aside__flex div.content-aside__aside article.contextual-region.card.card__with-image.event div.card__content div.wysiwyg {
+	  height: 10rem;
+	  overflow: hidden;
+	  margin-bottom: 1.5rem;
+}
+#content section.content-aside.section-margin div.contain.content-aside__flex div.content-aside__aside article.contextual-region.card.card__with-image.event figure.card__figure {
+	height:  300px;
+	overflow:  hidden;
+}
+#content section.content-aside.section-margin div.contain.content-aside__flex div.content-aside__aside article.contextual-region.card.card__with-image.event figure.card__figure .card__image {
+    height: 300px;
+    width: auto;
+    margin: 0 auto;
+}
+/*floorplans*/
+.contain .image-slider .slick-slide img {
+  height: auto;
+  width: auto;
+  -o-object-fit: none;
+  object-fit: none;
+}

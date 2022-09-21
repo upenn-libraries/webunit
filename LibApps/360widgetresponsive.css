@@ -1,0 +1,199 @@
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+td {vertical-align:top;
+padding-top:7px;}
+.formatted .floatleft {float:left;}
+.phone .formatted .floatleft {float:none;}
+.floatnone {float:none}
+.disabled {color: #999}
+#footer {margin-top:2em;}
+#search {
+	right:auto;
+	left:20px;
+	top:47px;
+	z-index:1000;
+
+}
+fieldset {
+    border:none;
+	padding: 0
+}
+
+
+
+.formatted label {
+	display:block;
+	color: #000;
+	font-size: 1em;
+	}
+.formatted label,
+.formatted .radiofield {
+	float:left;
+	}
+
+.formatted .label,.formatted .numlabel, {
+	font-size: 100%;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+	color: #444;
+}
+.formatted .label, .formatted .numlabel,.formatted .radiofield {
+	padding-right:8px;
+	width: 125px;
+	text-align:right;
+	}
+
+.phone .formatted .label, 
+.phone .formatted .numlabel, 
+.phone .formatted .radiofield {
+	width: auto;
+	text-align:left;
+	float:none;
+	}
+
+.formatted .label, .formatted .numlabel {
+	padding-top: 4px;
+	}
+.formatted .atleastone {
+	border:dotted 1px #f00;
+	max-width: 500px; 
+	padding: 5px 0; 
+	margin-bottom: 1.5em;
+	display:block;
+	vertical-align:top;
+	-webkit-border-radius: .5em;
+	-moz-border-radius:.5em;
+	border-radius: .5em;
+	
+	/*Dirty IE Hack*/
+ /* zoom: 1;
+  *display: inline;*/
+}
+.phone .formatted .atleastone {
+	padding: 5px 4px;
+}
+
+.formatted label.radiolabel, .formatted div.likeradiolabel {
+	float:none;
+	font-weight: normal;
+    letter-spacing: 0em;
+	color: #000;
+	text-align:left;
+	/*padding-top:4px;*/
+	padding-right:0;
+	padding-bottom:7px;
+	padding-top:0;
+	width: auto;
+	}
+
+
+.formatted .field, .formatted .issnfield, .formatted .numberfield {padding-bottom: 15px}
+
+.formatted .field input {width: 350px;}
+.phone .formatted .field input {width: 200px;}
+.formatted .numberfield input {width: 60px;}
+.formatted .issnfield input {width: 200px;}
+.formatted .numberfield input#JournalYear {
+	width: 95px;
+}
+.formatted .numberfield input#Pages,
+.formatted .numberfield input#ISXN {
+	width: 200px;
+}
+
+.formatted #WebLink-ariaLabel {padding-bottom: 7px;}
+.formatted input, .formatted select, .formatted textarea {border:solid 1px #999}
+.formatted input, .formatted select {padding:3px}
+
+.formatted .marginator {float:left;width:125px;height:.5em;padding-right: 8px;}
+.formatted .marginator2 {float:left; height:1em; width: 125px;}
+.phone .formatted .marginator,.phone .formatted .marginator2 {display:none}
+#defaultlocation {padding-bottom: .33em}
+.formatted .atleastoneinstructions {
+	display:inline-block;
+	vertical-align:top;
+	width: auto; 
+	padding-right: 5px; 
+	text-align:right;
+	font-style:oblique;
+	
+	/*Dirty IE Hack*/
+  zoom: 1;
+  *display: inline;
+	}
+.phone .formatted .atleastoneinstructions {
+	width: auto;
+	text-align:left;
+	display:block
+	}
+.formatted .textarealabel{
+	width: 125px;
+	padding-right:8px; 
+	padding-top:3px;
+	text-align:right;
+	float:left;
+	display:block}
+.phone .formatted .textarealabel{
+	float:none;
+	width:auto;
+	text-align:left;
+	}
+.formatted  textarea{width:350px; padding:2px; min-height:3em;}
+.formatted .atleastone textarea#ArticleTitle {width:330px}
+.formatted  .textareafield.holdnotes {padding-bottom: 2em}
+.formatted .textareafield {padding-bottom: 10px;float:none;}
+
+
+.submit {cursor:pointer;}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+
+.atleastoneinstructions b {
+	display:inline;
+}
+.atleastoneinstructions b .atleastonereq {
+	color: #c00;
+	font-size: 150%;
+    font-weight: normal;
+	position: relative;
+    width: auto;
+	top:.3em;
+}
+span.req {
+	font-weight: bold;
+	color: #c00;
+	font-size: 150%;
+	top:3px;
+	position: relative;
+}
+
+.disabled span.req {
+	color: #999;
+}
+.req.atleastonereq {top: 0}
+
+/*for ie*/
+.radiofield input  {
+    border: none;
+}
+.phone #homepagelink, .phone .nameandacctlink {
+	display:none;	
+}

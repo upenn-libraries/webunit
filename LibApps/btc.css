@@ -1,0 +1,50 @@
+@media (min-width: 1024px) {
+   #content div.layout.layout--28-28-28.section-margin div.contain.layout__flex.layout__flex--justify-between {
+      background: #e2ecf4; padding: 20px 30px;
+   }
+   #content div.layout.layout--28-28-28.section-margin {
+      margin-top: 0;
+   }
+}
+
+
+@media (min-width: 1250px) {
+#content div.layout.layout--28-28-28.section-margin div.contain.layout__flex.layout__flex--justify-between {
+padding: 20px 50px;
+}
+}
+
+#content section.accordion-columns {
+max-width: 1315px; margin: 0 auto;}
+.font2rem {
+font-size: 2rem;
+}
+.js-wikit-accordion__item.is-expanded .wysiwyg ul.font2rem li {
+  font-size: 2rem;
+}
+.keyres-thirdcolumn {
+margin-top: 7.8rem;
+}
+#content section.section-padding.bg-color.bg-gradient div.contain div.js-wikit-tabbed.lib-search section#tabpanel-12741.wikit-tab article div.gotopubmed {
+   margin-bottom:  3rem;
+}
+/*floorplan*/
+#content section div.contain.contain--wide div.image-slider.slick-initialized.slick-slider div.slick-list.draggable div.slick-track div.slick-slide.slick-current.slick-active div article.image-slider-card div.image-slider-card__image-contain img.image-slider-card__image, #content section div.contain div.image-slider.slick-initialized.slick-slider div.slick-list.draggable div.slick-track div.slick-slide.slick-current.slick-active div article.image-slider-card div.image-slider-card__image-contain img.image-slider-card__image, #content section div.contain.contain--sm div.image-slider.slick-initialized.slick-slider div.slick-list.draggable div.slick-track div.slick-slide.slick-current.slick-active div article.image-slider-card div.image-slider-card__image-contain img.image-slider-card__image {
+  height: auto!important;
+  width: 100%;
+  max-width: 100% !important;
+  -o-object-fit: contain;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1250px) {
+   #content section div.contain.contain--wide div.image-slider.slick-initialized.slick-slider div.slick-list.draggable div.slick-track div.slick-slide.slick-current.slick-active div article.image-slider-card div.image-slider-card__image-contain img.image-slider-card__image, #content section div.contain div.image-slider.slick-initialized.slick-slider div.slick-list.draggable div.slick-track div.slick-slide.slick-current.slick-active div article.image-slider-card div.image-slider-card__image-contain img.image-slider-card__image, #content section div.contain.contain--sm div.image-slider.slick-initialized.slick-slider div.slick-list.draggable div.slick-track div.slick-slide.slick-current.slick-active div article.image-slider-card div.image-slider-card__image-contain img.image-slider-card__image {
+     height: auto!important;
+     width: 1200px;
+     -o-object-fit: contain;
+     object-fit: contain;
+     margin-left: auto;
+     margin-right: auto;
+}
+}

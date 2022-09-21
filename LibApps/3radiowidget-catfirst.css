@@ -1,0 +1,237 @@
+.franklinset{
+  margin-left: 0;
+  height: 65px;
+  padding: .75em 0 0 1.5em;
+  
+}
+.guideswidget .franklinset {
+  height:auto;
+}
+#metasearchsolo .franklinset {
+    height: auto;
+    margin-left: 0;
+    padding: 0.5em 0 0;
+}
+.console {
+  background-color: #fff;
+  font-size: 13px;
+  font-family: "Source Sans Pro","Arial Unicode MS",Helvetica,sans-serif;
+  margin: auto;
+    height: 149px;
+  background: #fff;
+  width: 475px;
+}
+.console.guideswidget {
+  height: auto;
+}
+.morelinks.guideswidget {
+   margin: 1em 0 0 1.5em;
+}
+#metasearchsolo.console {
+    height: auto;
+    margin: 0;
+    width: auto;
+}
+.franklinset .tabform {
+  margin: 1.25em 0 0 0;
+  width: 475px;
+}
+#metasearchsolo  .franklinset .tabform {
+    margin: 0;
+    width: auto;
+}
+label {
+  cursor: default;
+}
+h4.ejsearch {
+  margin: -.75em 0 .17em;
+  font-style: oblique;
+  font-weight: 400;
+  letter-spacing: .02em;
+
+}
+.guideswidget h4.ejsearch,
+.guideswidget h4.ejsearch label,
+.smallpenn h4 {
+  font-size: 1em;
+}
+.smallpenn h4.ejsearch label{
+  font-size: .92em;
+}
+.franklinset .tabform .floatleft {
+  margin-right: .25em;
+  float:left;
+}
+.franklinset .biginput {
+  width: 19em;
+}
+.franklinset .smallpenn .biginput,
+.libsearchform.pennsmall.staff input#q.withsearchicon.biginput {
+  width: 16em;
+}
+.biginput {
+  width: 19em; 
+  border: 1px solid #b5b5b5;
+  padding: .55em 0 .55em 1.667em;
+  background-image: url(http://www.library.upenn.edu//images/homepage2014/hpmainspriten.png);
+  background-repeat: no-repeat;
+  background-position: 5px -115px;
+}
+.pennsmall .biginput, 
+.pennsmall input#franklinquery.withsearchicon.biginput,
+.pennsmall input.withsearchicon.clfranklin.biginput {
+    width: 16.5em;
+    margin-bottom: .25em
+}
+.franklinset input.tabformbutton {
+  border: 1px solid #999;
+    padding: .5em .42em;
+  background: linear-gradient(to bottom,#fcfcfc 0,#e8e9eb 53%,#d2d5d8 100%);
+}
+.franklinset .smallpenn  input.nexttoinput.tabformbutton,
+.pennsmall.staff .tabformbutton {    
+    height: 2.6em;
+    padding: .5em .42em;
+}
+.pennsmall input.tabformbutton {
+    border: 1px solid #999;
+    padding: 0.5em 0.42em;
+    height: 2.8em;
+  }
+  .franklinset .tabformbutton.triplewidget {
+    height: 2.7em;
+    padding: 0 .5em;
+  }
+.pennsmall input.tabformbutton,
+.tabformbutton.triplewidget {  
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfcfc+0,e8e9eb+53,d2d5d8+100 */
+     background: #fcfcfc; /* Old browsers */
+     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjZmNmYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUzJSIgc3RvcC1jb2xvcj0iI2U4ZTllYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkMmQ1ZDgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+     background: -moz-linear-gradient(top,  #fcfcfc 0%, #e8e9eb 53%, #d2d5d8 100%); /* FF3.6-15 */
+     background: -webkit-linear-gradient(top,  #fcfcfc 0%,#e8e9eb 53%,#d2d5d8 100%); /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(to bottom,  #fcfcfc 0%,#e8e9eb 53%,#d2d5d8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#d2d5d8',GradientType=0 ); /* IE6-8 */
+
+}
+.pennsmall.findit input.tabformbutton {
+padding: .5em 1em .4em 1em
+}
+.bigselect {
+  padding: .5em .33em;
+  width: 12em;
+  border: 1px solid #b5b5b5;
+  word-wrap:normal;
+  margin-left:0;
+  height: 2.9em !important;
+}
+.bigselect.triplewidget {
+  height: 2.7em !important;
+}
+.pennsmall .bigselect {
+  width: 12em;
+}
+.pennsmall.findit .bigselect {
+  width: 12.5em;
+}
+.tabsearchwidgetContainer_tabpane .console .morelinks {
+  margin: 1em 0 0 1.667em;
+  letter-spacing: .02em;
+}
+.holdradio.catalogsradio.catalogsradiowide {
+  width: 12.33em;
+}
+.holdradio {
+  border: 1px solid #ccc;
+  border-radius: .42em;
+  margin: 0 .42em 0 0;
+  width: 11.667em;
+  padding: .83em 0;
+  display:inline-block;
+}
+.morelinks.guideswidget .holdradio{
+  padding: .5em;
+}
+.ieonly {
+  display: none;
+/*#MetaSearch, #ArticleSearch {
+  display:none;
+}*/
+#franklinquery {
+  width:auto;
+}
+/*for cajs faq*/
+.s-la-widget .btn.btn-primary {
+  border: 1px solid #2373a5;  
+  font-weight: normal;  
+  color: #fff;
+  cursor: pointer;  
+  text-decoration: none;
+  text-shadow: 0 1px 1px #3373a5; 
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5393c5+0,6facd5+100 */
+  background: #5393c5; /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUzOTNjNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2ZmFjZDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top,  #5393c5 0%, #6facd5 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5393c5), color-stop(100%,#6facd5)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #5393c5 0%,#6facd5 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #5393c5 0%,#6facd5 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #5393c5 0%,#6facd5 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #5393c5 0%,#6facd5 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5393c5', endColorstr='#6facd5',GradientType=0 ); /* IE6-8 */
+}
+.s-la-widget .btn.btn-primary:hover {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6facd5+0,5393c5+100 */
+  background: #6facd5; /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzZmYWNkNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1MzkzYzUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top,  #6facd5 0%, #5393c5 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6facd5), color-stop(100%,#5393c5)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #6facd5 0%,#5393c5 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #6facd5 0%,#5393c5 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #6facd5 0%,#5393c5 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #6facd5 0%,#5393c5 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6facd5', endColorstr='#5393c5',GradientType=0 ); /* IE6-8 */
+
+}
+.s-la-widget .input-group input.s-la-content-search-query.form-control {width: 16.33em}
+
+/*tabbed biomed widget*/
+.guideswidget .tabsearchwidgetContainer_tablist .searchwidgettab.active:after,
+.guideswidget .searchwidgettab.active::after {
+    border:none !important;
+    content: "";
+    display: block;
+    height: 0;
+    left: 0;
+    margin-left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.guideswidget .searchwidgettab.active, 
+.guideswidget .searchwidgettab.active:hover {
+    color: #000;
+    background-color: #fff !important;
+    background-image: none;
+    border: solid 1px #bbb;
+  border-bottom: solid 1px #fff;
+box-shadow:none;
+  
+}
+.guideswidget a.searchwidgettab {
+    color: #000;
+    cursor: pointer;
+    font-family: "Arial Unicode MS","Lucida Grande",sans-serif;
+    font-size: 12px;
+    line-height: 150%;
+    white-space: nowrap;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-shadow: none;
+  font-weight:normal;
+} 
+.console.guideswidget #CatalogSearch.franklinset,
+.console.guideswidget #ArticleSearch.franklinset {
+  display:none;
+}

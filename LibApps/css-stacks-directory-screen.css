@@ -1,0 +1,143 @@
+#content-column-block-745  div.border.below-title.below-h1.for-print {
+	background-color:  transparent;
+}
+.for-print {
+	display: none;
+}
+@media screen  {
+	h2 {
+		font-size: 2.5rem;
+	}
+	.one-line-info,
+	.more-stacks-info {
+		font-size: 1.5rem;
+	}
+	#content-column-block-745 {
+		font-size: 1.5rem;
+	}
+}
+@media screen and (min-width: 1040px) {
+	h2 {
+		font-size: 4rem;
+	}
+	.one-line-info,
+	.more-stacks-info {
+		font-size: 1.8rem;
+	}
+	#content-column-block-745 {
+		font-size: 2rem;
+	}
+}
+@media screen and (min-width: 1400px) {
+	h2 {
+		font-size: 5.1rem;
+	}
+	.one-line-info,
+	.more-stacks-info {
+		font-size: 2.1rem;
+	}
+	#content-column-block-745 {
+		font-size: 2.5rem;
+	}
+	.stacks-table.loc td:nth-child(1), .stacks-table.dewey td:nth-child(1) {
+	    padding-left: 1.5rem;
+	}
+}
+#content-column-block-745--2 {
+	display: none;
+}
+#content-column-block-745 {
+	padding: 0 4rem;
+	font-family: $header-font-family;
+}
+
+img.print-logo {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#content-column-block-745 h1.page-title,
+#content-column-block-745--2 h1.page-title {
+	font-family: $header-font-family;
+	text-transform: uppercase!important;
+	color: #000!important;
+	font-size: 5.4rem;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+h2 {
+	font-family: $header-font-family;
+	color: #900;
+	font-weight: 300;
+	margin: 2.5rem 0 1.7rem 0;
+}
+
+.hanging-indent {
+	text-indent:  -5.7rem;
+	margin-left:  5.7rem;
+}
+
+.one-line-info,
+.more-stacks-info {
+	line-height: 1.5;
+	font-weight: bold;
+	position:  relative;
+	top:  -1.3rem;
+	margin-bottom:  0;
+}
+.if-the-book p:first-child, 
+.if-the-book p:first-of-type {
+   		margin-top: 2rem;
+}
+   	
+
+
+
+.border,
+.border.above-title.above-h1,
+.border.above-title.below-h1 {
+	height:  1px;
+	background: #000;
+	border:  none;
+	display: block!important;
+}
+.above-section {
+	margin-top:3.6rem;
+}
+
+
+
+.stacks-table {
+	width: 100%;
+	font-weight: 300;
+}
+.stacks-table tr:nth-of-type(odd) {
+	background-color: #d6e4f2;
+}
+.stacks-table.show-th  tr.show-head {
+	background-color: #3479be;
+}
+.stacks-table.show-th  tr.show-head th {
+	color: #fff;
+	text-align: left;
+}
+.stacks-table td, 
+.stacks-table th {
+	padding: 1rem;
+}
+.stacks-table.loc td:nth-child(1),
+.stacks-table.dewey td:nth-child(1) {
+	width: 12%;
+} 
+
+.stacks-table.loc td:nth-child(2),
+.stacks-table.dewey td:nth-child(2) {
+	width: 62.5%;
+} 
+
+.stacks-table.loc td:nth-child(3),
+.stacks-table.dewey td:nth-child(3) {
+	width: 25%;
+} 
+

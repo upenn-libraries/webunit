@@ -1,0 +1,44 @@
+#s-lg-guide-main {
+    border: 1px solid #bbb;
+    margin: 4em 1.4em 1em;
+    padding: .5em 1.3em;
+}
+.adminpage #s-lg-guide-main {
+    margin: 4em auto 1em;
+}
+.tablet #s-lg-guide-main {
+    border: none;
+    margin: 1em 0 0 0;
+    padding: 0 .714em 0;
+}
+
+
+.tablet .s-lib-box {
+    box-shadow:none;
+    border:solid 1px #ccc;
+}
+.tablet .holdinnertabs {
+    display:none;
+}
+
+.holdinnertabs {
+    margin-top: -2.85em;
+    margin-left: -1em;
+}
+.innertab {
+    margin-right: 0.3em;
+}
+.s-lib-box {
+    background-color: #f7f7f7 !important;
+    border: 1px solid #e5e5e5 !important;
+    box-shadow: none !important;
+}
+
+/*hide dropdown tabs on the page where innertabs display*/
+.desktop.production #s-lg-tabs-container.container #s-lg-guide-tabs .active .dropdown-toggle span b.caret {display:none;}
+.production .active .s-lg-subtab-ul.dropdown-menu,
+.homepage .active .s-lg-subtab-ul.dropdown-menu {
+    position:absolute !important;
+    top: -10000px !important;
+    left: -10000px !important;
+}

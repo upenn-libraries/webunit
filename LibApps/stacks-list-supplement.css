@@ -1,0 +1,3 @@
+.wysiwyg h2.no-dash::after {
+	display: none;
+}

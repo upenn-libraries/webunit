@@ -1,0 +1,24 @@
+html body.s-lg-guide-body.production.tablet.vsmalldesk.phone div.page-contents.container div#guidepagesbutton.hl-toc-button. button.toc-toggle,
+html body.s-lg-guide-body.production.tablet.vsmalldesk div.page-contents.container div#guidepagesbutton.hl-toc-button. button.toc-toggle,
+html body.s-lg-guide-body.production.tablet.phone.vsmalldesk div.page-contents.container div#guidepagesbutton.hl-toc-button.hidden-md.hidden-lg button.toc-toggle.btn.btn-default.center-block,
+html body.s-lg-guide-body.production.tablet.vsmalldesk div.page-contents.container div#guidepagesbutton.hl-toc-button.hidden-md.hidden-lg button.toc-toggle.btn.btn-default.center-block,
+.s-lg-guide-body.tablet.phone button.toc-toggle,
+.s-lg-guide-body.tablet button.toc-toggle,
+.tablet #guidepagesbutton {
+	display: none!important;
+}
+html body.s-lg-guide-body.production.vsmalldesk.tablet.phone div.page-contents.container div#s-lg-tabs-container.container.s-lib-side-borders.pad-top-med div#s-lg-guide-tabs.tabs.collapse,
+
+html body.s-lg-guide-body.production.vsmalldesk.tablet.phone div.page-contents.container div#s-lg-tabs-container.container.s-lib-side-borders.pad-top-med div#s-lg-guide-tabs.tabs.collapse ul.nav.nav-pills.split-button-nav.nav-stacked,
+html body.s-lg-guide-body.production.vsmalldesk.tablet div.page-contents.container div#s-lg-tabs-container.container.s-lib-side-borders.pad-top-med div#s-lg-guide-tabs.tabs.collapse,
+
+html body.s-lg-guide-body.production.vsmalldesk.tablet div.page-contents.container div#s-lg-tabs-container.container.s-lib-side-borders.pad-top-med div#s-lg-guide-tabs.tabs.collapse ul.nav.nav-tabs.split-button-nav.nav-stacked {
+	display:  block !important;
+}
+
+html body.s-lg-guide-body.production.vsmalldesk.tablet.phone div.page-contents.container div#s-lg-tabs-container.container.s-lib-side-borders.pad-top-med div#s-lg-guide-tabs.tabs.collapse ul.nav.nav-tabs.split-button-nav.nav-stacked,
+html body.s-lg-guide-body.production.vsmalldesk.tablet div.page-contents.container div#s-lg-tabs-container.container.s-lib-side-borders.pad-top-med div#s-lg-guide-tabs.tabs.collapse,
+
+html body.s-lg-guide-body.production.vsmalldesk.tablet div.page-contents.container div#s-lg-tabs-container.container.s-lib-side-borders.pad-top-med div#s-lg-guide-tabs.tabs.collapse ul.nav.nav-tabs.split-button-nav.nav-stacked {
+	display:  block !important;
+}

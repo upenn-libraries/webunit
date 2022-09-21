@@ -1,0 +1,10 @@
+.holdfeaturecaption,.holdfeatureimg {text-align:center}.holdfeaturecaption {margin-top: .5em;}
+.holdfeaturecaption .realtitle {line-height: 135%}
+#s-lg-index-cols-topics ul,
+#s-lg-index-cols-general ul,
+#s-lg-index-cols-courses ul,
+#s-lg-index-cols-subjects ul {list-style-image: none;list-style-type: none;margin-left: 0;padding-left: 0 !important;}
+#s-lg-index-cols-topics .panel-body,
+#s-lg-index-cols-general  .panel-body,
+#s-lg-index-cols-courses  .panel-body,
+#s-lg-index-cols-subjects  .panel-body {padding: 0 .5em}

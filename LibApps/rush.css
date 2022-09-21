@@ -1,0 +1,10 @@
+#s-lg-guide-name {text-transform: uppercase;}
+.desktop #s-lg-box-wrapper-28967447 {display:block;}
+.tablet #s-lg-box-wrapper-28967447,
+.vsmalldesk.tablet #s-lg-box-wrapper-28967447, 
+.phone #s-lg-box-wrapper-28967447 {display:none}
+
+.desktop #s-lg-box-wrapper-29010243  {display:none;}
+.tablet #s-lg-box-wrapper-29010243, 
+.vsmalldesk.tablet #s-lg-box-wrapper-29010243, 
+.phone #s-lg-box-wrapper-29010243  {display:block;}

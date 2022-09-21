@@ -1,0 +1,60 @@
+
+body .fc-timeline-event.fc-h-event.fc-event {
+    background-size: cover !important;
+}
+
+/*X*/
+body .r-conf-showedup,
+body .s-lc-eq-r-conf-showedup,
+body .s-lc-eq-e-conf,
+body .s-lc-eq-r-conf,
+body .e-conf,
+body .r-conf,
+body .s-lc-eq-checkout,
+body .label-eq-unavailable,
+body .s-lc-eq-period-booked {
+    background-color: #f00 !important;
+    border-color: #f00 !important;
+    background-image: url('https://libapps.s3.amazonaws.com/customers/220/images/libcal-x.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: -3px 0 !important;
+}
+/*comment*/
+/*padding same x, different bg color*/
+body .s-lc-eq-r-padding {
+    background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/libcal-x.png) !important;
+    background-repeat: no-repeat !important;
+    background-color: #999 !important;
+    border: solid 1px #999 !important;
+    background-position: -3px 0 !important;
+}
+
+/*check*/
+body .s-lc-eq-pending, body .label-eq-pending,
+body .s-lc-eq-period-pending {
+    background-color: #f6c94e !important;
+    border-color: #f6c94e !important;
+    background-image: url('https://libapps.s3.amazonaws.com/customers/220/images/libcal-check.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: -2px 1px !important;
+}
+
+
+/*Circle*/
+body .fc-timeline-event.fc-h-event.fc-event.s-lc-eq-r-unavailable {
+    background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/libcal-o19.png) !important;
+    background-repeat: no-repeat !important;
+    background-color: #e2e2e2 !important;
+    border: solid 1px #999 !important;
+    background-position: 0 2px !important;
+    background-size: 25px 25px !important;
+
+}
+.s-lc-eq-r-unavailable {
+  background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/libcal-o19.png) !important;
+  background-repeat: no-repeat !important;
+  background-color: #e2e2e2 !important;
+  border: solid 1px #999 !important;
+  background-position: -4px -1px !important;
+  background-size: 25px 25px !important;
+}

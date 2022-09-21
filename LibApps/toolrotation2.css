@@ -1,0 +1,63 @@
+#s-lg-box-collapse-9474642 div.s-lib-box-content {
+	padding-bottom: 0;
+}
+#toolsList {
+    height: auto;
+    margin-bottom: 0;
+    width: 100%;
+padding-left: 2%;
+}
+.tablet #toolsList  {
+	margin-bottom: 1em;
+}
+.toolimagequad, .tablet.phone .toolimagequad {
+	display:inline-block; 
+	width: 44.5%;
+max-width: 160px;
+	margin-bottom: .2em;
+	text-align:center;
+padding: 10px  1% 0 1%;
+background-color: #eee;
+margin-left: 3%;
+}
+
+.tablet .toolimagequad {
+	width: 19.2%;
+	margin-bottom: .2em;
+	margin-right: 3.65%;
+	margin-left: 2.2%;
+}
+
+.tablet .toolimagequad:last-child {
+    margin-right: 0;
+} 
+.phone.tablet .toolimagequad {
+    margin-right: 0;
+}
+.toolimagequad img, 
+.tablet.phone.smallphone .toolimagequad img {
+	width: 100%; 
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 0;
+}
+.tablet.phone .toolimagequad img {
+	width: 100%; 
+	height: auto;
+	max-width: 165px;
+	margin-bottom: 0;
+}
+.imagelink, .namelink {
+	display:block;
+}
+.namelink {
+	margin-top: .67em;
+	height: 2.8em;
+	overflow:hidden;
+   line-height: 120%;
+   font-size: 12px;
+}
+.tablet.phone .namelink {
+	margin-bottom: .5em;
+}
+

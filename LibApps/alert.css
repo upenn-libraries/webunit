@@ -1,0 +1,40 @@
+#special .alertholder {padding:0 2em;text-align:left;line-height:160%}			 
+				 
+.alertyellowright {
+     background-color:#ffc;
+	}
+.alertyellowright {
+     background-image:url(https://s3.amazonaws.com/libapps/customers/220/images/vetalertright.gif); 
+	background-position:right top;
+	}
+.alertyellowleft {
+     background-image:url(https://s3.amazonaws.com/libapps/customers/220/images/vetalertleft.gif); 
+	background-position:left bottom;
+	}
+#special .alertyellowright {
+     background-image:url(https://s3.amazonaws.com/libapps/customers/220/images/homealertright.gif); 
+	}
+#special .alertyellowleft {
+     background-image:url(https://s3.amazonaws.com/libapps/customers/220/images/homealertleft.gif); 
+	}
+
+.alertyellowright, .alertyellowleft {
+	 background-repeat: no-repeat;
+	 }
+.alertyellowleft, .alertyellowright {
+     border:solid 1px #fff;
+	}
+#special .alertyellowleft, #special .alertyellowright {
+     border:none;
+	}
+.ie7 #special .alertyellowleft, .ie7 #special .alertyellowright, .ie8 #special .alertyellowleft, .ie8 #special .alertyellowright, .ie9 #special .alertyellowleft, .ie9 #special .alertyellowright {
+     border:solid 1px #f0f0f0;
+	}
+
+.alertholder {
+     margin: 0 0 1.81em 0;
+	}
+.alerttext {
+     padding: .27em 1.81em .27em 1.81em;
+	}
+.edcommalert .alertholder {margin: .5em 0 0 0;display: none;}

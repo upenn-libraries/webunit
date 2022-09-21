@@ -1,0 +1,87 @@
+
+#pageheader {
+    background-color: #011f5b;
+    background-repeat: no-repeat;
+    background-position: .5rem center;
+    background-size: auto 3.5rem;
+    height: 11rem;
+}
+@media (min-width: 280px) {
+	#pageheader {
+	   background-size: auto 3.8rem;
+	   background-position: 2rem center;
+	}
+}
+@media (min-width: 300px) {
+	#pageheader {
+	   background-size: auto 4.6rem;
+	}
+}
+
+@media (min-width: 400px) {
+	#pageheader {
+	   background-size: auto 6rem;
+	}
+}
+@media (min-width: 520px) {
+	#pageheader {
+	   background-size: auto 7rem;
+	   height: 13rem;
+	}
+}
+#pageheader.faq-default {
+    background-image: url(https://www.library.upenn.edu/sites/default/files/images/logos/svg/FAQ-logo-white.svg);
+}
+.phone #logo {
+  display: block;
+ }
+#logo {
+    display: block;
+    position: relative;
+    z-index: 3;
+    top: 3rem;
+    left: 0;
+    width: 17rem;
+    height:  8rem;
+    max-width:  100%;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+@media (min-width: 280px) {
+	#logo {
+		left: 2rem;
+	}
+}
+@media (min-width: 300px) {
+	#logo {
+		width:  20rem;
+	}
+}
+@media (min-width: 400px) {
+	#logo {
+		width:  27rem;
+	}
+}
+@media (min-width: 520px) {
+	#logo {
+		width:  34rem;
+	}
+}
+#logo img {
+    height: 10rem; 
+    width: 274rem;
+    max-width:  100%;
+}
+#upenn-footer {
+	background-color: #011f5b;
+	padding: 2rem;
+	text-align: center;
+	color: #fff;
+}
+#upenn-footer a {
+	color:  #fff;
+}
+#upenn-footer .phone-row, 
+#upenn-footer .library-row {
+	padding:  .7rem;
+}

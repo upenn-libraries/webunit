@@ -1,0 +1,261 @@
+#block-sitewidesearchbar .searchformholder {
+  display: block;
+  width: 27rem;
+  margin: 0 auto 0.8rem 2.5rem; }
+  @media (min-width: 25em) {
+    #block-sitewidesearchbar .searchformholder {
+      margin: 0 auto 0.8rem auto;
+      width: 25rem; } }
+  @media (min-width: 40.5em) {
+    #block-sitewidesearchbar .searchformholder {
+      width: 46rem; } }
+  @media (min-width: 60em) {
+    #block-sitewidesearchbar .searchformholder {
+      display: inline-block;
+      vertical-align: top;
+      *vertical-align: top;
+      *zoom: 1; } }
+  @media (min-width: 40.5em) {
+    #block-sitewidesearchbar .searchformholder #catalogsrch, #block-sitewidesearchbar .searchformholder #sitewidegooglesrch, #block-sitewidesearchbar .searchformholder #guidessrch {
+      margin-left: 3.7rem; } }
+  
+  #block-sitewidesearchbar .searchformholder form.searchform {
+    display: none; }
+ 
+  #block-sitewidesearchbar .searchformholder form.searchform.active {
+      display: inline-block;
+      vertical-align: top;
+      *vertical-align: top;
+      *zoom: 1; }
+
+#block-sitewidesearchbar #radiobluebuttons {
+  display: block;
+  margin: 0 auto;
+  padding-left: 0.5rem;
+  text-align: center; }
+  @media (min-width: 25em) {
+#block-sitewidesearchbar #radiobluebuttons {
+      width: 25rem;
+      margin-bottom: .8rem; } }
+  @media (min-width: 40.5em) {
+    #block-sitewidesearchbar #radiobluebuttons {
+      width: 43rem;
+      padding: 0 0 .3em 0; } }
+  @media (min-width: 60em) {
+    #block-sitewidesearchbar #radiobluebuttons {
+      display: inline-block;
+      vertical-align: top;
+      *vertical-align: top;
+      *zoom: 1;
+      margin: 0 .42em 0 0;
+      width: 32rem; } }
+
+#block-sitewidesearchbar #radiobluebuttons input {
+  opacity: 0; }
+#block-sitewidesearchbar #radiobluebuttons #guidesradio, 
+#block-sitewidesearchbar #radiobluebuttons #metaradio,
+#block-sitewidesearchbar #radiobluebuttons #sitewidegoogleradio {
+    width: auto;
+}
+
+
+#block-sitewidesearchbar #searchholder {
+  padding: 0.7em 0; }
+  #block-sitewidesearchbar #searchholder fieldset {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    background: transparent; }
+  #block-sitewidesearchbar #searchholder select {
+    width: 10em;
+    height: 2.5em;
+    border: solid 1px #aaa; }
+    #block-sitewidesearchbar #searchholder select#finditselect {
+      width: 20rem; }
+      @media (min-width: 40.5em) {
+        #block-sitewidesearchbar #searchholder select#finditselect {
+          width: auto; } }
+
+#block-sitewidesearchbar #searchholderlining {
+  margin: 0 auto; }
+  @media (min-width: 60em) {
+    #block-sitewidesearchbar #searchholderlining {
+      width: 92rem; } }
+
+#block-sitewidesearchbar .tabformbutton {
+  height: 2.95em; }
+
+#block-sitewidesearchbar .mainq {
+  background-image: url(/sites/default/files/images/common/searchboxicon.png);
+  background-position: 8px 50%;
+  background-repeat: no-repeat;
+  padding: .33em .42em .42em 2em;
+  height: 2.5em; }
+
+#block-sitewidesearchbar #cataloginput, #block-sitewidesearchbar #googleinput, #block-sitewidesearchbar #guidesinput {
+  width: auto; }
+  @media (min-width: 40.5em) {
+    #block-sitewidesearchbar #cataloginput, #block-sitewidesearchbar #googleinput, #block-sitewidesearchbar #guidesinput {
+      width: 35rem;
+      height: 3em; } }
+
+@media (min-width: 40.5em) {
+  #block-sitewidesearchbar #finditsrch {
+    margin: 0; } }
+
+#block-sitewidesearchbar #finditinput {
+  width: 17em;
+  margin-bottom: .8rem; }
+  @media (min-width: 40.5em) {
+    #block-sitewidesearchbar #finditinput {
+      margin-bottom: 0; } }
+
+#block-sitewidesearchbar #googleinput.mainq {
+  background: #fff url(https://www.google.com/cse/static/en/google_custom_search_watermark.gif) no-repeat scroll 1rem center;
+  padding-left: 1rem; }
+  #block-sitewidesearchbar #googleinput.mainq:focus {
+    background-image: none !important; }
+
+#block-sitewidesearchbar .holdradio {
+  border: 1px solid #ccc;
+  -webkit-border-radius: 0.42em;
+  -moz-border-radius: 0.42em;
+  border-radius: 0.42em;
+  display: block;
+  margin: 0 0 0.8rem 1.9rem;
+  text-align: left;
+  padding: 0.3em 0;
+  width: 15.5rem;
+  cursor: pointer; }
+  #block-sitewidesearchbar .holdradio.active, #block-sitewidesearchbar .holdradio.active:hover, #block-sitewidesearchbar .holdradio:hover {
+    border: 1px solid #2373a5;
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #3373a5;
+    background-color: #6facd5;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorStr='$fromColor', EndColorStr='$toColor');
+    background-image: linear-gradient(to bottom, #5393c5, #6facd5); }
+  #block-sitewidesearchbar .holdradio:hover {
+    background-color: #5393c5;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorStr='$fromColor', EndColorStr='$toColor');
+    background-image: linear-gradient(to bottom, #6facd5, #5393c5); }
+  #block-sitewidesearchbar .holdradio.active {
+    cursor: default; }
+  @media (min-width: 25em) {
+    #block-sitewidesearchbar .holdradio {
+      display: inline-block;
+      vertical-align: top;
+      *vertical-align: top;
+      *zoom: 1;
+      margin: 0; } }
+  @media (min-width: 40.5em) {
+    #block-sitewidesearchbar .holdradio {
+      width: 16.333rem;
+      padding: 0.3em 0 .3em .67em;
+      margin: 0 .42em 0 0; } }
+
+#block-sitewidesearchbar .guidesradio {
+  width: 7.5rem; }
+  @media (min-width: 40.5em) {
+    #block-sitewidesearchbar .guidesradio {
+      width: 9.5rem; } }
+
+#block-sitewidesearchbar .sitewidegoogleradio {
+  width: 10.2rem; }
+  @media (min-width: 40.5em) {
+    #block-sitewidesearchbar .sitewidegoogleradio {
+      width: 12.2rem; } }
+
+/*in drupal, these styles are in utilities.css*/
+
+/*a element is for widget tabs. label element is for widget console and default 3button search */
+a > span > span.labelfornotactive,
+a > span.labelfornotactive,
+a > h3 > span.labelfornotactive, label > span > span.labelfornotactive,
+label > span.labelfornotactive,
+label > h3 > span.labelfornotactive {
+  display: inline;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  height: 0;
+  width: 0;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px); }
+
+a > span > span.labelforactive,
+a > span.labelforactive,
+a > h3 > span.labelforactive, label > span > span.labelforactive,
+label > span.labelforactive,
+label > h3 > span.labelforactive {
+  display: none;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  height: 0;
+  width: 0;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px); }
+
+a.active > span > span.labelfornotactive, a.active > span.labelfornotactive,
+a.active > h3 > span.labelfornotactive, label.active > span > span.labelfornotactive, label.active > span.labelfornotactive,
+label.active > h3 > span.labelfornotactive {
+  display: none;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  height: 0;
+  width: 0;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px); }
+
+a.active > span > span.labelforactive, a.active > span.labelforactive,
+a.active > h3 > span.labelforactive, label.active > span > span.labelforactive, label.active > span.labelforactive,
+label.active > h3 > span.labelforactive {
+  display: inline;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  height: 0;
+  width: 0;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px); }
+
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  height: 0;
+  width: 0;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
+.visually-hidden-off {
+  position: static !important;
+  clip: auto;
+  height: auto;
+  width: auto;
+  overflow: auto;
+}

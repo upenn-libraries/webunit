@@ -1,0 +1,123 @@
+/********** General FAQ ***********/
+.block-faq-collapsable {
+  clear: both;
+  /*width: 970px; */
+  margin: 0 auto;
+  background: #fff;
+  min-height: 350px;
+  padding: 0 20px; }
+  .block-faq-collapsable h1 {
+    margin: 0;
+    color: #d70c2d;
+    font-weight: bold;
+    font-size: 1.475em;
+    background-color: transparent; }
+  .block-faq-collapsable h3 {
+    margin-top: .5em;
+    margin-bottom: 12px;
+    padding-bottom: 0;
+    font-size: 1.3em;
+    padding: 10px 0 0 0;
+    color: #064d68;
+    line-height: 1.5em;
+    font-family: "Lucida Sans Unicode","Lucida Grande", Geneva, helvetica, sans-serif;
+    font-weight: normal; }
+  .block-faq-collapsable section a.expand,
+  .block-faq-collapsable section a.collapse {
+    color: #2485ae;
+    cursor: pointer;
+    display: inline; }
+    .block-faq-collapsable section a.expand:hover,
+    .block-faq-collapsable section a.collapse:hover {
+      color: #2485ae;
+      text-decoration: underline; }
+    .block-faq-collapsable section a.expand img,
+    .block-faq-collapsable section a.collapse img {
+      display: inline;
+      vertical-align:top;}
+  .block-faq-collapsable section dl.accordion dt .dthead {
+    background-image: url(/themes/pennlib/images/faq/arrowclosed-demo.gif);
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    padding-left: 30px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    color: #595b5b; }
+    .block-faq-collapsable section dl.accordion dt .dthead.closed {
+      background-image: url(/themes/pennlib/images/faq/arrowopen-demo.gif); }
+  .block-faq-collapsable section dl.accordion dd {
+    margin: 0;
+    margin-top: .6em; }
+    .block-faq-collapsable section dl.accordion dd.folded {
+      display: none; }
+    .block-faq-collapsable section dl.accordion dd p {
+      margin-bottom: 1.3em !important;
+      padding: 0;
+      border: 0;
+      font-style: inherit;
+      font-size: 100%;
+      font-family: inherit;
+      vertical-align: baseline;
+      font-weight: normal;
+      color: #595b5b; }
+    .block-faq-collapsable section dl.accordion dd ul {
+      margin-bottom: 12px;
+      padding: 0;
+      list-style: none;
+      font-weight: normal;
+      color: #595b5b; }
+    .block-faq-collapsable section dl.accordion dd li {
+      background-image: url(/themes/pennlib/images/faq/selected-main-nav-w.gif);
+      background-position: left -11px;
+      background-repeat: no-repeat;
+      padding-left: 1.125em;
+      margin-top: .5em; }
+  .block-faq-collapsable section dl.accordion .updated-timestamp {
+    display: none; }
+/********** Return FAQ ***********/
+.block-pennlib-faq-return-block .block-faq-collapsable section dl.accordion dt {
+  margin-bottom: 1rem; }
+  .block-pennlib-faq-return-block .block-faq-collapsable section dl.accordion dt button.dthead {
+    border: none;
+    background-image: url("http://www.library.upenn.edu/sites/default/files/images/icons/click-to-collapse.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 0 1rem;
+    background-size: 1.8rem;
+    padding: auto auto 0 3rem;
+    cursor: pointer;
+    margin-bottom: 0;
+    color: #000;
+    font-weight: 900;
+    font-size: 1.7rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align:left; }
+    .block-pennlib-faq-return-block .block-faq-collapsable section dl.accordion dt button.dthead.closed {
+      background-image: url("http://www.library.upenn.edu/sites/default/files/images/icons/click-to-expand.png"); }
+  .block-pennlib-faq-return-block .block-faq-collapsable section dl.accordion dt .Last-updated {
+    font-size: 1.3rem;
+    padding-left: 3.1rem;
+    color: #555; }
+
+.block-pennlib-faq-return-block .block-faq-collapsable section a.expand,
+.block-pennlib-faq-return-block .block-faq-collapsable section a.collapse {
+  font-size: 1.6rem; }
+  .block-pennlib-faq-return-block .block-faq-collapsable section a.expand img,
+  .block-pennlib-faq-return-block .block-faq-collapsable section a.collapse img {
+    position: relative;
+    top: 0.6rem; }
+
+.block-pennlib-faq-return-block .block-faq-collapsable section .expand-collapse-button {
+  float: right;
+  text-align: right;
+  width: 30rem; }
+
+.block-pennlib-faq-return-block .block-faq-collapsable section .expand-collapse-button-spacer {
+  height: 3rem; }
+
+  #about li > a,
+  #about li > a:visited, {
+  color: #077dba !important;
+  }

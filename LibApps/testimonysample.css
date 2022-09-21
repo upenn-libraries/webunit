@@ -1,0 +1,12 @@
+#testimonyrotation td {vertical-align: top;}
+#testimonyrotation img {width:70px;height:83px;}
+#testimonyrotation .info {padding-left: 1em;height:10rem;} 
+.imagetd {display: block;float:left}
+.name {margin-bottom: .25em;margin-top: -.5em}
+.name a {
+    text-shadow: 0 0 1px rgba(21, 21, 140, 0.5);
+}
+.name a:hover {
+    text-shadow: 0 0 1px rgba(204, 102, 0, 0.5);
+}
+.born, .expgrp, .experience, .language {font-size: 11px; line-height: normal; text-indent: -16px; margin-left: 16px;}

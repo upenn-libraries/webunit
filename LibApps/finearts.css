@@ -1,0 +1,20 @@
+#content section div.contain div.image-slider.slick-initialized.slick-slider div.slick-list.draggable div.slick-track div.slick-slide.slick-current.slick-active div article.image-slider-card div.image-slider-card__image-contain img.image-slider-card__image {
+	height:  30rem !important;
+	width:  auto !important;
+}
+@media (min-width: 700px) {
+	#content section div.contain div.image-slider.slick-initialized.slick-slider div.slick-list.draggable div.slick-track div.slick-slide.slick-current.slick-active div article.image-slider-card div.image-slider-card__image-contain img.image-slider-card__image {
+		height:  40rem !important;
+	}
+}
+@media (min-width: 800px) {
+	#content section div.contain div.image-slider.slick-initialized.slick-slider div.slick-list.draggable div.slick-track div.slick-slide.slick-current.slick-active div article.image-slider-card div.image-slider-card__image-contain img.image-slider-card__image {
+		height:  50rem !important;
+		width:  auto !important;
+	}
+}
+#content section div.contain.contain--wide div.card-listing.card-listing--3.section-padding div.contain article.card.card--align-center div.card__content {
+	padding-bottom:  0;
+}
+
+

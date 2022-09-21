@@ -1,0 +1,60 @@
+#s-lg-box-collapse-9474642 div.s-lib-box-content {
+	padding-bottom: 0;
+}
+#people {
+    height: auto;
+    margin-bottom: 0;
+    width: 100%;
+padding-left: 2%;
+}
+.tablet #people {
+	margin-bottom: 1em;
+}
+.staffimagequad, .tablet.phone .staffimagequad {
+	display:inline-block; 
+	width: 46%;
+max-width: 160px;
+	margin-bottom: .2em;
+	text-align:center;
+padding-left: 1%;
+padding-right: 1%;
+}
+
+.tablet .staffimagequad {
+	width: 19.2%;
+	margin-bottom: .2em;
+	margin-right: 6.65%;
+}
+
+.tablet .staffimagequad:last-child {
+    margin-right: 0;
+} 
+.phone.tablet .staffimagequad {
+    margin-right: 0;
+}
+.staffimagequad img, 
+.tablet.phone.smallphone .staffimagequad img {
+	width: 100%; 
+	max-width: 100%;
+	height: auto;
+	margin-bottom: .5rem;
+}
+.tablet.phone .staffimagequad img {
+	width: 100%; 
+	height: auto;
+	max-width: 165px;
+	margin-bottom: .5rem;
+}
+.imagelink, .namelink {
+	display:block;
+}
+.namelink {
+	margin-top: .67em;
+	height: 2.8em;
+	overflow:hidden;
+   line-height: 120%;
+   font-size: 12px;
+}
+.tablet.phone .namelink {
+	margin-bottom: .5em;
+}

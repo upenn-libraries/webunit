@@ -1,0 +1,426 @@
+/* Header and footer */
+
+#s-lg-public-skiplink {    
+}
+
+body.production #s-lg-guide-header,
+body.production #s-lib-footer-public,
+body.production #s-lg-tabs-container {
+    display: none;
+}
+
+body.prrucs-area #prrucs-header,
+body.prrucs-area #prrucs-footer {
+    display: none;
+}
+
+.content-col {
+    padding: 0 3rem;
+}
+
+@media (min-width: 800px) {
+    .content-col {
+        display: inline-block;
+        width: 47.5%;
+        vertical-align: top;
+    }
+
+    .content-col-25 {
+        width: 24.5%;
+    }
+
+    .content-col-75 {
+        width: 74.5%;
+        border-left: 1px solid #aaa;
+    }
+}
+
+.tablet #guidepagesbutton {
+    display: none;
+}
+
+#prrucs-header {
+    background-color: #fff;
+}
+
+#prrucslogomain {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 1%;
+}
+
+#prrucstitle {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 1%;
+}
+
+#coursetitle {
+    z-index: 3;
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+@media (min-width: 800px) {
+    #coursetitle {
+        position: absolute;
+        top: 40px;
+        right: 1%;
+        width: auto;
+    }
+}
+
+#clickmap {
+    font-style: oblique;
+    z-index: 5;
+    position: absolute;
+    top: -2rem;
+    left: 1%;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 1.1rem;
+    display: none;
+}
+
+#topbg {
+    height: 56px;
+}
+
+#graystripe {
+    height: 21px;
+    background-color: #e0e0e0;
+}
+
+.hidden-label {
+    position: absolute;
+    z-index: 3000;
+    top: -99999px;
+}
+
+.nav-container {
+    position: relative;
+}
+
+.nav-container > input {
+    width: 4.1rem;
+    height: 4.1rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    z-index: 100;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#toplinks {
+    font-size: 1.3rem;
+    border-bottom: solid 2px #e0e0e0;
+    background-color: #f4f4f4;
+    padding-right: 1.3%;
+}
+
+#toplinks a {
+    display: block;
+}
+
+#toplinks .mobile-button {
+    width: 4.1rem;
+    height: 4.1rem;
+    margin: 0;
+    position: relative;
+    float: right;
+    background: #d9d9d9;
+    display: block;
+    cursor: pointer;
+}
+
+#toplinks #mobile-nav span {
+    top: 17px;
+    margin: 0 auto;
+    position: relative;
+    clear: right;
+    display: block;
+    background: #261d19;
+    height: 5px;
+    width: 30px;
+    transition: all 0.3s cubic-bezier(0.7,0,0.36,0.63);
+}
+
+#toplinks #mobile-nav span:before,
+#toplinks #mobile-nav span:after {
+    content: "";
+    display: block;
+    background: #261d19;
+    height: 5px;
+    margin-top: 0;
+    position: absolute;
+    width: 30px;
+    transition: all .3s cubic-bezier(0.7,0,.36,.63);
+}
+
+#toplinks #mobile-nav span:before {
+    position: absolute;
+    top: 8px;
+}
+
+#toplinks #mobile-nav span:after {
+    position: absolute;
+    top: -8px;
+}
+
+#toplinks input:checked ~#mobile-nav span {
+    background: transparent;
+}
+
+#toplinks input:checked ~#mobile-nav span:before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+#toplinks input:checked ~#mobile-nav span:after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+#toplinks input:checked ~.linkline {
+    display: block;
+}
+
+.linkline {
+    display: none;
+    margin: 0 0 0 auto;
+}
+
+#mobile-nav {
+    overflow: auto;
+}
+
+.main-nav-link {
+    padding: 1.2rem;
+    border-top: 1px solid #999;
+}
+
+@media (min-width: 800px) {
+    #mobile-nav-toggle,
+    #mobile-nav {
+        display: none;
+    }
+
+    .linkline {
+        display: block;
+        text-align: right;
+    }
+
+    .main-nav-link {
+        display: inline-block;
+        padding: 0 0 0 3rem;
+        border-top: none;
+    }
+
+    .main-nav-link:not(:last-child):after {
+        content: '\00B7';
+        font-weight: bold;
+        padding-left: 3rem;
+    }
+
+    #toplinks a {
+        display: inline;
+    }
+
+}
+
+#bottomlinks {
+    font-size: 1.3rem;
+    margin-left: auto;
+    border-bottom: solid 2px #e0e0e0;
+    text-align: right;
+    padding: .08em 1.3% .08em 0;
+    background-color: #fff;
+    display: none;
+}
+
+@media (min-width: 800px) {
+    #clickmap,
+    #bottomlinks {
+        display: block;
+    }
+}
+
+#toplinks a, 
+#bottomlinks a, 
+.area-links a {
+    color: #000;
+}
+
+#toplinks a:hover, 
+#bottomlinks a:hover,
+.area-links a:hover {
+    color: #c60;
+}
+
+#surveyphotos {
+    height: 55px;
+    background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/surveyband.jpg);
+    background-repeat: repeat-x;
+}
+
+.copyright {
+    padding: .4em 1% 0 1%;
+    text-align: right;
+    font-size: 1rem;
+    color: #666;
+}
+
+.copyright a {
+    color: #666;
+}
+
+/* Main content */
+#s-lg-guide-main {
+    background-color: #f7f7f7;
+    border-bottom: solid 2px #e0e0e0;
+    max-width: none;
+}
+
+#s-lg-guide-main .s-lib-box {
+    background-color: #f7f7f7;
+}
+
+#s-lg-box-wrapper-24450688 {
+    margin: 0 10%;
+}
+
+.area-links {
+    display: inline-block;
+    width: 45%;
+}
+
+/* Prrucs Areas */
+body.prrucs-area {
+    border-left: solid 2rem #cbcbcb;
+}
+
+body.prrucs-area.desktop #s-lg-guide-main .row.s-lg-row {
+    margin: 0 !important;
+}
+
+body.prrucs-area #sidestrippop {
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2rem;
+    height: 100%;
+    min-height: 100%;
+    background-image: url(https://libapps.s3.amazonaws.com/customers/220/images/sidestrip2.jpg);
+    background-repeat: repeat-y;
+}
+
+body.prrucs-area #s-lg-guide-main {
+    background-color: #fff;
+    padding: 0;
+}
+
+body.prrucs-area #home-img {
+    float: right;
+}
+
+body.prrucs-area .popuptitle {
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.8rem;
+    letter-spacing: -.1rem;
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    text-transform: uppercase;
+}
+
+body.prrucs-area #s-lg-guide-main .s-lib-box {
+    background-color: #fff;
+    margin: 0;
+}
+
+body.prrucs-area .popcolheader {
+    color: #900;
+    font-style: oblique;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-bottom: solid 1px #999;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+body.prrucs-area .popcolheader:not(:first-child) {
+    margin-top: 3rem;
+}
+
+body.prrucs-area .popupsubhead {
+    font-weight: bold;
+    padding: 0 0 .36em 0;
+}
+
+body.prrucs-area #popupcontentwrap ul {
+    margin-left: .8rem;
+}
+
+/* About, Browse, Research Guides, Suggested Reading */
+#about-title,
+#browse-title,
+#research-title,
+#reading-title {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: oblique;
+    margin: 0 0 0 1.9rem;
+}
+
+.subheadmain {
+    color: #900;
+    font-style: oblique;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.indentp {
+    text-indent: 2.5rem;
+}
+
+#s-lg-box-wrapper-24588471 {
+    margin: 0 1.9rem;
+}
+
+.bibhanging {
+    text-indent: -3.8rem;
+    padding: 0 0 0.5rem 3.8rem;
+}
+
+.subheadnote {
+    font-style: oblique;
+    padding: 0 0 0.5rem 3.8rem;
+}
+
+.countrylink {
+    padding-left: 1.9rem;
+}
+
+.thumbcol {
+    float: left;
+    margin: 0.7rem 0;
+}
+
+.scaninfo {
+    margin-left: 15rem;
+    padding-bottom: 1.9rem;
+}
+
+.scaninfo a {
+    font-weight: 600;
+}
