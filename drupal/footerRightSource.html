@@ -1,0 +1,612 @@
+<style type="text/css">/* */
+
+    /* ========================================
+     *                CONTENTS
+     * ========================================
+     *
+     *  1. GENERAL HTML ELEMENTS
+     *  --- 1.1 LISTS
+     *
+     *  2. HEADER
+     *  --- 2.1 ALERT BAR
+     *  --- 2.2 NAVIGATION MENUS
+     *  --- 2.3 SEARCH
+     *
+     *  3. CONTENT TYPES
+     *  --- 3.1 EVENTS
+     *  --- 3.2 STAFF PROFILES
+     *
+     *  4. PARAGRAPH TYPES
+     *  --- 4.1 CONTENT ASIDE
+     *  -------- 4.1.a CONTENT
+     *  -------- 4.1.b ASIDE
+     *  --- 4.2 VERTICAL TABS
+     *  --- 4.3 CARDS (vertical)
+     *
+     *  5. FOOTER
+     *
+     *  6. ADMIN
+     *  --- 6.1 PENNKEY LOGIN BUTTON
+     *
+     *
+     *  J. SCRIPTS
+     *  --- J.1 PENNKEY LOGIN BUTTON
+     *  --- J.2 LIBCAL APPTS URL
+     *  --- J.3 EVENT SERIES
+     *  --- J.4 BASIC/LANDING PAGE CARDS
+     *
+     * ======================================== */
+
+    /*****************************
+       1. GENERAL HTML ELEMENTS
+     *****************************/
+
+    /*--- 1.1 LISTS ---*/
+
+    /* Make text in wysiwyg lists the same color as body text (not black) */
+    .wysiwyg ul li,
+    .wysiwyg ol li {
+        color: #072057;
+    }
+
+    /*****************************
+       2. HEADER
+     *****************************/
+
+    /*--- 2.1 ALERT BAR ---*/
+
+    /* Improves margins on alert for larger screens */
+    @media (min-width: 1024px) {
+        .alert__message p {
+            margin-right: 50px;
+        }
+    }
+
+    /*--- 2.2 NAVIGATION MENUS ---*/
+
+    /* Mobile nav menu support button padding */
+    @media (max-width: 1023px) {
+        .nav.nav--secondary {
+            padding-bottom: 20px;
+        }
+    }
+
+    /* Fixes header navbar issue where support us button creeps in to line below*/
+    @media (min-width: 1024px) {
+        .nav--secondary {
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            margin-top: 0;
+        }
+    }
+
+    /*--- 2.3 SEARCH ---*/
+
+    /* Improves global search bar links padding */
+    @media (max-width: 1023px) {
+        .home-search__links ul {
+            margin-top: 15px;
+        }
+    }
+
+    /*****************************
+       3. CONTENT TYPES
+     *****************************/
+
+    /*--- 3.1 EVENTS ---*/
+
+    /* Makes event dates appear larger and adds spacing between rsvp button */
+    .date {
+        font-size: 2rem;
+        padding-bottom: 20px;
+    }
+
+    /* Remove bottom margin of final paragraph in listing cards on event pages */
+    .event .listing-card p:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Temporarily fix aspect ratio of referenced event card images on events and event series pages */
+
+    .event .card {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .event figure.card__figure,
+    .event-series figure.card__figure,
+    .event figure.listing-card__figure,
+    .event-series figure.listing-card__figure {
+        aspect-ratio: auto 3/2;
+    }
+
+    .event figure.card__figure img,
+    .event-series figure.card__figure img,
+    .event figure.listing-card__figure img,
+    .event-series figure.listing-card__figure img {
+        object-fit: cover;
+        width: 100%;
+        min-height: 100%;
+        min-width: 100%;
+    }
+
+    .listing-card.event .listing-card__figure {
+        padding: 0;
+        margin: 34px 34px 0;
+    }
+
+    .event figure.listing-card__figure,
+    .event .listing-card.event .listing-card__figure,
+    .event-series figure.listing-card__figure,
+    .event-series .listing-card.event .listing-card__figure {
+        padding: 0;
+        margin: 34px 34px 34px 20px;
+
+        @media (max-width: 639px) {
+            display: block;
+            margin: 0 0 20px 0;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 0px;
+        }
+    }
+
+    /* Add margin above sidebar on small screens, remove margin on large screens */
+    .event-series .content-aside__title {
+        margin-top: 36px;
+    }
+
+    @media (min-width: 1200px) {
+        .event-series .content-aside__title {
+            margin-top: 10px;
+        }
+    }
+
+    /* Temporarily add missing bottom padding to referenced event series cards */
+    .event .content-aside__aside>article.card>.card__content,
+    .event-series .content-aside__aside>article.card>.card__content {
+        padding-bottom: 36px;
+    }
+
+    /* Add border around card images (not just text area) */
+    .event .card-listing .card .card__figure {
+        border: 1px solid #DBDBDB;
+        border-bottom: 0;
+    }
+
+    .event .card .card__figure {
+        border: 2px solid #DBDBDB;
+        border-bottom: 0;
+    }
+
+    /* Left align cards in row of 2 or 3 instead of space-between */
+    .event .card-listing .contain::after {
+        content: '';
+        flex: 0 1 100%;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .event .card-listing .contain::after {
+            flex: 0 1 calc(50% - 10px);
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .event .card-listing .contain::after {
+            flex: 0 1 calc(33.3% - 13.33px);
+        }
+    }
+
+    /*--- 3.2 STAFF PROFILES ---*/
+
+    /* Fix staff profile spacing */
+    .paragraph--type--detail-type-person+.content-aside {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .paragraph--type--detail-type-person+.content-aside+section {
+        margin-top: -25px;
+    }
+
+    .paragraph--type--detail-type-person+.content-aside+section+.section-padding {
+        padding: 20px;
+    }
+
+    /* Fix avatars (for missing staff photos) missing card__image class */
+    img[src*="avatar-square.jpg"] {
+        display: block;
+        width: 100%;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    /*****************************
+       4. PARAGRAPH TYPES
+     *****************************/
+
+    /*--- 4.1 CONTENT ASIDE ---*/
+
+    /*-------- 4.1.a CONTENT ---*/
+
+    /* Style Content Aside title H2 to match other H2 titles */
+    @media (min-width: 1024px) {
+        .content-aside__content .content-aside__title {
+            font-size: 4.5rem;
+        }
+
+        .content-aside__content .content-aside__title::after {
+            content: "";
+            display: block;
+            position: absolute;
+            bottom: -15px;
+            background: #072057;
+            opacity: 0.4;
+            width: 40px;
+            height: 4px;
+        }
+    }
+
+    /* Increase font size of titles in listing cards within accordions in a Content Aside block */
+    .content-aside .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) *:not(.btn) .listing-card__title {
+        font-size: 1.6rem;
+        line-height: 1.4;
+        margin: 0 0 0.75em;
+    }
+
+    /* Underline titles in listing cards within accordions on hover */
+    .content-aside .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) *:not(.btn) .listing-card__title a:hover,
+    .content-aside .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) *:not(.btn) .listing-card__title a:focus {
+        text-decoration: underline;
+    }
+
+    /* Don't underline titles in listing cards when not hovered */
+    .content-aside__content .wysiwyg a.listing-card__title__link {
+        text-decoration: none;
+    }
+
+    .content-aside__content .wysiwyg .is-hovered a.listing-card__title__link,
+    .content-aside__content .wysiwyg a.listing-card__title__link:hover,
+    .content-aside__content .wysiwyg a.listing-card__title__link:focus {
+        text-decoration: underline;
+    }
+
+    /*-------- 4.1.b ASIDE ---*/
+
+    /* content aside buttons padding */
+    .content-aside__aside>article>.card__content {
+        padding-bottom: 0;
+    }
+
+    /* Buttons margins */
+    .content-aside__aside>article>.card__content>a.btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* Adds back padding to bottom of content aside referenced cards */
+    .content-aside__aside>article>.card__content {
+        padding-bottom: 15px;
+    }
+
+    /* Style links in Aside - WYSIWYG to match rest of site */
+    .content-aside__aside .paragraph--type--aside-w a:not(.btn) {
+        color: #072057;
+        text-decoration: underline;
+    }
+
+    .content-aside__aside .paragraph--type--aside-w a:not(.btn):hover,
+    .content-aside__aside .paragraph--type--aside-w a:not(.btn):focus {
+        text-decoration: none;
+    }
+
+    /* Optional margins for extra Content Aside section titles added in the Aside - WYSIWYG */
+    .content-aside__title.margin-top-lg {
+        margin-top: 60px;
+    }
+
+    .content-aside__title.margin-bottom-sm {
+        margin-bottom: 50px;
+    }
+
+    /*--- 4.2 VERTICAL TABS ---*/
+
+    /* Increase width and decrease padding of vertical tabs container  */
+    .vertical-tabs .js-wikit-tabbed .vertical-tabs__content {
+        background: #eeeff4;
+        padding: 12px 28px 30px 28px;
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+        flex: 0 1 100%;
+    }
+
+    @media (max-width: 767px) {
+
+        /* Adds some padding below the view all links on mobile */
+        .vertical-tabs .section-header__link {
+            padding-bottom: 15px;
+        }
+    }
+
+    @media (min-width: 640px) {
+        .vertical-tabs .listing-card:not(.listing-card__no-image) .listing-card__detail {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 1 calc(100% - 195px);
+            flex: 0 1 calc(100% - 195px);
+        }
+    }
+
+    @media (min-width: 768px) {
+        .vertical-tabs .js-wikit-tabbed {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        }
+    }
+
+    @media (min-width: 1380px) {
+        .vertical-tabs .listing-card:not(.listing-card__no-image) .listing-card__detail {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 1 calc(100% - 305px);
+            flex: 0 1 calc(100% - 305px);
+        }
+    }
+
+    /* Style text inside tabs (but not in listing cards) */
+
+    .vertical-tabs__content {
+        color: #072057;
+    }
+
+    .vertical-tabs__content .section-header.section-header--centered h3 {
+        font-size: 3rem;
+        font-family: "PerpetuaMT", serif;
+        font-weight: normal;
+        line-height: 1.04;
+        margin-top: 60px;
+    }
+
+    @media (min-width: 768px) {
+        .vertical-tabs__content .section-header.section-header--centered h3 {
+            font-size: 4rem;
+            line-height: 1.25;
+        }
+    }
+
+    .vertical-tabs .js-wikit-tabbed .vertical-tabs__content a:not(.btn),
+    .vertical-tabs .js-wikit-tabbed .vertical-tabs__content a:not(.btn):hover,
+    .vertical-tabs .js-wikit-tabbed .vertical-tabs__content a:not(.btn):focus {
+        color: #072057;
+    }
+
+
+    /*--- 4.3 CARDS (vertical) ---*/
+
+    /* Increase card title size on smaller screens */
+    /* (default is font-size: 2rem, margin-top: 0) */
+    @media (max-width: 767px) {
+        .card__title {
+            font-size: 2.5rem;
+            margin-top: 13px;
+        }
+    }
+
+    /* Fix button text color on title link hover */
+    .is-hovered .card-listing .card .btn,
+    .card.is-hovered .btn,
+    .card-listing .card .btn:hover,
+    .card-listing .card .btn:focus {
+        color: #fff;
+        background: #4579B9;
+    }
+
+    /*--- 4.4 LISTING CARDS (horizontal) ---*/
+
+    /* Style links to match rest of site */
+    .listing-card__detail a:not(.btn),
+    .listing-card__detail a:not(.btn):hover,
+    .listing-card__detail a:not(.btn):focus {
+        color: #072057;
+    }
+
+
+    /*****************************
+       5. FOOTER
+     *****************************/
+
+    /* Improves footer responsiveness on smaller screens */
+    .footer__list {
+        margin-top: 20px;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+
+    @media (min-width: 768px) {
+        .footer__bottom .footer__list--full {
+            justify-content: center;
+            padding-top: 0;
+        }
+
+        .footer__bottom .footer__list--full .footer__item {
+            margin: 20px 30px 20px 0;
+        }
+
+        .footer__info.location {
+            max-width: 250px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .footer__list {
+            -webkit-column-count: 2;
+            -moz-column-count: 2;
+            column-count: 2;
+        }
+
+        .footer__columns {
+            margin-bottom: 20px;
+        }
+
+        .footer__bottom .footer__list--social {
+            padding-top: 25px;
+        }
+    }
+
+    /*****************************
+       6. ADMIN
+     *****************************/
+
+    /*--- 6.1 PENNKEY LOGIN BUTTON ---*/
+
+    .simplesamlphp-auth-login-link {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "proxima-nova", "ITC Stone Sans", sans-serif;
+        letter-spacing: 1.8px;
+        line-height: 1.3;
+        text-align: center;
+        font-weight: 700;
+        margin: 0 20px 20px 0;
+        transition: all 0.25s ease;
+        color: #072057;
+        min-width: 162px;
+        border-radius: 100px;
+        padding: 18px;
+        padding-left: 50px;
+        font-size: 1.4rem;
+        border: 1px solid #4078bc;
+        position: relative;
+    }
+
+    a.simplesamlphp-auth-login-link::before {
+        content: " ";
+        background-image: url("https://libapps.s3.amazonaws.com/sites/231/include/simplified-shield-icon.svg");
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 60px;
+        width: 60px;
+    }
+
+    .loginBlock {
+        border-top-width: 0.5px;
+        border-top-style: solid;
+        border-top-color: rgba(0, 0, 0, 0.1);
+        border-bottom-width: 0.5px;
+        border-bottom-style: solid;
+        border-bottom-color: rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    #adminLoginBlock {
+      margin-left:0;
+      padding: 2rem;
+    }
+</style>
+<script>
+    /*****************************
+       J. SCRIPTS
+     *****************************/
+
+    /*--- J.1 PENNKEY LOGIN BUTTON ---*/
+
+    if (document.getElementById("edit-simplesamlphp-auth-login-link")) {
+        const newPennkeyNode = document.createElement("div");
+        newPennkeyNode.setAttribute("id", "pennkeyLoginBlock");
+        newPennkeyNode.setAttribute("class", "loginBlock");
+
+        const newFranklinNode = document.createElement("div");
+        newFranklinNode.setAttribute("id", "franklinLoginBlock");
+        newFranklinNode.setAttribute("class", "loginBlock");
+
+        const localTasks = document.getElementById("block-penn-libraries-local-tasks");
+        localTasks.insertBefore(newPennkeyNode, localTasks.children[0]);
+        localTasks.insertBefore(newFranklinNode, localTasks.children[0]);
+
+        const siteLoginH2 = document.createElement("h2");
+        siteLoginH2.innerHTML = "Staff CMS Login";
+        siteLoginH2.classList.add("section-header__title");
+        document.getElementById("pennkeyLoginBlock").appendChild(siteLoginH2)
+
+        const pennkeyLogin = document.getElementById(
+            "edit-simplesamlphp-auth-login-link"
+        );
+        document.getElementById("pennkeyLoginBlock").appendChild(pennkeyLogin);
+
+        const franklinH2 = document.createElement("h2");
+        franklinH2.innerHTML = "Library Account";
+        franklinH2.classList.add("section-header__title");
+        document.getElementById("franklinLoginBlock").appendChild(franklinH2)
+
+        const franklin = document.createElement("a");
+        franklin.innerHTML = "My account";
+        franklin.href = "https://upenn.alma.exlibrisgroup.com/discovery/account?vid=01UPENN_INST:Services&lang=en&section=overview";
+        franklin.classList.add("btn");
+        franklin.classList.add("btn--blue");
+        document.getElementById("franklinLoginBlock").appendChild(franklin);
+
+        const adminBlock = newPennkeyNode.nextElementSibling;
+        adminBlock.setAttribute("id", "adminLoginBlock");
+        const adminBlockH2 = adminBlock.firstElementChild;
+        adminBlockH2.innerHTML = "Admin Login";
+        adminBlockH2.className = "section-header__title";
+      }
+
+    /*--- J.2 LIBCAL APPTS URL ---*/
+
+    const collection = document.getElementsByTagName("a");
+    for (let i = 0; i < collection.length; i++) {
+        if (collection[i].href == "https://libcal.library.upenn.edu/appointments") {
+            collection[i].href = "https://libcal.library.upenn.edu/appointments/pennlibraries";
+        }
+    }
+
+    /*--- J.3 EVENT SERIES ---*/
+
+    /* Add class to event pages/events */
+    if (document.querySelector(".breadcrumbs a[href*=events]") != null || location.href.includes("/event")) {
+        document.documentElement.classList.add("event");
+    }
+
+    /* Add class to individual events that are part of a series */
+    const sidebarTitle = document.querySelector("h2.content-aside__title");
+    if (sidebarTitle != null && sidebarTitle.innerHTML.toLowerCase().includes("series")) {
+        document.documentElement.classList.add("event-series");
+    }
+
+    /*--- J.4 BASIC/LANDING PAGE CARDS ---*/
+
+    /* Add standard card classes (can be removed once basic page card view mode is enabled) */
+    const cardFigures = document.querySelectorAll(".card__figure");
+    cardFigures.forEach((cardFigure) => {
+        cardFigure.querySelector("img").classList.add("card__image");
+    });
+
+    const listingCardFigures = document.querySelectorAll(
+        ".listing-card__figure"
+    );
+
+    listingCardFigures.forEach((listingCardFigure) => {
+        listingCardFigure
+            .querySelector("img")
+            .classList.add("listing-card__image");
+    });
+</script>
