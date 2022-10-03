@@ -8,6 +8,7 @@
  */
 
 	let checkInterval = setInterval(checkWrapper, 10);
+  
 	function checkWrapper() {
 		if (document.head.contains(document.getElementsByTagName("TITLE")[0])) {
 			let pageTitle = document.getElementsByTagName("TITLE")[0].childNodes[0].nodeValue;
@@ -51,6 +52,7 @@
 				collection[i].classList.add(nodeId);
 			}
 	}
+
 	function addBodyClass(title) {
 		document.getElementsByTagName("BODY")[0].className = title;
 	}
