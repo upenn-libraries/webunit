@@ -594,7 +594,7 @@
         }
     }
 
-    /*--- J.3 EVENT SERIES ---*/
+    /*--- J.3 EVENTS ---*/
 
     /* Add class to event pages/events */
     if (document.querySelector(".breadcrumbs a[href*=events]") != null || location.href.includes("/event")) {
@@ -606,6 +606,30 @@
     if (sidebarTitle != null && sidebarTitle.innerHTML.toLowerCase().includes("series")) {
         document.documentElement.classList.add("event-series");
     }
+
+    /* Remove times from multiday event cards and listing cards */
+
+    const isMultidayEvent = timePlace => {
+        const card = timePlace.closest('.card') ?
+            timePlace.closest('.card') :
+            timePlace.closest('.listing-card');
+        const date = (card && card.querySelector('.card__date')) ?
+            card.querySelector('.card__date') :
+            card.querySelector('.card_month-day');
+
+        return date ? date.innerHTML.includes('-') : false;
+    };
+
+    const timesPlaces = document.querySelectorAll('.card__time, .listing-card__date');
+    if (timesPlaces) {
+        timesPlaces.forEach(timePlace => {
+            const isMultiday = isMultidayEvent(timePlace);
+            const place = timePlace.innerHTML.split('| ')[1];
+
+            if (place && isMultiday) timePlace.innerHTML = place.trim();
+        });
+    };
+
 
     /*--- J.4 BASIC/LANDING PAGE CARDS ---*/
 
