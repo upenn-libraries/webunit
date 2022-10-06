@@ -532,6 +532,10 @@
         margin-left: 0;
         padding: 2rem;
     }
+
+    #user-login-form {
+        padding-left: 2rem;
+    }
 </style>
 <script>
     /*****************************
@@ -581,8 +585,23 @@
         adminBlockH2.innerHTML = "Admin Login";
         adminBlockH2.className = "section-header__title";
 
-        document.getElementById("edit-name").removeAttribute("autofocus");
-        document.activeElement.blur();
+        const loginForm = document.getElementById("user-login-form");
+
+        loginForm.style.display = "none";
+        
+        function displayForm() {
+            loginForm.style.display = "block";
+        }
+        
+        const displayFormButton = document.createElement("BUTTON");
+        const buttonText = document.createTextNode("Log In");
+        displayFormButton.appendChild(buttonText);
+        displayFormButton.setAttribute("class", "btn btn--outline");
+        displayFormButton.onclick = function() {
+            displayForm()
+        };
+        const oldLink = document.querySelector("a[href='/user/login']");
+        adminBlock.replaceChild(displayFormButton, oldLink);
     }
 
     /*--- J.2 LIBCAL APPTS URL ---*/
