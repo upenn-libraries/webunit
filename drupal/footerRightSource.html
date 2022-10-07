@@ -1,5 +1,9 @@
 <style type="text/css">
     /* */
+    /*
+    * This code maintained at 
+    * https://github.com/upenn-libraries/webunit/blob/e8dee90ead2f23e51bc06528ba19de3d8189d5fa/drupal/footerRightSource.html
+    */
 
     /* ========================================
      *                CONTENTS
@@ -521,9 +525,6 @@
         border-top-width: 0.5px;
         border-top-style: solid;
         border-top-color: rgba(0, 0, 0, 0.1);
-        border-bottom-width: 0.5px;
-        border-bottom-style: solid;
-        border-bottom-color: rgba(0, 0, 0, 0.1);
         margin: 0 auto;
         padding: 2rem;
     }
@@ -535,6 +536,18 @@
 
     #user-login-form {
         padding-left: 2rem;
+    }
+    .btn--no-outline {
+        border: 0;
+        color: #072057;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        padding-left: 2rem;
+    }
+    #resetButton {
+        width:50rem;
     }
 </style>
 <script>
@@ -581,22 +594,23 @@
 
         const adminBlock = newPennkeyNode.nextElementSibling;
         adminBlock.setAttribute("id", "adminLoginBlock");
-        const adminBlockH2 = adminBlock.firstElementChild;
-        adminBlockH2.innerHTML = "Admin Login";
-        adminBlockH2.className = "section-header__title";
+    
 
         const loginForm = document.getElementById("user-login-form");
+        const resetButton = document.querySelector("a[href='/user/password']");
+        resetButton.setAttribute("id", "resetButton");
+        document.getElementById("edit-pass--description").insertAdjacentElement("afterend", resetButton);
 
         loginForm.style.display = "none";
-        
+             
         function displayForm() {
             loginForm.style.display = "block";
-        }
+           }
         
         const displayFormButton = document.createElement("BUTTON");
-        const buttonText = document.createTextNode("Log In");
+        const buttonText = document.createTextNode("LOCAL LOG IN");
+        displayFormButton.setAttribute("class", "btn--no-outline");
         displayFormButton.appendChild(buttonText);
-        displayFormButton.setAttribute("class", "btn btn--outline");
         displayFormButton.onclick = function() {
             displayForm()
         };
