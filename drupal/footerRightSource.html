@@ -38,7 +38,7 @@
      *  J. SCRIPTS
      *  --- J.1 PENNKEY LOGIN BUTTON
      *  --- J.2 LIBCAL APPTS URL
-     *  --- J.3 EVENT SERIES
+     *  --- J.3 EVENTS
      *  --- J.4 BASIC/LANDING PAGE CARDS
      *
      * ======================================== */
@@ -113,9 +113,14 @@
         margin-bottom: 0;
     }
 
+    /* Remove border incorrectly applied to featured event hero */
+    .card.event.featured-event-hero .card__figure {
+        border: none;
+    }
+
     /* Temporarily fix aspect ratio of referenced event card images on events and event series pages */
 
-    .event .card {
+    .event .card:not(.featured-event-hero) {
         display: -webkit-box !important;
         display: -ms-flexbox !important;
         display: flex !important;
@@ -132,10 +137,10 @@
         aspect-ratio: auto 3/2;
     }
 
-    .event figure.card__figure img,
-    .event-series figure.card__figure img,
-    .event figure.listing-card__figure img,
-    .event-series figure.listing-card__figure img {
+    .event .card:not(.featured-event-hero) figure.card__figure img,
+    .event-series .card:not(.featured-event-hero) figure.card__figure img,
+    .event .card:not(.featured-event-hero) figure.listing-card__figure img,
+    .event-serie .card:not(.featured-event-hero) figure.listing-card__figure img {
         object-fit: cover;
         width: 100%;
         min-height: 100%;
@@ -181,12 +186,12 @@
     }
 
     /* Add border around card images (not just text area) */
-    .event .card-listing .card .card__figure {
+    .event .card-listing .card:not(.featured-event-hero) .card__figure {
         border: 1px solid #DBDBDB;
         border-bottom: 0;
     }
 
-    .event .card .card__figure {
+    .event .card:not(.featured-event-hero) .card__figure {
         border: 2px solid #DBDBDB;
         border-bottom: 0;
     }
@@ -537,6 +542,7 @@
     #user-login-form {
         padding-left: 2rem;
     }
+
     .btn--no-outline {
         border: 0;
         color: #072057;
@@ -546,8 +552,9 @@
         letter-spacing: 1px;
         padding-left: 2rem;
     }
+
     #resetButton {
-        width:50rem;
+        width: 50rem;
     }
 </style>
 <script>
@@ -594,7 +601,7 @@
 
         const adminBlock = newPennkeyNode.nextElementSibling;
         adminBlock.setAttribute("id", "adminLoginBlock");
-    
+
 
         const loginForm = document.getElementById("user-login-form");
         const resetButton = document.querySelector("a[href='/user/password']");
@@ -602,16 +609,16 @@
         document.getElementById("edit-pass--description").insertAdjacentElement("afterend", resetButton);
 
         loginForm.style.display = "none";
-             
+
         function displayForm() {
             loginForm.style.display = "block";
-           }
-        
+        }
+
         const displayFormButton = document.createElement("BUTTON");
         const buttonText = document.createTextNode("LOCAL LOG IN");
         displayFormButton.setAttribute("class", "btn--no-outline");
         displayFormButton.appendChild(buttonText);
-        displayFormButton.onclick = function() {
+        displayFormButton.onclick = function () {
             displayForm()
         };
         const oldLink = document.querySelector("a[href='/user/login']");
@@ -653,14 +660,25 @@
         return date ? date.innerHTML.includes('-') : false;
     };
 
-    const timesPlaces = document.querySelectorAll('.card__time, .listing-card__date');
-    if (timesPlaces) {
-        timesPlaces.forEach(timePlace => {
-            const isMultiday = isMultidayEvent(timePlace);
-            const place = timePlace.innerHTML.split('| ')[1];
+    const hideMultidayEventTimes = () => {
+        const timesPlaces = document.querySelectorAll('.card__time, .listing-card__date');
+        if (timesPlaces) {
+            timesPlaces.forEach(timePlace => {
+                const isMultiday = isMultidayEvent(timePlace);
+                const place = timePlace.innerHTML.split('| ')[1];
 
-            if (place && isMultiday) timePlace.innerHTML = place.trim();
-        });
+                if (place && isMultiday) timePlace.innerHTML = place.trim();
+            });
+        };
+    }
+
+    hideMultidayEventTimes();
+    if (document.querySelector('.view-events')) {
+        document.addEventListener('DOMContentLoaded', function () {
+            jQuery(document).ajaxStop(function () {
+                hideMultidayEventTimes();
+            });
+        }, false);
     };
 
 
