@@ -213,14 +213,6 @@
         padding: 20px;
     }
 
-    /* Fix avatars (for missing staff photos) missing card__image class */
-    img[src*="avatar-square.jpg"] {
-        display: block;
-        width: 100%;
-        -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
     /*****************************
        4. PARAGRAPH TYPES
      *****************************/
@@ -395,6 +387,20 @@
     .card-listing .card .btn:focus {
         color: #fff;
         background: #4579B9;
+    }
+
+    /* Temporarily make all avatars 3/2 to match other cards */
+    img[src*="avatar-square.jpg"]:not(.faculty-card__image) {
+        aspect-ratio: 3/2;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    /* Other than in content asides */
+    .content-aside__aside img[src*="avatar-square.jpg"]:not(.faculty-card__image) {
+        aspect-ratio: unset;
+        object-fit: unset;
+        width: auto;
     }
 
     /*--- 4.4 LISTING CARDS (horizontal) ---*/
