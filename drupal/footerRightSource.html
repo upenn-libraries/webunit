@@ -11,6 +11,7 @@
      *
      *  1. GENERAL HTML ELEMENTS
      *  --- 1.1 LISTS
+     *  --- 1.2 LINKS LEFT UNSTYLED BY WDG
      *
      *  2. HEADER
      *  --- 2.1 ALERT BAR
@@ -53,6 +54,26 @@
     .wysiwyg ul li,
     .wysiwyg ol li {
         color: #072057;
+    }
+
+    /*-- 1.2 LINKS LEFT UNSTYLED BY WDG ---*/
+
+    /* Blue links */
+    .content-aside__aside .paragraph--type--aside-w a:not(.btn),
+    .image-slider-card__caption a:not(.btn),
+    *:not(.bg-blue) .section-header p a:not(.btn) {
+        color: #072057;
+        text-decoration: underline;
+    }
+
+    /* Remove underline on hover */
+    .content-aside__aside .paragraph--type--aside-w a:not(.btn):hover,
+    .content-aside__aside .paragraph--type--aside-w a:not(.btn):focus,
+    .image-slider-card__caption a:not(.btn):hover,
+    .image-slider-card__caption a:not(.btn):focus,
+    *:not(.bg-blue) .section-header p a:not(.btn):hover,
+    *:not(.bg-blue) .section-header p a:not(.btn):focus {
+        text-decoration: none;
     }
 
     /*****************************
@@ -266,17 +287,6 @@
     /* Adds back padding to bottom of content aside referenced cards */
     .content-aside__aside>article>.card__content {
         padding-bottom: 15px;
-    }
-
-    /* Style links in Aside - WYSIWYG to match rest of site */
-    .content-aside__aside .paragraph--type--aside-w a:not(.btn) {
-        color: #072057;
-        text-decoration: underline;
-    }
-
-    .content-aside__aside .paragraph--type--aside-w a:not(.btn):hover,
-    .content-aside__aside .paragraph--type--aside-w a:not(.btn):focus {
-        text-decoration: none;
     }
 
     /* Optional margins for extra Content Aside section titles added in the Aside - WYSIWYG */
