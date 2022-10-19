@@ -118,56 +118,6 @@
         border: none;
     }
 
-    /* Temporarily fix aspect ratio of referenced event card images on events and event series pages */
-
-    .event .card:not(.featured-event-hero) {
-        display: -webkit-box !important;
-        display: -ms-flexbox !important;
-        display: flex !important;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-    }
-
-    .event figure.card__figure,
-    .event-series figure.card__figure,
-    .event figure.listing-card__figure,
-    .event-series figure.listing-card__figure {
-        aspect-ratio: auto 3/2;
-    }
-
-    .event .card:not(.featured-event-hero) figure.card__figure img,
-    .event-series .card:not(.featured-event-hero) figure.card__figure img,
-    .event .card:not(.featured-event-hero) figure.listing-card__figure img,
-    .event-serie .card:not(.featured-event-hero) figure.listing-card__figure img {
-        object-fit: cover;
-        width: 100%;
-        min-height: 100%;
-        min-width: 100%;
-    }
-
-    .listing-card.event .listing-card__figure {
-        padding: 0;
-        margin: 34px 34px 0;
-    }
-
-    .event figure.listing-card__figure,
-    .event .listing-card.event .listing-card__figure,
-    .event-series figure.listing-card__figure,
-    .event-series .listing-card.event .listing-card__figure {
-        padding: 0;
-        margin: 34px 34px 34px 20px;
-
-        @media (max-width: 639px) {
-            display: block;
-            margin: 0 0 20px 0;
-            padding-left: 20px;
-            padding-right: 20px;
-            padding-top: 0px;
-        }
-    }
-
     /* Add margin above sidebar on small screens, remove margin on large screens */
     .event-series .content-aside__title {
         margin-top: 36px;
