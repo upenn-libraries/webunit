@@ -1,0 +1,21 @@
+name: upenn-libraries
+recipe: pantheon
+
+config:
+  framework: drupal9
+  site: upenn-libraries
+  id: cae4592b-35d6-4874-9ee7-c1bb1a73d51d
+  webroot: web
+  database: mariadb
+services:
+  index:
+    config:
+      dir: modules/contrib/search_api_solr/solr-conf/4.x
+  cache:
+    type: redis
+    persist: true
+proxy:
+  edge:
+    # Requires us to add this line to /etc/hosts:
+    #   127.0.0.1 pennlib.local
+    - pennlib.local
