@@ -11,7 +11,7 @@
      *
      *  1. GENERAL HTML ELEMENTS
      *  --- 1.1 LISTS
-     *  --- 1.2 LINKS LEFT UNSTYLED BY WDG
+     *  --- 1.2 LINKS LEFT UNSTYLED
      *
      *  2. HEADER
      *  --- 2.1 ALERT BAR
@@ -123,6 +123,11 @@
 
     /*--- 3.1 EVENTS ---*/
 
+    /* Remove border from featured event header image */
+    .card.event.featured-event-hero .card__figure {
+        border: none;
+    }
+
     /* Makes event dates appear larger and adds spacing between rsvp button */
     .date {
         font-size: 2rem;
@@ -132,12 +137,6 @@
     /* Remove bottom margin of final paragraph in listing cards on event pages */
     .event .listing-card p:last-child {
         margin-bottom: 0;
-    }
-
-    /* Remove border incorrectly applied to featured event hero and force to 3/2 */
-    .card.event.featured-event-hero .card__figure {
-        aspect-ratio: 3/2;
-        border: none;
     }
 
     /* Add margin above sidebar on small screens, remove margin on large screens */
@@ -159,18 +158,18 @@
 
     /* Add border around card images (not just text area) */
     .event .card-listing .card:not(.featured-event-hero) .card__figure {
-        border: 1px solid #DBDBDB;
+        border: 1px solid #dbdbdb;
         border-bottom: 0;
     }
 
     .event .card:not(.featured-event-hero) .card__figure {
-        border: 2px solid #DBDBDB;
+        border: 2px solid #dbdbdb;
         border-bottom: 0;
     }
 
     /* Left align cards in row of 2 or 3 instead of space-between */
     .event .card-listing .contain::after {
-        content: '';
+        content: "";
         flex: 0 1 100%;
     }
 
@@ -194,7 +193,6 @@
             padding: 0 50px 50px 50px !important;
         }
     }
-
 
     /*--- 3.2 STAFF PROFILES ---*/
 
@@ -368,7 +366,6 @@
         color: #072057;
     }
 
-
     /*--- 4.3 CARDS (vertical) ---*/
 
     /* Increase card title size on smaller screens */
@@ -386,7 +383,7 @@
     .card-listing .card .btn:hover,
     .card-listing .card .btn:focus {
         color: #fff;
-        background: #4579B9;
+        background: #4579b9;
     }
 
     /* Temporarily make all avatars 3/2 to match other cards */
@@ -405,13 +402,17 @@
 
     /*--- 4.4 LISTING CARDS (horizontal) ---*/
 
+    /* Force listing card images to fill width */
+    .listing-card__figure img {
+        width: 100%;
+    }
+
     /* Style links to match rest of site */
     .listing-card__detail a:not(.btn),
     .listing-card__detail a:not(.btn):hover,
     .listing-card__detail a:not(.btn):focus {
         color: #072057;
     }
-
 
     /*****************************
        5. FOOTER
@@ -540,14 +541,16 @@
         newFranklinNode.setAttribute("id", "franklinLoginBlock");
         newFranklinNode.setAttribute("class", "loginBlock");
 
-        const localTasks = document.getElementById("block-penn-libraries-local-tasks");
+        const localTasks = document.getElementById(
+            "block-penn-libraries-local-tasks"
+        );
         localTasks.insertBefore(newPennkeyNode, localTasks.children[0]);
         localTasks.insertBefore(newFranklinNode, localTasks.children[0]);
 
         const siteLoginH2 = document.createElement("h2");
         siteLoginH2.innerHTML = "Staff CMS Login";
         siteLoginH2.classList.add("section-header__title");
-        document.getElementById("pennkeyLoginBlock").appendChild(siteLoginH2)
+        document.getElementById("pennkeyLoginBlock").appendChild(siteLoginH2);
 
         const pennkeyLogin = document.getElementById(
             "edit-simplesamlphp-auth-login-link"
@@ -557,11 +560,12 @@
         const franklinH2 = document.createElement("h2");
         franklinH2.innerHTML = "Library Account";
         franklinH2.classList.add("section-header__title");
-        document.getElementById("franklinLoginBlock").appendChild(franklinH2)
+        document.getElementById("franklinLoginBlock").appendChild(franklinH2);
 
         const franklin = document.createElement("a");
         franklin.innerHTML = "My account";
-        franklin.href = "https://upenn.alma.exlibrisgroup.com/discovery/account?vid=01UPENN_INST:Services&lang=en&section=overview";
+        franklin.href =
+            "https://upenn.alma.exlibrisgroup.com/discovery/account?vid=01UPENN_INST:Services&lang=en&section=overview";
         franklin.classList.add("btn");
         franklin.classList.add("btn--blue");
         document.getElementById("franklinLoginBlock").appendChild(franklin);
@@ -569,11 +573,12 @@
         const adminBlock = newPennkeyNode.nextElementSibling;
         adminBlock.setAttribute("id", "adminLoginBlock");
 
-
         const loginForm = document.getElementById("user-login-form");
         const resetButton = document.querySelector("a[href='/user/password']");
         resetButton.setAttribute("id", "resetButton");
-        document.getElementById("edit-pass--description").insertAdjacentElement("afterend", resetButton);
+        document
+            .getElementById("edit-pass--description")
+            .insertAdjacentElement("afterend", resetButton);
 
         loginForm.style.display = "none";
 
@@ -586,7 +591,7 @@
         displayFormButton.setAttribute("class", "btn--no-outline");
         displayFormButton.appendChild(buttonText);
         displayFormButton.onclick = function () {
-            displayForm()
+            displayForm();
         };
         const oldLink = document.querySelector("a[href='/user/login']");
         adminBlock.replaceChild(displayFormButton, oldLink);
@@ -597,57 +602,70 @@
     const collection = document.getElementsByTagName("a");
     for (let i = 0; i < collection.length; i++) {
         if (collection[i].href == "https://libcal.library.upenn.edu/appointments") {
-            collection[i].href = "https://libcal.library.upenn.edu/appointments/pennlibraries";
+            collection[i].href =
+                "https://libcal.library.upenn.edu/appointments/pennlibraries";
         }
     }
 
     /*--- J.3 EVENTS ---*/
 
     /* Add class to event pages/events */
-    if (document.querySelector(".breadcrumbs a[href*=events]") != null || location.href.includes("/event")) {
+    if (
+        document.querySelector(".breadcrumbs a[href*=events]") != null ||
+        location.href.includes("/event")
+    ) {
         document.documentElement.classList.add("event");
     }
 
     /* Add class to individual events that are part of a series */
     const sidebarTitle = document.querySelector("h2.content-aside__title");
-    if (sidebarTitle != null && sidebarTitle.innerHTML.toLowerCase().includes("series")) {
+    if (
+        sidebarTitle != null &&
+        sidebarTitle.innerHTML.toLowerCase().includes("series")
+    ) {
         document.documentElement.classList.add("event-series");
     }
 
     /* Remove times from multiday event cards and listing cards */
 
-    const isMultidayEvent = timePlace => {
-        const card = timePlace.closest('.card') ?
-            timePlace.closest('.card') :
-            timePlace.closest('.listing-card');
-        const date = (card && card.querySelector('.card__date')) ?
-            card.querySelector('.card__date') :
-            card.querySelector('.card_month-day');
+    const isMultidayEvent = (timePlace) => {
+        const card = timePlace.closest(".card")
+            ? timePlace.closest(".card")
+            : timePlace.closest(".listing-card");
+        const date =
+            card && card.querySelector(".card__date")
+                ? card.querySelector(".card__date")
+                : card.querySelector(".card_month-day");
 
-        return date ? date.innerHTML.includes('-') : false;
+        return date ? date.innerHTML.includes("-") : false;
     };
 
     const hideMultidayEventTimes = () => {
-        const timesPlaces = document.querySelectorAll('.card__time, .listing-card__date');
+        const timesPlaces = document.querySelectorAll(
+            ".card__time, .listing-card__date"
+        );
         if (timesPlaces) {
-            timesPlaces.forEach(timePlace => {
+            timesPlaces.forEach((timePlace) => {
                 const isMultiday = isMultidayEvent(timePlace);
-                const place = timePlace.innerHTML.split('| ')[1];
+                const place = timePlace.innerHTML.split("| ")[1];
 
                 if (place && isMultiday) timePlace.innerHTML = place.trim();
             });
-        };
-    }
-
-    hideMultidayEventTimes();
-    if (document.querySelector('.view-events')) {
-        document.addEventListener('DOMContentLoaded', function () {
-            jQuery(document).ajaxStop(function () {
-                hideMultidayEventTimes();
-            });
-        }, false);
+        }
     };
 
+    hideMultidayEventTimes();
+    if (document.querySelector(".view-events")) {
+        document.addEventListener(
+            "DOMContentLoaded",
+            function () {
+                jQuery(document).ajaxStop(function () {
+                    hideMultidayEventTimes();
+                });
+            },
+            false
+        );
+    }
 
     /*--- J.4 BASIC/LANDING PAGE CARDS ---*/
 
@@ -657,13 +675,9 @@
         cardFigure.querySelector("img").classList.add("card__image");
     });
 
-    const listingCardFigures = document.querySelectorAll(
-        ".listing-card__figure"
-    );
+    const listingCardFigures = document.querySelectorAll(".listing-card__figure");
 
     listingCardFigures.forEach((listingCardFigure) => {
-        listingCardFigure
-            .querySelector("img")
-            .classList.add("listing-card__image");
+        listingCardFigure.querySelector("img").classList.add("listing-card__image");
     });
 </script>
