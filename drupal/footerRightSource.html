@@ -261,6 +261,15 @@
         text-decoration: none;
     }
 
+    /* Reduce size of title and standard text in listing card inside content aside */
+    .content-aside__content .wysiwyg .listing-card__detail h3 {
+        font-size: 2.7rem;
+    }
+
+    .content-aside__content .wysiwyg .listing-card__detail p {
+        font-size: 1.7rem;
+    }
+
     .content-aside__content .wysiwyg .is-hovered a.listing-card__title__link,
     .content-aside__content .wysiwyg a.listing-card__title__link:hover,
     .content-aside__content .wysiwyg a.listing-card__title__link:focus {
@@ -283,6 +292,13 @@
     /* Adds back padding to bottom of content aside referenced cards */
     .content-aside__aside>article>.card__content {
         padding-bottom: 15px;
+    }
+
+    /* Reduce space between quick links title and list */
+    @media (min-width: 768px) {
+        .quick-links__title {
+            margin-bottom: 30px;
+        }
     }
 
     /* Optional margins for extra Content Aside section titles added in the Aside - WYSIWYG */
@@ -418,6 +434,13 @@
     .listing-card__detail a:not(.btn):hover,
     .listing-card__detail a:not(.btn):focus {
         color: #072057;
+    }
+
+    /* Add back bottom margin to final p on small screens */
+    @media (max-width: 1023px) {
+        .listing-card p:last-child {
+            margin-bottom: revert;
+        }
     }
 
     /*****************************
