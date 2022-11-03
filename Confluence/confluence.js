@@ -10,6 +10,9 @@ let checkInterval = setInterval(checkWrapper, 10);
 function checkWrapper() {
   if (document.head.contains(document.getElementsByTagName("TITLE")[0])) {
     let pageTitle = document.getElementsByTagName("TITLE")[0].childNodes[0].nodeValue;
+    if (pageTitle.indexOf("#") > 0) {
+      pageTitle = pageTitle.slice(0, pageTitle.indexOf("#"))
+    }
     let bodyClass = pageTitle.replace(/\s+/g, '');
     addBodyClass(bodyClass);
     addNodeClass(bodyClass);
