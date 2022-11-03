@@ -46,9 +46,8 @@ function titleObserver() {
 function addNodeClass(bodyClass) {
   const collection = document.getElementById("rw_wrapper").querySelectorAll("h1, h2, h3, h4, h5, h6");
   for (let i = 0; i < collection.length; i++) {
-     let nodeText = collection[i].innerText;
-     let anchorText = encodeURIComponent(nodeText);
-     collection[i].id = anchorText;
+    let nodeId = bodyClass + "node" + i;
+      collection[i].classList.add(nodeId);
     }
 }
 function addBodyClass(title) {
