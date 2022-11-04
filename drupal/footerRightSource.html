@@ -29,6 +29,7 @@
      *  --- 4.2 VERTICAL TABS
      *  --- 4.3 CARDS (vertical)
      *  --- 4.4 LISTING CARDS (horizontal)
+     *  --- 4.5 RESOURCE GRIDS
      *
      *  5. FOOTER
      *
@@ -160,17 +161,6 @@
     .event .content-aside__aside>article.card>.card__content,
     .event-series .content-aside__aside>article.card>.card__content {
         padding-bottom: 36px;
-    }
-
-    /* Add border around card images (not just text area) */
-    .event .card-listing .card:not(.featured-event-hero) .card__figure {
-        border: 1px solid #dbdbdb;
-        border-bottom: 0;
-    }
-
-    .event .card:not(.featured-event-hero) .card__figure {
-        border: 2px solid #dbdbdb;
-        border-bottom: 0;
     }
 
     /* Left align cards in row of 2 or 3 instead of space-between */
@@ -390,6 +380,30 @@
 
     /*--- 4.3 CARDS (vertical) ---*/
 
+    /* Standardize card borders */
+    .card:not(.featured-event-hero),
+    .content-aside__aside .card,
+    .listing-card {
+        border: 1px solid #e3e4e6;
+    }
+
+    .card:not(.featured-event-hero) .card__figure,
+    .content-aside__aside .card__figure {
+        border: 0;
+    }
+
+    .card:not(.featured-event-hero) .card__content,
+    .content-aside__aside .card__content {
+        border: 0;
+        border-top: 1px solid #e3e4e6;
+    }
+
+    .js-wikit-tabbed .card-slider .card,
+    .js-wikit-tabbed .card-slider .card__figure,
+    .js-wikit-tabbed .card-slider .card__content {
+        border: 0;
+    }
+
     /* Increase card title size on smaller screens */
     /* (default is font-size: 2rem, margin-top: 0) */
     @media (max-width: 767px) {
@@ -405,21 +419,7 @@
     .card-listing .card .btn:hover,
     .card-listing .card .btn:focus {
         color: #fff;
-        background: #4579b9;
-    }
-
-    /* Temporarily make all avatars 3/2 to match other cards */
-    img[src*="avatar-square.jpg"]:not(.faculty-card__image) {
-        aspect-ratio: 3/2;
-        object-fit: cover;
-        width: 100%;
-    }
-
-    /* Other than in content asides */
-    .content-aside__aside img[src*="avatar-square.jpg"]:not(.faculty-card__image) {
-        aspect-ratio: unset;
-        object-fit: unset;
-        width: auto;
+        background: hsl(213, 46%, 50%);
     }
 
     /*--- 4.4 LISTING CARDS (horizontal) ---*/
@@ -440,6 +440,21 @@
     @media (max-width: 1023px) {
         .listing-card p:last-child {
             margin-bottom: revert;
+        }
+    }
+
+    /*--- 4.5 RESOURCE GRIDS ---*/
+
+    @media (min-width: 640px) {
+        .grid__content--3 {
+            margin: 75px -40px 0 0;
+        }
+
+        .grid__content--3 .grid-card {
+            -ms-flex: 0 1 calc((100% / 3) - 40px);
+            flex: 0 1 calc((100% / 3) - 40px);
+            margin-top: 0;
+            width: calc((100% / 3) - 40px);
         }
     }
 
@@ -641,7 +656,7 @@
     /* Add class to event pages/events */
     if (
         document.querySelector(".breadcrumbs a[href*=events]") != null ||
-        location.href.includes("/event")
+        location.href.includes("/event/")
     ) {
         document.documentElement.classList.add("event");
     }
