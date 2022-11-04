@@ -218,6 +218,11 @@ $settings['redis.connection']['host'] = $lando['cache']['internal_connection']['
 $settings['redis.connection']['port'] = $lando['cache']['internal_connection']['port'];
 
 /**
+ * Enable local config split
+ */
+$config['config_split.config_split.local']['status'] = TRUE;
+
+/**
  * Trust localhost domain only.
  */
 $settings['trusted_host_patterns'] = [
