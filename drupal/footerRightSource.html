@@ -30,6 +30,7 @@
      *  --- 4.3 CARDS (vertical)
      *  --- 4.4 LISTING CARDS (horizontal)
      *  --- 4.5 RESOURCE GRIDS
+     *  --- 4.6 ACCORDIONS
      *
      *  5. FOOTER
      *
@@ -452,6 +453,23 @@
             margin-top: 0;
             width: calc((100% / 3) - 40px);
         }
+    }
+
+    /*--- 4.6 ACCORDIONS ---*/
+
+    /* Prevent accordion title from jumping downward due to top padding */
+    .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) .js-wikit-accordion__trigger {
+        padding: 26px 20px 20px 17px;
+    }
+
+    /* Reduce font-size of accordion title */
+    .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) .js-wikit-accordion__title {
+        font-size: 2rem;
+    }
+
+    /* Add bottom padding to accordion panels */
+    .js .js-wikit-accordion__panel--open {
+        padding: 10px 40px 40px 56px;
     }
 
     /*****************************
