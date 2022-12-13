@@ -21,7 +21,6 @@
      *  3. CONTENT TYPES
      *  --- 3.1 EVENTS
      *  --- 3.2 STAFF PROFILES
-     *  --- 3.3 HOURS
      *
      *  4. PARAGRAPH TYPES
      *  --- 4.1 CONTENT ASIDE
@@ -192,11 +191,6 @@
         }
     }
 
-    /* Decrease access note line height on cards (missed in deploy) */
-    .card.event:not(.featured-event-hero) .card__content .card__cal-info-container .card__access {
-        line-height: 1.6;
-    }
-
     /*--- 3.2 STAFF PROFILES ---*/
 
     /* Fix staff profile spacing */
@@ -209,13 +203,6 @@
     .paragraph--type--detail-type-person+.content-aside+section+.section-padding {
         padding: 20px;
     }
-
-    /*--- 3.3 HOURS ---*/
-
-    td>div.hours>.hour__set {
-        display: block;
-    }
-
 
     /*****************************
        4. PARAGRAPH TYPES
@@ -266,7 +253,8 @@
         font-size: 2.7rem;
     }
 
-    .content-aside__content .wysiwyg .listing-card__detail p {
+    .content-aside__content .wysiwyg .listing-card__detail p,
+    .content-aside .js-wikit-accordion p {
         font-size: 1.7rem;
     }
 
