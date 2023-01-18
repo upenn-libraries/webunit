@@ -31,6 +31,7 @@
      *  --- 4.4 LISTING CARDS (horizontal)
      *  --- 4.5 RESOURCE GRIDS
      *  --- 4.6 ACCORDIONS
+     *  --- 4.7 WYSIWYG
      *
      *  5. FOOTER
      *
@@ -189,6 +190,11 @@
         .event-series .vertical-tabs .js-wikit-tabbed .vertical-tabs__content {
             padding: 0 50px 50px 50px !important;
         }
+    }
+
+    /* Remove padding from 2-across event card listings */
+    .card-listing--2 .card.event .card__title {
+        padding: 0;
     }
 
 
@@ -478,6 +484,18 @@
     /* Add bottom padding to accordion panels */
     .js .js-wikit-accordion__panel--open {
         padding: 10px 40px 40px 56px;
+    }
+
+    /*--- 4.7 WYSIWYG ---*/
+
+    /* Make bullet lists in blue text blocks white */
+
+    .bg-blue .wysiwyg ul:not(.card__type) li {
+        color: #ffffff;
+    }
+
+    .bg-blue .wysiwyg ul:not(.card__type) li::before {
+        background: #ffffff;
     }
 
     /*****************************
