@@ -32,6 +32,7 @@
      *  --- 4.5 RESOURCE GRIDS
      *  --- 4.6 ACCORDIONS
      *  --- 4.7 WYSIWYG
+     *  --- 4.8 PAGE HEADER HERO
      *
      *  5. FOOTER
      *
@@ -497,6 +498,20 @@
     .bg-blue .wysiwyg ul:not(.card__type) li::before {
         background: #ffffff;
     }
+
+    /*--- 4.8 PAGE HEADER HERO ---*/
+
+    /* Remove unnecessary flexbox from featured image */
+    @media (min-width: 1024px) {
+        .page-header-hero__figure {
+            display: block;
+        }
+
+        .page-header-hero__image {
+            width: 100%;
+        }
+    }
+
 
     /*****************************
        5. FOOTER
