@@ -1,7 +1,7 @@
 <style type="text/css">
     /* */
     /*
-    * This code maintained at
+    * This code maintained at 
     * https://github.com/upenn-libraries/webunit/blob/e8dee90ead2f23e51bc06528ba19de3d8189d5fa/drupal/footerRightSource.html
     */
 
@@ -266,7 +266,7 @@
 
     .content-aside__content .wysiwyg .listing-card__detail p,
     .content-aside .js-wikit-accordion p {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
     }
 
     .content-aside__content .wysiwyg .is-hovered a.listing-card__title__link,
@@ -473,14 +473,36 @@
 
     /*--- 4.6 ACCORDIONS ---*/
 
+    /* Accordion title size */
+    .js-wikit-accordion__item:not(.component__accordion__item) .js-wikit-accordion__title {
+        font-size: 1.8rem;
+    }
+
+    .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) .js-wikit-accordion__title {
+        font-size: 2rem;
+    }
+
     /* Prevent accordion title from jumping downward due to top padding */
     .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) .js-wikit-accordion__trigger {
         padding: 26px 20px 20px 17px;
     }
 
-    /* Reduce font-size of accordion title */
-    .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) .js-wikit-accordion__title {
-        font-size: 2rem;
+    /* Lists inside accordions */
+    .js-wikit-accordion__item:not(.component__accordion__item) ul li,
+    .js-wikit-accordion__item:not(.component__accordion__item) ol li .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) ul li,
+    .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) ol li {
+        font-size: 1.8rem;
+        margin-bottom: 5px;
+    }
+
+    .js-wikit-accordion__item:not(.component__accordion__item) ol li::before,
+    .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) ol li::before {
+        color: inherit;
+    }
+
+    /* Keep text inside accordions white even when collapsed so doesn't flash blue on expand */
+    .js-wikit-accordion__item:not(.component__accordion__item) .wysiwyg a {
+        color: #fff;
     }
 
     /* Add bottom padding to accordion panels */
@@ -643,7 +665,6 @@
     #resetButton {
         width: 50rem;
     }
-
 </style>
 <script>
     /*****************************
