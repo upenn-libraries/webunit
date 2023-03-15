@@ -1,7 +1,7 @@
 <style type="text/css">
     /* */
     /*
-    * This code maintained at 
+    * This code maintained at
     * https://github.com/upenn-libraries/webunit/blob/e8dee90ead2f23e51bc06528ba19de3d8189d5fa/drupal/footerRightSource.html
     */
 
@@ -243,18 +243,17 @@
 
     /* Increase font size of titles in listing cards within accordions in a Content Aside block */
     .content-aside .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) *:not(.btn) .listing-card__title {
-        font-size: 1.6rem;
+        font-size: 2.7rem;
         line-height: 1.4;
         margin: 0 0 0.75em;
     }
 
-    /* Underline titles in listing cards within accordions on hover */
+    /* Only underline titles in listing cards within accordions on hover */
     .content-aside .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) *:not(.btn) .listing-card__title a:hover,
     .content-aside .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) *:not(.btn) .listing-card__title a:focus {
         text-decoration: underline;
     }
 
-    /* Don't underline titles in listing cards when not hovered */
     .content-aside__content .wysiwyg a.listing-card__title__link {
         text-decoration: none;
     }
@@ -488,8 +487,17 @@
     }
 
     /* Lists inside accordions */
+
+    .js-wikit-accordion__item:not(.component__accordion__item) ul,
+    .js-wikit-accordion__item:not(.component__accordion__item) ol,
+    .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) ul,
+    .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) ol {
+        margin-bottom: 40px;
+    }
+
     .js-wikit-accordion__item:not(.component__accordion__item) ul li,
-    .js-wikit-accordion__item:not(.component__accordion__item) ol li .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) ul li,
+    .js-wikit-accordion__item:not(.component__accordion__item) ol li,
+    .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) ul li,
     .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) ol li {
         font-size: 1.8rem;
         margin-bottom: 5px;
@@ -665,6 +673,7 @@
     #resetButton {
         width: 50rem;
     }
+
 </style>
 <script>
     /*****************************
