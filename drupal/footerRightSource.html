@@ -1,10 +1,9 @@
 <style type="text/css">
     /* */
     /*
-    * This code maintained at
+    * This code maintained at 
     * https://github.com/upenn-libraries/webunit/blob/e8dee90ead2f23e51bc06528ba19de3d8189d5fa/drupal/footerRightSource.html
     */
-
     /* ========================================
      *                CONTENTS
      * ========================================
@@ -48,13 +47,10 @@
      *  --- J.4 BASIC/LANDING PAGE CARDS
      *
      * ======================================== */
-
     /*****************************
        1. GENERAL HTML ELEMENTS
      *****************************/
-
     /*--- 1.1 LISTS ---*/
-
     /* Make text in wysiwyg lists the same color as body text (not black) */
     .wysiwyg ul li,
     .wysiwyg ol li {
@@ -62,7 +58,6 @@
     }
 
     /*-- 1.2 LINKS LEFT UNSTYLED BY WDG ---*/
-
     /* Blue links */
     .content-aside__aside .paragraph--type--aside-w a:not(.btn),
     .image-slider-card__caption a:not(.btn),
@@ -84,9 +79,7 @@
     /*****************************
        2. HEADER
      *****************************/
-
     /*--- 2.1 ALERT BAR ---*/
-
     /* Improves margins on alert for larger screens */
     @media (min-width: 1024px) {
         .alert__message p {
@@ -95,7 +88,6 @@
     }
 
     /*--- 2.2 NAVIGATION MENUS ---*/
-
     /* Mobile nav menu support button padding */
     @media (max-width: 1023px) {
         .nav.nav--secondary {
@@ -114,7 +106,6 @@
     }
 
     /*--- 2.3 SEARCH ---*/
-
     /* Improves global search bar links padding */
     @media (max-width: 1023px) {
         .home-search__links ul {
@@ -125,9 +116,7 @@
     /*****************************
        3. CONTENT TYPES
      *****************************/
-
     /*--- 3.1 EVENTS ---*/
-
     /* Remove border from featured event header image */
     .card.event.featured-event-hero .card__figure {
         border: none;
@@ -199,10 +188,7 @@
         padding: 0;
     }
 
-
-
     /*--- 3.2 STAFF PROFILES ---*/
-
     /* Fix staff profile spacing */
     .paragraph--type--detail-type-person+.content-aside {
         margin-top: 0;
@@ -214,15 +200,11 @@
         padding: 20px;
     }
 
-
     /*****************************
        4. PARAGRAPH TYPES
      *****************************/
-
     /*--- 4.1 CONTENT ASIDE ---*/
-
     /*-------- 4.1.a CONTENT ---*/
-
     /* Style Content Aside title H2 to match other H2 titles */
     @media (min-width: 1024px) {
         .content-aside__content .content-aside__title {
@@ -268,7 +250,6 @@
     }
 
     /*-------- 4.1.b ASIDE ---*/
-
     /* content aside buttons padding */
     .content-aside__aside>article>.card__content {
         padding-bottom: 0;
@@ -302,7 +283,6 @@
     }
 
     /*--- 4.2 VERTICAL TABS ---*/
-
     /* Increase width and decrease padding of vertical tabs container  */
     .vertical-tabs .js-wikit-tabbed .vertical-tabs__content {
         background: #eeeff4;
@@ -353,7 +333,6 @@
     }
 
     /* Style text inside tabs (but not in listing cards) */
-
     .vertical-tabs__content {
         color: #072057;
     }
@@ -380,7 +359,6 @@
     }
 
     /*--- 4.3 CARDS (vertical) ---*/
-
     /* Standardize card borders */
     .card:not(.featured-event-hero),
     .content-aside__aside .card,
@@ -414,7 +392,7 @@
     @media (max-width: 767px) {
         .card__title {
             font-size: 2.5rem;
-            margin-top: 13px;
+            /* margin-top: 13px; */
         }
     }
 
@@ -428,7 +406,6 @@
     }
 
     /*--- 4.4 LISTING CARDS (horizontal) ---*/
-
     /* Force listing card images to fill width */
     .listing-card__figure img {
         width: 100%;
@@ -449,7 +426,6 @@
     }
 
     /*--- 4.5 RESOURCE GRIDS ---*/
-
     @media (min-width: 640px) {
         .grid__content--3 {
             margin: 75px -40px 0 0;
@@ -464,7 +440,6 @@
     }
 
     /*--- 4.6 ACCORDIONS ---*/
-
     /* Accordion title size */
     .js-wikit-accordion__item:not(.component__accordion__item) .js-wikit-accordion__title {
         font-size: 1.8rem;
@@ -480,7 +455,6 @@
     }
 
     /* Lists inside accordions */
-
     .js-wikit-accordion__item:not(.component__accordion__item) ul,
     .js-wikit-accordion__item:not(.component__accordion__item) ol,
     .js-wikit-accordion__item.is-expanded:not(.component__accordion__item) ul,
@@ -512,9 +486,7 @@
     }
 
     /*--- 4.7 WYSIWYG ---*/
-
     /* Make bullet lists in blue text blocks white */
-
     .bg-blue .wysiwyg ul:not(.card__type) li {
         color: #ffffff;
     }
@@ -524,7 +496,6 @@
     }
 
     /*--- 4.8 PAGE HEADER HERO ---*/
-
     /* Remove unnecessary flexbox from featured image */
     @media (min-width: 1024px) {
         .page-header-hero__figure {
@@ -537,7 +508,6 @@
     }
 
     /*--- 4.9 CARD LISTING ---*/
-
     /* Left align cards in last row of listing (instead of space-between) */
     .card-listing .contain::after {
         content: '';
@@ -559,7 +529,6 @@
     /*****************************
        5. FOOTER
      *****************************/
-
     /* Improves footer responsiveness on smaller screens */
     .footer__list {
         margin-top: 20px;
@@ -602,9 +571,7 @@
     /*****************************
        6. ADMIN
      *****************************/
-
     /*--- 6.1 PENNKEY LOGIN BUTTON ---*/
-
     .simplesamlphp-auth-login-link {
         display: inline-block;
         text-decoration: none;
@@ -666,45 +633,36 @@
     #resetButton {
         width: 50rem;
     }
-
 </style>
 <script>
     /*****************************
        J. SCRIPTS
      *****************************/
-
     /*--- J.1 PENNKEY LOGIN BUTTON ---*/
-
     if (document.getElementById("edit-simplesamlphp-auth-login-link")) {
         const newPennkeyNode = document.createElement("div");
         newPennkeyNode.setAttribute("id", "pennkeyLoginBlock");
         newPennkeyNode.setAttribute("class", "loginBlock");
-
         const newFranklinNode = document.createElement("div");
         newFranklinNode.setAttribute("id", "franklinLoginBlock");
         newFranklinNode.setAttribute("class", "loginBlock");
-
         const localTasks = document.getElementById(
             "block-penn-libraries-local-tasks"
         );
         localTasks.insertBefore(newPennkeyNode, localTasks.children[0]);
         localTasks.insertBefore(newFranklinNode, localTasks.children[0]);
-
         const siteLoginH2 = document.createElement("h2");
         siteLoginH2.innerHTML = "Staff CMS Login";
         siteLoginH2.classList.add("section-header__title");
         document.getElementById("pennkeyLoginBlock").appendChild(siteLoginH2);
-
         const pennkeyLogin = document.getElementById(
             "edit-simplesamlphp-auth-login-link"
         );
         document.getElementById("pennkeyLoginBlock").appendChild(pennkeyLogin);
-
         const franklinH2 = document.createElement("h2");
         franklinH2.innerHTML = "Library Account";
         franklinH2.classList.add("section-header__title");
         document.getElementById("franklinLoginBlock").appendChild(franklinH2);
-
         const franklin = document.createElement("a");
         franklin.innerHTML = "My account";
         franklin.href =
@@ -712,23 +670,18 @@
         franklin.classList.add("btn");
         franklin.classList.add("btn--blue");
         document.getElementById("franklinLoginBlock").appendChild(franklin);
-
         const adminBlock = newPennkeyNode.nextElementSibling;
         adminBlock.setAttribute("id", "adminLoginBlock");
-
         const loginForm = document.getElementById("user-login-form");
         const resetButton = document.querySelector("a[href='/user/password']");
         resetButton.setAttribute("id", "resetButton");
         document
             .getElementById("edit-pass--description")
             .insertAdjacentElement("afterend", resetButton);
-
         loginForm.style.display = "none";
-
         function displayForm() {
             loginForm.style.display = "block";
         }
-
         const displayFormButton = document.createElement("BUTTON");
         const buttonText = document.createTextNode("LOCAL LOG IN");
         displayFormButton.setAttribute("class", "btn--no-outline");
@@ -739,9 +692,7 @@
         const oldLink = document.querySelector("a[href='/user/login']");
         adminBlock.replaceChild(displayFormButton, oldLink);
     }
-
     /*--- J.2 LIBCAL APPTS URL ---*/
-
     const collection = document.getElementsByTagName("a");
     for (let i = 0; i < collection.length; i++) {
         if (collection[i].href == "https://libcal.library.upenn.edu/appointments") {
@@ -749,9 +700,7 @@
                 "https://libcal.library.upenn.edu/appointments/pennlibraries";
         }
     }
-
     /*--- J.3 EVENTS ---*/
-
     /* Add class to event pages/events */
     if (
         document.querySelector(".breadcrumbs a[href*=events]") != null ||
@@ -759,7 +708,6 @@
     ) {
         document.documentElement.classList.add("event");
     }
-
     /* Add class to individual events that are part of a series */
     const sidebarTitle = document.querySelector("h2.content-aside__title");
     if (
@@ -768,9 +716,7 @@
     ) {
         document.documentElement.classList.add("event-series");
     }
-
     /* Remove times from multiday event cards and listing cards */
-
     const isMultidayEvent = (timePlace) => {
         const card = timePlace.closest(".card")
             ? timePlace.closest(".card")
@@ -779,10 +725,8 @@
             card && card.querySelector(".card__date")
                 ? card.querySelector(".card__date")
                 : card.querySelector(".card_month-day");
-
         return date ? date.innerHTML.includes("-") : false;
     };
-
     const hideMultidayEventTimes = () => {
         const timesPlaces = document.querySelectorAll(
             ".card__time, .listing-card__date"
@@ -791,12 +735,10 @@
             timesPlaces.forEach((timePlace) => {
                 const isMultiday = isMultidayEvent(timePlace);
                 const place = timePlace.innerHTML.split("| ")[1];
-
                 if (place && isMultiday) timePlace.innerHTML = place.trim();
             });
         }
     };
-
     hideMultidayEventTimes();
     if (document.querySelector(".view-events")) {
         document.addEventListener(
@@ -809,17 +751,13 @@
             false
         );
     }
-
     /*--- J.4 BASIC/LANDING PAGE CARDS ---*/
-
     /* Add standard card classes (can be removed once basic page card view mode is enabled) */
     const cardFigures = document.querySelectorAll(".card__figure");
     cardFigures.forEach((cardFigure) => {
         cardFigure.querySelector("img").classList.add("card__image");
     });
-
     const listingCardFigures = document.querySelectorAll(".listing-card__figure");
-
     listingCardFigures.forEach((listingCardFigure) => {
         listingCardFigure.querySelector("img").classList.add("listing-card__image");
     });
