@@ -1,7 +1,7 @@
 <style type="text/css">
     /* */
     /*
-    * This code maintained at 
+    * This code maintained at
     * https://github.com/upenn-libraries/webunit/blob/e8dee90ead2f23e51bc06528ba19de3d8189d5fa/drupal/footerRightSource.html
     */
     /* ========================================
@@ -144,8 +144,8 @@
     }
 
     /* Temporarily add missing bottom padding to referenced event series cards */
-    .event .content-aside__aside>article.card>.card__content,
-    .event-series .content-aside__aside>article.card>.card__content {
+    .event .content-aside__aside>.card__content,
+    .event-series .content-aside__aside>.card__content {
         padding-bottom: 36px;
     }
 
@@ -198,10 +198,17 @@
      *****************************/
     /*--- 4.1 CONTENT ASIDE ---*/
     /*-------- 4.1.a CONTENT ---*/
-    /* Style Content Aside title H2 to match other H2 titles */
+
+    .content-aside__title {
+        font-size: 4rem;
+    }
+
     @media (min-width: 1024px) {
-        .content-aside__content .content-aside__title {
+
+        /* Quickly undoing styles erroneously added in overrides */
+        .content-aside__title {
             font-size: 4.5rem;
+            margin-top: 0;
         }
 
         .content-aside__content .content-aside__title::after {
@@ -626,4 +633,5 @@
     #resetButton {
         width: 50rem;
     }
+
 </style>
