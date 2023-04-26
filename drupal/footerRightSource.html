@@ -486,6 +486,38 @@
     }
 
     /*--- 4.7 WYSIWYG ---*/
+    /* Heading level classes to match actual heading levels */
+
+    .wysiwyg .h2 {
+        margin-bottom: 4rem;
+    }
+
+    .bg-blue .wysiwyg .h2::after {
+        background: #fff;
+    }
+
+    .wysiwyg .h3 {
+        font-size: 3.5rem;
+    }
+
+    .wysiwyg .h4 {
+        font-size: 3.1rem;
+    }
+
+    .wysiwyg .h5 {
+        font-size: 2.2rem;
+        font-family: "proxima-nova", "ITC Stone Sans", sans-serif;
+        font-weight: 700;
+    }
+
+    .wysiwyg .h6 {
+        font-size: 1.8rem;
+        font-family: "proxima-nova", "ITC Stone Sans", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #990000;
+    }
+
     /* Make bullet lists in blue text blocks white */
     .bg-blue .wysiwyg ul:not(.card__type) li {
         color: #ffffff;
@@ -633,5 +665,4 @@
     #resetButton {
         width: 50rem;
     }
-
 </style>
