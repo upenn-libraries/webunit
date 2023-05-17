@@ -16,6 +16,7 @@ function checkWrapper() {
     let bodyClass = pageTitle.replace(/\s+/g, '');
     addBodyClass(bodyClass);
     addNodeClass(bodyClass);
+    iframeTop();
     titleObserver();
     clearInterval(checkInterval);
   }
@@ -55,4 +56,10 @@ function addNodeClass(bodyClass) {
 }
 function addBodyClass(title) {
   document.getElementsByTagName("BODY")[0].className = title;
+}
+function iframeTop() {
+  var a = document.getElementsByTagName('a');
+  for (var i = 0; i < a.length; i++) {
+    a[i].setAttribute('target', '_top');
+  }
 }
