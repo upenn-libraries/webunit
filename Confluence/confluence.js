@@ -60,6 +60,6 @@ function addBodyClass(title) {
 function iframeTop() {
   var a = document.getElementsByTagName('a');
   for (var i = 0; i < a.length; i++) {
-    a[i].setAttribute('target', '_top');
+    a[i].setAttribute('target', '_parent');
   }
 }
