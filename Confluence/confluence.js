@@ -60,14 +60,14 @@ function addBodyClass(title) {
 function iframeTop() {
   var fr = document.getElementsByTagName('iframe');
   if (fr[0]) {
-    var a = document.getElementsByTagName('a');
-    for (var i = 0; i < a.length; i++) {
-      a[i].setAttribute('target', '_top');
-    }
     var h = document.getElementsByTagName('header');
     var headerlinks = h[0].getElementsByTagName('a');
     for (var i = 0; i < headerlinks.length; i++) {
       headerlinks[i].setAttribute('target', '_blank');
+    }
+    var a = document.getElementsByTagName('a');
+    for (var i = 0; i < a.length; i++) {
+      a[i].setAttribute('target', '_top');
     }
   }
 }
