@@ -487,30 +487,36 @@
 
     /*--- 4.7 WYSIWYG ---*/
     /* Heading level classes to match actual heading levels */
-
-    .wysiwyg .h2 {
+    .wysiwyg .h2,
+    .wysiwyg.intro p.h2 {
         margin-bottom: 4rem;
     }
 
-    .bg-blue .wysiwyg .h2::after {
+    .bg-blue .wysiwyg .h2::after,
+    .bg-blue .wysiwyg h2::after {
         background: #fff;
     }
 
-    .wysiwyg .h3 {
+    .wysiwyg .h3,
+    .wysiwyg.intro p.h3 {
         font-size: 3.5rem;
     }
 
-    .wysiwyg .h4 {
+    .wysiwyg .h4,
+    .wysiwyg.intro p.h4 {
         font-size: 3.1rem;
+        line-height: 1.294117647;
     }
 
-    .wysiwyg .h5 {
+    .wysiwyg .h5,
+    .wysiwyg.intro p.h5 {
         font-size: 2.2rem;
         font-family: "proxima-nova", "ITC Stone Sans", sans-serif;
         font-weight: 700;
     }
 
-    .wysiwyg .h6 {
+    .wysiwyg .h6,
+    .wysiwyg.intro p.h6 {
         font-size: 1.8rem;
         font-family: "proxima-nova", "ITC Stone Sans", sans-serif;
         font-weight: 700;
@@ -525,6 +531,36 @@
 
     .bg-blue .wysiwyg ul:not(.card__type) li::before {
         background: #ffffff;
+    }
+
+    .align-left,
+    .align-right {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .align-left img,
+    .align-right img {
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    @media (min-width: 1024px) {
+
+        .align-left,
+        .align-right {
+            float: left;
+            margin: 0 50px 40px 0;
+        }
+
+        .align-left img,
+        .align-right img {
+            margin: 1rem 0 0;
+            max-width: 100%;
+            width: auto;
+        }
     }
 
     /*--- 4.8 PAGE HEADER HERO ---*/
@@ -555,6 +591,43 @@
     @media (min-width: 1024px) {
         .card-listing .contain::after {
             flex: 0 1 calc(33.3% - 13.33px);
+        }
+    }
+
+    /*--- 4.10 FEATURED STORY ---*/
+    .featured-story .featured-initiative-card {
+        box-shadow: 2px 2px 1rem rgba(0, 0, 0, .2);
+    }
+
+    .featured-initiative-card--white .featured-initiative-card__title__link {
+        color: #072057;
+    }
+
+    .featured-story .featured-initiative-card p {
+        font-size: 1.8rem;
+    }
+
+    @media (min-width: 1024px) {
+        .featured-story .featured-initiative-card p {
+            font-size: 2rem;
+        }
+    }
+
+    .featured-initiative-card--white .featured-initiative-card__title__link:hover,
+    .featured-initiative-card--white .featured-initiative-card__title__link:focus {
+        text-decoration-thickness: from-font;
+    }
+
+    .featured-story .featured-initiative-card__title {
+        font-size: 5rem;
+        margin-bottom: 6rem;
+    }
+
+    @media (min-width: 1024px) {
+        .featured-story .featured-initiative-card__title {
+            font-size: 7rem;
+            line-height: 1.1;
+            margin-bottom: 6rem;
         }
     }
 
