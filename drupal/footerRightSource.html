@@ -16,6 +16,7 @@
      *  --- 2.1 ALERT BAR
      *  --- 2.2 NAVIGATION MENUS
      *  --- 2.3 SEARCH
+     *  --- 2.4 BREADCRUMBS
      *
      *  3. CONTENT TYPES
      *  --- 3.1 EVENTS
@@ -103,6 +104,31 @@
     @media (max-width: 1023px) {
         .home-search__links ul {
             margin-top: 15px;
+        }
+    }
+
+    /*--- 2.4 BREADCRUMBS ---*/
+    .breadcrumbs a.breadcrumb-home {
+        height: 21px;
+        margin: -5px 14px 6px 0;
+        width: 24px;
+    }
+
+    .breadcrumbs ul li {
+        font-size: 1.7rem;
+        line-height: 1.7;
+    }
+
+    @media (min-width: 768px) {
+        .breadcrumbs a.breadcrumb-home {
+            height: 24px;
+            width: 27px;
+            margin-top: -3.25px;
+        }
+
+        .breadcrumbs ul li {
+            font-size: 1.8rem;
+            line-height: 1.8;
         }
     }
 
@@ -410,6 +436,29 @@
     }
 
     /*--- 4.4 LISTING CARDS (horizontal) ---*/
+    /* Force listing card images to fill width */
+    .listing-card__figure img {
+        width: 100%;
+    }
+
+    /* Style links to match rest of site */
+    .listing-card__detail a:not(.btn),
+    .listing-card__detail a:not(.btn):hover,
+    .listing-card__detail a:not(.btn):focus {
+        color: #072057;
+    }
+
+    .listing-card__detail a:not(.btn):hover,
+    .listing-card__detail a:not(.btn):focus {
+        text-decoration: none;
+    }
+
+    /* Add back bottom margin to final p on small screens */
+    @media (max-width: 1023px) {
+        .listing-card p:last-child {
+            margin-bottom: revert;
+        }
+    }
 
     /*--- 4.5 RESOURCE GRIDS ---*/
     @media (min-width: 640px) {
