@@ -598,7 +598,7 @@
         }
     }
 
-    /*--- 4.8 PAGE HEADER HERO ---*/
+    /*--- 4.8.1 PAGE HEADER HERO ---*/
     /* Remove unnecessary flexbox from featured image */
     @media (min-width: 1024px) {
         .page-header-hero__figure {
@@ -608,6 +608,18 @@
         .page-header-hero__image {
             width: 100%;
         }
+    }
+
+    /*--- 4.8.2 PAGE HEADER CENTERED ---*/
+
+    /* Left align breadcrumbs even if header is centered */
+
+    .page-header--centered .breadcrumbs {
+        float: left;
+    }
+
+    .page-header--centered .wysiwyg.intro {
+        clear: both;
     }
 
     /*--- 4.9 CARD LISTING ---*/
