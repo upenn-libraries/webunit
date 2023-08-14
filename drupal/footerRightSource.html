@@ -21,6 +21,7 @@
      *  3. CONTENT TYPES
      *  --- 3.1 EVENTS
      *  --- 3.2 STAFF PROFILES
+     *  --- 3.3 SOFTWARE AND TOOLS
      *
      *  4. PARAGRAPH TYPES
      *  --- 4.1 CONTENT ASIDE
@@ -217,6 +218,21 @@
 
     .paragraph--type--detail-type-person+.content-aside+section+.section-padding {
         padding: 20px;
+    }
+
+    /*--- 3.3 SOFTWARE AND TOOLS ---*/
+    .view-software .js-form-item-category label {
+        display: none
+    }
+
+    .view-software .js-form-item-category:before {
+        content: "Software Category";
+        font-weight: 700;
+        color: #072057;
+    }
+
+    .view-software .js-form-item-category select {
+        margin-top: 10px;
     }
 
     /*****************************
