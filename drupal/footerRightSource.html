@@ -71,6 +71,11 @@
         text-decoration: none;
     }
 
+    blockquote p,
+    .wysiwyg blockquote p {
+        font-style: normal;
+    }
+
     /*****************************
        2. HEADER
      *****************************/
@@ -240,9 +245,12 @@
      *****************************/
     /*--- 4.1 CONTENT ASIDE ---*/
     /*-------- 4.1.a CONTENT ---*/
-
     .content-aside__title {
         font-size: 4rem;
+    }
+
+    .content-aside__content .full-width-image {
+        margin-bottom: 2rem;
     }
 
     @media (min-width: 1024px) {
@@ -627,9 +635,7 @@
     }
 
     /*--- 4.8.2 PAGE HEADER CENTERED ---*/
-
     /* Left align breadcrumbs even if header is centered */
-
     .page-header--centered .breadcrumbs {
         float: left;
     }
