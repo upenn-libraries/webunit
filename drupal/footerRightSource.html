@@ -45,11 +45,74 @@
     /*****************************
        1. GENERAL HTML ELEMENTS
      *****************************/
+    .wysiwyg strong {
+        font-weight: 600;
+    }
+
     /*--- 1.1 LISTS ---*/
     /* Make text in wysiwyg lists the same color as body text (not black) */
-    .wysiwyg ul li,
+    .wysiwyg ol {
+        margin-bottom: 2rem;
+        margin-left: 3rem;
+    }
+
+    .wysiwyg ul:not(.card__type) {
+        margin-bottom: 2rem;
+        margin-left: 3.2rem;
+    }
+
+    .wysiwyg ul:not(.card__type) li,
     .wysiwyg ol li {
         color: #072057;
+        font-size: 1.8rem;
+        line-height: 1.4;
+        margin-bottom: 1.2rem;
+        padding-left: 3rem;
+
+        @media (min-width: 768px) {
+            font-size: 2rem;
+            line-height: 1.4;
+        }
+    }
+
+    .wysiwyg ul:not(.card__type) li {
+        padding-left: 2.8rem;
+    }
+
+    .wysiwyg ol li::before,
+    .wysiwyg ul li::before {
+        color: #072057;
+        font-size: inherit;
+        font-weight: 500;
+        left: 0;
+        position: absolute;
+    }
+
+    .js-wikit-accordion__item .wysiwyg ol li::before,
+    .js-wikit-accordion__item .wysiwyg ul li::before {
+        background: #ffffff;
+        color: #ffffff;
+    }
+
+    .wysiwyg ul ul,
+    .wysiwyg ul ol,
+    .wysiwyg ol ul,
+    .wysiwyg ol ol {
+        padding-top: 1.2rem;
+    }
+
+    .wysiwyg ol li ol li::before {
+        content: counter(section, lower-alpha) ". ";
+        font-size: inherit;
+    }
+
+    @media (min-width: 768px) {
+
+        .wysiwyg ol li::before,
+        .wysiwyg ul li::before {
+            font-size: inherit;
+            top: 0;
+        }
     }
 
     /*-- 1.2 LINKS LEFT UNSTYLED BY WDG ---*/
