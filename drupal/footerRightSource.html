@@ -51,7 +51,7 @@
 
     /*--- 1.1 LISTS ---*/
     /* Make text in wysiwyg lists the same color as body text (not black) */
-    .wysiwyg ol {
+    .wysiwyg:not(.intro) ol {
         margin-bottom: 2rem;
         margin-left: 3rem;
     }
@@ -61,8 +61,8 @@
         margin-left: 3.2rem;
     }
 
-    .wysiwyg ul:not(.card__type) li,
-    .wysiwyg ol li {
+    .wysiwyg:not(.intro) ul:not(.card__type) li,
+    .wysiwyg:not(.intro) ol li {
         color: #072057;
         font-size: 1.8rem;
         line-height: 1.4;
@@ -75,7 +75,7 @@
         }
     }
 
-    .wysiwyg ul:not(.card__type) li {
+    .wysiwyg:not(.intro) ul:not(.card__type) li {
         padding-left: 2.8rem;
     }
 
