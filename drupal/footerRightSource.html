@@ -400,6 +400,17 @@
     }
 
     /*--- 4.2 VERTICAL TABS ---*/
+    /* Temporary horizontal tabs slickdots fix */
+
+    .js .js-wikit-tabbed:not(.lib-search):not(.vert-tabs) li[role="presentation"] {
+        margin-bottom: 0;
+    }
+
+    .js .js-wikit-tabbed:not(.lib-search):not(.vert-tabs) ul:not(.slick-dots) li[role="presentation"] {
+        margin-bottom: 27px;
+        margin-right: 27px;
+    }
+
     /* Increase width and decrease padding of vertical tabs container  */
     .vertical-tabs .js-wikit-tabbed .vertical-tabs__content {
         background: #eeeff4;
