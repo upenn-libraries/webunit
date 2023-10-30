@@ -487,7 +487,15 @@
     }
 
     /*--- 4.3 CARDS (vertical) ---*/
+
+    /* Whoops, committed an extra border style */
+    .bg-none .js-wikit-tabbed .card-slider .card {
+        border: 0;
+    }
+
     /* Standardize card borders */
+    *:not(.bg-blue) .js-wikit-tabbed .card-slider .card__figure,
+    *:not(.bg-blue) .js-wikit-tabbed .card-slider .card__content,
     .card:not(.featured-event-hero),
     .content-aside__aside .card,
     .listing-card {
