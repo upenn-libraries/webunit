@@ -494,8 +494,8 @@
     }
 
     /* Standardize card borders */
-    *:not(.bg-blue) .js-wikit-tabbed .card-slider .card__figure,
-    *:not(.bg-blue) .js-wikit-tabbed .card-slider .card__content,
+    .js-wikit-tabbed .card-slider .card__figure:not(.bg-blue .js-wikit-tabbed .card-slider .card__figure),
+    .js-wikit-tabbed .card-slider .card__content:not(.bg-blue .js-wikit-tabbed .card-slider .card__content),
     .card:not(.featured-event-hero),
     .content-aside__aside .card,
     .listing-card {
@@ -686,6 +686,11 @@
         margin: 0;
         max-width: 100%;
         width: 100%;
+    }
+
+    .align-center img {
+        display: block;
+        margin: 0 auto;
     }
 
     @media (min-width: 1024px) {
