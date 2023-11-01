@@ -693,6 +693,17 @@
         margin: 0 auto;
     }
 
+    .align-center figcaption {
+        display: block;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .wysiwyg figcaption {
+        line-height: 1.2;
+        padding-top: 1rem;
+    }
+
     @media (min-width: 1024px) {
 
         .align-left,
@@ -831,6 +842,43 @@
         .footer__bottom .footer__list--social {
             padding-top: 25px;
         }
+    }
+
+    .js .bg-none .js-wikit-tabbed:not(.lib-search):not(.vert-tabs) [role="tablist"]:not(.slick-dots) [role="tab"].tab-nav__link {
+        background: none;
+        border: 1px solid #4078bc;
+        color: #072057;
+    }
+
+    .js .bg-none .js-wikit-tabbed:not(.lib-search):not(.vert-tabs) [role="tablist"]:not(.slick-dots) [role="tab"].tab-nav__link:hover,
+    .js .bg-none .js-wikit-tabbed:not(.lib-search):not(.vert-tabs) [role="tablist"]:not(.slick-dots) [role="tab"].tab-nav__link:focus,
+    .js .bg-none .js-wikit-tabbed:not(.lib-search):not(.vert-tabs) [role="tablist"]:not(.slick-dots) [role="tab"].tab-nav__link[aria-selected="true"] {
+        background: #4579b9;
+        border: solid 1px #4579b9;
+        color: #ffffff;
+    }
+
+
+    .js .bg-gradient .js-wikit-tabbed:not(.lib-search):not(.vert-tabs) [role="tablist"]:not(.slick-dots) [role="tab"].tab-nav__link,
+    .js .bg-light-blue .js-wikit-tabbed:not(.lib-search):not(.vert-tabs) [role="tablist"]:not(.slick-dots) [role="tab"].tab-nav__link,
+    .js .bg-gray .js-wikit-tabbed:not(.lib-search):not(.vert-tabs) [role="tablist"]:not(.slick-dots) [role="tab"].tab-nav__link {
+        background: #072057;
+        border: none;
+        color: #ffffff;
+    }
+
+    .js .bg-gradient .js-wikit-tabbed:not(.lib-search):not(.vert-tabs) [role="tablist"]:not(.slick-dots) [role="tab"].tab-nav__link:hover,
+    .js .bg-light-blue .js-wikit-tabbed:not(.lib-search):not(.vert-tabs) [role="tablist"]:not(.slick-dots) [role="tab"].tab-nav__link:hover,
+    .js .bg-gray .js-wikit-tabbed:not(.lib-search):not(.vert-tabs) [role="tablist"]:not(.slick-dots) [role="tab"].tab-nav__link:hover,
+    .js .bg-gradient .js-wikit-tabbed:not(.lib-search):not(.vert-tabs) [role="tablist"]:not(.slick-dots) [role="tab"].tab-nav__link:focus,
+    .js .bg-light-blue .js-wikit-tabbed:not(.lib-search):not(.vert-tabs) [role="tablist"]:not(.slick-dots) [role="tab"].tab-nav__link:focus,
+    .js .bg-gray .js-wikit-tabbed:not(.lib-search):not(.vert-tabs) [role="tablist"]:not(.slick-dots) [role="tab"].tab-nav__link:focus,
+    .js .bg-gradient .js-wikit-tabbed:not(.lib-search):not(.vert-tabs) [role="tablist"]:not(.slick-dots) [role="tab"].tab-nav__link[aria-selected="true"],
+    .js .bg-light-blue .js-wikit-tabbed:not(.lib-search):not(.vert-tabs) [role="tablist"]:not(.slick-dots) [role="tab"].tab-nav__link[aria-selected="true"],
+    .js .bg-gray .js-wikit-tabbed:not(.lib-search):not(.vert-tabs) [role="tablist"]:not(.slick-dots) [role="tab"].tab-nav__link[aria-selected="true"] {
+        background: #4078bc;
+        border: none;
+        color: #ffffff;
     }
 
     /*****************************
