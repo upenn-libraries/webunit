@@ -52,36 +52,46 @@
     /*--- 1.1 LISTS ---*/
     /* Make text in wysiwyg lists the same color as body text (not black) */
     .wysiwyg:not(.intro) ol {
+        font-size: 1.8rem;
         margin-bottom: 2rem;
         margin-left: 3rem;
+
+        @media (min-width: 768px) {
+            font-size: 2rem;
+        }
     }
 
-    .wysiwyg ul:not(.card__type) {
+    .wysiwyg ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) {
+        font-size: 1.8rem;
         margin-bottom: 2rem;
         margin-left: 3.2rem;
+
+        @media (min-width: 768px) {
+            font-size: 2rem;
+        }
     }
 
-    .wysiwyg:not(.intro) ul:not(.card__type) li,
+    .wysiwyg:not(.intro) ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) li,
     .wysiwyg:not(.intro) ol li {
-        color: #072057;
-        font-size: 1.8rem;
+        color: inherit;
+        font-size: inherit;
         line-height: 1.4;
         margin-bottom: 1.2rem;
         padding-left: 3rem;
 
         @media (min-width: 768px) {
-            font-size: 2rem;
+            font-size: inherit;
             line-height: 1.4;
         }
     }
 
-    .wysiwyg:not(.intro) ul:not(.card__type) li {
+    .wysiwyg:not(.intro) ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) li {
         padding-left: 2.8rem;
     }
 
     .wysiwyg ol li::before,
-    .wysiwyg ul li::before {
-        color: #072057;
+    .wysiwyg ul:not(.parent-of-inline):not(.pipe-sep-list) li::before {
+        color: inherit;
         font-size: inherit;
         font-weight: 500;
         left: 0;
@@ -89,16 +99,29 @@
     }
 
     .js-wikit-accordion__item .wysiwyg ol li::before,
-    .js-wikit-accordion__item .wysiwyg ul li::before {
+    .js-wikit-accordion__item .wysiwyg ul:not(.parent-of-inline):not(.pipe-sep-list) li::before {
         background: #ffffff;
         color: #ffffff;
     }
 
-    .wysiwyg ul ul,
-    .wysiwyg ul ol,
+    .wysiwyg ul:not(.card__type) li::before {
+        top: 11px;
+
+        @media (min-width: 728px) {
+            top: 11px;
+        }
+    }
+
+    .wysiwyg ul:not(.parent-of-inline):not(.pipe-sep-list) ul,
+    .wysiwyg ul:not(.parent-of-inline):not(.pipe-sep-list) ol,
     .wysiwyg ol ul,
     .wysiwyg ol ol {
+        font-size: 1.8rem;
         padding-top: 1.2rem;
+
+        @media (min-width: 768px) {
+            font-size: 2rem;
+        }
     }
 
     .wysiwyg ol li ol li::before {
@@ -109,10 +132,25 @@
     @media (min-width: 768px) {
 
         .wysiwyg ol li::before,
-        .wysiwyg ul li::before {
+        .wysiwyg ul:not(.parent-of-inline):not(.pipe-sep-list) li::before {
             font-size: inherit;
-            top: 0;
         }
+    }
+
+    .layout--accessibility .wysiwyg p,
+    .layout--accessibility .wysiwyg ul li,
+    .layout--accessibility .wyiswyg:not(.intro) ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) li,
+    .layout--accessibility .wysiwyg ol li {
+        font-size: 1.8rem;
+
+        @media (min-width: 728px) {
+            font-size: 1.8rem;
+        }
+    }
+
+    /* Only used in blue footer lists on floorplan pages (ex: /vanpelt/ground) */
+    .wysiwyg:not(.intro) ul.parent-of-inline.small li {
+        font-size: 1.5rem;
     }
 
     /*-- 1.2 LINKS LEFT UNSTYLED BY WDG ---*/
@@ -316,6 +354,26 @@
         margin-bottom: 2rem;
     }
 
+    .content-aside:not(.bg-blue) .wysiwyg p,
+    .content-aside:not(.bg-blue) .wysiwyg ul li,
+    .content-aside:not(.bg-blue) .wysiwyg ol li {
+        color: #000000;
+    }
+
+    .content-aside.bg-blue .wysiwyg p,
+    .content-aside.bg-blue .wysiwyg ul li,
+    .content-aside.bg-blue .js-wikit-accordion__title {
+        color: #ffffff;
+    }
+
+    .content-aside.bg-blue .js-wikit-accordion__item:not(.is-expanded):not(.component__accordion__item) {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .content-aside.bg-blue .js-wikit-accordion__item:not(.component__accordion__item) .js-wikit-accordion__icon svg {
+        stroke: #ffffff;
+    }
+
     @media (min-width: 1024px) {
 
         /* Quickly undoing styles erroneously added in overrides */
@@ -352,8 +410,13 @@
     }
 
     .content-aside__content .wysiwyg .listing-card__detail p,
-    .content-aside .js-wikit-accordion p {
+    .content-aside .js-wikit-accordion p,
+    .content-aside .js-wikit-accordion .wysiwyg ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) {
         font-size: 1.8rem;
+
+        @media (min-width: 728px) {
+            font-size: 1.8rem;
+        }
     }
 
     .content-aside__content .wysiwyg .is-hovered a.listing-card__title__link,
