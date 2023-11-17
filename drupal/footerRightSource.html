@@ -74,6 +74,10 @@
         list-style-type: decimal;
     }
 
+    .wysiwyg:not(.intro) ol ul {
+        list-style-type: circle;
+    }
+
     .wysiwyg:not(.intro) ol li {
         font-size: inherit;
     }
@@ -106,7 +110,11 @@
     }
 
     .wysiwyg:not(.intro) ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) li {
-        padding-left: 2.8rem;
+        padding-left: 1.8rem;
+    }
+
+    .wysiwyg:not(.intro) ol ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) li {
+        padding-left: 0;
     }
 
     .wysiwyg ol li::before,
