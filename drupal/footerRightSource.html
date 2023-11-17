@@ -53,12 +53,33 @@
     /* Make text in wysiwyg lists the same color as body text (not black) */
     .wysiwyg:not(.intro) ol {
         font-size: 1.8rem;
+        list-style-type: decimal;
         margin-bottom: 2rem;
         margin-left: 3rem;
 
         @media (min-width: 768px) {
             font-size: 2rem;
         }
+    }
+
+    .wysiwyg:not(.intro) ol ol {
+        list-style-type: lower-alpha;
+    }
+
+    .wyiswyg:not(.intro) ol ol ol {
+        list-style-type: lower-roman;
+    }
+
+    .wyiswyg:not(.intro) ol ol ol ol {
+        list-style-type: decimal;
+    }
+
+    .wysiwyg:not(.intro) ol li {
+        font-size: inherit;
+    }
+
+    .wysiwyg:not(.intro) ol li::before {
+        display: none;
     }
 
     .wysiwyg:not(.intro) ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) {
@@ -71,8 +92,7 @@
         }
     }
 
-    .wysiwyg:not(.intro) ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) li,
-    .wysiwyg:not(.intro) ol li {
+    .wysiwyg:not(.intro) ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) li {
         color: inherit;
         font-size: inherit;
         line-height: 1.4;
@@ -122,11 +142,6 @@
         @media (min-width: 768px) {
             font-size: 2rem;
         }
-    }
-
-    .wysiwyg ol li ol li::before {
-        content: counter(section, lower-alpha) ". ";
-        font-size: inherit;
     }
 
     @media (min-width: 768px) {
@@ -765,6 +780,34 @@
     .wysiwyg figcaption {
         line-height: 1.2;
         padding-top: 1rem;
+    }
+
+    /* Code blocks */
+    .wysiwyg pre:not(.no-border) {
+        border: 0;
+    }
+
+    .wysiwyg pre:not(.no-border) .hljs,
+    .wysiwyg pre:not(.no-border) code {
+        border: solid 1px #c6c6c6;
+        display: block;
+        font-size: 1.5rem;
+        padding: 2rem;
+        white-space: pre-wrap;
+    }
+
+    /* Inline code */
+    .wysiwyg p code,
+    .wysiwyg p code.hljs,
+    .wysiwyg li code,
+    .wysiwyg li code.hljs {
+        background: #ececef;
+        border: 0;
+        color: inherit;
+        display: inline;
+        font-size: 1.6rem;
+        line-height: inherit;
+        padding: .1rem .5rem;
     }
 
     @media (min-width: 1024px) {
