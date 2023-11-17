@@ -49,6 +49,11 @@
         font-weight: 600;
     }
 
+    a:not(.btn) {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+
     /*--- 1.1 LISTS ---*/
     /* Make text in wysiwyg lists the same color as body text (not black) */
     .wysiwyg:not(.intro) ol {
@@ -790,32 +795,21 @@
         padding-top: 1rem;
     }
 
+    a:not(.btn) {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+
     /* Code blocks */
     .wysiwyg pre:not(.no-border) {
-        border: 0;
-    }
-
-    .wysiwyg pre:not(.no-border) .hljs,
-    .wysiwyg pre:not(.no-border) code {
-        border: solid 1px #c6c6c6;
-        display: block;
-        font-size: 1.5rem;
         padding: 2rem;
-        white-space: pre-wrap;
     }
 
-    /* Inline code */
-    .wysiwyg p code,
-    .wysiwyg p code.hljs,
-    .wysiwyg li code,
-    .wysiwyg li code.hljs {
-        background: #ececef;
-        border: 0;
-        color: inherit;
-        display: inline;
-        font-size: 1.6rem;
-        line-height: inherit;
-        padding: .1rem .5rem;
+    .wysiwyg pre:not(.no-border) code,
+    .wysiwyg pre:not(.no-border) .hljs {
+        background: none;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
     }
 
     @media (min-width: 1024px) {
