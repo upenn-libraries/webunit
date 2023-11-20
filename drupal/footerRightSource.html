@@ -181,6 +181,12 @@
         font-size: 1.5rem;
     }
 
+    /* Lists inside tables */
+    .wysiwyg:not(.intro) table ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) li,
+    .wysiwyg:not(.intro) table ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) {
+        font-size: 1.7rem;
+    }
+
     /*-- 1.2 LINKS LEFT UNSTYLED BY WDG ---*/
     /* Blue links */
     .content-aside__aside .paragraph--type--aside-w a:not(.btn),
@@ -810,6 +816,11 @@
         background: none;
         overflow-wrap: break-word;
         word-wrap: break-word;
+    }
+
+    .wysiwyg p pre code,
+    .wysiwyg li pre code {
+        padding: 0;
     }
 
     @media (min-width: 1024px) {
