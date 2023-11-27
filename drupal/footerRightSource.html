@@ -91,7 +91,7 @@
         display: none;
     }
 
-    .wysiwyg:not(.intro) ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) {
+    .wysiwyg:not(.intro) ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list):not(.div-line) {
         font-size: 1.8rem;
         margin-bottom: 2rem;
         margin-left: 3.2rem;
@@ -101,7 +101,7 @@
         }
     }
 
-    .wysiwyg:not(.intro) ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) li {
+    .wysiwyg:not(.intro) ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list):not(.div-line) li {
         color: inherit;
         font-size: inherit;
         line-height: 1.4;
@@ -114,16 +114,16 @@
         }
     }
 
-    .wysiwyg:not(.intro) ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) li {
+    .wysiwyg:not(.intro) ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list):not(.div-line) li {
         padding-left: 1.8rem;
     }
 
-    .wysiwyg:not(.intro) ol ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) li {
+    .wysiwyg:not(.intro) ol ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list):not(.div-line) li {
         padding-left: 0;
     }
 
     .wysiwyg ol li::before,
-    .wysiwyg ul:not(.parent-of-inline):not(.pipe-sep-list) li::before {
+    .wysiwyg ul:not(.parent-of-inline):not(.pipe-sep-list):not(.div-line) li::before {
         color: inherit;
         font-size: inherit;
         font-weight: 500;
@@ -132,7 +132,7 @@
     }
 
     .js-wikit-accordion__item .wysiwyg ol li::before,
-    .js-wikit-accordion__item .wysiwyg ul:not(.parent-of-inline):not(.pipe-sep-list) li::before {
+    .js-wikit-accordion__item .wysiwyg ul:not(.parent-of-inline):not(.pipe-sep-list):not(.div-line) li::before {
         background: #ffffff;
         color: #ffffff;
     }
@@ -145,8 +145,8 @@
         }
     }
 
-    .wysiwyg ul:not(.parent-of-inline):not(.pipe-sep-list) ul,
-    .wysiwyg ul:not(.parent-of-inline):not(.pipe-sep-list) ol,
+    .wysiwyg ul:not(.parent-of-inline):not(.pipe-sep-list):not(.div-line) ul,
+    .wysiwyg ul:not(.parent-of-inline):not(.pipe-sep-list):not(.div-line) ol,
     .wysiwyg ol ul,
     .wysiwyg ol ol {
         font-size: 1.8rem;
@@ -160,14 +160,14 @@
     @media (min-width: 768px) {
 
         .wysiwyg ol li::before,
-        .wysiwyg ul:not(.parent-of-inline):not(.pipe-sep-list) li::before {
+        .wysiwyg ul:not(.parent-of-inline):not(.pipe-sep-list):not(.div-line) li::before {
             font-size: inherit;
         }
     }
 
     .layout--accessibility .wysiwyg p,
     .layout--accessibility .wysiwyg ul li,
-    .layout--accessibility .wyiswyg:not(.intro) ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) li,
+    .layout--accessibility .wyiswyg:not(.intro) ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list):not(.div-line) li,
     .layout--accessibility .wysiwyg ol li {
         font-size: 1.8rem;
 
@@ -182,8 +182,8 @@
     }
 
     /* Lists inside tables */
-    .wysiwyg:not(.intro) table ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) li,
-    .wysiwyg:not(.intro) table ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list) {
+    .wysiwyg:not(.intro) table ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list):not(.div-line) li,
+    .wysiwyg:not(.intro) table ul:not(.card__type):not(.parent-of-inline):not(.pipe-sep-list):not(.div-line) {
         font-size: 1.7rem;
     }
 
@@ -265,11 +265,6 @@
             height: 24px;
             width: 27px;
             margin-top: -3.25px;
-        }
-
-        .breadcrumbs ul li {
-            font-size: 1.8rem;
-            line-height: 1.8;
         }
     }
 
